@@ -308,7 +308,7 @@
  },
  "nhl.standings": {
   "wildCardIndicator": "True",
-  "standingsDateTimeUtc": "2026-11-11T06:07:00Z",
+  "standingsDateTimeUtc": "2026-11-11T07:25:00Z",
   "standings": [
    {
     "conferenceAbbrev": "E",
