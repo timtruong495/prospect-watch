@@ -1,0 +1,397 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+
+<title>Canucks Prospect Watch</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&amp;family=Barlow:wght@400;500;600&amp;display=swap">
+<style id="page-style">
+/* Layout: phone-first scoresheet — player strip, then a day-by-day game sheet, then an owner-only roster desk */
+:root{
+  --bg:#eef3f6; --surface:#ffffff; --ink:#0f2130; --muted:#5a6b78; --line:#d5dee5;
+  --accent:#0d5c8f; --accent-ink:#ffffff; --green:#1d7a4e; --soft:#e3edf3;
+  --ahl:#0d5c8f; --ohl:#1d7a4e; --ncaa:#8a4b14;
+  --display:"Barlow Condensed","Arial Narrow",Arial,sans-serif;
+  --body:"Barlow",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0a131b; --surface:#111d27; --ink:#e4edf2; --muted:#8fa2b0; --line:#23384a;
+  --accent:#5eb2ea; --accent-ink:#06121b; --green:#53c48d; --soft:#172836;
+  --ahl:#5eb2ea; --ohl:#53c48d; --ncaa:#e0a064; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0a131b; --surface:#111d27; --ink:#e4edf2; --muted:#8fa2b0; --line:#23384a;
+  --accent:#5eb2ea; --accent-ink:#06121b; --green:#53c48d; --soft:#172836;
+  --ahl:#5eb2ea; --ohl:#53c48d; --ncaa:#e0a064; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.45;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:760px;margin:0 auto;padding-block:20px 48px;display:flex;flex-direction:column;gap:22px}
+h1,h2{font-family:var(--display);font-weight:700;letter-spacing:.01em;margin:0;text-wrap:balance}
+h1{font-size:2.1rem;line-height:1}
+h2{font-size:1.25rem;text-transform:uppercase;letter-spacing:.06em}
+.eyebrow{font-size:.78rem;text-transform:uppercase;letter-spacing:.09em;color:var(--muted);font-weight:600}
+.head{display:flex;flex-direction:column;gap:6px}
+.sub{color:var(--muted);margin:0}
+button,input,select{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+/* player strip */
+.players{display:grid;grid-template-columns:repeat(auto-fill,minmax(165px,1fr));gap:10px}
+.pcard{display:flex;flex-direction:column;background:var(--surface);border:1.5px solid var(--line);border-radius:10px;min-width:0;overflow:hidden}
+.pcard.on{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
+.pbtn{display:flex;flex-direction:column;gap:4px;text-align:left;background:none;border:0;padding:12px 12px 12px;min-width:0;flex:1 1 auto}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);background:var(--soft)}
+.stats div{display:flex;flex-direction:column;align-items:center;padding:6px 2px;font-variant-numeric:tabular-nums}
+.stats b{font-family:var(--display);font-size:1.15rem;line-height:1.1}
+.stats span{font-size:.66rem;font-weight:600;letter-spacing:.08em;color:var(--muted)}
+.src{font-size:.72rem;color:var(--muted);padding:6px 12px 10px;background:var(--soft);min-height:2.9em}
+.src a{color:var(--muted)}
+.out{color:#b33a3a;font-weight:600}
+.find{display:flex;gap:8px;flex-wrap:wrap}
+.find input{flex:1 1 200px}
+.pending{display:flex;flex-direction:column;gap:4px;font-size:.86rem}
+.notice{background:var(--soft);border-radius:8px;padding:10px 12px;font-size:.88rem}
+.pcard .nm{font-family:var(--display);font-weight:700;font-size:1.2rem;line-height:1.1}
+.pcard .tm{font-size:.82rem;color:var(--muted)}
+.pcard .nx{font-size:.84rem;font-variant-numeric:tabular-nums;margin-top:auto;padding-top:6px}
+.pcard .nx b{font-weight:600}
+.lg{display:inline-block;font-size:.7rem;font-weight:600;letter-spacing:.06em;padding:1px 6px;border-radius:4px;
+  border:1px solid currentColor;line-height:1.4;vertical-align:1px}
+.lg.AHL{color:var(--ahl)} .lg.OHL{color:var(--ohl)} .lg.NCAA{color:var(--ncaa)} .lg.other{color:var(--muted)}
+.hint{font-size:.82rem;color:var(--muted);margin:0}
+
+/* controls */
+.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.seg{display:inline-flex;border:1.5px solid var(--line);border-radius:8px;overflow:hidden}
+.seg button{background:var(--surface);border:0;padding:7px 12px;font-weight:600;font-size:.88rem}
+.seg button[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink)}
+.link{background:none;border:0;color:var(--accent);font-weight:600;padding:6px 0;font-size:.88rem}
+
+/* schedule */
+.sheet{display:flex;flex-direction:column;gap:14px}
+.day{background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.dayh{display:flex;justify-content:space-between;align-items:baseline;gap:8px;padding:9px 12px;background:var(--soft);
+  font-family:var(--display);font-weight:600;font-size:1.05rem;letter-spacing:.03em}
+.dayh .cnt{font-family:var(--body);font-size:.76rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.07em}
+.dayh.today{background:var(--accent);color:var(--accent-ink)} .dayh.today .cnt{color:inherit;opacity:.85}
+.game{display:grid;grid-template-columns:64px 1fr auto;gap:4px 12px;padding:10px 12px;border-top:1px solid var(--line);align-items:start}
+.dayh + .game{border-top:0}
+.game .time{font-family:var(--display);font-weight:600;font-size:1.05rem;font-variant-numeric:tabular-nums;line-height:1.3}
+.game .who{min-width:0}
+.game .pl{font-weight:600}
+.game .mu{font-size:.86rem;color:var(--muted)}
+.game .mu .at{font-weight:600;color:var(--ink)}
+.game .note{font-size:.78rem;color:var(--muted);font-style:italic}
+.game{cursor:pointer}
+.game:hover{background:var(--soft)}
+.game.done:not(.scored) .time,.game.done:not(.scored) .who{opacity:.55}
+.game.done .time{color:var(--muted)}
+.score{font-family:var(--display);font-size:1rem;font-weight:700;letter-spacing:.02em;text-transform:none;white-space:nowrap}
+.score.win{color:var(--green)} .score.loss{color:var(--muted)}
+.line{grid-column:1 / -1;display:flex;flex-direction:column;gap:6px;margin-top:6px;padding:8px 10px;border-radius:8px;background:var(--soft);cursor:default}
+.lrow{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px}
+.lname{font-weight:600;font-size:.88rem}
+.pills{display:flex;flex-wrap:wrap;gap:6px}
+.pill{font-size:.8rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.pill b{color:var(--ink);font-family:var(--display);font-size:1rem}
+.boxlink{font-size:.8rem;color:var(--accent);font-weight:600}
+.tag{font-size:.72rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);text-align:right;line-height:1.6}
+.tag.home{color:var(--green)}
+.tabs{display:flex;gap:4px;border-bottom:1.5px solid var(--line);overflow-x:auto}
+.tabs a{font-family:var(--display);font-weight:600;font-size:1.05rem;letter-spacing:.04em;text-transform:uppercase;text-decoration:none;color:var(--muted);padding:8px 12px 9px;border-bottom:3px solid transparent;margin-bottom:-1.5px;white-space:nowrap}
+.tabs a[aria-current="page"]{color:var(--ink);border-bottom-color:var(--accent)}
+.rec{font-family:var(--display);font-size:1.6rem;font-weight:700;font-variant-numeric:tabular-nums;line-height:1.1}
+.rec small{font-family:var(--body);font-size:.72rem;font-weight:600;letter-spacing:.08em;color:var(--muted);margin-left:6px;text-transform:uppercase}
+.lg.NHL{color:var(--ink)} .lg.WHL{color:var(--ncaa)}
+.empty{background:var(--surface);border:1px dashed var(--line);border-radius:10px;padding:18px;color:var(--muted);text-align:center}
+
+/* roster desk */
+.desk{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px;display:flex;flex-direction:column;gap:16px}
+.desk details{border-top:1px solid var(--line);padding-top:12px}
+.desk summary{font-weight:600;cursor:pointer}
+form.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-top:12px}
+label{display:flex;flex-direction:column;gap:4px;font-size:.8rem;font-weight:600;color:var(--muted)}
+input,select{background:var(--bg);border:1.5px solid var(--line);border-radius:7px;padding:8px 9px;font-size:.95rem;font-weight:400;min-width:0;color:var(--ink)}
+.primary{background:var(--accent);color:var(--accent-ink);border:0;border-radius:8px;padding:9px 14px;font-weight:600;align-self:end}
+.roster{display:flex;flex-direction:column}
+.rrow{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:8px 0;border-top:1px solid var(--line)}
+.rrow:first-child{border-top:0}
+.rrow span{min-width:0}
+.rm{background:none;border:1.5px solid var(--line);border-radius:7px;padding:4px 10px;font-size:.82rem;color:var(--muted)}
+.rm.confirm{border-color:#b33a3a;color:#b33a3a}
+.status{font-size:.85rem;color:var(--muted);min-height:1.2em}
+.foot{font-size:.8rem;color:var(--muted);display:flex;flex-direction:column;gap:6px}
+.foot a{color:var(--accent)}
+@media (prefers-reduced-motion: no-preference){.pcard,.seg button{transition:border-color .15s,background .15s}}
+.chips{display:flex;flex-wrap:wrap;gap:5px}
+.chip{font:inherit;font-size:.7rem;font-weight:600;line-height:1.5;padding:1px 8px;border-radius:999px;background:var(--soft);color:var(--muted);border:1px solid var(--line)}
+button.chip{font-size:.82rem;padding:4px 11px}
+button.chip[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.form{font-size:.8rem;padding:7px 12px 0;background:var(--soft);font-variant-numeric:tabular-nums}
+.form b{font-weight:600}
+.stale{border:1.5px solid #b33a3a;border-radius:8px;padding:10px 12px;font-size:.88rem;background:var(--surface)}
+.foot summary{cursor:pointer}
+.foot ul{margin:6px 0 0;padding-left:18px}
+</style>
+<main id="app" class="wrap"></main>
+<script id="page-script">
+(function(){
+"use strict";
+let STATE = {updated: "", teams: {}, players: [], games: []}, loaded = false, loadErr = false;
+const $ = (s, r=document) => r.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const DOW = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+const MON = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+
+/* "Now" in Vancouver: BC keeps UTC-7 year-round */
+function bcNow(){ const d = new Date(Date.now() - 7*3600e3); return {date: d.toISOString().slice(0,10), mins: d.getUTCHours()*60 + d.getUTCMinutes()}; }
+function fmtDay(iso){ const [y,m,d] = iso.split("-").map(Number); const dt = new Date(Date.UTC(y,m-1,d)); return DOW[dt.getUTCDay()] + ", " + MON[m-1] + " " + d; }
+function fmtTime(t){ if(!t) return "TBA"; let [h,m] = t.split(":").map(Number); const ap = h>=12 ? "PM":"AM"; h = h%12 || 12; return h + ":" + String(m).padStart(2,"0") + " " + ap; }
+function isDone(g, now){ if(g.d < now.date) return true; if(g.d > now.date || !g.t) return false; const [h,m] = g.t.split(":").map(Number); return now.mins > h*60+m+150; }
+
+let prefs = {sel: [], tsel: [], tags: {}, range: "30"};
+try { const p = JSON.parse(localStorage.getItem("pw-prefs") || "null"); if(p) prefs = Object.assign(prefs, p); } catch(e){}
+function savePrefs(){ try { localStorage.setItem("pw-prefs", JSON.stringify(prefs)); } catch(e){} }
+
+const VIEWS = {prospects: "Canucks prospects", others: "Other players", teams: "Teams"};
+function currentView(){ const h = location.hash.slice(1); return VIEWS[h] ? h : "prospects"; }
+let view = currentView();
+window.addEventListener("hashchange", () => { view = currentView(); render(); window.scrollTo(0,0); });
+function listOf(p){ return p.list === "other" ? "other" : "canucks"; }
+function viewList(){ return view === "others" ? "other" : "canucks"; }
+function listPlayers(){ return STATE.players.filter(p => listOf(p) === viewList()); }
+function tagSel(){ const t = (prefs.tags || {})[view]; return t && listPlayers().some(p => (p.tags || []).includes(t)) ? t : null; }
+function viewPlayers(){ const t = tagSel(); return listPlayers().filter(p => !t || (p.tags || []).includes(t)); }
+function playersOn(teamId, pool){ return (pool || viewPlayers()).filter(p => p.team === teamId); }
+function activePlayers(){ const vp = viewPlayers(); const ids = prefs.sel.filter(id => vp.some(p => p.id === id)); return ids.length ? vp.filter(p => ids.includes(p.id)) : vp; }
+function followedTeams(){ return Object.entries(STATE.teams).filter(([,t]) => t.followed).map(([id,t]) => Object.assign({id}, t)); }
+function activeTeams(){ const ft = followedTeams(); const ids = (prefs.tsel || []).filter(id => ft.some(t => t.id === id)); return ids.length ? ft.filter(t => ids.includes(t.id)) : ft; }
+function leagueClass(l){ return ["AHL","OHL","NCAA","NHL","WHL"].includes(l) ? l : "other"; }
+
+function statsHtml(s, p){
+  if(!s) return `<div class="src">Stats appear after the next update.</div>`;
+  const goalie = s.svpct != null || s.gaa != null;
+  const cells = goalie
+    ? [["GP",s.gp],["W",s.w],["GAA",s.gaa],["SV%",s.svpct]]
+    : [["GP",s.gp],["G",s.g],["A",s.a],["PTS",s.pts]];
+  const extra = "";
+  const asOf = s.asOf ? fmtDay(s.asOf).replace(/^\w+, /,"") : "";
+  const src = s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.src || "source")}</a>` : esc(s.src || "");
+  const f = formOf(p);
+  const ppg = !goalie && s.gp > 0 && typeof s.pts === "number" ? (s.pts / s.gp).toFixed(2) + " pts/game" : "";
+  const formTxt = [f ? `<b>Last ${f.n}:</b> ${esc(f.txt)}` : "", ppg].filter(Boolean).join(" · ");
+  return `<div class="stats" aria-label="Season stats">${cells.map(([k,v]) => `<div><b>${v == null ? "–" : esc(v)}</b><span>${k}</span></div>`).join("")}</div>
+    ${formTxt ? `<div class="form">${formTxt}</div>` : ""}
+    <div class="src">${esc(s.league || "")} ${extra ? "· " + esc(extra) + " " : ""}· as of ${esc(asOf)} · ${src}</div>`;
+}
+
+/* Recent form: the player's last five games that have a stat line */
+function formOf(p){
+  const gs = STATE.games.filter(g => g.team === p.team && g.score && g.lines && g.lines[p.id] && !g.lines[p.id].dnp).slice(-5);
+  if(!gs.length) return null;
+  const ls = gs.map(g => g.lines[p.id]);
+  const sum = k => ls.reduce((n, l) => n + (Number(l[k]) || 0), 0);
+  if(ls.some(l => l.sv != null || l.ga != null)){
+    const sv = sum("sv"), ga = sum("ga");
+    return {n: gs.length, txt: ga + " GA" + (sv + ga ? ", " + (sv / (sv + ga)).toFixed(3).replace(/^0/, "") + " SV%" : "")};
+  }
+  return {n: gs.length, txt: sum("g") + "G " + sum("a") + "A"};
+}
+function draftTxt(d){
+  if(!d || !d.year) return "";
+  return "Drafted " + [d.team, d.year].filter(Boolean).join(" ") + (d.round ? ", round " + d.round : "") + (d.pick ? ", #" + d.pick : "");
+}
+/* Vancouver date and time of the last update */
+function updatedTxt(){
+  const ms = STATE.updatedAt ? Date.parse(STATE.updatedAt) : NaN;
+  if(isNaN(ms)) return STATE.updated ? fmtDay(STATE.updated) : "unknown";
+  const d = new Date(ms - 7*3600e3);
+  return fmtDay(d.toISOString().slice(0,10)) + ", " + fmtTime(d.toISOString().slice(11,16));
+}
+function ageDays(){
+  const ms = STATE.updatedAt ? Date.parse(STATE.updatedAt) : STATE.updated ? Date.parse(STATE.updated + "T12:00:00-07:00") : NaN;
+  return isNaN(ms) ? 0 : (Date.now() - ms) / 864e5;
+}
+
+const expanded = new Set();
+function gameId(g){ return g.team + "|" + g.d + "|" + (g.t || ""); }
+function scoreHtml(s){
+  const cls = s.res === "W" ? "win" : "loss";
+  const extra = s.ot ? " " + s.ot : "";
+  return `<span class="score ${cls}">${esc(s.res === "W" ? "W" : "L")} ${esc(s.f)}–${esc(s.a)}${esc(extra)}</span>`;
+}
+function lineHtml(g, done, act){
+  const ps = act ? playersOn(g.team).filter(p => act.includes(p)) : playersOn(g.team, STATE.players);
+  const rows = ps.map(p => {
+    const l = g.lines && g.lines[p.id];
+    let body;
+    if(l && l.dnp) body = `<span class="hint">Did not play${l.why ? " · " + esc(l.why) : ""}</span>`;
+    else if(l && (l.sv != null || l.ga != null)) body = statPills([["SV", l.sv], ["GA", l.ga], ["SV%", l.svpct], ["MIN", l.min]]);
+    else if(l) body = statPills([["G", l.g], ["A", l.a], ["PTS", l.pts != null ? l.pts : (l.g != null && l.a != null ? l.g + l.a : null)], ["+/-", l.pm != null ? (l.pm > 0 ? "+" : "") + l.pm : null], ["SOG", l.sog], ["PIM", l.pim]]);
+    else body = `<span class="hint">${done ? "No stat line for this game yet." : "Stats appear here after the game."}</span>`;
+    return `<div class="lrow"><span class="lname">${esc(p.name)}</span>${body}</div>`;
+  }).join("");
+  const box = g.box ? `<a class="boxlink" href="${esc(g.box)}" target="_blank" rel="noopener">Full box score</a>` : "";
+  const sum = !act && g.score ? `<div class="lrow"><span class="lname">Final</span><span class="hint">${esc((STATE.teams[g.team]||{}).short || "")} ${esc(g.score.f)}, ${esc(g.opp)} ${esc(g.score.a)}${g.score.ot ? " (" + esc(g.score.ot) + ")" : ""}</span></div>` : "";
+  const none = !act && !g.score && !rows ? `<span class="hint">${done ? "Score not in yet." : "The score appears here after the game."}</span>` : "";
+  return `<div class="line">${sum}${rows}${none}${box}</div>`;
+}
+function statPills(pairs){
+  return `<span class="pills">${pairs.filter(([,v]) => v != null && v !== "").map(([k,v]) => `<span class="pill"><b>${esc(v)}</b> ${k}</span>`).join("")}</span>`;
+}
+
+function nextGame(p, now){ return STATE.games.find(g => g.team === p.team && !isDone(g, now)); }
+
+function teamCards(now){
+  return followedTeams().map(t => {
+    const ng = STATE.games.find(g => g.team === t.id && !isDone(g, now) && !g.score);
+    const last = [...STATE.games].reverse().find(g => g.team === t.id && g.score);
+    const on = (prefs.tsel || []).includes(t.id);
+    const rec = t.record || {};
+    const recTxt = rec.w != null ? [rec.w, rec.l, rec.otl].filter(v => v != null).join("–") : "";
+    const recLbl = rec.otl != null ? "W–L–OTL" : "W–L";
+    const nx = ng ? `<b>Next:</b> ${fmtDay(ng.d)} · ${fmtTime(ng.t)} ${ng.home===false?"@":"vs"} ${esc(ng.opp)}` : `<span style="color:var(--muted)">No upcoming games loaded</span>`;
+    const lt = last ? `<span class="tm">Last: ${scoreHtml(last.score)} ${last.home===false?"@":"vs"} ${esc(last.opp)}</span>` : "";
+    const players = STATE.players.filter(p => p.team === t.id).map(p => p.name);
+    return `<div class="pcard${on ? " on" : ""}">
+      <button class="pbtn" type="button" data-tid="${esc(t.id)}" aria-pressed="${on}">
+      <span class="nm">${esc(t.name)}</span>
+      <span class="tm"><span class="lg ${leagueClass(t.league)}">${esc(t.league)}</span>${rec.standing ? " · " + esc(rec.standing) : ""}</span>
+      ${recTxt ? `<span class="rec">${esc(recTxt)}<small>${recLbl}</small></span>` : `<span class="tm">Record appears after the next update</span>`}
+      ${lt}
+      ${players.length ? `<span class="tm">Your players: ${esc(players.join(", "))}</span>` : ""}
+      <span class="nx">${nx}</span></button>
+      ${rec.asOf ? `<div class="src">${rec.pts != null ? esc(rec.pts) + " pts · " : ""}as of ${esc(fmtDay(rec.asOf).replace(/^\w+, /,""))}</div>` : ""}</div>`;
+  }).join("");
+}
+
+function render(){
+  if(!loaded){
+    $("#app").innerHTML = `<header class="head"><span class="eyebrow">All times Vancouver</span><h1>Prospect Watch</h1></header>
+      <div class="empty">${loadErr ? "Couldn't load the latest data. Check your connection and reload the page." : "Loading the latest data…"}</div>`;
+    return;
+  }
+  const now = bcNow();
+  const teams = STATE.teams;
+  const isTeams = view === "teams";
+  const act = isTeams ? null : activePlayers();
+  const actTeams = new Set(isTeams ? activeTeams().map(t => t.id) : act.map(p => p.team));
+  const results = prefs.range === "res";
+  const limit = prefs.range === "all" ? "9999-12-31" : results ? now.date : addDays(now.date, Number(prefs.range));
+  const from = results ? "0000-01-01" : now.date;
+  let games = STATE.games.filter(g => actTeams.has(g.team) && g.d >= from && g.d <= limit && (!results || isDone(g, now) || g.score));
+  if(results) games = games.slice().reverse();
+  const byDay = new Map();
+  games.forEach(g => { if(!byDay.has(g.d)) byDay.set(g.d, []); byDay.get(g.d).push(g); });
+
+  const cards = isTeams ? teamCards(now) : viewPlayers().map(p => {
+    const t = teams[p.team] || {name:"Unknown team", league:""};
+    const ng = nextGame(p, now);
+    const on = prefs.sel.includes(p.id);
+    const nx = ng ? `<b>Next:</b> ${fmtDay(ng.d)} · ${fmtTime(ng.t)} ${ng.home===false?"@":"vs"} ${esc(ng.opp)}` : `<span style="color:var(--muted)">No upcoming games loaded</span>`;
+    const isOut = /^out\b/i.test(p.note || "");
+    return `<div class="pcard${on ? " on" : ""}">
+      <button class="pbtn" type="button" data-pid="${esc(p.id)}" aria-pressed="${on}">
+      <span class="nm">${esc(p.name)}</span>
+      <span class="tm">${esc(p.pos ? p.pos + " · " : "")}${esc(t.name)} <span class="lg ${leagueClass(t.league)}">${esc(t.league)}</span></span>
+      ${draftTxt(p.draft) ? `<span class="tm">${esc(draftTxt(p.draft))}</span>` : ""}
+      ${(p.tags || []).length ? `<span class="chips">${p.tags.map(t => `<span class="chip">${esc(t)}</span>`).join("")}</span>` : ""}
+      ${p.note ? `<span class="tm${isOut ? " out" : ""}">${esc(p.note)}</span>` : ""}
+      <span class="nx">${nx}</span></button>
+      ${statsHtml(p.stats, p)}</div>`;
+  }).join("");
+
+  const days = [...byDay.entries()].map(([d, gs]) => {
+    const multi = gs.length > 1 ? `${gs.length} games` : "1 game";
+    const rows = gs.map(g => {
+      const t = teams[g.team] || {};
+      const names = isTeams ? esc(t.name) : playersOn(g.team).filter(p => act.includes(p)).map(p => esc(p.name)).join(", ");
+      const where = g.home === true ? "Home" : g.home === false ? "Away" : "Neutral";
+      const vs = g.home === false ? "@" : "vs";
+      const done = isDone(g, now) || !!g.score;
+      const gid = gameId(g);
+      const open = expanded.has(gid);
+      const tag = g.score ? scoreHtml(g.score) : done ? "Final" : where;
+      return `<div class="game${done ? " done" : ""}${g.score ? " scored" : ""}${open ? " open" : ""}" role="button" tabindex="0" aria-expanded="${open}" data-gid="${esc(gid)}">
+        <div class="time">${fmtTime(g.t)}</div>
+        <div class="who"><div class="pl">${names}</div>
+          <div class="mu">${esc(t.short || t.name)} <span class="at">${vs}</span> ${esc(g.opp)} · <span class="lg ${leagueClass(t.league)}">${esc(t.league)}</span></div>
+          ${g.note ? `<div class="note">${esc(g.note)}</div>` : ""}</div>
+        <div class="tag${g.home===true && !g.score ? " home" : ""}">${tag}</div>
+        ${open ? lineHtml(g, done, act) : ""}</div>`;
+    }).join("");
+    return `<section class="day"><div class="dayh${d===now.date?" today":""}"><span>${d===now.date?"Today · ":""}${fmtDay(d)}</span><span class="cnt">${multi}</span></div>${rows}</section>`;
+  }).join("");
+
+  const total = games.length;
+  const rangeBtn = (v, l) => `<button type="button" data-range="${v}" aria-pressed="${prefs.range===v}">${l}</button>`;
+
+  const vp = viewPlayers();
+  const allTags = isTeams ? [] : [...new Set(listPlayers().flatMap(p => p.tags || []))].sort();
+  const curTag = isTeams ? null : tagSel();
+  const tagRow = allTags.length ? `<div class="chips" role="group" aria-label="Filter by tag">${allTags.map(t => `<button type="button" class="chip" data-tag="${esc(t)}" aria-pressed="${t === curTag}">${esc(t)}</button>`).join("")}</div>` : "";
+  const age = ageDays();
+  const stale = age > 2 ? `<div class="stale" role="status">This data is ${Math.floor(age)} days old. The automatic update may have stopped.</div>` : "";
+  const warns = STATE.warnings || [];
+  const sel = isTeams ? (prefs.tsel || []) : prefs.sel;
+  const what = isTeams ? "team" : "player";
+  const sub = isTeams
+    ? `Canucks, Abbotsford and Giants games in one list. Tap a team to filter. Tap a game for the score.`
+    : `${vp.length} players across ${new Set(vp.map(p=>p.team)).size} teams. Tap a player to filter. Tap a game for their stats from it.`;
+  const eyebrow = view === "others" ? "Players you follow · all times Vancouver" : isTeams ? "Vancouver teams · all times Vancouver" : "Vancouver Canucks prospects · all times Vancouver";
+  const nav = Object.entries(VIEWS).map(([k,l]) => `<a href="#${k}"${k===view ? ' aria-current="page"' : ""}>${l}</a>`).join("");
+  $("#app").innerHTML = `
+    <nav class="tabs" aria-label="Pages">${nav}</nav>
+    <header class="head">
+      <span class="eyebrow">${eyebrow}</span>
+      <h1>${isTeams ? "Team Schedules" : view === "others" ? "Player Watch" : "Prospect Watch"}</h1>
+      <p class="sub">${sub}</p>
+    </header>
+    ${stale}
+    ${STATE.notice && !isTeams ? `<div class="notice">${esc(STATE.notice)}</div>` : ""}
+    ${tagRow}
+    <section class="players" aria-label="${isTeams ? "Teams" : "Players"}">${cards || ""}</section>
+    ${isTeams ? (followedTeams().length ? "" : `<div class="empty">Team schedules are loading. They appear after the next update.</div>`) : vp.length ? "" : `<div class="empty">No ${view === "others" ? "other " : ""}players yet.</div>`}
+    <div class="bar">
+      <div class="seg" role="group" aria-label="Date range">${rangeBtn("res","Results")}${rangeBtn("7","7 days")}${rangeBtn("30","30 days")}${rangeBtn("all","Rest of season")}</div>
+      ${sel.length ? `<button type="button" class="link" data-clear>Show all ${what}s</button>` : ""}
+      <span class="hint">${total} game${total===1?"":"s"}</span>
+    </div>
+    <div class="sheet">${days || `<div class="empty">${results ? "No results yet. Scores are added at each update." : "No games in this range."}</div>`}</div>
+    <footer class="foot">
+      <span>Last updated ${esc(updatedTxt())}. Schedules, scores and stats come from each league's own data.</span>
+      ${warns.length ? `<details><summary>${warns.length} item${warns.length === 1 ? "" : "s"} couldn't be updated last time</summary><ul>${warns.map(w => `<li>${esc(w)}</li>`).join("")}</ul></details>` : ""}
+    </footer>`;
+}
+
+function addDays(iso, n){ const d = new Date(iso + "T00:00:00Z"); d.setUTCDate(d.getUTCDate() + n); return d.toISOString().slice(0,10); }
+document.addEventListener("click", e => {
+  const card = e.target.closest("[data-pid]");
+  if(card){ const id = card.dataset.pid; prefs.sel = prefs.sel.includes(id) ? prefs.sel.filter(x=>x!==id) : [...prefs.sel, id]; savePrefs(); render(); return; }
+  const tc = e.target.closest("[data-tid]");
+  if(tc){ const id = tc.dataset.tid; const cur = prefs.tsel || []; prefs.tsel = cur.includes(id) ? cur.filter(x=>x!==id) : [...cur, id]; savePrefs(); render(); return; }
+  const gm = e.target.closest("[data-gid]");
+  if(gm && !e.target.closest("a") && !e.target.closest(".line")){ const id = gm.dataset.gid; expanded.has(id) ? expanded.delete(id) : expanded.add(id); render(); const el = document.querySelector('[data-gid="' + CSS.escape(id) + '"]'); if(el) el.focus({preventScroll:true}); return; }
+  const r = e.target.closest("[data-range]");
+  if(r){ prefs.range = r.dataset.range; savePrefs(); render(); return; }
+  if(e.target.closest("[data-clear]")){ if(view === "teams") prefs.tsel = []; else prefs.sel = prefs.sel.filter(id => !viewPlayers().some(p => p.id === id)); savePrefs(); render(); return; }
+  const tg = e.target.closest("[data-tag]");
+  if(tg){ const t = tg.dataset.tag; prefs.tags = Object.assign({}, prefs.tags, {[view]: tagSel() === t ? null : t}); savePrefs(); render(); return; }
+});
+document.addEventListener("keydown", e => {
+  const gm = e.target.closest && e.target.closest("[data-gid]");
+  if(gm && (e.key === "Enter" || e.key === " ")){ e.preventDefault(); gm.click(); }
+});
+
+function loadData(){
+  return fetch("data.json", {cache: "no-store"})
+    .then(r => { if(!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+    .then(data => { STATE = data; loaded = true; loadErr = false; render(); })
+    .catch(() => { if(!loaded){ loadErr = true; render(); } });
+}
+render();
+loadData();
+setInterval(loadData, 10 * 60e3);
+setInterval(() => { if(loaded) render(); }, 5 * 60e3);
+})();
+</script>
+
+</body></html>

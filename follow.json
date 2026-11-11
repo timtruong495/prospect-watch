@@ -1,0 +1,253 @@
+{
+ "_about": "Who and what the site follows. Edit this file to add or remove players and teams; the update script fills in everything else. ids are filled in by the script when missing (matched by name on the team's roster).",
+ "season": "2026-27",
+ "teamsFollowed": [
+  {
+   "key": "van",
+   "league": "NHL",
+   "name": "Vancouver Canucks",
+   "short": "VAN",
+   "ids": {
+    "nhlAbbrev": "VAN"
+   }
+  },
+  {
+   "key": "abb",
+   "league": "AHL",
+   "name": "Abbotsford Canucks",
+   "short": "ABB",
+   "ids": {}
+  },
+  {
+   "key": "vgi",
+   "league": "WHL",
+   "name": "Vancouver Giants",
+   "short": "VGI",
+   "ids": {}
+  }
+ ],
+ "players": [
+  {
+   "key": "p1",
+   "name": "Braeden Cootes",
+   "list": "canucks",
+   "pos": "C",
+   "league": "AHL",
+   "team": "Abbotsford Canucks",
+   "teamKey": "abb",
+   "draft": {
+    "team": "VAN",
+    "year": null,
+    "round": null,
+    "pick": null
+   },
+   "tags": [],
+   "ids": {}
+  },
+  {
+   "key": "p2",
+   "name": "Adam Novotný",
+   "list": "canucks",
+   "pos": "LW",
+   "league": "OHL",
+   "team": "Peterborough Petes",
+   "teamKey": "pbo",
+   "draft": {
+    "team": "VAN",
+    "year": 2026,
+    "round": 1,
+    "pick": 24
+   },
+   "tags": [],
+   "ids": {
+    "hockeytech": 9638,
+    "eliteprospects": 876572
+   }
+  },
+  {
+   "key": "p3",
+   "name": "Brooks Rogowski",
+   "list": "canucks",
+   "pos": "C",
+   "league": "OHL",
+   "team": "Oshawa Generals",
+   "teamKey": "osh",
+   "draft": {
+    "team": "VAN",
+    "year": null,
+    "round": null,
+    "pick": null
+   },
+   "tags": [],
+   "ids": {
+    "eliteprospects": 915961
+   }
+  },
+  {
+   "key": "p4",
+   "name": "Caleb Malhotra",
+   "list": "canucks",
+   "pos": "C",
+   "league": "NCAA",
+   "team": "Boston University",
+   "teamKey": "bu",
+   "draft": {
+    "team": "VAN",
+    "year": null,
+    "round": null,
+    "pick": null
+   },
+   "tags": [],
+   "ids": {
+    "collegehockeynews": 60977
+   }
+  },
+  {
+   "key": "p5irsd",
+   "name": "Kieren Dervin",
+   "list": "canucks",
+   "pos": "C",
+   "league": "NCAA",
+   "team": "University of Michigan",
+   "teamKey": "mich",
+   "draft": {
+    "team": "VAN",
+    "year": null,
+    "round": null,
+    "pick": null
+   },
+   "tags": [],
+   "ids": {}
+  },
+  {
+   "key": "p7fk4c",
+   "name": "Anthony Romani",
+   "list": "canucks",
+   "pos": "F",
+   "league": "NCAA",
+   "team": "Michigan State University",
+   "teamKey": "msu",
+   "draft": {
+    "team": "VAN",
+    "year": 2024,
+    "round": 6,
+    "pick": null
+   },
+   "tags": [],
+   "ids": {
+    "collegehockeyinc": 61800
+   }
+  },
+  {
+   "key": "pc8ql2",
+   "name": "Aiden Celebrini",
+   "list": "canucks",
+   "pos": "D",
+   "league": "NCAA",
+   "team": "Boston University",
+   "teamKey": "bu",
+   "draft": {
+    "team": "VAN",
+    "year": 2023,
+    "round": 6,
+    "pick": null
+   },
+   "tags": [],
+   "ids": {}
+  },
+  {
+   "key": "pa3nk7",
+   "name": "Niklas Aaram-Olsen",
+   "list": "canucks",
+   "pos": "W",
+   "league": "NCAA",
+   "team": "Boston University",
+   "teamKey": "bu",
+   "draft": {
+    "team": "VAN",
+    "year": 2026,
+    "round": 2,
+    "pick": 41
+   },
+   "tags": [],
+   "ids": {}
+  },
+  {
+   "key": "pm5tv9",
+   "name": "Aleksei Medvedev",
+   "list": "canucks",
+   "pos": "G",
+   "league": "OHL",
+   "team": "Peterborough Petes",
+   "teamKey": "pbo",
+   "draft": {
+    "team": "VAN",
+    "year": null,
+    "round": null,
+    "pick": null
+   },
+   "tags": [],
+   "ids": {}
+  },
+  {
+   "key": "pzywkmh",
+   "name": "Ryan Lin",
+   "list": "other",
+   "pos": "D",
+   "league": "NCAA",
+   "team": "Denver Pioneers",
+   "teamKey": "den",
+   "draft": {
+    "team": "SJS",
+    "year": 2026,
+    "round": 1,
+    "pick": 21
+   },
+   "tags": [
+    "ex-Giants"
+   ],
+   "ids": {}
+  },
+  {
+   "key": "pvmbuxi",
+   "name": "Aatu Räty",
+   "list": "other",
+   "pos": "C",
+   "league": "AHL",
+   "team": "Toronto Marlies",
+   "teamKey": "tml",
+   "draft": {
+    "team": null,
+    "year": null,
+    "round": null,
+    "pick": null
+   },
+   "tags": [
+    "ex-Canucks"
+   ],
+   "ids": {
+    "eliteprospects": 467384
+   },
+   "pinTeam": true
+  },
+  {
+   "key": "pdcvfpn",
+   "name": "Landon DuPont",
+   "list": "other",
+   "pos": "D",
+   "league": "NCAA",
+   "team": "University of Michigan",
+   "teamKey": "mich",
+   "draft": {
+    "team": null,
+    "year": null,
+    "round": null,
+    "pick": null
+   },
+   "tags": [
+    "2027 draft"
+   ],
+   "ids": {}
+  }
+ ]
+}
