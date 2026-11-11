@@ -347,7 +347,7 @@ def ncaa_games(slug):
     page = fetch_text("%s/schedules/team/%s" % (CHN, slug), "chn.schedule")
     out, ym, samples, seen = [], None, [], set()
     for rh in table_rows(page):
-        tx = clean(rh)
+        tx = clean(rh).replace("-->", "").strip()
         mm = re.match(r"^(%s)\s+(\d{4})\b" % "|".join(MONTHS), tx)
         if mm:
             ym = (int(mm.group(2)), MONTHS[mm.group(1)])
@@ -373,7 +373,9 @@ def ncaa_games(slug):
         tm = re.search(r"\b(\d{1,2}):(\d{2})\s+([A-Z]T)\b", rest)
         opp = rest[:tm.start()] if tm else re.split(r"\s+(?:Box|Preview|Metrics|Recap|TBA|TBD)\b", rest)[0]
         ex = "(ex)" in opp
-        opp = re.sub(r"^#?\d+\s+", "", re.sub(r"\([a-z]{2}\)", "", opp)).strip(" *")
+        opp = re.split(r"\((?:nc|ex)\)|-->", opp)[0]  # anything after the marker is TV listings
+        opp = re.sub(r"(?:\s+(?:BTN\+?|B1G\+|ESPN[U2+]?|NESN\+?|TSN\+?|Peacock|NCHC\.tv|FloHockey|Midco\S*|Altitude\S*|CBSSN|SportsNet\S*|\S+\.tv))+$", "", opp)
+        opp = re.sub(r"^#?\d+\s+", "", opp).strip(" *")
         d, t = "%04d-%02d-%02d" % (ym[0], ym[1], day), None
         if tm and tm.group(3) in CHN_ZONES:
             h = int(tm.group(1))

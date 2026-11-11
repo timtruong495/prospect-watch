@@ -72,3 +72,14 @@ HockeyTech: https://lscluster.hockeytech.com/feed/?feed=modulekit&fmt=json&lang=
   division/rank fields are not the team's division rank. Fixed by taking the division from teamsbyseason and
   ranking inside it (AHL by points percentage, junior by points).
 - probe.json now keeps the first 3 rows of each list (the first standings row is a header).
+
+## College players added (2026-11-11)
+- update.py reads College Hockey News: /schedules/team/<School>/<id> for schedule and scores, and each
+  /box/final/... page once per game for tracked players' lines (marker "bxp" on the game = players already read).
+  Worked on the first real run: 4 schools, 38/35/35/37 games, all box scores parsed (38 skater rows).
+- CHN times have no AM/PM (hours below 11 are treated as PM). Exhibition games "(ex)" are shown but not counted
+  in season totals. Ties show as T.
+- Totals match the hand-checked numbers except Romani: 7 GP 5-5-10 here vs 8 GP 12 pts before, because
+  CHN lists MSU's Oct 2 game vs Boston College as an exhibition.
+- User allowed small fixes to go straight to main (2026-11-11). Workflow can be started with
+  gh api -X POST repos/timtruong495/prospect-watch/actions/workflows/414203236/dispatches -f ref=main
