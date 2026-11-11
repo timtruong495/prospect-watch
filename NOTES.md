@@ -60,3 +60,15 @@ HockeyTech: https://lscluster.hockeytech.com/feed/?feed=modulekit&fmt=json&lang=
 - Abbotsford, Petes, Generals, Giants results start mid-October, not opening night.
 - About 40 played games lack a tracked player's stat line (mostly Michigan, Denver, Marlies).
 - Draft year/round/pick missing for Cootes, Rogowski, Malhotra, Dervin, Medvedev; pick number for Romani, Celebrini.
+
+## First real run (2026-11-10, GitHub Actions) 
+- Green, 0 warnings. All six feed teams loaded from opening night; ids resolved by name
+  (ABB 440, Marlies 335, Giants 223, Petes 6, Generals 4; Cootes 11363, Novotný 9638, Rogowski 9126,
+  Medvedev 8983, Räty 8753). HockeyTech field names in update.py are confirmed working.
+- Compared with the hand-checked data from the Claude-run page: no score differences on any game.
+  "shots" is shots on goal (matches a box score). Game times now come from the feeds; a few differ from the
+  old page by an hour (old ones were converted by hand).
+- Bug found: division standing label. stat=conference standings rows are grouped by conference and their
+  division/rank fields are not the team's division rank. Fixed by taking the division from teamsbyseason and
+  ranking inside it (AHL by points percentage, junior by points).
+- probe.json now keeps the first 3 rows of each list (the first standings row is a header).
