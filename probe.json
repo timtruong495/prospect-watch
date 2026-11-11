@@ -1,0 +1,1074 @@
+{
+ "nhl.schedule": {
+  "previousSeason": "20252026",
+  "currentSeason": "20262027",
+  "clubTimezone": "America/Vancouver",
+  "clubUTCOffset": "-07:00",
+  "games": [
+   {
+    "id": "2026010005",
+    "season": "20262027",
+    "gameType": "1",
+    "gameDate": "2026-09-19",
+    "venue": {
+     "default": "Climate Pledge Arena"
+    },
+    "neutralSite": "False",
+    "startTimeUTC": "2026-09-20T01:00:00Z",
+    "easternUTCOffset": "-04:00",
+    "venueUTCOffset": "-07:00",
+    "venueTimezone": "US/Pacific",
+    "gameState": "FINAL",
+    "gameScheduleState": "OK",
+    "tvBroadcasts": [
+     {
+      "id": "554",
+      "market": "H",
+      "countryCode": "US",
+      "network": "KHN/Prime",
+      "sequenceNumber": "362"
+     },
+     "... 2 items"
+    ],
+    "awayTeam": {
+     "id": "23",
+     "commonName": {
+      "default": "Canucks"
+     },
+     "placeName": {
+      "default": "Vancouver"
+     },
+     "placeNameWithPreposition": {
+      "default": "Vancouver",
+      "fr": "de Vancouver"
+     },
+     "abbrev": "VAN",
+     "logo": "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg",
+     "darkLogo": "https://assets.nhle.com/logos/nhl/svg/VAN_dark.svg",
+     "awaySplitSquad": "False",
+     "airlineLink": "https://www.aircanada.com/?utm_source=canuckscom&utm_medium=",
+     "airlineDesc": "Book with Air Canada",
+     "hotelLink": "",
+     "hotelDesc": "",
+     "score": "2"
+    },
+    "homeTeam": {
+     "id": "55",
+     "commonName": {
+      "default": "Kraken"
+     },
+     "placeName": {
+      "default": "Seattle"
+     },
+     "placeNameWithPreposition": {
+      "default": "Seattle",
+      "fr": "de Seattle"
+     },
+     "abbrev": "SEA",
+     "logo": "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg",
+     "darkLogo": "https://assets.nhle.com/logos/nhl/svg/SEA_dark.svg",
+     "homeSplitSquad": "False",
+     "airlineLink": "",
+     "airlineDesc": "",
+     "hotelLink": "https://stayinglevel.com/offers/seattle-climate-pledge-arena",
+     "hotelDesc": "Stay close to the action at Level",
+     "score": "4"
+    },
+    "periodDescriptor": {
+     "number": "3",
+     "periodType": "REG",
+     "maxRegulationPeriods": "3"
+    },
+    "gameOutcome": {
+     "lastPeriodType": "REG"
+    },
+    "winningGoalie": {
+     "playerId": "8483668",
+     "firstInitial": {
+      "default": "N."
+     },
+     "lastName": {
+      "default": "Kokko"
+     }
+    },
+    "winningGoalScorer": {
+     "playerId": "8483012",
+     "firstInitial": {
+      "default": "L."
+     },
+     "lastName": {
+      "default": "Morrison"
+     }
+    },
+    "threeMinRecap": "/video/van-at-sea-recap-6405318484112",
+    "threeMinRecapFr": "/fr/video/van-vs-sea-19-09-2026-resume-6405320032112",
+    "gameCenterLink": "/gamecenter/van-vs-sea/2026/09/19/2026010005"
+   },
+   "... 88 items"
+  ]
+ },
+ "nhl.standings": {
+  "wildCardIndicator": "True",
+  "standingsDateTimeUtc": "2026-11-11T05:09:15Z",
+  "standings": [
+   {
+    "conferenceAbbrev": "E",
+    "conferenceHomeSequence": "6",
+    "conferenceL10Sequence": "3",
+    "conferenceName": "Eastern",
+    "conferenceRoadSequence": "1",
+    "conferenceSequence": "1",
+    "date": "2026-11-10",
+    "divisionAbbrev": "M",
+    "divisionHomeSequence": "4",
+    "divisionL10Sequence": "2",
+    "divisionName": "Metropolitan",
+    "divisionRoadSequence": "1",
+    "divisionSequence": "1",
+    "gameTypeId": "2",
+    "gamesPlayed": "19",
+    "goalDifferential": "33",
+    "goalDifferentialPctg": "1.736842",
+    "goalAgainst": "45",
+    "goalFor": "78",
+    "goalsForPctg": "4.105263",
+    "homeGamesPlayed": "8",
+    "homeGoalDifferential": "19",
+    "homeGoalsAgainst": "15",
+    "homeGoalsFor": "34",
+    "homeLosses": "1",
+    "homeOtLosses": "1",
+    "homePoints": "13",
+    "homeRegulationPlusOtWins": "6",
+    "homeRegulationWins": "6",
+    "homeTies": "0",
+    "homeWins": "6",
+    "l10GamesPlayed": "10",
+    "l10GoalDifferential": "20",
+    "l10GoalsAgainst": "24",
+    "l10GoalsFor": "44",
+    "l10Losses": "2",
+    "l10OtLosses": "1",
+    "l10Points": "15",
+    "l10RegulationPlusOtWins": "7",
+    "l10RegulationWins": "7",
+    "l10Ties": "0",
+    "l10Wins": "7",
+    "leagueHomeSequence": "9",
+    "leagueL10Sequence": "4",
+    "leagueRoadSequence": "2",
+    "leagueSequence": "1",
+    "losses": "3",
+    "otLosses": "2",
+    "placeName": {
+     "default": "Carolina",
+     "fr": "Caroline"
+    },
+    "pointPctg": "0.789474",
+    "points": "30",
+    "regulationPlusOtWinPctg": "0.736842",
+    "regulationPlusOtWins": "14",
+    "regulationWinPctg": "0.684211",
+    "regulationWins": "13",
+    "roadGamesPlayed": "11",
+    "roadGoalDifferential": "14",
+    "roadGoalsAgainst": "30",
+    "roadGoalsFor": "44",
+    "roadLosses": "2",
+    "roadOtLosses": "1",
+    "roadPoints": "17",
+    "roadRegulationPlusOtWins": "8",
+    "roadRegulationWins": "7",
+    "roadTies": "0",
+    "roadWins": "8",
+    "seasonId": "20262027",
+    "shootoutLosses": "1",
+    "shootoutWins": "0",
+    "streakCode": "W",
+    "streakCount": "2",
+    "teamName": {
+     "default": "Carolina Hurricanes",
+     "fr": "Hurricanes de la Caroline"
+    },
+    "teamCommonName": {
+     "default": "Hurricanes"
+    },
+    "teamAbbrev": {
+     "default": "CAR"
+    },
+    "teamLogo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
+    "teamLogoDark": "https://assets.nhle.com/logos/nhl/svg/CAR_dark.svg",
+    "ties": "0",
+    "waiversSequence": "32",
+    "wildcardSequence": "0",
+    "winPctg": "0.736842"
+   },
+   "... 32 items"
+  ]
+ },
+ "ahl.seasons": {
+  "SiteKit": {
+   "Parameters": {
+    "feed": "modulekit",
+    "fmt": "json",
+    "lang": "en",
+    "client_code": "ahl",
+    "key": "50c2cd9b5e18e390",
+    "view": "seasons",
+    "lang_id": "1",
+    "league_id": "4",
+    "season_id": "94"
+   },
+   "Seasons": [
+    {
+     "season_id": "94",
+     "season_name": "2026-27 Regular Season",
+     "shortname": "2026-27",
+     "career": "1",
+     "playoff": "0",
+     "start_date": "2026-10-01",
+     "end_date": "2027-04-11"
+    },
+    "... 76 items"
+   ],
+   "Copyright": {
+    "required_copyright": "Official statistics provided by American Hockey League",
+    "required_link": "http://leaguestat.com",
+    "powered_by": "Powered by HockeyTech.com",
+    "powered_by_url": "http://hockeytech.com"
+   }
+  }
+ },
+ "ahl.teams": {
+  "SiteKit": {
+   "Parameters": {
+    "feed": "modulekit",
+    "fmt": "json",
+    "lang": "en",
+    "client_code": "ahl",
+    "key": "50c2cd9b5e18e390",
+    "view": "teamsbyseason",
+    "season_id": "94",
+    "lang_id": "1",
+    "league_id": "4"
+   },
+   "Teamsbyseason": [
+    {
+     "id": "440",
+     "name": "Abbotsford Canucks",
+     "city": "Abbotsford",
+     "code": "ABB",
+     "nickname": "Canucks",
+     "team_caption": "",
+     "division_id": "25",
+     "division_long_name": "Pacific Division",
+     "division_short_name": "Pacific",
+     "team_logo_url": "https://assets.leaguestat.com/ahl/logos/440.png"
+    },
+    "... 32 items"
+   ],
+   "Copyright": {
+    "required_copyright": "Official statistics provided by American Hockey League",
+    "required_link": "http://leaguestat.com",
+    "powered_by": "Powered by HockeyTech.com",
+    "powered_by_url": "http://hockeytech.com"
+   }
+  }
+ },
+ "ahl.schedule": {
+  "SiteKit": {
+   "Parameters": {
+    "feed": "modulekit",
+    "fmt": "json",
+    "lang": "en",
+    "client_code": "ahl",
+    "key": "50c2cd9b5e18e390",
+    "view": "schedule",
+    "team_id": "440",
+    "season_id": "94",
+    "lang_id": "1",
+    "league_id": "4"
+   },
+   "Schedule": [
+    {
+     "id": "1029072",
+     "game_id": "1029072",
+     "season_id": "94",
+     "quick_score": "0",
+     "date_played": "2026-10-02",
+     "date_tbd": "0",
+     "date": "Oct. 2",
+     "date_with_day": "Fri, Oct 2",
+     "date_time_played": "2026-10-02T19:00:00Z",
+     "GameDateISO8601": "2026-10-02T19:00:00-06:00",
+     "home_team": "444",
+     "visiting_team": "440",
+     "home_goal_count": "4",
+     "visiting_goal_count": "2",
+     "period": "3",
+     "overtime": "0",
+     "schedule_time": "19:00:00",
+     "time_tbd": "0",
+     "schedule_notes": "",
+     "game_clock": "00:00:00",
+     "timezone": "America/Edmonton",
+     "game_number": "2",
+     "shootout": "0",
+     "attendance": "2487",
+     "status": "4",
+     "location": "125",
+     "game_status": "Final",
+     "intermission": "0",
+     "game_type": "",
+     "game_letter": "",
+     "if_necessary": "0",
+     "period_trans": "3",
+     "started": "1",
+     "final": "1",
+     "tickets_url": "https://theahl.com/tickets",
+     "home_audio_url": "",
+     "home_video_url": "",
+     "home_video_url_fr": "",
+     "home_webcast_url": "",
+     "home_webcast_url_fr": "",
+     "visiting_audio_url": "https://abbotsford-canucks.mixlr.com/",
+     "visiting_video_url": "",
+     "visiting_video_url_fr": "",
+     "visiting_webcast_url": "",
+     "visiting_webcast_url_fr": "",
+     "uses_spalk_rc": "None",
+     "home_team_name": "Calgary Wranglers",
+     "home_team_code": "CGY",
+     "home_team_nickname": "Wranglers",
+     "home_team_city": "Calgary",
+     "home_team_division_long": "Pacific Division",
+     "home_team_division_short": "Pacific",
+     "visiting_team_name": "Abbotsford Canucks",
+     "visiting_team_code": "ABB",
+     "visiting_team_nickname": "Canucks",
+     "visiting_team_city": "Abbotsford",
+     "visiting_team_division_long": "Pacific Division",
+     "visiting_team_division_short": "Pacific",
+     "notes_text": "",
+     "use_shootouts": "1",
+     "venue_name": "Scotiabank Saddledome",
+     "venue_url": "",
+     "venue_location": "Calgary, AB",
+     "last_modified": "2026-10-03 16:52:40",
+     "flo_core_event_id": "16053323",
+     "flo_live_event_id": "257250",
+     "htv_game_id": "1156278",
+     "client_code": "ahl",
+     "scheduled_time": "7:00 pm MDT",
+     "mobile_calendar": "https://lscluster.hockeytech.com/components/calendar/ical_ad"
+    },
+    "... 72 items"
+   ],
+   "Copyright": {
+    "required_copyright": "Official statistics provided by American Hockey League",
+    "required_link": "http://leaguestat.com",
+    "powered_by": "Powered by HockeyTech.com",
+    "powered_by_url": "http://hockeytech.com"
+   }
+  }
+ },
+ "ahl.standings": {
+  "SiteKit": {
+   "Parameters": {
+    "feed": "modulekit",
+    "fmt": "json",
+    "lang": "en",
+    "client_code": "ahl",
+    "key": "50c2cd9b5e18e390",
+    "season_id": "94",
+    "view": "statviewtype",
+    "type": "standings",
+    "stat": "conference",
+    "lang_id": "1",
+    "league_id": "4",
+    "team_id": "0"
+   },
+   "Statviewtype": [
+    {
+     "repeatheader": "1",
+     "name": "Eastern Conference"
+    },
+    "... 34 items"
+   ],
+   "Copyright": {
+    "required_copyright": "Official statistics provided by American Hockey League",
+    "required_link": "http://leaguestat.com",
+    "powered_by": "Powered by HockeyTech.com",
+    "powered_by_url": "http://hockeytech.com"
+   }
+  }
+ },
+ "whl.seasons": {
+  "SiteKit": {
+   "Parameters": {
+    "feed": "modulekit",
+    "fmt": "json",
+    "lang": "en",
+    "client_code": "whl",
+    "key": "41b145a848f4bd67",
+    "view": "seasons",
+    "lang_id": "1",
+    "league_id": "26",
+    "season_id": "295"
+   },
+   "Seasons": [
+    {
+     "season_id": "295",
+     "season_name": "2026 - 27 Regular Season",
+     "shortname": "26 - 27 Reg",
+     "career": "1",
+     "playoff": "0",
+     "start_date": "2026-09-18",
+     "end_date": "2027-03-28"
+    },
+    "... 80 items"
+   ],
+   "Copyright": {
+    "required_copyright": "Official statistics provided by Western Hockey League",
+    "required_link": "http://leaguestat.com",
+    "powered_by": "Powered by HockeyTech.com",
+    "powered_by_url": "http://hockeytech.com"
+   }
+  }
+ },
+ "whl.teams": {
+  "SiteKit": {
+   "Parameters": {
+    "feed": "modulekit",
+    "fmt": "json",
+    "lang": "en",
+    "client_code": "whl",
+    "key": "41b145a848f4bd67",
+    "view": "teamsbyseason",
+    "season_id": "295",
+    "lang_id": "1",
+    "league_id": "26"
+   },
+   "Teamsbyseason": [
+    {
+     "id": "201",
+     "name": "Brandon Wheat Kings",
+     "city": "Brandon",
+     "code": "BDN",
+     "nickname": "Wheat Kings",
+     "team_caption": "",
+     "division_id": "1",
+     "division_long_name": "East Division",
+     "division_short_name": "East",
+     "team_logo_url": "https://assets.leaguestat.com/whl/logos/201.jpg"
+    },
+    "... 23 items"
+   ],
+   "Copyright": {
+    "required_copyright": "Official statistics provided by Western Hockey League",
+    "required_link": "http://leaguestat.com",
+    "powered_by": "Powered by HockeyTech.com",
+    "powered_by_url": "http://hockeytech.com"
+   }
+  }
+ },
+ "whl.schedule": {
+  "SiteKit": {
+   "Parameters": {
+    "feed": "modulekit",
+    "fmt": "json",
+    "lang": "en",
+    "client_code": "whl",
+    "key": "41b145a848f4bd67",
+    "view": "schedule",
+    "team_id": "223",
+    "season_id": "295",
+    "lang_id": "1",
+    "league_id": "26"
+   },
+   "Schedule": [
+    {
+     "id": "1023094",
+     "game_id": "1023094",
+     "season_id": "295",
+     "quick_score": "0",
+     "date_played": "2026-09-19",
+     "date_tbd": "0",
+     "date": "Sep. 19",
+     "date_with_day": "Sat, Sep 19",
+     "date_time_played": "2026-09-19T19:00:00Z",
+     "GameDateISO8601": "2026-09-19T19:00:00-07:00",
+     "home_team": "223",
+     "visiting_team": "204",
+     "home_goal_count": "3",
+     "visiting_goal_count": "2",
+     "period": "4",
+     "overtime": "1",
+     "schedule_time": "19:00:00",
+     "time_tbd": "0",
+     "schedule_notes": "",
+     "game_clock": "00:01:03",
+     "timezone": "America/Vancouver",
+     "game_number": "14",
+     "shootout": "0",
+     "attendance": "4004",
+     "status": "4",
+     "location": "35",
+     "game_status": "Final OT",
+     "intermission": "0",
+     "game_type": "",
+     "game_letter": "",
+     "if_necessary": "0",
+     "period_trans": "OT",
+     "started": "1",
+     "final": "1",
+     "tickets_url": "https://chl.ca/whl-giants/tickets/",
+     "home_audio_url": "https://listen.streamon.fm/cisffm",
+     "visiting_audio_url": "",
+     "uses_spalk_rc": "None",
+     "home_team_name": "Vancouver Giants",
+     "home_team_code": "VAN",
+     "home_team_nickname": "Giants",
+     "home_team_city": "Vancouver",
+     "home_team_division_long": "B.C. Division",
+     "home_team_division_short": "B.C.",
+     "visiting_team_name": "Kelowna Rockets",
+     "visiting_team_code": "KEL",
+     "visiting_team_nickname": "Rockets",
+     "visiting_team_city": "Kelowna",
+     "visiting_team_division_long": "B.C. Division",
+     "visiting_team_division_short": "B.C.",
+     "notes_text": "Timeout Kelowna @ 10:48 of 3rd period\nTimeout Vancouver @ 2:",
+     "use_shootouts": "1",
+     "venue_name": "Langley Events Centre - Langley, BC",
+     "venue_url": "",
+     "venue_location": "Langley, B.C.",
+     "last_modified": "2026-09-25 22:23:43",
+     "flo_core_event_id": "",
+     "flo_live_event_id": "",
+     "htv_game_id": "",
+     "client_code": "whl",
+     "scheduled_time": "7:00 pm PCT",
+     "broadcasters": {
+      "home_video": [
+       "{...}",
+       "... 1 items"
+      ],
+      "home_webcast": [
+       "{...}",
+       "... 1 items"
+      ]
+     },
+     "mobile_calendar": "https://lscluster.hockeytech.com/components/calendar/ical_ad"
+    },
+    "... 68 items"
+   ],
+   "Copyright": {
+    "required_copyright": "Official statistics provided by Western Hockey League",
+    "required_link": "http://leaguestat.com",
+    "powered_by": "Powered by HockeyTech.com",
+    "powered_by_url": "http://hockeytech.com"
+   }
+  }
+ },
+ "whl.standings": {
+  "SiteKit": {
+   "Parameters": {
+    "feed": "modulekit",
+    "fmt": "json",
+    "lang": "en",
+    "client_code": "whl",
+    "key": "41b145a848f4bd67",
+    "season_id": "295",
+    "view": "statviewtype",
+    "type": "standings",
+    "stat": "conference",
+    "lang_id": "1",
+    "league_id": "26"
+   },
+   "Statviewtype": [
+    {
+     "repeatheader": "1",
+     "name": "Eastern Conference"
+    },
+    "... 25 items"
+   ],
+   "Copyright": {
+    "required_copyright": "Official statistics provided by Western Hockey League",
+    "required_link": "http://leaguestat.com",
+    "powered_by": "Powered by HockeyTech.com",
+    "powered_by_url": "http://hockeytech.com"
+   }
+  }
+ },
+ "ohl.seasons": {
+  "SiteKit": {
+   "Parameters": {
+    "feed": "modulekit",
+    "fmt": "json",
+    "lang": "en",
+    "client_code": "ohl",
+    "key": "2976319eb44abe94",
+    "view": "seasons",
+    "lang_id": "1",
+    "league_id": "1",
+    "season_id": "88"
+   },
+   "Seasons": [
+    {
+     "season_id": "88",
+     "season_name": "2026-27 Regular Season",
+     "shortname": "26-27 Reg. Season",
+     "career": "1",
+     "playoff": "0",
+     "start_date": "2026-09-15",
+     "end_date": "2027-03-23"
+    },
+    "... 73 items"
+   ],
+   "Copyright": {
+    "required_copyright": "Official statistics provided by Ontario Hockey League",
+    "required_link": "http://leaguestat.com",
+    "powered_by": "Powered by HockeyTech.com",
+    "powered_by_url": "http://hockeytech.com"
+   }
+  }
+ },
+ "ohl.teams": {
+  "SiteKit": {
+   "Parameters": {
+    "feed": "modulekit",
+    "fmt": "json",
+    "lang": "en",
+    "client_code": "ohl",
+    "key": "2976319eb44abe94",
+    "view": "teamsbyseason",
+    "season_id": "88",
+    "lang_id": "1",
+    "league_id": "1"
+   },
+   "Teamsbyseason": [
+    {
+     "id": "7",
+     "name": "Barrie Colts",
+     "city": "Barrie",
+     "code": "BAR",
+     "nickname": "Colts",
+     "team_caption": "",
+     "division_id": "2",
+     "division_long_name": "Central Division",
+     "division_short_name": "Central",
+     "team_logo_url": "https://assets.leaguestat.com/ohl/logos/7.png"
+    },
+    "... 20 items"
+   ],
+   "Copyright": {
+    "required_copyright": "Official statistics provided by Ontario Hockey League",
+    "required_link": "http://leaguestat.com",
+    "powered_by": "Powered by HockeyTech.com",
+    "powered_by_url": "http://hockeytech.com"
+   }
+  }
+ },
+ "ohl.schedule": {
+  "SiteKit": {
+   "Parameters": {
+    "feed": "modulekit",
+    "fmt": "json",
+    "lang": "en",
+    "client_code": "ohl",
+    "key": "2976319eb44abe94",
+    "view": "schedule",
+    "team_id": "6",
+    "season_id": "88",
+    "lang_id": "1",
+    "league_id": "1"
+   },
+   "Schedule": [
+    {
+     "id": "28992",
+     "game_id": "28992",
+     "season_id": "88",
+     "quick_score": "0",
+     "date_played": "2026-09-17",
+     "date_tbd": "0",
+     "date": "Sep. 17",
+     "date_with_day": "Thu, Sep 17",
+     "date_time_played": "2026-09-17T19:05:00Z",
+     "GameDateISO8601": "2026-09-17T19:05:00-04:00",
+     "home_team": "6",
+     "visiting_team": "2",
+     "home_goal_count": "3",
+     "visiting_goal_count": "6",
+     "period": "3",
+     "overtime": "0",
+     "schedule_time": "19:05:00",
+     "time_tbd": "0",
+     "schedule_notes": "",
+     "game_clock": "00:00:00",
+     "timezone": "America/Toronto",
+     "game_number": "1",
+     "shootout": "0",
+     "attendance": "3333",
+     "status": "4",
+     "location": "15",
+     "game_status": "Final",
+     "intermission": "0",
+     "game_type": "",
+     "game_letter": "",
+     "if_necessary": "0",
+     "period_trans": "3",
+     "started": "1",
+     "final": "1",
+     "tickets_url": "https://www.ticketmaster.ca/peterborough-petes-tickets/artis",
+     "home_audio_url": "https://player1.radioplace.co/player/popup/cjmb-fm",
+     "visiting_audio_url": "https://www.kingstondaily.ca/player/cklc-98-9-fm/",
+     "uses_spalk_rc": "None",
+     "home_team_name": "Peterborough Petes",
+     "home_team_code": "PBO",
+     "home_team_nickname": "Petes",
+     "home_team_city": "Peterborough",
+     "home_team_division_long": "East Division",
+     "home_team_division_short": "East",
+     "visiting_team_name": "Kingston Frontenacs",
+     "visiting_team_code": "KGN",
+     "visiting_team_nickname": "Frontenacs",
+     "visiting_team_city": "Kingston",
+     "visiting_team_division_long": "East Division",
+     "visiting_team_division_short": "East",
+     "notes_text": "",
+     "use_shootouts": "1",
+     "venue_name": "Peterborough Memorial Centre",
+     "venue_url": "",
+     "venue_location": "Peterborough",
+     "last_modified": "2026-09-21 13:22:41",
+     "flo_core_event_id": "0",
+     "flo_live_event_id": "254647",
+     "htv_game_id": "1153845",
+     "client_code": "ohl",
+     "scheduled_time": "7:05 pm EDT",
+     "broadcasters": {
+      "home_video": [
+       "{...}",
+       "... 1 items"
+      ],
+      "home_webcast": [
+       "{...}",
+       "... 1 items"
+      ]
+     },
+     "mobile_calendar": "https://lscluster.hockeytech.com/components/calendar/ical_ad"
+    },
+    "... 68 items"
+   ],
+   "Copyright": {
+    "required_copyright": "Official statistics provided by Ontario Hockey League",
+    "required_link": "http://leaguestat.com",
+    "powered_by": "Powered by HockeyTech.com",
+    "powered_by_url": "http://hockeytech.com"
+   }
+  }
+ },
+ "ahl.roster": {
+  "SiteKit": {
+   "Parameters": {
+    "feed": "modulekit",
+    "fmt": "json",
+    "lang": "en",
+    "client_code": "ahl",
+    "key": "50c2cd9b5e18e390",
+    "view": "roster",
+    "team_id": "440",
+    "season_id": "94",
+    "lang_id": "1",
+    "league_id": "4"
+   },
+   "Roster": [
+    {
+     "id": "10146",
+     "person_id": "10612",
+     "active": "1",
+     "first_name": "Joe",
+     "last_name": "Arntsen",
+     "phonetic_name": "",
+     "display_name": "",
+     "shoots": "L",
+     "hometown": "",
+     "homeprov": "",
+     "homecntry": "",
+     "homeplace": "Dinsmore, SK",
+     "birthtown": "Dinsmore, SK",
+     "birthprov": "",
+     "birthcntry": "",
+     "birthplace": "Dinsmore, SK, ",
+     "height": "6-3",
+     "weight": "210",
+     "height_hyphenated": "6-3",
+     "hidden": "0",
+     "current_team": "",
+     "grad_year": "",
+     "player_id": "10146",
+     "status": "AHL",
+     "birthdate": "2003-05-22",
+     "birthdate_year": "'03",
+     "rawbirthdate": "2003-05-22",
+     "latest_team_id": "440",
+     "veteran_status": "2",
+     "veteran_description": "",
+     "team_id": "440",
+     "team_name": "Abbotsford Canucks",
+     "division": "Pacific Division",
+     "tp_jersey_number": "3",
+     "rookie": "0",
+     "position_id": "1",
+     "position": "D",
+     "nhlteam": "",
+     "playerId": "10146",
+     "isRookie": "&nbsp;",
+     "h": "6-3",
+     "w": "210",
+     "draft_status": "",
+     "draftinfo": [],
+     "name": "Joe Arntsen",
+     "player_image": "https://assets.leaguestat.com/ahl/240x240/10146.jpg"
+    },
+    "... 27 items"
+   ],
+   "Copyright": {
+    "required_copyright": "Official statistics provided by American Hockey League",
+    "required_link": "http://leaguestat.com",
+    "powered_by": "Powered by HockeyTech.com",
+    "powered_by_url": "http://hockeytech.com"
+   }
+  }
+ },
+ "ahl.gamelog": {
+  "SiteKit": {
+   "Parameters": {
+    "feed": "modulekit",
+    "fmt": "json",
+    "lang": "en",
+    "client_code": "ahl",
+    "key": "50c2cd9b5e18e390",
+    "view": "player",
+    "category": "gamebygame",
+    "player_id": "11363",
+    "season_id": "94",
+    "lang_id": "1",
+    "league_id": "4"
+   },
+   "Player": {
+    "seasons_played": [
+     {
+      "season_id": "94",
+      "season_name": "2026-27 Regular Season"
+     },
+     "... 1 items"
+    ],
+    "games": [
+     {
+      "gMonth": "October",
+      "id": "1029072",
+      "home_team": "444",
+      "visiting_team": "440",
+      "date_played": "2026-10-02",
+      "home": "0",
+      "shots": "4",
+      "goalie": "0",
+      "home_team_code": "CGY",
+      "home_team_name": "Calgary Wranglers",
+      "home_division": "Pacific Division",
+      "visiting_team_code": "ABB",
+      "visiting_team_name": "Abbotsford Canucks",
+      "visiting_division": "Pacific Division",
+      "goals": "0",
+      "ice_time_minutes_seconds": "0:00",
+      "hits": "0",
+      "shots_blocked_by_player": "0",
+      "plusminus": "-2",
+      "assists": "0",
+      "shootout_goals": "0",
+      "shootout_attempts": "0",
+      "shootout_goals_win": "0",
+      "shootout_shots": "0",
+      "penalty_minutes": "0.00",
+      "shooting_percentage": "0",
+      "shootout_shots_percentage": "0",
+      "points": "0",
+      "player_team": "440",
+      "plus_minus": "-2",
+      "power_play_goals": "0",
+      "short_handed_goals": "0",
+      "empty_net_goals": "0",
+      "insurange_goals": "0",
+      "game_winning_goals": "0",
+      "first_goals_scored": "0",
+      "game_tieing_goals": "0",
+      "faceoffs_taken": "0",
+      "faceoffs_won": "0"
+     },
+     "... 9 items"
+    ]
+   },
+   "Copyright": {
+    "required_copyright": "Official statistics provided by American Hockey League",
+    "required_link": "http://leaguestat.com",
+    "powered_by": "Powered by HockeyTech.com",
+    "powered_by_url": "http://hockeytech.com"
+   }
+  }
+ },
+ "ohl.gamelog": {
+  "SiteKit": {
+   "Parameters": {
+    "feed": "modulekit",
+    "fmt": "json",
+    "lang": "en",
+    "client_code": "ohl",
+    "key": "2976319eb44abe94",
+    "view": "player",
+    "category": "gamebygame",
+    "player_id": "9638",
+    "season_id": "88",
+    "lang_id": "1",
+    "league_id": "1"
+   },
+   "Player": {
+    "seasons_played": [
+     {
+      "season_id": "88",
+      "season_name": "2026-27 Regular Season"
+     },
+     "... 6 items"
+    ],
+    "games": [
+     {
+      "gMonth": "September",
+      "id": "29011",
+      "home_team": "6",
+      "visiting_team": "15",
+      "date_played": "2026-09-24",
+      "home": "1",
+      "shots": "7",
+      "goalie": "0",
+      "home_team_code": "PBO",
+      "home_team_name": "Peterborough Petes",
+      "home_division": "East Division",
+      "visiting_team_code": "SAR",
+      "visiting_team_name": "Sarnia Sting",
+      "visiting_division": "West Division",
+      "goals": "2",
+      "shots_on": "3",
+      "ice_time_minutes_seconds": "0:00",
+      "hits": "0",
+      "shots_blocked_by_player": "0",
+      "plusminus": "4",
+      "assists": "2",
+      "shootout_goals": "0",
+      "shootout_attempts": "0",
+      "shootout_goals_win": "0",
+      "shootout_shots": "0",
+      "penalty_minutes": "0.00",
+      "shooting_percentage": "0.00",
+      "shootout_shots_percentage": "0",
+      "points": "4",
+      "player_team": "6",
+      "plus_minus": "4",
+      "power_play_goals": "0",
+      "short_handed_goals": "0",
+      "empty_net_goals": "0",
+      "insurange_goals": "0",
+      "game_winning_goals": "0",
+      "first_goals_scored": "0",
+      "game_tieing_goals": "0",
+      "faceoffs_taken": "0",
+      "faceoffs_won": "0"
+     },
+     "... 17 items"
+    ]
+   },
+   "Copyright": {
+    "required_copyright": "Official statistics provided by Ontario Hockey League",
+    "required_link": "http://leaguestat.com",
+    "powered_by": "Powered by HockeyTech.com",
+    "powered_by_url": "http://hockeytech.com"
+   }
+  }
+ },
+ "ohl.roster": {
+  "SiteKit": {
+   "Parameters": {
+    "feed": "modulekit",
+    "fmt": "json",
+    "lang": "en",
+    "client_code": "ohl",
+    "key": "2976319eb44abe94",
+    "view": "roster",
+    "team_id": "4",
+    "season_id": "88",
+    "lang_id": "1",
+    "league_id": "1"
+   },
+   "Roster": [
+    {
+     "id": "9422",
+     "person_id": "9167",
+     "active": "1",
+     "first_name": "Brady",
+     "last_name": "Murnane",
+     "phonetic_name": "",
+     "display_name": "",
+     "shoots": "L",
+     "hometown": "Clifton Park",
+     "homeprov": "NY",
+     "homecntry": "United States",
+     "homeplace": "Clifton Park, NY",
+     "birthtown": "",
+     "birthprov": "",
+     "birthcntry": "",
+     "birthplace": "",
+     "height": "6.03",
+     "weight": "198",
+     "height_hyphenated": "6-03",
+     "hidden": "0",
+     "current_team": "",
+     "grad_year": "",
+     "player_id": "9422",
+     "status": "",
+     "birthdate": "2008-04-23",
+     "birthdate_year": "'08",
+     "rawbirthdate": "2008-04-23",
+     "latest_team_id": "4",
+     "veteran_status": "2",
+     "veteran_description": "",
+     "team_id": "4",
+     "team_name": "Oshawa Generals",
+     "division": "East Division",
+     "tp_jersey_number": "3",
+     "rookie": "0",
+     "position_id": "5",
+     "position": "LD",
+     "nhlteam": "",
+     "playerId": "9422",
+     "isRookie": "&nbsp;",
+     "h": "6.03",
+     "w": "198",
+     "draft_status": "OSH FA (OHL) 2025",
+     "draftinfo": [
+      "{...}",
+      "... 1 items"
+     ],
+     "name": "Brady Murnane",
+     "player_image": "https://assets.leaguestat.com/ohl/240x240/9422.jpg"
+    },
+    "... 25 items"
+   ],
+   "Copyright": {
+    "required_copyright": "Official statistics provided by Ontario Hockey League",
+    "required_link": "http://leaguestat.com",
+    "powered_by": "Powered by HockeyTech.com",
+    "powered_by_url": "http://hockeytech.com"
+   }
+  }
+ }
+}
