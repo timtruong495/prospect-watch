@@ -216,7 +216,7 @@ function gameId(g){ return g.team + "|" + g.d + "|" + (g.t || ""); }
 function scoreHtml(s){
   const cls = s.res === "W" ? "win" : "loss";
   const extra = s.ot ? " " + s.ot : "";
-  return `<span class="score ${cls}">${esc(s.res === "W" ? "W" : "L")} ${esc(s.f)}–${esc(s.a)}${esc(extra)}</span>`;
+  return `<span class="score ${cls}">${esc(s.res === "W" ? "W" : s.res === "T" ? "T" : "L")} ${esc(s.f)}–${esc(s.a)}${esc(extra)}</span>`;
 }
 function lineHtml(g, done, act){
   const ps = act ? playersOn(g.team).filter(p => act.includes(p)) : playersOn(g.team, STATE.players);

@@ -10,8 +10,10 @@ and the Canucks, Abbotsford Canucks and Vancouver Giants. All times are Vancouve
   schedules, scores and stats from the NHL, AHL, OHL and WHL data feeds, and rewrites `data.json`.
 - `follow.json` is the list of players and teams to follow. This is the only file you edit by hand.
 
-College (NCAA) players are not updated by the script yet. Their numbers stay as they were
-when last entered.
+College (NCAA) players have no data feed, so the script reads the College Hockey News schedule
+and box-score pages instead. It knows Boston University, Michigan, Michigan State and Denver.
+For a player at another school, add `"ids": {"chnTeam": "School-Name/NN"}` to the player, taken
+from the school's schedule address on collegehockeynews.com (`/schedules/team/School-Name/NN`).
 
 ## Add or remove a player
 
@@ -22,7 +24,7 @@ Change these fields:
 - `name`: the player's name as the league spells it
 - `list`: `canucks` for a Canucks prospect, `other` for anyone else
 - `pos`: C, LW, RW, D or G
-- `league`: NHL, AHL, OHL or WHL
+- `league`: NHL, AHL, OHL, WHL or NCAA
 - `team`: the full team name, for example `Kelowna Rockets`
 - `teamKey`: a short id for the team, the same for every player on that team
 - `tags`: optional labels, for example `["2027 draft"]`

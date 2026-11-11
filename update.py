@@ -10,7 +10,8 @@ is already in data.json. Standard library only.
   python update.py --probe    also write probe.json (the shape of every feed
                               response) to help fix field names
 """
-import datetime as dt, json, pathlib, re, sys, time, unicodedata, urllib.parse, urllib.request
+import datetime as dt, html, json, pathlib, re, sys, time, unicodedata, urllib.parse, urllib.request
+from zoneinfo import ZoneInfo
 
 ROOT = pathlib.Path(__file__).resolve().parent
 BC = dt.timezone(dt.timedelta(hours=-7))  # British Columbia: UTC-7 all year from 2026
@@ -24,6 +25,14 @@ HT = {  # public keys embedded in each league's own site
     "WHL": {"code": "whl", "key": "41b145a848f4bd67", "game": "https://chl.ca/whl/gamecentre/{}/",
             "player": "https://chl.ca/whl/players/{}/"},
 }
+CHN = "https://www.collegehockeynews.com"
+CHN_TEAMS = {  # College Hockey News page for each school (a player's ids.chnTeam in follow.json overrides)
+    "boston university": "Boston-University/10", "university of michigan": "Michigan/31",
+    "michigan state university": "Michigan-State/32", "denver pioneers": "Denver/20",
+}
+CHN_ZONES = {"ET": "America/New_York", "CT": "America/Chicago", "MT": "America/Denver",
+             "PT": "America/Los_Angeles", "AT": "America/Anchorage"}
+MONTHS = {m: i + 1 for i, m in enumerate("January February March April May June July August September October November December".split())}
 PROBE, WARN = {}, []
 
 
@@ -309,6 +318,142 @@ def ht_record(league, sid, tid, today):
             "asOf": today}
 
 
+# ---------- NCAA (College Hockey News pages; there is no data feed) ----------
+def fetch_text(url, label):
+    last = None
+    for attempt in range(3):
+        try:
+            req = urllib.request.Request(url, headers={
+                "User-Agent": "Mozilla/5.0 (compatible; prospect-watch; +https://github.com/timtruong495/prospect-watch)"})
+            with urllib.request.urlopen(req, timeout=30) as r:
+                return r.read().decode("utf-8", "replace")
+        except Exception as e:  # noqa: BLE001
+            last = e
+            time.sleep(2 * (attempt + 1))
+    raise RuntimeError("%s failed: %s" % (label, last))
+
+
+def clean(fragment):
+    t = html.unescape(re.sub(r"<[^>]+>", " ", fragment))
+    t = t.replace("‑", "-").replace("‐", "-").replace("–", "-").replace("\xa0", " ")
+    return re.sub(r"\s+", " ", t).strip()
+
+
+def table_rows(page):
+    return re.findall(r"<tr\b[^>]*>(.*?)</tr>", page, re.S | re.I)
+
+
+def ncaa_games(slug):
+    page = fetch_text("%s/schedules/team/%s" % (CHN, slug), "chn.schedule")
+    out, ym, samples, seen = [], None, [], set()
+    for rh in table_rows(page):
+        tx = clean(rh)
+        mm = re.match(r"^(%s)\s+(\d{4})\b" % "|".join(MONTHS), tx)
+        if mm:
+            ym = (int(mm.group(2)), MONTHS[mm.group(1)])
+            continue
+        m = re.match(r"^(\d{1,2})\s+(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)[a-z]*\.?\s+(.*)$", tx)
+        if not m or not ym:
+            continue
+        if len(samples) < 12:
+            samples.append(tx[:160])
+        day, rest, score = int(m.group(1)), m.group(2), None
+        r = re.match(r"^([WLT])\s+(\d+)\s*-\s*(\d+)\s*((?:\d?ot|so)\b)?\s*(.*)$", rest, re.I)
+        if r:
+            ot = (r.group(4) or "").lower()
+            score = result(int(r.group(2)), int(r.group(3)), "SO" if ot == "so" else "OT" if ot else None)
+            score["res"] = r.group(1).upper()
+            rest = r.group(5)
+        rest = re.sub(r"^\d+\s+(?=vs\.? |at )", "", rest)  # footnote number before the opponent
+        home = True
+        if rest.startswith("at "):
+            home, rest = False, rest[3:]
+        elif re.match(r"vs\.? ", rest):
+            home, rest = None, re.sub(r"^vs\.? ", "", rest)
+        tm = re.search(r"\b(\d{1,2}):(\d{2})\s+([A-Z]T)\b", rest)
+        opp = rest[:tm.start()] if tm else re.split(r"\s+(?:Box|Preview|Metrics|Recap|TBA|TBD)\b", rest)[0]
+        ex = "(ex)" in opp
+        opp = re.sub(r"^#?\d+\s+", "", re.sub(r"\([a-z]{2}\)", "", opp)).strip(" *")
+        d, t = "%04d-%02d-%02d" % (ym[0], ym[1], day), None
+        if tm and tm.group(3) in CHN_ZONES:
+            h = int(tm.group(1))
+            h = h + 12 if h < 11 else h  # the page gives no AM/PM; games before 11 are evening or afternoon
+            local = dt.datetime(ym[0], ym[1], day, h, int(tm.group(2)), tzinfo=ZoneInfo(CHN_ZONES[tm.group(3)]))
+            d, t = to_bc(local.isoformat())
+        bx = re.search(r'href="([^"]*/box/final/[^"]+)"', rh)
+        gid = bx.group(1) if bx else "%04d%02d%02d-%s" % (ym[0], ym[1], day, norm(opp))
+        if gid in seen or not opp:
+            continue
+        seen.add(gid)
+        gm = {"team": None, "gid": gid, "d": d, "t": t, "opp": opp, "home": home}
+        if ex:
+            gm["ex"], gm["note"] = True, "Exhibition"
+        if score:
+            gm["score"] = score
+            if bx:
+                gm["box"] = bx.group(1) if bx.group(1).startswith("http") else CHN + bx.group(1)
+        out.append(gm)
+    PROBE.setdefault("chn.schedule", {"rows": samples, "parsed": len(out)})
+    if not out:
+        i = page.find("Box")
+        PROBE["chn.schedule.raw"] = page[max(0, i - 1500):i + 1500] if i >= 0 else page[:3000]
+        raise RuntimeError("no games parsed from the College Hockey News schedule (%s)" % slug)
+    return out
+
+
+def ncaa_box(url, wanted):
+    """Stat lines for the wanted players {normalised name: key} from one box score page."""
+    page = fetch_text(url, "chn.box")
+    found, skaters, samples = {}, 0, []
+    for rh in table_rows(page):
+        cells = [clean(c) for c in re.findall(r"<t[dh]\b[^>]*>(.*?)</t[dh]>", rh, re.S | re.I)]
+        if len(cells) < 8 or num(cells[1]) is None or num(cells[3]) is None or not re.match(r"\d+:\d\d", cells[6]):
+            continue
+        skaters += 1
+        if len(samples) < 3:
+            samples.append(cells[:9])
+        key = wanted.get(norm(cells[0])) or next((k for n, k in wanted.items() if n and n in norm(cells[0])), None)
+        if key:
+            line = {"g": num(cells[1]), "a": num(cells[2]), "pts": num(cells[3]), "pm": num(cells[4]),
+                    "sog": num(cells[5]), "pim": num(cells[7])}
+            found[key] = {k: v for k, v in line.items() if v is not None}
+    PROBE.setdefault("chn.box", {"url": url, "skater_rows": skaters, "rows": samples})
+    if skaters < 10:
+        i = page.find("TOI")
+        PROBE.setdefault("chn.box.raw", page[max(0, i - 800):i + 2200] if i >= 0 else page[:3000])
+    return found, skaters
+
+
+def ncaa_fill_lines(team_name, games, keys_by_name, budget):
+    """Read box scores for games whose tracked players haven't been read yet. Returns fetches used."""
+    keys, used, bad = sorted(keys_by_name.values()), 0, 0
+    for gm in games:
+        if not gm.get("score") or not gm.get("box") or gm.get("ex") or set(keys) <= set(gm.get("bxp", [])):
+            continue
+        if used >= budget:
+            break
+        used += 1
+        try:
+            found, skaters = ncaa_box(gm["box"], keys_by_name)
+        except Exception as e:  # noqa: BLE001
+            warn("%s: box score not read (%s)" % (team_name, e))
+            break
+        time.sleep(0.5)
+        if skaters < 10:
+            bad += 1
+            continue
+        lines = gm.setdefault("lines", {})
+        for key in keys:
+            if key in found:
+                lines[key] = found[key]
+            elif key not in lines:
+                lines[key] = {"dnp": True}
+        gm["bxp"] = keys
+    if bad:
+        warn("%s: %d box score(s) could not be understood" % (team_name, bad))
+    return used
+
+
 # ---------- putting it together ----------
 def season_stats(lines_by_game, games, goalie, league, team_name, url):
     """Season totals with the current team, summed from the game lines."""
@@ -364,12 +509,21 @@ def main():
         lg = t["league"]
         prev = old["teams"].get(key) or {}
         t["record"] = prev.get("record")
-        if lg not in HT and lg != "NHL":
-            games_by_team[key] = old_games.get(key, [])  # not supported yet: keep what we have
+        slug = None
+        if lg == "NCAA":
+            slug = next(((p.get("ids") or {}).get("chnTeam") for p in follow.get("players", [])
+                         if p["teamKey"] == key and (p.get("ids") or {}).get("chnTeam")), None) or CHN_TEAMS.get(norm(t["name"]))
+            if not slug:
+                warn("%s: no College Hockey News page known for this school" % t["name"])
+        if (lg not in HT and lg != "NHL" and lg != "NCAA") or (lg == "NCAA" and not slug):
+            games_by_team[key] = old_games.get(key, [])  # not supported: keep what we have
             continue
         tried += 1
         try:
-            if lg == "NHL":
+            if lg == "NCAA":
+                t["_chn"] = "%s/schedules/team/%s" % (CHN, slug)
+                new = ncaa_games(slug)
+            elif lg == "NHL":
                 abbrev = t["ids"].get("nhlAbbrev") or t["short"]
                 t["_abbrev"] = abbrev
                 new = nhl_games(abbrev, season8)
@@ -383,6 +537,8 @@ def main():
                     t["short"] = t["short"] or code
                 t["_sid"], t["_tid"] = sid, str(tid)
                 new = ht_games(lg, sid, tid)
+            if len(new) < len(old_games.get(key, [])) // 2:
+                raise RuntimeError("only %d games read, expected about %d" % (len(new), len(old_games.get(key, []))))
             # carry over anything the feed doesn't give us (older stat lines, notes)
             prev_by_day = {gm["d"]: gm for gm in old_games.get(key, [])}
             for gm in new:
@@ -390,8 +546,10 @@ def main():
                 o = prev_by_day.get(gm["d"]) or {}
                 if o.get("lines"):
                     gm["lines"] = dict(o["lines"])
-                if o.get("note"):
+                if o.get("note") and not gm.get("note"):
                     gm["note"] = o["note"]
+                if o.get("bxp"):
+                    gm["bxp"] = o["bxp"]
                 if o.get("box") and not gm.get("box"):
                     gm["box"] = o["box"]
             games_by_team[key] = new
@@ -399,7 +557,7 @@ def main():
         except Exception as e:  # noqa: BLE001
             warn("%s: schedule not updated (%s)" % (t["name"], e))
             games_by_team[key] = old_games.get(key, [])
-        if t.get("followed") and key in ok_teams:
+        if t.get("followed") and key in ok_teams and lg != "NCAA":
             try:
                 t["record"] = nhl_record(t["_abbrev"], today) if lg == "NHL" else ht_record(lg, t["_sid"], t["_tid"], today)
             except Exception as e:  # noqa: BLE001
@@ -407,6 +565,13 @@ def main():
 
     if tried and not ok_teams:
         sys.exit("No feed could be read; data.json left unchanged.")
+
+    # college box scores: one page per game covers every tracked player on that team
+    budget = 80
+    for key, t in teams.items():
+        if t["league"] == "NCAA" and key in ok_teams:
+            names = {norm(p["name"]): p["key"] for p in follow.get("players", []) if p["teamKey"] == key}
+            budget -= ncaa_fill_lines(t["name"], games_by_team[key], names, budget)
 
     players = []
     for p in follow.get("players", []):
@@ -420,7 +585,17 @@ def main():
         if p.get("pinTeam"):
             out["pinTeam"] = True
         lg, goalie = t["league"], p.get("pos") == "G"
-        if p["teamKey"] in ok_teams:
+        if lg == "NCAA":
+            tg = games_by_team[p["teamKey"]]
+            played = [gm for gm in tg if gm.get("score") and not gm.get("ex")]
+            if p["teamKey"] in ok_teams and played and all(key in gm.get("bxp", []) for gm in played):
+                log = {gm["gid"]: gm["lines"][key] for gm in played
+                       if key in gm.get("lines", {}) and not gm["lines"][key].get("dnp")}
+                st = season_stats(log, tg, goalie, lg, t["name"], t["_chn"])
+                if st:
+                    st["src"] = "College Hockey News"
+                    out["stats"] = st
+        elif p["teamKey"] in ok_teams:
             try:
                 if lg == "NHL":
                     pid = (p.get("ids") or {}).get("nhl") or ids["players"].get(key) or nhl_player_id(t["_abbrev"], p["name"])
