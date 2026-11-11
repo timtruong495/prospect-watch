@@ -308,7 +308,7 @@
  },
  "nhl.standings": {
   "wildCardIndicator": "True",
-  "standingsDateTimeUtc": "2026-11-11T21:38:15Z",
+  "standingsDateTimeUtc": "2026-11-11T23:26:15Z",
   "standings": [
    {
     "conferenceAbbrev": "E",
@@ -1420,7 +1420,7 @@
      "row": "10",
      "points": "25",
      "bench_minutes": "6",
-     "penalty_minutes": "277",
+     "penalty_minutes": "284",
      "past_10_wins": "5",
      "past_10_losses": "4",
      "past_10_ties": "0",
@@ -1428,9 +1428,9 @@
      "past_10_shootout_losses": "1",
      "past_10_ot_wins": "3",
      "past_10_shootout_wins": "0",
-     "goals_for": "61",
+     "goals_for": "64",
      "goals_against": "61",
-     "goals_diff": "0",
+     "goals_diff": "3",
      "power_play_goals": "13",
      "power_play_goals_against": "17",
      "shootout_goals": "6",
@@ -1448,14 +1448,14 @@
      "shootout_games_played": "3",
      "games_played": "19",
      "shootout_pct": "0.667",
-     "power_play_pct": "19.1",
+     "power_play_pct": "18.6",
      "shootout_pct_goals_for": "0.400",
      "shootout_pct_goals_against": "0.333",
-     "penalty_kill_pct": "78.2",
-     "pim_pg": "14.6",
-     "power_plays": "68",
+     "penalty_kill_pct": "78.8",
+     "pim_pg": "14.9",
+     "power_plays": "70",
      "win_percentage": "0.632",
-     "times_short_handed": "78",
+     "times_short_handed": "80",
      "divisname": "East Division",
      "games_remaining": "49",
      "conference_name": "Eastern Conference",
@@ -1803,6 +1803,62 @@
     "powered_by_url": "http://hockeytech.com"
    }
   }
+ },
+ "chn.schedule": {
+  "rows": [
+   "02 Fri W 2 - 1 ot at Alaska (nc) 7:07 AT Box Metrics -->",
+   "03 Sat W 4 - 0 at Alaska (nc) 7:07 AT Box Metrics -->",
+   "10 Sat W 3 - 1 Brown (ex) 7:00 ET -->",
+   "16 Fri L 1 - 2 at Vermont 7:00 ET Box Metrics -->",
+   "17 Sat W 2 - 1 ot at Vermont 7:00 ET Box Metrics -->",
+   "22 Thu L 4 - 5 ot at Connecticut 7:00 ET Box Metrics -->",
+   "24 Sat W 6 - 3 Connecticut 7:00 ET Box Metrics -->",
+   "30 Fri W 7 - 2 Maine 7:00 ET Box Metrics -->",
+   "31 Sat W 3 - 2 ot Maine 6:00 ET Box Metrics -->",
+   "06 Fri W 6 - 2 at Michigan State (nc) 7:00 ET Box Metrics -->",
+   "07 Sat L 0 - 5 at Michigan State (nc) 4:30 ET Box Metrics -->",
+   "10 Tue L 5 - 6 Harvard (nc) 7:00 ET Box Metrics -->"
+  ],
+  "parsed": 38
+ },
+ "chn.box": {
+  "url": "https://www.collegehockeynews.com/box/final/20261002/bu_/akf/",
+  "skater_rows": 38,
+  "rows": [
+   [
+    "Tynan Lawrence",
+    "1",
+    "1",
+    "2",
+    "2",
+    "6",
+    "18:07",
+    "0",
+    "5-7"
+   ],
+   [
+    "Jack Murtagh",
+    "1",
+    "0",
+    "1",
+    "1",
+    "3",
+    "15:38",
+    "2",
+    ""
+   ],
+   [
+    "Jack Harvey",
+    "0",
+    "1",
+    "1",
+    "2",
+    "1",
+    "14:56",
+    "0",
+    ""
+   ]
+  ]
  },
  "ahl.gamelog": {
   "SiteKit": {
