@@ -1,0 +1,26 @@
+name: Update data
+on:
+  schedule:
+    # times are UTC: hourly from 4 PM to midnight Vancouver time, plus 6 AM and noon
+    - cron: "7 0-8,14,20 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: update-data
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Pull the latest scores and stats
+        run: python update.py --probe
+      - name: Save the new data
+        run: |
+          git config user.name "prospect-watch-bot"
+          git config user.email "prospect-watch-bot@users.noreply.github.com"
+          git add data.json ids.json probe.json
+          git diff --cached --quiet || git commit -m "Update data"
+          git push
