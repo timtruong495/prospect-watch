@@ -37,7 +37,7 @@ def shape(o, depth=0):
     if isinstance(o, dict):
         return {k: shape(v, depth + 1) for k, v in list(o.items())[:80]} if depth < 5 else "{...}"
     if isinstance(o, list):
-        return [shape(o[0], depth + 1), "... %d items" % len(o)] if o else []
+        return [shape(x, depth + 1) for x in o[:3]] + ["... %d items" % len(o)] if o else []
     return str(o)[:60]
 
 
@@ -191,8 +191,18 @@ def ht_season(league, season):
     raise RuntimeError("no regular season found for %s %s" % (league, season))
 
 
+_TEAMS = {}
+
+
+def ht_teams(league, sid):
+    if (league, sid) not in _TEAMS:
+        data = ht(league, "teams", view="teamsbyseason", season_id=sid)
+        _TEAMS[(league, sid)] = list(find_dicts(data, ("id", "team_id"), ("name", "nickname")))
+    return _TEAMS[(league, sid)]
+
+
 def ht_team_id(league, sid, name):
-    rows = list(find_dicts(ht(league, "teams", view="teamsbyseason", season_id=sid), ("id", "team_id"), ("name", "nickname")))
+    rows = ht_teams(league, sid)
     want = norm(name)
     for r in rows:
         names = {norm(r.get("name")), norm("%s %s" % (r.get("city", ""), r.get("nickname", "")))}
@@ -272,14 +282,31 @@ def ht_record(league, sid, tid, today):
     me = next((r for r in rows if str(r.get("team_id")) == str(tid)), None)
     if not me:
         raise RuntimeError("team %s not in %s standings" % (tid, league))
-    div = g(me, "division_long_name", "division_name", default="")
-    same = sorted((r for r in rows if g(r, "division_long_name", "division_name", default="") == div),
-                  key=lambda r: (-(num(r.get("points")) or 0), -(num(r.get("wins")) or 0)))
-    rank = num(me.get("rank")) or (same.index(me) + 1)
+    # The division comes from the league's team list; the standings rows are grouped by conference.
+    divs = {str(g(r, "id", "team_id")): g(r, "division_long_name", "division_short_name", default="")
+            for r in ht_teams(league, sid)}
+    div = divs.get(str(tid), "")
+
+    def pts(r):
+        return num(r.get("points")) or 0
+
+    def order(r):  # the AHL ranks by points percentage, junior leagues by points
+        gp = num(r.get("games_played")) or 0
+        return (-(pts(r) / gp if gp else 0) if league == "AHL" else -pts(r), -(num(r.get("wins")) or 0))
+
+    seen, same = set(), []
+    for r in rows:
+        rid = str(r.get("team_id"))
+        if rid not in seen and div and divs.get(rid) == div:
+            seen.add(rid)
+            same.append(r)
+    same.sort(key=order)
+    rank = next((i + 1 for i, r in enumerate(same) if str(r.get("team_id")) == str(tid)), None)
     short = div[:-len(" Division")] if div.endswith(" Division") and len(div) > 13 else div
     otl = (num(me.get("ot_losses")) or 0) + (num(me.get("shootout_losses")) or 0)
     return {"w": num(me.get("wins")), "l": num(me.get("losses")), "otl": otl, "pts": num(me.get("points")),
-            "gp": num(me.get("games_played")), "standing": ("%s %s" % (ordinal(rank), short)).strip(), "asOf": today}
+            "gp": num(me.get("games_played")), "standing": ("%s %s" % (ordinal(rank), short)) if rank else "",
+            "asOf": today}
 
 
 # ---------- putting it together ----------
