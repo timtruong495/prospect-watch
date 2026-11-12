@@ -308,12 +308,12 @@
  },
  "nhl.standings": {
   "wildCardIndicator": "True",
-  "standingsDateTimeUtc": "2026-11-12T05:02:00Z",
+  "standingsDateTimeUtc": "2026-11-12T06:05:30Z",
   "standings": [
    {
     "conferenceAbbrev": "W",
     "conferenceHomeSequence": "2",
-    "conferenceL10Sequence": "3",
+    "conferenceL10Sequence": "4",
     "conferenceName": "Western",
     "conferenceRoadSequence": "2",
     "conferenceSequence": "1",
@@ -354,7 +354,7 @@
     "l10Ties": "0",
     "l10Wins": "6",
     "leagueHomeSequence": "6",
-    "leagueL10Sequence": "9",
+    "leagueL10Sequence": "10",
     "leagueRoadSequence": "3",
     "leagueSequence": "1",
     "losses": "3",
@@ -444,8 +444,8 @@
     "l10RegulationWins": "7",
     "l10Ties": "0",
     "l10Wins": "7",
-    "leagueHomeSequence": "9",
-    "leagueL10Sequence": "4",
+    "leagueHomeSequence": "10",
+    "leagueL10Sequence": "5",
     "leagueRoadSequence": "2",
     "leagueSequence": "2",
     "losses": "3",
@@ -495,7 +495,7 @@
    },
    {
     "conferenceAbbrev": "W",
-    "conferenceHomeSequence": "4",
+    "conferenceHomeSequence": "5",
     "conferenceL10Sequence": "1",
     "conferenceName": "Western",
     "conferenceRoadSequence": "1",
@@ -536,7 +536,7 @@
     "l10RegulationWins": "6",
     "l10Ties": "0",
     "l10Wins": "7",
-    "leagueHomeSequence": "12",
+    "leagueHomeSequence": "13",
     "leagueL10Sequence": "2",
     "leagueRoadSequence": "1",
     "leagueSequence": "3",
@@ -841,7 +841,8 @@
     "type": "standings",
     "stat": "conference",
     "lang_id": "1",
-    "league_id": "4"
+    "league_id": "4",
+    "team_id": "0"
    },
    "Statviewtype": [
     {
@@ -1215,7 +1216,7 @@
      "htv_game_id": "",
      "client_code": "whl",
      "scheduled_time": "6:05 pm PCT",
-     "broadcasters": [],
+     "broadcasters": {},
      "mobile_calendar": "https://lscluster.hockeytech.com/components/calendar/ical_ad"
     },
     {
