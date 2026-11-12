@@ -308,7 +308,7 @@
  },
  "nhl.standings": {
   "wildCardIndicator": "True",
-  "standingsDateTimeUtc": "2026-11-12T02:54:30Z",
+  "standingsDateTimeUtc": "2026-11-12T03:57:30Z",
   "standings": [
    {
     "conferenceAbbrev": "E",
@@ -1216,7 +1216,7 @@
      "htv_game_id": "",
      "client_code": "whl",
      "scheduled_time": "6:05 pm PCT",
-     "broadcasters": {},
+     "broadcasters": [],
      "mobile_calendar": "https://lscluster.hockeytech.com/components/calendar/ical_ad"
     },
     {
