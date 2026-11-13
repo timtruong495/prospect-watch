@@ -308,7 +308,7 @@
  },
  "nhl.standings": {
   "wildCardIndicator": "True",
-  "standingsDateTimeUtc": "2026-11-13T14:55:15Z",
+  "standingsDateTimeUtc": "2026-11-13T20:55:30Z",
   "standings": [
    {
     "conferenceAbbrev": "E",
@@ -317,7 +317,7 @@
     "conferenceName": "Eastern",
     "conferenceRoadSequence": "1",
     "conferenceSequence": "1",
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "divisionAbbrev": "M",
     "divisionHomeSequence": "4",
     "divisionL10Sequence": "1",
@@ -409,7 +409,7 @@
     "conferenceName": "Western",
     "conferenceRoadSequence": "1",
     "conferenceSequence": "1",
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "divisionAbbrev": "C",
     "divisionHomeSequence": "3",
     "divisionL10Sequence": "1",
@@ -500,7 +500,7 @@
     "conferenceName": "Western",
     "conferenceRoadSequence": "2",
     "conferenceSequence": "2",
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "divisionAbbrev": "P",
     "divisionHomeSequence": "1",
     "divisionL10Sequence": "1",
@@ -841,7 +841,8 @@
     "type": "standings",
     "stat": "conference",
     "lang_id": "1",
-    "league_id": "4"
+    "league_id": "4",
+    "team_id": "0"
    },
    "Statviewtype": [
     {
@@ -1820,45 +1821,6 @@
   ],
   "parsed": 38
  },
- "chn.box": {
-  "url": "https://www.collegehockeynews.com/box/final/20261112/msu/ndm/",
-  "skater_rows": 38,
-  "rows": [
-   [
-    "Danny Nelson",
-    "0",
-    "2",
-    "2",
-    "1",
-    "0",
-    "19:45",
-    "0",
-    "8-8"
-   ],
-   [
-    "Sammy Nelson",
-    "2",
-    "0",
-    "2",
-    "1",
-    "7",
-    "17:50",
-    "0",
-    "3-4"
-   ],
-   [
-    "Panayioti Fimis",
-    "1",
-    "0",
-    "1",
-    "1",
-    "2",
-    "16:07",
-    "0",
-    "10-5"
-   ]
-  ]
- },
  "ahl.gamelog": {
   "SiteKit": {
    "Parameters": {
@@ -2175,7 +2137,7 @@
       "faceoffs_taken": "0",
       "faceoffs_won": "0"
      },
-     "... 18 items"
+     "... 19 items"
     ]
    },
    "Copyright": {
