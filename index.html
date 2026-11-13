@@ -176,7 +176,7 @@ function statsHtml(s, p){
   const asOf = s.asOf ? fmtDay(s.asOf).replace(/^\w+, /,"") : "";
   const src = s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.src || "source")}</a>` : esc(s.src || "");
   const f = formOf(p);
-  const ppg = !goalie && s.gp > 0 && typeof s.pts === "number" ? (s.pts / s.gp).toFixed(2) + " pts/game" : "";
+  const ppg = !goalie && s.gp > 0 && typeof s.pts === "number" ? `<b>Season:</b> ${(s.pts / s.gp).toFixed(2)} pts/game` : "";
   const formTxt = [f ? `<b>Last ${f.n}:</b> ${esc(f.txt)}` : "", ppg].filter(Boolean).join(" · ");
   return `<div class="stats" aria-label="Season stats">${cells.map(([k,v]) => `<div><b>${v == null ? "–" : esc(v)}</b><span>${k}</span></div>`).join("")}</div>
     ${formTxt ? `<div class="form">${formTxt}</div>` : ""}
@@ -193,7 +193,8 @@ function formOf(p){
     const sv = sum("sv"), ga = sum("ga");
     return {n: gs.length, txt: ga + " GA" + (sv + ga ? ", " + (sv / (sv + ga)).toFixed(3).replace(/^0/, "") + " SV%" : "")};
   }
-  return {n: gs.length, txt: sum("g") + "G " + sum("a") + "A"};
+  const g = sum("g"), a = sum("a");
+  return {n: gs.length, txt: g + "G " + a + "A, " + ((g + a) / gs.length).toFixed(2) + " pts/game"};
 }
 function draftTxt(d){
   if(!d || !d.year) return "";
