@@ -125,6 +125,10 @@ input,select{background:var(--bg);border:1.5px solid var(--line);border-radius:7
 .chip{font:inherit;font-size:.7rem;font-weight:600;line-height:1.5;padding:1px 8px;border-radius:999px;background:var(--soft);color:var(--muted);border:1px solid var(--line)}
 button.chip{font-size:.82rem;padding:4px 11px}
 button.chip[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.filters{display:flex;flex-direction:column;gap:6px}
+button.lgf{--lc:var(--muted);color:var(--lc);letter-spacing:.06em}
+button.lgf.AHL{--lc:var(--ahl)} button.lgf.OHL{--lc:var(--ohl)} button.lgf.NCAA{--lc:var(--ncaa)} button.lgf.NHL{--lc:var(--ink)} button.lgf.WHL{--lc:var(--ncaa)}
+button.lgf[aria-pressed="true"]{background:var(--lc);border-color:var(--lc);color:var(--accent-ink)}
 .form{font-size:.8rem;padding:7px 12px 0;background:var(--soft);font-variant-numeric:tabular-nums}
 .form b{font-weight:600}
 .form+.form{padding-top:2px}
@@ -148,7 +152,7 @@ function fmtDay(iso){ const [y,m,d] = iso.split("-").map(Number); const dt = new
 function fmtTime(t){ if(!t) return "TBA"; let [h,m] = t.split(":").map(Number); const ap = h>=12 ? "PM":"AM"; h = h%12 || 12; return h + ":" + String(m).padStart(2,"0") + " " + ap; }
 function isDone(g, now){ if(g.d < now.date) return true; if(g.d > now.date || !g.t) return false; const [h,m] = g.t.split(":").map(Number); return now.mins > h*60+m+150; }
 
-let prefs = {sel: [], tsel: [], tags: {}, range: "30"};
+let prefs = {sel: [], tsel: [], tags: {}, lgs: {}, range: "30"};
 try { const p = JSON.parse(localStorage.getItem("pw-prefs") || "null"); if(p) prefs = Object.assign(prefs, p); } catch(e){}
 function savePrefs(){ try { localStorage.setItem("pw-prefs", JSON.stringify(prefs)); } catch(e){} }
 
@@ -160,7 +164,10 @@ function listOf(p){ return p.list === "other" ? "other" : "canucks"; }
 function viewList(){ return view === "others" ? "other" : "canucks"; }
 function listPlayers(){ return STATE.players.filter(p => listOf(p) === viewList()); }
 function tagSel(){ const t = (prefs.tags || {})[view]; return t && listPlayers().some(p => (p.tags || []).includes(t)) ? t : null; }
-function viewPlayers(){ const t = tagSel(); return listPlayers().filter(p => !t || (p.tags || []).includes(t)); }
+function leagueOf(p){ return (STATE.teams[p.team] || {}).league || ""; }
+function listLeagues(){ return [...new Set(listPlayers().map(leagueOf).filter(Boolean))].sort(); }
+function lgSel(){ const l = (prefs.lgs || {})[view]; return l && listLeagues().includes(l) ? l : null; }
+function viewPlayers(){ const t = tagSel(), l = lgSel(); return listPlayers().filter(p => (!t || (p.tags || []).includes(t)) && (!l || leagueOf(p) === l)); }
 function playersOn(teamId, pool){ return (pool || viewPlayers()).filter(p => p.team === teamId); }
 function activePlayers(){ const vp = viewPlayers(); const ids = prefs.sel.filter(id => vp.some(p => p.id === id)); return ids.length ? vp.filter(p => ids.includes(p.id)) : vp; }
 function followedTeams(){ return Object.entries(STATE.teams).filter(([,t]) => t.followed).map(([id,t]) => Object.assign({id}, t)); }
@@ -328,6 +335,9 @@ function render(){
   const vp = viewPlayers();
   const allTags = isTeams ? [] : [...new Set(listPlayers().flatMap(p => p.tags || []))].sort();
   const curTag = isTeams ? null : tagSel();
+  const allLgs = isTeams ? [] : listLeagues();
+  const curLg = isTeams ? null : lgSel();
+  const lgRow = allLgs.length > 1 ? `<div class="chips" role="group" aria-label="Filter by league">${allLgs.map(l => `<button type="button" class="chip lgf ${leagueClass(l)}" data-lg="${esc(l)}" aria-pressed="${l === curLg}">${esc(l)}</button>`).join("")}</div>` : "";
   const tagRow = allTags.length ? `<div class="chips" role="group" aria-label="Filter by tag">${allTags.map(t => `<button type="button" class="chip" data-tag="${esc(t)}" aria-pressed="${t === curTag}">${esc(t)}</button>`).join("")}</div>` : "";
   const age = ageDays();
   const stale = age > 2 ? `<div class="stale" role="status">This data is ${Math.floor(age)} days old. The automatic update may have stopped.</div>` : "";
@@ -348,7 +358,7 @@ function render(){
     </header>
     ${stale}
     ${STATE.notice && !isTeams ? `<div class="notice">${esc(STATE.notice)}</div>` : ""}
-    ${tagRow}
+    ${lgRow || tagRow ? `<div class="filters">${lgRow}${tagRow}</div>` : ""}
     <section class="players" aria-label="${isTeams ? "Teams" : "Players"}">${cards || ""}</section>
     ${isTeams ? (followedTeams().length ? "" : `<div class="empty">Team schedules are loading. They appear after the next update.</div>`) : vp.length ? "" : `<div class="empty">No ${view === "others" ? "other " : ""}players yet.</div>`}
     <div class="bar">
@@ -374,6 +384,8 @@ document.addEventListener("click", e => {
   const r = e.target.closest("[data-range]");
   if(r){ prefs.range = r.dataset.range; savePrefs(); render(); return; }
   if(e.target.closest("[data-clear]")){ if(view === "teams") prefs.tsel = []; else prefs.sel = prefs.sel.filter(id => !viewPlayers().some(p => p.id === id)); savePrefs(); render(); return; }
+  const lb = e.target.closest("[data-lg]");
+  if(lb){ const l = lb.dataset.lg; prefs.lgs = Object.assign({}, prefs.lgs, {[view]: lgSel() === l ? null : l}); savePrefs(); render(); return; }
   const tg = e.target.closest("[data-tag]");
   if(tg){ const t = tg.dataset.tag; prefs.tags = Object.assign({}, prefs.tags, {[view]: tagSel() === t ? null : t}); savePrefs(); render(); return; }
 });

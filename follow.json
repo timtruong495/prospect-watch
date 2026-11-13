@@ -41,9 +41,7 @@
     "round": null,
     "pick": null
    },
-   "tags": [
-    "AHL"
-   ],
+   "tags": [],
    "ids": {}
   },
   {
@@ -60,9 +58,7 @@
     "round": 1,
     "pick": 24
    },
-   "tags": [
-    "OHL"
-   ],
+   "tags": [],
    "ids": {
     "hockeytech": 9638,
     "eliteprospects": 876572
@@ -82,9 +78,7 @@
     "round": null,
     "pick": null
    },
-   "tags": [
-    "OHL"
-   ],
+   "tags": [],
    "ids": {
     "eliteprospects": 915961
    }
@@ -103,9 +97,7 @@
     "round": null,
     "pick": null
    },
-   "tags": [
-    "NCAA"
-   ],
+   "tags": [],
    "ids": {
     "collegehockeynews": 60977
    }
@@ -124,9 +116,7 @@
     "round": null,
     "pick": null
    },
-   "tags": [
-    "NCAA"
-   ],
+   "tags": [],
    "ids": {}
   },
   {
@@ -143,9 +133,7 @@
     "round": 6,
     "pick": null
    },
-   "tags": [
-    "NCAA"
-   ],
+   "tags": [],
    "ids": {
     "collegehockeyinc": 61800
    }
@@ -164,9 +152,7 @@
     "round": 6,
     "pick": null
    },
-   "tags": [
-    "NCAA"
-   ],
+   "tags": [],
    "ids": {}
   },
   {
@@ -183,9 +169,7 @@
     "round": 2,
     "pick": 41
    },
-   "tags": [
-    "NCAA"
-   ],
+   "tags": [],
    "ids": {}
   },
   {
@@ -202,9 +186,7 @@
     "round": null,
     "pick": null
    },
-   "tags": [
-    "OHL"
-   ],
+   "tags": [],
    "ids": {}
   },
   {
