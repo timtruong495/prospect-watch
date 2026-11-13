@@ -1,0 +1,366 @@
+{
+ "hc.2026.schedule": {
+  "url": "https://www.hockeycanada.ca/en-ca/team-canada/men/junior/2025-26/world-championship/stats/schedule",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "length": 936190,
+  "title": "2026 IIHF World Junior Championship Schedule | Minneapolis &amp; Saint Paul, Minnesota<!-- --> - <!-- -->2026 IIHF World Junior Championship",
+  "scripts": [
+   "https://hockeycanada.vercel.app/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js",
+   "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+   "https://hockeycanada.vercel.app/_next/static/chunks/webpack-dfb539db4af6defd.js",
+   "https://hockeycanada.vercel.app/_next/static/chunks/framework-ffee79c6390da51e.js",
+   "https://hockeycanada.vercel.app/_next/static/chunks/main-538b3f669ef25e92.js",
+   "https://hockeycanada.vercel.app/_next/static/chunks/pages/_app-d2f6b5b1d0fd9482.js",
+   "https://hockeycanada.vercel.app/_next/static/chunks/1bfc9850-d9902d0e10ec1409.js",
+   "https://hockeycanada.vercel.app/_next/static/chunks/265cea07-5b8f0e5667b59f91.js",
+   "https://hockeycanada.vercel.app/_next/static/chunks/29c1a539-33b677d3aa4ef8b5.js",
+   "https://hockeycanada.vercel.app/_next/static/chunks/75fc9c18-c8186ff75bc30b43.js",
+   "https://hockeycanada.vercel.app/_next/static/chunks/5c0b189e-6a2346c6d69a369d.js",
+   "https://hockeycanada.vercel.app/_next/static/chunks/170-20667dd6bb8c279d.js",
+   "https://hockeycanada.vercel.app/_next/static/chunks/157-ed49566f3ab9e671.js",
+   "https://hockeycanada.vercel.app/_next/static/chunks/pages/%5B...slug%5D-0d786d0a8a7b7882.js",
+   "https://hockeycanada.vercel.app/_next/static/hnEVBHI8xM1qkc6G-FzNt/_buildManifest.js",
+   "https://hockeycanada.vercel.app/_next/static/hnEVBHI8xM1qkc6G-FzNt/_ssgManifest.js"
+  ],
+  "hits": [
+   "imer\"}}]}},\"languageCode\":\"en-ca\",\"channelName\":\"website\",\"isPreview\":false,\"isDevelopmentMode\":false,\"notFound\":false,\"gameId\":null,\"gameData\":null,\"tournamentToggle\":null,\"teamId\":null,\"teamDataTournament\":null,\"liveBlogGameId\":null,\"playerId\":null,\"playerDataTournament\":null},\"__N_S",
+   "\"notFound\":false,\"gameId\":null,\"gameData\":null,\"tournamentToggle\":null,\"teamId\":null,\"teamDataTournament\":null,\"liveBlogGameId\":null,\"playerId\":null,\"playerDataTournament\":null},\"__N_SSG\":true},\"page\":\"/[...slug]\",\"query\":{\"slug\":[\"team-canada\",\"men\",\"junior\",\"2025-26\",\"world-champions"
+  ],
+  "scriptHits": {
+   "https://hockeycanada.vercel.app/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js": {
+    "status": 200,
+    "hits": [
+     "l!=a&&Nr(a,t[n],t,r)}),a=$r(e),u=function(t,e,r){var n,o,u=a(t),c=s(t,e);return c?c.value=r:(u.last=c={index:o=Kr(e,!0),key:e,value:r,previous:n=u.last,next:void 0,removed:!1},u.first||(u.first=c),n&&(n.next=c),i?u.size++:t.size++,\"F\"!==o&&(u.index[o]=c)),t},s=function(t,e){var r,n=a",
+     "==o&&(u.index[o]=c)),t},s=function(t,e){var r,n=a(t),o=Kr(e);if(\"F\"!==o)return n.index[o];for(r=n.first;r;r=r.next)if(r.key==e)return r};return Dr(o.prototype,{clear:function(){for(var t=a(this),e=t.index,r=t.first;r;)r.removed=!0,r.previous&&(r.previous=r.previous.next=void 0),delet",
+     "e\"),wa(\"search\"),wa(\"species\"),wa(\"split\"),wa(\"toPrimitive\"),wa(\"toStringTag\"),wa(\"unscopables\"),Ce(Math,\"Math\",!0),Ce(n.JSON,\"JSON\",!0),wa(\"asyncDispose\"),wa(\"dispose\"),wa(\"observable\"),wa(\"patternMatch\"),wa(\"replaceAll\"),ma.f(\"asyncIterator\");var iu=je.codeAt;Lt({target:\"String\",pro",
+     "ace(cs,ls)},ps=function(t,e){if(e)for(var r,n,o=e.split(\"&\"),i=0;i<o.length;)(r=o[i++]).length&&(n=r.split(\"=\"),t.push({key:ss(n.shift()),value:ss(n.join(\"=\"))}))},ds=function(t){this.entries.length=0,ps(this.entries,t)},vs=function(t,e){if(t<e)throw TypeError(\"Not enough arguments\")",
+     "d:e})},\"Iterator\",function(){var t=ns(this),e=t.kind,r=t.iterator.next(),n=r.value;return r.done||(r.value=\"keys\"===e?n.key:\"values\"===e?n.value:[n.key,n.value]),r}),ys=function(){Cr(this,ys,Zu);var t,e,r,n,o,i,a,u,s,c=arguments.length>0?arguments[0]:void 0,f=this,l=[];if(es(f,{type:",
+     "))).next).call(o)).done||(u=i.call(o)).done||!i.call(o).done)throw TypeError(\"Expected sequence with length 2\");l.push({key:a.value+\"\",value:u.value+\"\"})}else for(s in c)w(c,s)&&l.push({key:s,value:c[s]+\"\"});else ps(l,\"string\"==typeof c?\"?\"===c.charAt(0)?c.slice(1):c:c+\"\")},ms=ys.pro",
+     ")?c.slice(1):c:c+\"\")},ms=ys.prototype;Dr(ms,{append:function(t,e){vs(arguments.length,2);var r=rs(this);r.entries.push({key:t+\"\",value:e+\"\"}),r.updateURL()},delete:function(t){vs(arguments.length,1);for(var e=rs(this),r=e.entries,n=t+\"\",o=0;o<r.length;)r[o].key===n?r.splice(o,1):o++;",
+     "\"}),r.updateURL()},delete:function(t){vs(arguments.length,1);for(var e=rs(this),r=e.entries,n=t+\"\",o=0;o<r.length;)r[o].key===n?r.splice(o,1):o++;e.updateURL()},get:function(t){vs(arguments.length,1);for(var e=rs(this).entries,r=t+\"\",n=0;n<e.length;n++)if(e[n].key===r)return e[n].val",
+     ":o++;e.updateURL()},get:function(t){vs(arguments.length,1);for(var e=rs(this).entries,r=t+\"\",n=0;n<e.length;n++)if(e[n].key===r)return e[n].value;return null},getAll:function(t){vs(arguments.length,1);for(var e=rs(this).entries,r=t+\"\",n=[],o=0;o<e.length;o++)e[o].key===r&&n.push(e[o]",
+     "e;return null},getAll:function(t){vs(arguments.length,1);for(var e=rs(this).entries,r=t+\"\",n=[],o=0;o<e.length;o++)e[o].key===r&&n.push(e[o].value);return n},has:function(t){vs(arguments.length,1);for(var e=rs(this).entries,r=t+\"\",n=0;n<e.length;)if(e[n++].key===r)return!0;return!1},",
+     "[o].value);return n},has:function(t){vs(arguments.length,1);for(var e=rs(this).entries,r=t+\"\",n=0;n<e.length;)if(e[n++].key===r)return!0;return!1},set:function(t,e){vs(arguments.length,1);for(var r,n=rs(this),o=n.entries,i=!1,a=t+\"\",u=e+\"\",s=0;s<o.length;s++)(r=o[s]).key===a&&(i?o.sp",
+     "et:function(t,e){vs(arguments.length,1);for(var r,n=rs(this),o=n.entries,i=!1,a=t+\"\",u=e+\"\",s=0;s<o.length;s++)(r=o[s]).key===a&&(i?o.splice(s--,1):(i=!0,r.value=u));i||o.push({key:a,value:u}),n.updateURL()},sort:function(){var t,e,r,n=rs(this),o=n.entries,i=o.slice();for(o.length=0,",
+     " body as text\");return Promise.resolve(this._bodyText)},gl&&(this.formData=function(){return this.text().then(kl)}),this.json=function(){return this.text().then(JSON.parse)},this}xl.prototype.append=function(t,e){t=wl(t),e=Sl(e);var r=this.map[t];this.map[t]=r?r+\", \"+e:e},xl.prototype"
+    ]
+   },
+   "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js": {
+    "status": 200,
+    "hits": [
+     "m=d(this,h);m.list||(m.list=this[0][m.id]=[]);m.entry?m.entry.value=k:(m.entry={next:this[1],ca:this[1].ca,head:this[1],key:h,value:k},m.list.push(m.entry),this[1].ca.next=m.entry,this[1].ca=m.entry,this.size++);return this};e.prototype.delete=function(h){h=d(this,h);return h.entry&&",
+     "esponsive_dummy_ad\")&&(tb([1,2,3,4,5,6,7,8],e.F)||e.h===1)&&e.h!==2&&(f=JSON.stringify({googMsgType:\"adpnt\",key_value:[{key:\"qid\",value:\"DUMMY_AD\"}]}),c.dash=\"<\"+Xp+\">window.top.postMessage('\"+f+\"', '*');\\n          </\"+Xp+'>\\n          <div id=\"dummyAd\" style=\"width:'+d+\"px;height:\""
+    ]
+   },
+   "https://hockeycanada.vercel.app/_next/static/chunks/webpack-dfb539db4af6defd.js": {
+    "status": 200,
+    "hits": [
+     "(document.cookie))return;}catch(e){return;}var s=document.createElement('script');s.src='https://vercel.live/_next-live/feedback/feedback.js';s.setAttribute(\"data-explicit-opt-in\",\"true\");s.setAttribute(\"data-cookie-opt-in\",\"true\");s.setAttribute(\"data-deployment-id\",\"dpl_8oEWPtffDVZ"
+    ]
+   },
+   "https://hockeycanada.vercel.app/_next/static/chunks/framework-ffee79c6390da51e.js": {
+    "status": 200,
+    "hits": [
+     "iveEvent;return b.getModifierState?b.getModifierState(a):!!(a=Od[a])&&!!b[a]}function zd(){return Pd}var Rd=rd(A({},ud,{key:function(a){if(a.key){var b=Md[a.key]||a.key;if(\"Unidentified\"!==b)return b}return\"keypress\"===a.type?13===(a=od(a))?\"Enter\":String.fromCharCode(a):\"keydown\"===",
+     "d),c)}if(eb(b)||Ka(b))return(b=Ah(b,a.mode,c,null)).return=a,b;th(a,b)}return null}function r(a,b,c,d){var e=null!==b?b.key:null;if(\"string\"==typeof c&&\"\"!==c||\"number\"==typeof c)return null!==e?null:h(a,b,\"\"+c,d);if(\"object\"==typeof c&&null!==c){switch(c.$$typeof){case va:return c.k",
+     "mber\"==typeof c)return null!==e?null:h(a,b,\"\"+c,d);if(\"object\"==typeof c&&null!==c){switch(c.$$typeof){case va:return c.key===e?k(a,b,c,d):null;case wa:return c.key===e?l(a,b,c,d):null;case Ha:return r(a,b,(e=c._init)(c._payload),d)}if(eb(c)||Ka(c))return null!==e?null:m(a,b,c,d,null",
+     "f1.props.children),\"object\"==typeof f1&&null!==f1){switch(f1.$$typeof){case va:a:{for(var k=f1.key,l=d1;null!==l;){if(l.key===k){if((k=f1.type)===ya){if(7===l.tag){c(a1,l.sibling),(d1=e(l,f1.props.children)).return=a1,a1=d1;break a}}else if(l.elementType===k||\"object\"==typeof k&&null",
+     "key,f1.props,null,a1.mode,h)).ref=sh(a1,d1,f1),h.return=a1,a1=h)}return g(a1);case wa:a:{for(l=f1.key;null!==d1;){if(d1.key===l){if(4===d1.tag&&d1.stateNode.containerInfo===f1.containerInfo&&d1.stateNode.implementation===f1.implementation){c(a1,d1.sibling),(d1=e(d1,f1.children||[])).",
+     "e 19:d=a.stateNode;break;default:throw Error(p(314))}null!==d&&d.delete(b),Zk(a,c)}function al(a,b,c,d){this.tag=a,this.key=c,this.sibling=this.child=this.return=this.stateNode=this.type=this.elementType=null,this.index=0,this.ref=null,this.pendingProps=b,this.dependencies=this.memoi",
+     "ror(p(200));return function(a,b,c){var d=3<arguments.length&&void 0!==arguments[3]?arguments[3]:null;return{$$typeof:wa,key:null==d?null:\"\"+d,children:a,containerInfo:b,implementation:null}}(a,b,null,c)},exports.createRoot=function(a,b){if(!ol(a))throw Error(p(299));var c=!1,d=\"\",e=l",
+     "ragment\"),m=Object.prototype.hasOwnProperty,n=f.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,p={key:!0,ref:!0,__self:!0,__source:!0};function q(c,a,g){var b,d={},e=null,h=null;for(b in void 0!==g&&(e=\"\"+g),void 0!==a.key&&(e=\"\"+a.key),void 0!==a.ref&&(h=a.ref)",
+     "erty(b)&&(d[b]=a[b]);if(c&&c.defaultProps)for(b in a=c.defaultProps)void 0===d[b]&&(d[b]=a[b]);return{$$typeof:k,type:c,key:e,ref:h,props:d,_owner:n.current}}exports.Fragment=l,exports.jsx=q,exports.jsxs=q},2408:function(__unused_webpack_module,exports){/**  * @license React  * react",
+     "=G,C(H,E.prototype),H.isPureReactComponent=!0;var I=Array.isArray,J=Object.prototype.hasOwnProperty,K={current:null},L={key:!0,ref:!0,__self:!0,__source:!0};function M(a,b,e){var d,c={},k=null,h=null;if(null!=b)for(d in void 0!==b.ref&&(h=b.ref),void 0!==b.key&&(k=\"\"+b.key),b)J.call(",
+     "ts[m+2];c.children=f}if(a&&a.defaultProps)for(d in g=a.defaultProps)void 0===c[d]&&(c[d]=g[d]);return{$$typeof:l,type:a,key:k,ref:h,props:c,_owner:K.current}}function O(a){return\"object\"==typeof a&&null!==a&&a.$$typeof===l}var P=/\\/+/g;function Q(a,b){var a1,b1;return\"object\"==typeof",
+     ")?(e=\"\",null!=a&&(e=a.replace(P,\"$&/\")+\"/\"),R(c,b,e,\"\",function(a){return a})):null!=c&&(O(c)&&(a1=c,b1=e+(!c.key||h&&h.key===c.key?\"\":(\"\"+c.key).replace(P,\"$&/\")+\"/\")+a,c={$$typeof:l,type:a1.type,key:b1,ref:a1.ref,props:a1.props,_owner:a1._owner}),b.push(c)),1;if(h=0,d=\"\"===d?\".\":d+",
+     "d.children=e;else if(1<f){g=Array(f);for(var m=0;m<f;m++)g[m]=arguments[m+2];d.children=g}return{$$typeof:l,type:a.type,key:c,ref:k,props:d,_owner:h}},exports.createContext=function(a){return(a={$$typeof:u,_currentValue:a,_currentValue2:a,_threadCount:0,Provider:null,Consumer:null,_d"
+    ]
+   },
+   "https://hockeycanada.vercel.app/_next/static/chunks/main-538b3f669ef25e92.js": {
+    "status": 200,
+    "hits": [
+     "e,excluded){if(null==source)return{};var key,i,target={},sourceKeys=Object.keys(source);for(i=0;i<sourceKeys.length;i++)key=sourceKeys[i],excluded.indexOf(key)>=0||(target[key]=source[key]);return target}},37:function(){\"trimStart\"in String.prototype||(String.prototype.trimStart=Stri",
+     "t dataRoute=_getAssetPathFromRoute.default(_removeTrailingSlash.removeTrailingSlash(_addLocale.addLocale(path,locale)),\".json\");return _addBasePath.addBasePath(\"/_next/data/\".concat(this.buildId).concat(dataRoute).concat(search),!0)})(params.skipInterpolation?asPathname:_isDynamic.isD",
+     "ategories={};return h=>{let isUnique=!0,hasKey=!1;if(h.key&&\"number\"!=typeof h.key&&h.key.indexOf(\"$\")>0){hasKey=!0;let key=h.key.slice(h.key.indexOf(\"$\")+1);keys.has(key)?isUnique=!1:keys.add(key)}switch(h.type){case\"title\":case\"base\":tags.has(h.type)?isUnique=!1:tags.add(h.type);br",
+     "que=!1:(categories.add(category),metaCategories[metatype]=categories)}}}}return isUnique}}()).reverse().map((c,i)=>{let key=c.key||i;if(!inAmpMode&&\"link\"===c.type&&c.props.href&&[\"https://fonts.googleapis.com/css\",\"https://use.typekit.net/\"].some(url=>c.props.href.startsWith(url))){",
+     "h(origin)?url.substring(origin.length):url}function omit(object,keys){let omitted={};return Object.keys(object).forEach(key=>{keys.includes(key)||(omitted[key]=object[key])}),omitted}function isLocalURL(url){if(!_utils.isAbsoluteUrl(url))return!0;try{let locationOrigin=_utils.getLoca",
+     "ePath(parsed.pathname):parsed.pathname;if(routeMatch&&pathname!==cleanedParsedPathname&&Object.keys(routeMatch).forEach(key=>{routeMatch&&query[key]===routeMatch[key]&&delete query[key]}),_isDynamic.isDynamicRoute(pathname)){let prefixedAs=!routeProps.shallow&&routeInfo.resolvedAs?ro",
+     "ushState\"!==method||_utils.getURL()!==as)&&(this._shallow=options.shallow,window.history[method]({url,as,options,__N:!0,key:this._key=\"pushState\"!==method?this._key:createKey()},\"\",as))}handleRouteInfoError(err,pathname,query,as,routeProps,loadErrorFail){var _this=this;return _async_",
+     "e:\"next\"})})(data.dataHref,data.response,options).then(effect=>({dataHref:data.dataHref,cacheKey:data.cacheKey,json:data.json,response:data.response,text:data.text,effect}))).catch(_err=>null):null));if(isQueryUpdating&&data&&(data.json=self.__NEXT_DATA__.props),handleCancelled(),(nul",
+     "json:data.json,response:data.response,text:data.text,effect}))).catch(_err=>null):null));if(isQueryUpdating&&data&&(data.json=self.__NEXT_DATA__.props),handleCancelled(),(null==data?void 0:null==(ref=data.effect)?void 0:ref.type)===\"redirect-internal\"||(null==data?void 0:null==(ref4=d",
+     "nfo&&_this.route===route&&!hasMiddleware))return _extends({},existingInfo,{route});if(\"/api\"===route||route.startsWith(\"/api/\"))return handleHardNavigation({url:as,router:_this}),new Promise(()=>{});let routeInfo=cachedRouteInfo||(yield _this.fetchComponent(route).then(res=>({Componen",
+     " _this._getData(_async_to_generator(function*(){if(shouldFetchData){let{json,cacheKey:_cacheKey}=(null==data?void 0:data.json)?data:yield fetchNextData({dataHref:_this.pageLoader.getDataHref({href:_formatUrl.formatWithValidation({pathname,query}),asPath:resolvedAs,locale}),isServerRen",
+     "{let stateKeys=Object.keys(a);if(stateKeys.length!==Object.keys(b).length)return!1;for(let i=stateKeys.length;i--;){let key=stateKeys[i];if(\"query\"===key){let queryKeys=Object.keys(a.query);if(queryKeys.length!==Object.keys(b.query).length)return!1;for(let j=queryKeys.length;j--;){le",
+     "ffix.addPathSuffix(_addPathPrefix.addPathPrefix(pathname,\"/_next/data/\".concat(info.buildId)),\"/\"===info.pathname?\"index.json\":\".json\")),pathname=_addPathPrefix.addPathPrefix(pathname,info.basePath),!info.buildId&&info.trailingSlash?pathname.endsWith(\"/\")?pathname:_addPathSuffix.addPa",
+     "Path),info.basePath=basePath),!0===options.parseData&&info.pathname.startsWith(\"/_next/data/\")&&info.pathname.endsWith(\".json\")){let paths=info.pathname.replace(/^\\/_next\\/data\\//,\"\").replace(/\\.json$/,\"\").split(\"/\"),buildId=paths[0];info.pathname=\"index\"!==paths[1]?\"/\".concat(paths.s",
+     "ramsList[_key-1]=arguments[_key];return searchParamsList.forEach(searchParams=>{Array.from(searchParams.keys()).forEach(key=>target.delete(key)),searchParams.forEach((value,key)=>target.append(key,value))}),target}},2650:function(__unused_webpack_module,exports,__webpack_require__){\""
+    ]
+   },
+   "https://hockeycanada.vercel.app/_next/static/chunks/pages/_app-d2f6b5b1d0fd9482.js": {
+    "status": 200,
+    "hits": [
+     "tails)&&(theDetails_1=payloadDetails(),payloadDetails=null),theDetails_1}}),_self[_DYN_GET_CTX]=function(key){return key?key===PerfEvent[strParentContextKey]||key===PerfEvent[strChildrenContextKey]?_self[key]:(_self.ctx||{})[key]:null},_self[_DYN_SET_CTX]=function(key,value){key&&(key",
+     "===PerfEvent[strChildrenContextKey]?_self[key]:(_self.ctx||{})[key]:null},_self[_DYN_SET_CTX]=function(key,value){key&&(key===PerfEvent[strParentContextKey]?(_self[key]||(_self[_DYN_IS_CHILD_EVT]=function(){return!0}),_self[key]=value):key===PerfEvent[strChildrenContextKey]?_self[key",
+     "y&&(key===PerfEvent[strParentContextKey]?(_self[key]||(_self[_DYN_IS_CHILD_EVT]=function(){return!0}),_self[key]=value):key===PerfEvent[strChildrenContextKey]?_self[key]=value:(_self.ctx=_self.ctx||{})[key]=value)},_self.complete=function(){var childTime=0,childEvts=_self[_DYN_GET_CT",
+     "nts[name]&&_throwInternal(logger,2,62,\"start was called more than once for this event without calling stop.\",{name:name,key:name},!0),_events[name]=+new Date},_self.stop=function(name,url,properties,measurements){var start=_events[name];if(isNaN(start))_throwInternal(logger,2,63,\"sto",
+     "rt=_events[name];if(isNaN(start))_throwInternal(logger,2,63,\"stop was called without a corresponding start.\",{name:name,key:name},!0);else{var duration=dateTimeUtilsDuration(start,+new Date);_self.action(name,url,duration,properties,measurements)}delete _events[name],_events[name]=vo",
+     "().parse(buffer_1)),buffer_1&&ts_utils_isArray(buffer_1))return buffer_1}}catch(e){_throwInternal(logger,1,42,\" storage key: \"+key+\", \"+getExceptionName(e),{exception:dumpObj(e)})}return[]}function _setBuffer(key,buffer){var prefixedKey=key;try{prefixedKey=_namePrefix?_namePrefix+\"_\"",
+     "on)}catch(e){setItem(logger,prefixedKey,JSON[_DynamicConstants_DYN_STRINGIFY]([])),_throwInternal(logger,2,41,\" storage key: \"+prefixedKey+\", \"+getExceptionName(e)+\". Buffer cleared\",{exception:dumpObj(e)})}}function _getItemsFromPreviousKey(key){try{var items=_getBufferBase(key),tra",
+     ",kv){var kvParts=kv[dist_es5_DynamicConstants_DYN_SPLIT](\"=\");if(2===kvParts[dist_es5_DynamicConstants_DYN_LENGTH]){var key=kvParts[0][dist_es5_DynamicConstants_DYN_TO_LOWER_CASE](),value=kvParts[1];fields[key]=value}return fields},{});if(objKeys(result)[dist_es5_DynamicConstants_DYN",
+     "=cfgDfMerge(((_d={}).AppInsightsCfgSyncPlugin=cfgDfMerge({cfgUrl:\"https://js.monitor.azure.com/scripts/b/ai.config.1.cfg.json\",syncMode:2}),_d)),AISku_a);function _parseCs(config,configCs){return createSyncPromise(function(resolve,reject){doAwaitResponse(configCs,function(res){var cur"
+    ]
+   }
+  }
+ },
+ "hc.2026.playerstats": {
+  "url": "https://www.hockeycanada.ca/en-ca/team-canada/men/junior/2025-26/world-championship/stats/player-stats",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "length": 1016110,
+  "title": "Player Statistics<!-- --> - <!-- -->2026 IIHF World Junior Championship",
+  "scripts": [
+   "https://hockeycanada.vercel.app/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js",
+   "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+   "https://hockeycanada.vercel.app/_next/static/chunks/webpack-dfb539db4af6defd.js",
+   "https://hockeycanada.vercel.app/_next/static/chunks/framework-ffee79c6390da51e.js",
+   "https://hockeycanada.vercel.app/_next/static/chunks/main-538b3f669ef25e92.js",
+   "https://hockeycanada.vercel.app/_next/static/chunks/pages/_app-d2f6b5b1d0fd9482.js",
+   "https://hockeycanada.vercel.app/_next/static/chunks/1bfc9850-d9902d0e10ec1409.js",
+   "https://hockeycanada.vercel.app/_next/static/chunks/265cea07-5b8f0e5667b59f91.js",
+   "https://hockeycanada.vercel.app/_next/static/chunks/29c1a539-33b677d3aa4ef8b5.js",
+   "https://hockeycanada.vercel.app/_next/static/chunks/75fc9c18-c8186ff75bc30b43.js",
+   "https://hockeycanada.vercel.app/_next/static/chunks/5c0b189e-6a2346c6d69a369d.js",
+   "https://hockeycanada.vercel.app/_next/static/chunks/170-20667dd6bb8c279d.js",
+   "https://hockeycanada.vercel.app/_next/static/chunks/157-ed49566f3ab9e671.js",
+   "https://hockeycanada.vercel.app/_next/static/chunks/pages/%5B...slug%5D-0d786d0a8a7b7882.js",
+   "https://hockeycanada.vercel.app/_next/static/hnEVBHI8xM1qkc6G-FzNt/_buildManifest.js",
+   "https://hockeycanada.vercel.app/_next/static/hnEVBHI8xM1qkc6G-FzNt/_ssgManifest.js"
+  ],
+  "hits": [
+   "imer\"}}]}},\"languageCode\":\"en-ca\",\"channelName\":\"website\",\"isPreview\":false,\"isDevelopmentMode\":false,\"notFound\":false,\"gameId\":null,\"gameData\":null,\"tournamentToggle\":null,\"teamId\":null,\"teamDataTournament\":null,\"liveBlogGameId\":null,\"playerId\":null,\"playerDataTournament\":null},\"__N_S",
+   "\"notFound\":false,\"gameId\":null,\"gameData\":null,\"tournamentToggle\":null,\"teamId\":null,\"teamDataTournament\":null,\"liveBlogGameId\":null,\"playerId\":null,\"playerDataTournament\":null},\"__N_SSG\":true},\"page\":\"/[...slug]\",\"query\":{\"slug\":[\"team-canada\",\"men\",\"junior\",\"2025-26\",\"world-champions"
+  ],
+  "scriptHits": {
+   "https://hockeycanada.vercel.app/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js": {
+    "status": 200,
+    "hits": [
+     "l!=a&&Nr(a,t[n],t,r)}),a=$r(e),u=function(t,e,r){var n,o,u=a(t),c=s(t,e);return c?c.value=r:(u.last=c={index:o=Kr(e,!0),key:e,value:r,previous:n=u.last,next:void 0,removed:!1},u.first||(u.first=c),n&&(n.next=c),i?u.size++:t.size++,\"F\"!==o&&(u.index[o]=c)),t},s=function(t,e){var r,n=a",
+     "==o&&(u.index[o]=c)),t},s=function(t,e){var r,n=a(t),o=Kr(e);if(\"F\"!==o)return n.index[o];for(r=n.first;r;r=r.next)if(r.key==e)return r};return Dr(o.prototype,{clear:function(){for(var t=a(this),e=t.index,r=t.first;r;)r.removed=!0,r.previous&&(r.previous=r.previous.next=void 0),delet",
+     "e\"),wa(\"search\"),wa(\"species\"),wa(\"split\"),wa(\"toPrimitive\"),wa(\"toStringTag\"),wa(\"unscopables\"),Ce(Math,\"Math\",!0),Ce(n.JSON,\"JSON\",!0),wa(\"asyncDispose\"),wa(\"dispose\"),wa(\"observable\"),wa(\"patternMatch\"),wa(\"replaceAll\"),ma.f(\"asyncIterator\");var iu=je.codeAt;Lt({target:\"String\",pro",
+     "ace(cs,ls)},ps=function(t,e){if(e)for(var r,n,o=e.split(\"&\"),i=0;i<o.length;)(r=o[i++]).length&&(n=r.split(\"=\"),t.push({key:ss(n.shift()),value:ss(n.join(\"=\"))}))},ds=function(t){this.entries.length=0,ps(this.entries,t)},vs=function(t,e){if(t<e)throw TypeError(\"Not enough arguments\")",
+     "d:e})},\"Iterator\",function(){var t=ns(this),e=t.kind,r=t.iterator.next(),n=r.value;return r.done||(r.value=\"keys\"===e?n.key:\"values\"===e?n.value:[n.key,n.value]),r}),ys=function(){Cr(this,ys,Zu);var t,e,r,n,o,i,a,u,s,c=arguments.length>0?arguments[0]:void 0,f=this,l=[];if(es(f,{type:",
+     "))).next).call(o)).done||(u=i.call(o)).done||!i.call(o).done)throw TypeError(\"Expected sequence with length 2\");l.push({key:a.value+\"\",value:u.value+\"\"})}else for(s in c)w(c,s)&&l.push({key:s,value:c[s]+\"\"});else ps(l,\"string\"==typeof c?\"?\"===c.charAt(0)?c.slice(1):c:c+\"\")},ms=ys.pro",
+     ")?c.slice(1):c:c+\"\")},ms=ys.prototype;Dr(ms,{append:function(t,e){vs(arguments.length,2);var r=rs(this);r.entries.push({key:t+\"\",value:e+\"\"}),r.updateURL()},delete:function(t){vs(arguments.length,1);for(var e=rs(this),r=e.entries,n=t+\"\",o=0;o<r.length;)r[o].key===n?r.splice(o,1):o++;",
+     "\"}),r.updateURL()},delete:function(t){vs(arguments.length,1);for(var e=rs(this),r=e.entries,n=t+\"\",o=0;o<r.length;)r[o].key===n?r.splice(o,1):o++;e.updateURL()},get:function(t){vs(arguments.length,1);for(var e=rs(this).entries,r=t+\"\",n=0;n<e.length;n++)if(e[n].key===r)return e[n].val",
+     ":o++;e.updateURL()},get:function(t){vs(arguments.length,1);for(var e=rs(this).entries,r=t+\"\",n=0;n<e.length;n++)if(e[n].key===r)return e[n].value;return null},getAll:function(t){vs(arguments.length,1);for(var e=rs(this).entries,r=t+\"\",n=[],o=0;o<e.length;o++)e[o].key===r&&n.push(e[o]",
+     "e;return null},getAll:function(t){vs(arguments.length,1);for(var e=rs(this).entries,r=t+\"\",n=[],o=0;o<e.length;o++)e[o].key===r&&n.push(e[o].value);return n},has:function(t){vs(arguments.length,1);for(var e=rs(this).entries,r=t+\"\",n=0;n<e.length;)if(e[n++].key===r)return!0;return!1},",
+     "[o].value);return n},has:function(t){vs(arguments.length,1);for(var e=rs(this).entries,r=t+\"\",n=0;n<e.length;)if(e[n++].key===r)return!0;return!1},set:function(t,e){vs(arguments.length,1);for(var r,n=rs(this),o=n.entries,i=!1,a=t+\"\",u=e+\"\",s=0;s<o.length;s++)(r=o[s]).key===a&&(i?o.sp",
+     "et:function(t,e){vs(arguments.length,1);for(var r,n=rs(this),o=n.entries,i=!1,a=t+\"\",u=e+\"\",s=0;s<o.length;s++)(r=o[s]).key===a&&(i?o.splice(s--,1):(i=!0,r.value=u));i||o.push({key:a,value:u}),n.updateURL()},sort:function(){var t,e,r,n=rs(this),o=n.entries,i=o.slice();for(o.length=0,",
+     " body as text\");return Promise.resolve(this._bodyText)},gl&&(this.formData=function(){return this.text().then(kl)}),this.json=function(){return this.text().then(JSON.parse)},this}xl.prototype.append=function(t,e){t=wl(t),e=Sl(e);var r=this.map[t];this.map[t]=r?r+\", \"+e:e},xl.prototype"
+    ]
+   },
+   "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js": {
+    "status": 200,
+    "hits": [
+     "m=d(this,h);m.list||(m.list=this[0][m.id]=[]);m.entry?m.entry.value=k:(m.entry={next:this[1],ca:this[1].ca,head:this[1],key:h,value:k},m.list.push(m.entry),this[1].ca.next=m.entry,this[1].ca=m.entry,this.size++);return this};e.prototype.delete=function(h){h=d(this,h);return h.entry&&",
+     "esponsive_dummy_ad\")&&(tb([1,2,3,4,5,6,7,8],e.F)||e.h===1)&&e.h!==2&&(f=JSON.stringify({googMsgType:\"adpnt\",key_value:[{key:\"qid\",value:\"DUMMY_AD\"}]}),c.dash=\"<\"+Xp+\">window.top.postMessage('\"+f+\"', '*');\\n          </\"+Xp+'>\\n          <div id=\"dummyAd\" style=\"width:'+d+\"px;height:\""
+    ]
+   },
+   "https://hockeycanada.vercel.app/_next/static/chunks/webpack-dfb539db4af6defd.js": {
+    "status": 200,
+    "hits": [
+     "(document.cookie))return;}catch(e){return;}var s=document.createElement('script');s.src='https://vercel.live/_next-live/feedback/feedback.js';s.setAttribute(\"data-explicit-opt-in\",\"true\");s.setAttribute(\"data-cookie-opt-in\",\"true\");s.setAttribute(\"data-deployment-id\",\"dpl_8oEWPtffDVZ"
+    ]
+   },
+   "https://hockeycanada.vercel.app/_next/static/chunks/framework-ffee79c6390da51e.js": {
+    "status": 200,
+    "hits": [
+     "iveEvent;return b.getModifierState?b.getModifierState(a):!!(a=Od[a])&&!!b[a]}function zd(){return Pd}var Rd=rd(A({},ud,{key:function(a){if(a.key){var b=Md[a.key]||a.key;if(\"Unidentified\"!==b)return b}return\"keypress\"===a.type?13===(a=od(a))?\"Enter\":String.fromCharCode(a):\"keydown\"===",
+     "d),c)}if(eb(b)||Ka(b))return(b=Ah(b,a.mode,c,null)).return=a,b;th(a,b)}return null}function r(a,b,c,d){var e=null!==b?b.key:null;if(\"string\"==typeof c&&\"\"!==c||\"number\"==typeof c)return null!==e?null:h(a,b,\"\"+c,d);if(\"object\"==typeof c&&null!==c){switch(c.$$typeof){case va:return c.k",
+     "mber\"==typeof c)return null!==e?null:h(a,b,\"\"+c,d);if(\"object\"==typeof c&&null!==c){switch(c.$$typeof){case va:return c.key===e?k(a,b,c,d):null;case wa:return c.key===e?l(a,b,c,d):null;case Ha:return r(a,b,(e=c._init)(c._payload),d)}if(eb(c)||Ka(c))return null!==e?null:m(a,b,c,d,null",
+     "f1.props.children),\"object\"==typeof f1&&null!==f1){switch(f1.$$typeof){case va:a:{for(var k=f1.key,l=d1;null!==l;){if(l.key===k){if((k=f1.type)===ya){if(7===l.tag){c(a1,l.sibling),(d1=e(l,f1.props.children)).return=a1,a1=d1;break a}}else if(l.elementType===k||\"object\"==typeof k&&null",
+     "key,f1.props,null,a1.mode,h)).ref=sh(a1,d1,f1),h.return=a1,a1=h)}return g(a1);case wa:a:{for(l=f1.key;null!==d1;){if(d1.key===l){if(4===d1.tag&&d1.stateNode.containerInfo===f1.containerInfo&&d1.stateNode.implementation===f1.implementation){c(a1,d1.sibling),(d1=e(d1,f1.children||[])).",
+     "e 19:d=a.stateNode;break;default:throw Error(p(314))}null!==d&&d.delete(b),Zk(a,c)}function al(a,b,c,d){this.tag=a,this.key=c,this.sibling=this.child=this.return=this.stateNode=this.type=this.elementType=null,this.index=0,this.ref=null,this.pendingProps=b,this.dependencies=this.memoi",
+     "ror(p(200));return function(a,b,c){var d=3<arguments.length&&void 0!==arguments[3]?arguments[3]:null;return{$$typeof:wa,key:null==d?null:\"\"+d,children:a,containerInfo:b,implementation:null}}(a,b,null,c)},exports.createRoot=function(a,b){if(!ol(a))throw Error(p(299));var c=!1,d=\"\",e=l",
+     "ragment\"),m=Object.prototype.hasOwnProperty,n=f.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,p={key:!0,ref:!0,__self:!0,__source:!0};function q(c,a,g){var b,d={},e=null,h=null;for(b in void 0!==g&&(e=\"\"+g),void 0!==a.key&&(e=\"\"+a.key),void 0!==a.ref&&(h=a.ref)",
+     "erty(b)&&(d[b]=a[b]);if(c&&c.defaultProps)for(b in a=c.defaultProps)void 0===d[b]&&(d[b]=a[b]);return{$$typeof:k,type:c,key:e,ref:h,props:d,_owner:n.current}}exports.Fragment=l,exports.jsx=q,exports.jsxs=q},2408:function(__unused_webpack_module,exports){/**  * @license React  * react",
+     "=G,C(H,E.prototype),H.isPureReactComponent=!0;var I=Array.isArray,J=Object.prototype.hasOwnProperty,K={current:null},L={key:!0,ref:!0,__self:!0,__source:!0};function M(a,b,e){var d,c={},k=null,h=null;if(null!=b)for(d in void 0!==b.ref&&(h=b.ref),void 0!==b.key&&(k=\"\"+b.key),b)J.call(",
+     "ts[m+2];c.children=f}if(a&&a.defaultProps)for(d in g=a.defaultProps)void 0===c[d]&&(c[d]=g[d]);return{$$typeof:l,type:a,key:k,ref:h,props:c,_owner:K.current}}function O(a){return\"object\"==typeof a&&null!==a&&a.$$typeof===l}var P=/\\/+/g;function Q(a,b){var a1,b1;return\"object\"==typeof",
+     ")?(e=\"\",null!=a&&(e=a.replace(P,\"$&/\")+\"/\"),R(c,b,e,\"\",function(a){return a})):null!=c&&(O(c)&&(a1=c,b1=e+(!c.key||h&&h.key===c.key?\"\":(\"\"+c.key).replace(P,\"$&/\")+\"/\")+a,c={$$typeof:l,type:a1.type,key:b1,ref:a1.ref,props:a1.props,_owner:a1._owner}),b.push(c)),1;if(h=0,d=\"\"===d?\".\":d+",
+     "d.children=e;else if(1<f){g=Array(f);for(var m=0;m<f;m++)g[m]=arguments[m+2];d.children=g}return{$$typeof:l,type:a.type,key:c,ref:k,props:d,_owner:h}},exports.createContext=function(a){return(a={$$typeof:u,_currentValue:a,_currentValue2:a,_threadCount:0,Provider:null,Consumer:null,_d"
+    ]
+   },
+   "https://hockeycanada.vercel.app/_next/static/chunks/main-538b3f669ef25e92.js": {
+    "status": 200,
+    "hits": [
+     "e,excluded){if(null==source)return{};var key,i,target={},sourceKeys=Object.keys(source);for(i=0;i<sourceKeys.length;i++)key=sourceKeys[i],excluded.indexOf(key)>=0||(target[key]=source[key]);return target}},37:function(){\"trimStart\"in String.prototype||(String.prototype.trimStart=Stri",
+     "t dataRoute=_getAssetPathFromRoute.default(_removeTrailingSlash.removeTrailingSlash(_addLocale.addLocale(path,locale)),\".json\");return _addBasePath.addBasePath(\"/_next/data/\".concat(this.buildId).concat(dataRoute).concat(search),!0)})(params.skipInterpolation?asPathname:_isDynamic.isD",
+     "ategories={};return h=>{let isUnique=!0,hasKey=!1;if(h.key&&\"number\"!=typeof h.key&&h.key.indexOf(\"$\")>0){hasKey=!0;let key=h.key.slice(h.key.indexOf(\"$\")+1);keys.has(key)?isUnique=!1:keys.add(key)}switch(h.type){case\"title\":case\"base\":tags.has(h.type)?isUnique=!1:tags.add(h.type);br",
+     "que=!1:(categories.add(category),metaCategories[metatype]=categories)}}}}return isUnique}}()).reverse().map((c,i)=>{let key=c.key||i;if(!inAmpMode&&\"link\"===c.type&&c.props.href&&[\"https://fonts.googleapis.com/css\",\"https://use.typekit.net/\"].some(url=>c.props.href.startsWith(url))){",
+     "h(origin)?url.substring(origin.length):url}function omit(object,keys){let omitted={};return Object.keys(object).forEach(key=>{keys.includes(key)||(omitted[key]=object[key])}),omitted}function isLocalURL(url){if(!_utils.isAbsoluteUrl(url))return!0;try{let locationOrigin=_utils.getLoca",
+     "ePath(parsed.pathname):parsed.pathname;if(routeMatch&&pathname!==cleanedParsedPathname&&Object.keys(routeMatch).forEach(key=>{routeMatch&&query[key]===routeMatch[key]&&delete query[key]}),_isDynamic.isDynamicRoute(pathname)){let prefixedAs=!routeProps.shallow&&routeInfo.resolvedAs?ro",
+     "ushState\"!==method||_utils.getURL()!==as)&&(this._shallow=options.shallow,window.history[method]({url,as,options,__N:!0,key:this._key=\"pushState\"!==method?this._key:createKey()},\"\",as))}handleRouteInfoError(err,pathname,query,as,routeProps,loadErrorFail){var _this=this;return _async_",
+     "e:\"next\"})})(data.dataHref,data.response,options).then(effect=>({dataHref:data.dataHref,cacheKey:data.cacheKey,json:data.json,response:data.response,text:data.text,effect}))).catch(_err=>null):null));if(isQueryUpdating&&data&&(data.json=self.__NEXT_DATA__.props),handleCancelled(),(nul",
+     "json:data.json,response:data.response,text:data.text,effect}))).catch(_err=>null):null));if(isQueryUpdating&&data&&(data.json=self.__NEXT_DATA__.props),handleCancelled(),(null==data?void 0:null==(ref=data.effect)?void 0:ref.type)===\"redirect-internal\"||(null==data?void 0:null==(ref4=d",
+     "nfo&&_this.route===route&&!hasMiddleware))return _extends({},existingInfo,{route});if(\"/api\"===route||route.startsWith(\"/api/\"))return handleHardNavigation({url:as,router:_this}),new Promise(()=>{});let routeInfo=cachedRouteInfo||(yield _this.fetchComponent(route).then(res=>({Componen",
+     " _this._getData(_async_to_generator(function*(){if(shouldFetchData){let{json,cacheKey:_cacheKey}=(null==data?void 0:data.json)?data:yield fetchNextData({dataHref:_this.pageLoader.getDataHref({href:_formatUrl.formatWithValidation({pathname,query}),asPath:resolvedAs,locale}),isServerRen",
+     "{let stateKeys=Object.keys(a);if(stateKeys.length!==Object.keys(b).length)return!1;for(let i=stateKeys.length;i--;){let key=stateKeys[i];if(\"query\"===key){let queryKeys=Object.keys(a.query);if(queryKeys.length!==Object.keys(b.query).length)return!1;for(let j=queryKeys.length;j--;){le",
+     "ffix.addPathSuffix(_addPathPrefix.addPathPrefix(pathname,\"/_next/data/\".concat(info.buildId)),\"/\"===info.pathname?\"index.json\":\".json\")),pathname=_addPathPrefix.addPathPrefix(pathname,info.basePath),!info.buildId&&info.trailingSlash?pathname.endsWith(\"/\")?pathname:_addPathSuffix.addPa",
+     "Path),info.basePath=basePath),!0===options.parseData&&info.pathname.startsWith(\"/_next/data/\")&&info.pathname.endsWith(\".json\")){let paths=info.pathname.replace(/^\\/_next\\/data\\//,\"\").replace(/\\.json$/,\"\").split(\"/\"),buildId=paths[0];info.pathname=\"index\"!==paths[1]?\"/\".concat(paths.s",
+     "ramsList[_key-1]=arguments[_key];return searchParamsList.forEach(searchParams=>{Array.from(searchParams.keys()).forEach(key=>target.delete(key)),searchParams.forEach((value,key)=>target.append(key,value))}),target}},2650:function(__unused_webpack_module,exports,__webpack_require__){\""
+    ]
+   },
+   "https://hockeycanada.vercel.app/_next/static/chunks/pages/_app-d2f6b5b1d0fd9482.js": {
+    "status": 200,
+    "hits": [
+     "tails)&&(theDetails_1=payloadDetails(),payloadDetails=null),theDetails_1}}),_self[_DYN_GET_CTX]=function(key){return key?key===PerfEvent[strParentContextKey]||key===PerfEvent[strChildrenContextKey]?_self[key]:(_self.ctx||{})[key]:null},_self[_DYN_SET_CTX]=function(key,value){key&&(key",
+     "===PerfEvent[strChildrenContextKey]?_self[key]:(_self.ctx||{})[key]:null},_self[_DYN_SET_CTX]=function(key,value){key&&(key===PerfEvent[strParentContextKey]?(_self[key]||(_self[_DYN_IS_CHILD_EVT]=function(){return!0}),_self[key]=value):key===PerfEvent[strChildrenContextKey]?_self[key",
+     "y&&(key===PerfEvent[strParentContextKey]?(_self[key]||(_self[_DYN_IS_CHILD_EVT]=function(){return!0}),_self[key]=value):key===PerfEvent[strChildrenContextKey]?_self[key]=value:(_self.ctx=_self.ctx||{})[key]=value)},_self.complete=function(){var childTime=0,childEvts=_self[_DYN_GET_CT",
+     "nts[name]&&_throwInternal(logger,2,62,\"start was called more than once for this event without calling stop.\",{name:name,key:name},!0),_events[name]=+new Date},_self.stop=function(name,url,properties,measurements){var start=_events[name];if(isNaN(start))_throwInternal(logger,2,63,\"sto",
+     "rt=_events[name];if(isNaN(start))_throwInternal(logger,2,63,\"stop was called without a corresponding start.\",{name:name,key:name},!0);else{var duration=dateTimeUtilsDuration(start,+new Date);_self.action(name,url,duration,properties,measurements)}delete _events[name],_events[name]=vo",
+     "().parse(buffer_1)),buffer_1&&ts_utils_isArray(buffer_1))return buffer_1}}catch(e){_throwInternal(logger,1,42,\" storage key: \"+key+\", \"+getExceptionName(e),{exception:dumpObj(e)})}return[]}function _setBuffer(key,buffer){var prefixedKey=key;try{prefixedKey=_namePrefix?_namePrefix+\"_\"",
+     "on)}catch(e){setItem(logger,prefixedKey,JSON[_DynamicConstants_DYN_STRINGIFY]([])),_throwInternal(logger,2,41,\" storage key: \"+prefixedKey+\", \"+getExceptionName(e)+\". Buffer cleared\",{exception:dumpObj(e)})}}function _getItemsFromPreviousKey(key){try{var items=_getBufferBase(key),tra",
+     ",kv){var kvParts=kv[dist_es5_DynamicConstants_DYN_SPLIT](\"=\");if(2===kvParts[dist_es5_DynamicConstants_DYN_LENGTH]){var key=kvParts[0][dist_es5_DynamicConstants_DYN_TO_LOWER_CASE](),value=kvParts[1];fields[key]=value}return fields},{});if(objKeys(result)[dist_es5_DynamicConstants_DYN",
+     "=cfgDfMerge(((_d={}).AppInsightsCfgSyncPlugin=cfgDfMerge({cfgUrl:\"https://js.monitor.azure.com/scripts/b/ai.config.1.cfg.json\",syncMode:2}),_d)),AISku_a);function _parseCs(config,configCs){return createSyncPromise(function(resolve,reject){doAwaitResponse(configCs,function(res){var cur"
+    ]
+   }
+  }
+ },
+ "hc.2027.schedule": {
+  "url": "https://www.hockeycanada.ca/en-ca/team-canada/men/junior/2026-27/world-championship/stats/schedule",
+  "status": 200,
+  "type": "text/html; charset=utf-8",
+  "length": 640779,
+  "title": "IIHF World Junior Championship 2027 Schedule | Edmonton &amp; Red Deer, Alberta<!-- --> - <!-- -->IIHF World Junior Championship 2027",
+  "scripts": [
+   "https://hockeycanada.vercel.app/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js",
+   "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+   "https://hockeycanada.vercel.app/_next/static/chunks/webpack-dfb539db4af6defd.js",
+   "https://hockeycanada.vercel.app/_next/static/chunks/framework-ffee79c6390da51e.js",
+   "https://hockeycanada.vercel.app/_next/static/chunks/main-538b3f669ef25e92.js",
+   "https://hockeycanada.vercel.app/_next/static/chunks/pages/_app-d2f6b5b1d0fd9482.js",
+   "https://hockeycanada.vercel.app/_next/static/chunks/1bfc9850-d9902d0e10ec1409.js",
+   "https://hockeycanada.vercel.app/_next/static/chunks/265cea07-5b8f0e5667b59f91.js",
+   "https://hockeycanada.vercel.app/_next/static/chunks/29c1a539-33b677d3aa4ef8b5.js",
+   "https://hockeycanada.vercel.app/_next/static/chunks/75fc9c18-c8186ff75bc30b43.js",
+   "https://hockeycanada.vercel.app/_next/static/chunks/5c0b189e-6a2346c6d69a369d.js",
+   "https://hockeycanada.vercel.app/_next/static/chunks/170-20667dd6bb8c279d.js",
+   "https://hockeycanada.vercel.app/_next/static/chunks/157-ed49566f3ab9e671.js",
+   "https://hockeycanada.vercel.app/_next/static/chunks/pages/%5B...slug%5D-0d786d0a8a7b7882.js",
+   "https://hockeycanada.vercel.app/_next/static/hnEVBHI8xM1qkc6G-FzNt/_buildManifest.js",
+   "https://hockeycanada.vercel.app/_next/static/hnEVBHI8xM1qkc6G-FzNt/_ssgManifest.js"
+  ],
+  "hits": [
+   "imer\"}}]}},\"languageCode\":\"en-ca\",\"channelName\":\"website\",\"isPreview\":false,\"isDevelopmentMode\":false,\"notFound\":false,\"gameId\":null,\"gameData\":null,\"tournamentToggle\":null,\"teamId\":null,\"teamDataTournament\":null,\"liveBlogGameId\":null,\"playerId\":null,\"playerDataTournament\":null},\"__N_S",
+   "\"notFound\":false,\"gameId\":null,\"gameData\":null,\"tournamentToggle\":null,\"teamId\":null,\"teamDataTournament\":null,\"liveBlogGameId\":null,\"playerId\":null,\"playerDataTournament\":null},\"__N_SSG\":true},\"page\":\"/[...slug]\",\"query\":{\"slug\":[\"team-canada\",\"men\",\"junior\",\"2026-27\",\"world-champions"
+  ],
+  "scriptHits": {
+   "https://hockeycanada.vercel.app/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js": {
+    "status": 200,
+    "hits": [
+     "l!=a&&Nr(a,t[n],t,r)}),a=$r(e),u=function(t,e,r){var n,o,u=a(t),c=s(t,e);return c?c.value=r:(u.last=c={index:o=Kr(e,!0),key:e,value:r,previous:n=u.last,next:void 0,removed:!1},u.first||(u.first=c),n&&(n.next=c),i?u.size++:t.size++,\"F\"!==o&&(u.index[o]=c)),t},s=function(t,e){var r,n=a",
+     "==o&&(u.index[o]=c)),t},s=function(t,e){var r,n=a(t),o=Kr(e);if(\"F\"!==o)return n.index[o];for(r=n.first;r;r=r.next)if(r.key==e)return r};return Dr(o.prototype,{clear:function(){for(var t=a(this),e=t.index,r=t.first;r;)r.removed=!0,r.previous&&(r.previous=r.previous.next=void 0),delet",
+     "e\"),wa(\"search\"),wa(\"species\"),wa(\"split\"),wa(\"toPrimitive\"),wa(\"toStringTag\"),wa(\"unscopables\"),Ce(Math,\"Math\",!0),Ce(n.JSON,\"JSON\",!0),wa(\"asyncDispose\"),wa(\"dispose\"),wa(\"observable\"),wa(\"patternMatch\"),wa(\"replaceAll\"),ma.f(\"asyncIterator\");var iu=je.codeAt;Lt({target:\"String\",pro",
+     "ace(cs,ls)},ps=function(t,e){if(e)for(var r,n,o=e.split(\"&\"),i=0;i<o.length;)(r=o[i++]).length&&(n=r.split(\"=\"),t.push({key:ss(n.shift()),value:ss(n.join(\"=\"))}))},ds=function(t){this.entries.length=0,ps(this.entries,t)},vs=function(t,e){if(t<e)throw TypeError(\"Not enough arguments\")",
+     "d:e})},\"Iterator\",function(){var t=ns(this),e=t.kind,r=t.iterator.next(),n=r.value;return r.done||(r.value=\"keys\"===e?n.key:\"values\"===e?n.value:[n.key,n.value]),r}),ys=function(){Cr(this,ys,Zu);var t,e,r,n,o,i,a,u,s,c=arguments.length>0?arguments[0]:void 0,f=this,l=[];if(es(f,{type:",
+     "))).next).call(o)).done||(u=i.call(o)).done||!i.call(o).done)throw TypeError(\"Expected sequence with length 2\");l.push({key:a.value+\"\",value:u.value+\"\"})}else for(s in c)w(c,s)&&l.push({key:s,value:c[s]+\"\"});else ps(l,\"string\"==typeof c?\"?\"===c.charAt(0)?c.slice(1):c:c+\"\")},ms=ys.pro",
+     ")?c.slice(1):c:c+\"\")},ms=ys.prototype;Dr(ms,{append:function(t,e){vs(arguments.length,2);var r=rs(this);r.entries.push({key:t+\"\",value:e+\"\"}),r.updateURL()},delete:function(t){vs(arguments.length,1);for(var e=rs(this),r=e.entries,n=t+\"\",o=0;o<r.length;)r[o].key===n?r.splice(o,1):o++;",
+     "\"}),r.updateURL()},delete:function(t){vs(arguments.length,1);for(var e=rs(this),r=e.entries,n=t+\"\",o=0;o<r.length;)r[o].key===n?r.splice(o,1):o++;e.updateURL()},get:function(t){vs(arguments.length,1);for(var e=rs(this).entries,r=t+\"\",n=0;n<e.length;n++)if(e[n].key===r)return e[n].val",
+     ":o++;e.updateURL()},get:function(t){vs(arguments.length,1);for(var e=rs(this).entries,r=t+\"\",n=0;n<e.length;n++)if(e[n].key===r)return e[n].value;return null},getAll:function(t){vs(arguments.length,1);for(var e=rs(this).entries,r=t+\"\",n=[],o=0;o<e.length;o++)e[o].key===r&&n.push(e[o]",
+     "e;return null},getAll:function(t){vs(arguments.length,1);for(var e=rs(this).entries,r=t+\"\",n=[],o=0;o<e.length;o++)e[o].key===r&&n.push(e[o].value);return n},has:function(t){vs(arguments.length,1);for(var e=rs(this).entries,r=t+\"\",n=0;n<e.length;)if(e[n++].key===r)return!0;return!1},",
+     "[o].value);return n},has:function(t){vs(arguments.length,1);for(var e=rs(this).entries,r=t+\"\",n=0;n<e.length;)if(e[n++].key===r)return!0;return!1},set:function(t,e){vs(arguments.length,1);for(var r,n=rs(this),o=n.entries,i=!1,a=t+\"\",u=e+\"\",s=0;s<o.length;s++)(r=o[s]).key===a&&(i?o.sp",
+     "et:function(t,e){vs(arguments.length,1);for(var r,n=rs(this),o=n.entries,i=!1,a=t+\"\",u=e+\"\",s=0;s<o.length;s++)(r=o[s]).key===a&&(i?o.splice(s--,1):(i=!0,r.value=u));i||o.push({key:a,value:u}),n.updateURL()},sort:function(){var t,e,r,n=rs(this),o=n.entries,i=o.slice();for(o.length=0,",
+     " body as text\");return Promise.resolve(this._bodyText)},gl&&(this.formData=function(){return this.text().then(kl)}),this.json=function(){return this.text().then(JSON.parse)},this}xl.prototype.append=function(t,e){t=wl(t),e=Sl(e);var r=this.map[t];this.map[t]=r?r+\", \"+e:e},xl.prototype"
+    ]
+   },
+   "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js": {
+    "status": 200,
+    "hits": [
+     "m=d(this,h);m.list||(m.list=this[0][m.id]=[]);m.entry?m.entry.value=k:(m.entry={next:this[1],ca:this[1].ca,head:this[1],key:h,value:k},m.list.push(m.entry),this[1].ca.next=m.entry,this[1].ca=m.entry,this.size++);return this};e.prototype.delete=function(h){h=d(this,h);return h.entry&&",
+     "esponsive_dummy_ad\")&&(tb([1,2,3,4,5,6,7,8],e.F)||e.h===1)&&e.h!==2&&(f=JSON.stringify({googMsgType:\"adpnt\",key_value:[{key:\"qid\",value:\"DUMMY_AD\"}]}),c.dash=\"<\"+Xp+\">window.top.postMessage('\"+f+\"', '*');\\n          </\"+Xp+'>\\n          <div id=\"dummyAd\" style=\"width:'+d+\"px;height:\""
+    ]
+   },
+   "https://hockeycanada.vercel.app/_next/static/chunks/webpack-dfb539db4af6defd.js": {
+    "status": 200,
+    "hits": [
+     "(document.cookie))return;}catch(e){return;}var s=document.createElement('script');s.src='https://vercel.live/_next-live/feedback/feedback.js';s.setAttribute(\"data-explicit-opt-in\",\"true\");s.setAttribute(\"data-cookie-opt-in\",\"true\");s.setAttribute(\"data-deployment-id\",\"dpl_8oEWPtffDVZ"
+    ]
+   },
+   "https://hockeycanada.vercel.app/_next/static/chunks/framework-ffee79c6390da51e.js": {
+    "status": 200,
+    "hits": [
+     "iveEvent;return b.getModifierState?b.getModifierState(a):!!(a=Od[a])&&!!b[a]}function zd(){return Pd}var Rd=rd(A({},ud,{key:function(a){if(a.key){var b=Md[a.key]||a.key;if(\"Unidentified\"!==b)return b}return\"keypress\"===a.type?13===(a=od(a))?\"Enter\":String.fromCharCode(a):\"keydown\"===",
+     "d),c)}if(eb(b)||Ka(b))return(b=Ah(b,a.mode,c,null)).return=a,b;th(a,b)}return null}function r(a,b,c,d){var e=null!==b?b.key:null;if(\"string\"==typeof c&&\"\"!==c||\"number\"==typeof c)return null!==e?null:h(a,b,\"\"+c,d);if(\"object\"==typeof c&&null!==c){switch(c.$$typeof){case va:return c.k",
+     "mber\"==typeof c)return null!==e?null:h(a,b,\"\"+c,d);if(\"object\"==typeof c&&null!==c){switch(c.$$typeof){case va:return c.key===e?k(a,b,c,d):null;case wa:return c.key===e?l(a,b,c,d):null;case Ha:return r(a,b,(e=c._init)(c._payload),d)}if(eb(c)||Ka(c))return null!==e?null:m(a,b,c,d,null",
+     "f1.props.children),\"object\"==typeof f1&&null!==f1){switch(f1.$$typeof){case va:a:{for(var k=f1.key,l=d1;null!==l;){if(l.key===k){if((k=f1.type)===ya){if(7===l.tag){c(a1,l.sibling),(d1=e(l,f1.props.children)).return=a1,a1=d1;break a}}else if(l.elementType===k||\"object\"==typeof k&&null",
+     "key,f1.props,null,a1.mode,h)).ref=sh(a1,d1,f1),h.return=a1,a1=h)}return g(a1);case wa:a:{for(l=f1.key;null!==d1;){if(d1.key===l){if(4===d1.tag&&d1.stateNode.containerInfo===f1.containerInfo&&d1.stateNode.implementation===f1.implementation){c(a1,d1.sibling),(d1=e(d1,f1.children||[])).",
+     "e 19:d=a.stateNode;break;default:throw Error(p(314))}null!==d&&d.delete(b),Zk(a,c)}function al(a,b,c,d){this.tag=a,this.key=c,this.sibling=this.child=this.return=this.stateNode=this.type=this.elementType=null,this.index=0,this.ref=null,this.pendingProps=b,this.dependencies=this.memoi",
+     "ror(p(200));return function(a,b,c){var d=3<arguments.length&&void 0!==arguments[3]?arguments[3]:null;return{$$typeof:wa,key:null==d?null:\"\"+d,children:a,containerInfo:b,implementation:null}}(a,b,null,c)},exports.createRoot=function(a,b){if(!ol(a))throw Error(p(299));var c=!1,d=\"\",e=l",
+     "ragment\"),m=Object.prototype.hasOwnProperty,n=f.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,p={key:!0,ref:!0,__self:!0,__source:!0};function q(c,a,g){var b,d={},e=null,h=null;for(b in void 0!==g&&(e=\"\"+g),void 0!==a.key&&(e=\"\"+a.key),void 0!==a.ref&&(h=a.ref)",
+     "erty(b)&&(d[b]=a[b]);if(c&&c.defaultProps)for(b in a=c.defaultProps)void 0===d[b]&&(d[b]=a[b]);return{$$typeof:k,type:c,key:e,ref:h,props:d,_owner:n.current}}exports.Fragment=l,exports.jsx=q,exports.jsxs=q},2408:function(__unused_webpack_module,exports){/**  * @license React  * react",
+     "=G,C(H,E.prototype),H.isPureReactComponent=!0;var I=Array.isArray,J=Object.prototype.hasOwnProperty,K={current:null},L={key:!0,ref:!0,__self:!0,__source:!0};function M(a,b,e){var d,c={},k=null,h=null;if(null!=b)for(d in void 0!==b.ref&&(h=b.ref),void 0!==b.key&&(k=\"\"+b.key),b)J.call(",
+     "ts[m+2];c.children=f}if(a&&a.defaultProps)for(d in g=a.defaultProps)void 0===c[d]&&(c[d]=g[d]);return{$$typeof:l,type:a,key:k,ref:h,props:c,_owner:K.current}}function O(a){return\"object\"==typeof a&&null!==a&&a.$$typeof===l}var P=/\\/+/g;function Q(a,b){var a1,b1;return\"object\"==typeof",
+     ")?(e=\"\",null!=a&&(e=a.replace(P,\"$&/\")+\"/\"),R(c,b,e,\"\",function(a){return a})):null!=c&&(O(c)&&(a1=c,b1=e+(!c.key||h&&h.key===c.key?\"\":(\"\"+c.key).replace(P,\"$&/\")+\"/\")+a,c={$$typeof:l,type:a1.type,key:b1,ref:a1.ref,props:a1.props,_owner:a1._owner}),b.push(c)),1;if(h=0,d=\"\"===d?\".\":d+",
+     "d.children=e;else if(1<f){g=Array(f);for(var m=0;m<f;m++)g[m]=arguments[m+2];d.children=g}return{$$typeof:l,type:a.type,key:c,ref:k,props:d,_owner:h}},exports.createContext=function(a){return(a={$$typeof:u,_currentValue:a,_currentValue2:a,_threadCount:0,Provider:null,Consumer:null,_d"
+    ]
+   },
+   "https://hockeycanada.vercel.app/_next/static/chunks/main-538b3f669ef25e92.js": {
+    "status": 200,
+    "hits": [
+     "e,excluded){if(null==source)return{};var key,i,target={},sourceKeys=Object.keys(source);for(i=0;i<sourceKeys.length;i++)key=sourceKeys[i],excluded.indexOf(key)>=0||(target[key]=source[key]);return target}},37:function(){\"trimStart\"in String.prototype||(String.prototype.trimStart=Stri",
+     "t dataRoute=_getAssetPathFromRoute.default(_removeTrailingSlash.removeTrailingSlash(_addLocale.addLocale(path,locale)),\".json\");return _addBasePath.addBasePath(\"/_next/data/\".concat(this.buildId).concat(dataRoute).concat(search),!0)})(params.skipInterpolation?asPathname:_isDynamic.isD",
+     "ategories={};return h=>{let isUnique=!0,hasKey=!1;if(h.key&&\"number\"!=typeof h.key&&h.key.indexOf(\"$\")>0){hasKey=!0;let key=h.key.slice(h.key.indexOf(\"$\")+1);keys.has(key)?isUnique=!1:keys.add(key)}switch(h.type){case\"title\":case\"base\":tags.has(h.type)?isUnique=!1:tags.add(h.type);br",
+     "que=!1:(categories.add(category),metaCategories[metatype]=categories)}}}}return isUnique}}()).reverse().map((c,i)=>{let key=c.key||i;if(!inAmpMode&&\"link\"===c.type&&c.props.href&&[\"https://fonts.googleapis.com/css\",\"https://use.typekit.net/\"].some(url=>c.props.href.startsWith(url))){",
+     "h(origin)?url.substring(origin.length):url}function omit(object,keys){let omitted={};return Object.keys(object).forEach(key=>{keys.includes(key)||(omitted[key]=object[key])}),omitted}function isLocalURL(url){if(!_utils.isAbsoluteUrl(url))return!0;try{let locationOrigin=_utils.getLoca",
+     "ePath(parsed.pathname):parsed.pathname;if(routeMatch&&pathname!==cleanedParsedPathname&&Object.keys(routeMatch).forEach(key=>{routeMatch&&query[key]===routeMatch[key]&&delete query[key]}),_isDynamic.isDynamicRoute(pathname)){let prefixedAs=!routeProps.shallow&&routeInfo.resolvedAs?ro",
+     "ushState\"!==method||_utils.getURL()!==as)&&(this._shallow=options.shallow,window.history[method]({url,as,options,__N:!0,key:this._key=\"pushState\"!==method?this._key:createKey()},\"\",as))}handleRouteInfoError(err,pathname,query,as,routeProps,loadErrorFail){var _this=this;return _async_",
+     "e:\"next\"})})(data.dataHref,data.response,options).then(effect=>({dataHref:data.dataHref,cacheKey:data.cacheKey,json:data.json,response:data.response,text:data.text,effect}))).catch(_err=>null):null));if(isQueryUpdating&&data&&(data.json=self.__NEXT_DATA__.props),handleCancelled(),(nul",
+     "json:data.json,response:data.response,text:data.text,effect}))).catch(_err=>null):null));if(isQueryUpdating&&data&&(data.json=self.__NEXT_DATA__.props),handleCancelled(),(null==data?void 0:null==(ref=data.effect)?void 0:ref.type)===\"redirect-internal\"||(null==data?void 0:null==(ref4=d",
+     "nfo&&_this.route===route&&!hasMiddleware))return _extends({},existingInfo,{route});if(\"/api\"===route||route.startsWith(\"/api/\"))return handleHardNavigation({url:as,router:_this}),new Promise(()=>{});let routeInfo=cachedRouteInfo||(yield _this.fetchComponent(route).then(res=>({Componen",
+     " _this._getData(_async_to_generator(function*(){if(shouldFetchData){let{json,cacheKey:_cacheKey}=(null==data?void 0:data.json)?data:yield fetchNextData({dataHref:_this.pageLoader.getDataHref({href:_formatUrl.formatWithValidation({pathname,query}),asPath:resolvedAs,locale}),isServerRen",
+     "{let stateKeys=Object.keys(a);if(stateKeys.length!==Object.keys(b).length)return!1;for(let i=stateKeys.length;i--;){let key=stateKeys[i];if(\"query\"===key){let queryKeys=Object.keys(a.query);if(queryKeys.length!==Object.keys(b.query).length)return!1;for(let j=queryKeys.length;j--;){le",
+     "ffix.addPathSuffix(_addPathPrefix.addPathPrefix(pathname,\"/_next/data/\".concat(info.buildId)),\"/\"===info.pathname?\"index.json\":\".json\")),pathname=_addPathPrefix.addPathPrefix(pathname,info.basePath),!info.buildId&&info.trailingSlash?pathname.endsWith(\"/\")?pathname:_addPathSuffix.addPa",
+     "Path),info.basePath=basePath),!0===options.parseData&&info.pathname.startsWith(\"/_next/data/\")&&info.pathname.endsWith(\".json\")){let paths=info.pathname.replace(/^\\/_next\\/data\\//,\"\").replace(/\\.json$/,\"\").split(\"/\"),buildId=paths[0];info.pathname=\"index\"!==paths[1]?\"/\".concat(paths.s",
+     "ramsList[_key-1]=arguments[_key];return searchParamsList.forEach(searchParams=>{Array.from(searchParams.keys()).forEach(key=>target.delete(key)),searchParams.forEach((value,key)=>target.append(key,value))}),target}},2650:function(__unused_webpack_module,exports,__webpack_require__){\""
+    ]
+   },
+   "https://hockeycanada.vercel.app/_next/static/chunks/pages/_app-d2f6b5b1d0fd9482.js": {
+    "status": 200,
+    "hits": [
+     "tails)&&(theDetails_1=payloadDetails(),payloadDetails=null),theDetails_1}}),_self[_DYN_GET_CTX]=function(key){return key?key===PerfEvent[strParentContextKey]||key===PerfEvent[strChildrenContextKey]?_self[key]:(_self.ctx||{})[key]:null},_self[_DYN_SET_CTX]=function(key,value){key&&(key",
+     "===PerfEvent[strChildrenContextKey]?_self[key]:(_self.ctx||{})[key]:null},_self[_DYN_SET_CTX]=function(key,value){key&&(key===PerfEvent[strParentContextKey]?(_self[key]||(_self[_DYN_IS_CHILD_EVT]=function(){return!0}),_self[key]=value):key===PerfEvent[strChildrenContextKey]?_self[key",
+     "y&&(key===PerfEvent[strParentContextKey]?(_self[key]||(_self[_DYN_IS_CHILD_EVT]=function(){return!0}),_self[key]=value):key===PerfEvent[strChildrenContextKey]?_self[key]=value:(_self.ctx=_self.ctx||{})[key]=value)},_self.complete=function(){var childTime=0,childEvts=_self[_DYN_GET_CT",
+     "nts[name]&&_throwInternal(logger,2,62,\"start was called more than once for this event without calling stop.\",{name:name,key:name},!0),_events[name]=+new Date},_self.stop=function(name,url,properties,measurements){var start=_events[name];if(isNaN(start))_throwInternal(logger,2,63,\"sto",
+     "rt=_events[name];if(isNaN(start))_throwInternal(logger,2,63,\"stop was called without a corresponding start.\",{name:name,key:name},!0);else{var duration=dateTimeUtilsDuration(start,+new Date);_self.action(name,url,duration,properties,measurements)}delete _events[name],_events[name]=vo",
+     "().parse(buffer_1)),buffer_1&&ts_utils_isArray(buffer_1))return buffer_1}}catch(e){_throwInternal(logger,1,42,\" storage key: \"+key+\", \"+getExceptionName(e),{exception:dumpObj(e)})}return[]}function _setBuffer(key,buffer){var prefixedKey=key;try{prefixedKey=_namePrefix?_namePrefix+\"_\"",
+     "on)}catch(e){setItem(logger,prefixedKey,JSON[_DynamicConstants_DYN_STRINGIFY]([])),_throwInternal(logger,2,41,\" storage key: \"+prefixedKey+\", \"+getExceptionName(e)+\". Buffer cleared\",{exception:dumpObj(e)})}}function _getItemsFromPreviousKey(key){try{var items=_getBufferBase(key),tra",
+     ",kv){var kvParts=kv[dist_es5_DynamicConstants_DYN_SPLIT](\"=\");if(2===kvParts[dist_es5_DynamicConstants_DYN_LENGTH]){var key=kvParts[0][dist_es5_DynamicConstants_DYN_TO_LOWER_CASE](),value=kvParts[1];fields[key]=value}return fields},{});if(objKeys(result)[dist_es5_DynamicConstants_DYN",
+     "=cfgDfMerge(((_d={}).AppInsightsCfgSyncPlugin=cfgDfMerge({cfgUrl:\"https://js.monitor.azure.com/scripts/b/ai.config.1.cfg.json\",syncMode:2}),_d)),AISku_a);function _parseCs(config,configCs){return createSyncPromise(function(resolve,reject){doAwaitResponse(configCs,function(res){var cur"
+    ]
+   }
+  }
+ },
+ "iihf.2026.schedule": {
+  "url": "https://www.iihf.com/en/events/2026/wm20/schedule",
+  "status": 403,
+  "type": "",
+  "length": 0,
+  "title": "",
+  "scripts": [],
+  "hits": []
+ },
+ "iihf.2027.schedule": {
+  "url": "https://www.iihf.com/en/events/2027/wm20/schedule",
+  "status": 403,
+  "type": "",
+  "length": 0,
+  "title": "",
+  "scripts": [],
+  "hits": []
+ },
+ "hockeytech.found": {
+  "client_codes": [],
+  "keys": []
+ }
+}
