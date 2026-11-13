@@ -344,9 +344,10 @@ function render(){
   const warns = STATE.warnings || [];
   const sel = isTeams ? (prefs.tsel || []) : prefs.sel;
   const what = isTeams ? "team" : "player";
+  const nTeams = new Set(vp.map(p=>p.team)).size;
   const sub = isTeams
     ? `Canucks, Abbotsford and Giants games in one list. Tap a team to filter. Tap a game for the score.`
-    : `${vp.length} players across ${new Set(vp.map(p=>p.team)).size} teams. Tap a player to filter. Tap a game for their stats from it.`;
+    : `${vp.length} player${vp.length===1?"":"s"} across ${nTeams} team${nTeams===1?"":"s"}. Tap a player to filter. Tap a game for their stats from it.`;
   const eyebrow = view === "others" ? "Players you follow · all times Vancouver" : isTeams ? "Vancouver teams · all times Vancouver" : "Vancouver Canucks prospects · all times Vancouver";
   const nav = Object.entries(VIEWS).map(([k,l]) => `<a href="#${k}"${k===view ? ' aria-current="page"' : ""}>${l}</a>`).join("");
   $("#app").innerHTML = `
