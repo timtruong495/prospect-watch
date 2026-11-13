@@ -15,6 +15,17 @@ and box-score pages instead. It knows Boston University, Michigan, Michigan Stat
 For a player at another school, add `"ids": {"chnTeam": "School-Name/NN"}` to the player, taken
 from the school's schedule address on collegehockeynews.com (`/schedules/team/School-Name/NN`).
 
+## World Juniors (Dec 26 to Jan 5)
+
+From Dec 1 to Jan 12 the page has a World Juniors tab: the whole tournament schedule, scores and
+group standings, plus cards for any followed player on a national team. The data comes from Hockey
+Canada's tournament pages. Hockey Canada only publishes player stats for Canada's games, so stat
+lines for other games come from `wjc_lines.json`, which Claude's news task fills in from news reports.
+
+Players are matched to their country from the game lineups. Before games start, you can set it by
+adding `"wjc": "CZE"` to a player in `follow.json` (three-letter code: CAN, USA, SWE, FIN, CZE, SVK,
+SUI, GER, LAT, NOR).
+
 ## Add or remove a player
 
 Open `follow.json`, click the pencil icon, and copy an existing player block inside `"players"`.

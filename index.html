@@ -98,6 +98,7 @@ button{cursor:pointer}
 .tabs{display:flex;gap:4px;border-bottom:1.5px solid var(--line);overflow-x:auto}
 .tabs a{font-family:var(--display);font-weight:600;font-size:1.05rem;letter-spacing:.04em;text-transform:uppercase;text-decoration:none;color:var(--muted);padding:8px 12px 9px;border-bottom:3px solid transparent;margin-bottom:-1.5px;white-space:nowrap}
 .tabs a[aria-current="page"]{color:var(--ink);border-bottom-color:var(--accent)}
+@media (max-width:540px){.tabs.four a{white-space:normal;flex:1 1 0;text-align:center;font-size:.95rem;line-height:1.1;padding:6px 4px 8px;display:flex;align-items:center;justify-content:center}}
 .rec{font-family:var(--display);font-size:1.6rem;font-weight:700;font-variant-numeric:tabular-nums;line-height:1.1}
 .rec small{font-family:var(--body);font-size:.72rem;font-weight:600;letter-spacing:.08em;color:var(--muted);margin-left:6px;text-transform:uppercase}
 .lg.NHL{color:var(--ink)} .lg.WHL{color:var(--ncaa)}
@@ -134,6 +135,20 @@ button.lgf[aria-pressed="true"]{background:var(--lc);border-color:var(--lc);colo
 .form+.form{padding-top:2px}
 .stale{border:1.5px solid #b33a3a;border-radius:8px;padding:10px 12px;font-size:.88rem;background:var(--surface)}
 .foot summary{cursor:pointer}
+/* World Juniors */
+.wjcnote{display:block;font-size:.8rem;font-weight:600;color:var(--accent);text-decoration:none;padding:7px 12px 0;background:var(--soft)}
+.game.mine{box-shadow:inset 3px 0 0 var(--accent)}
+.game .pl .at{color:var(--muted);font-weight:600}
+.standings{display:flex;flex-direction:column;gap:10px}
+.stgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:10px}
+.stand{background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.stand h3{margin:0;padding:8px 12px;background:var(--soft);font-family:var(--display);font-weight:600;font-size:1.05rem;letter-spacing:.03em}
+.stand table{width:100%;border-collapse:collapse;font-size:.86rem;font-variant-numeric:tabular-nums}
+.stand th,.stand td{padding:6px 4px;text-align:center;border-top:1px solid var(--line)}
+.stand thead th{font-size:.66rem;font-weight:600;letter-spacing:.08em;color:var(--muted);border-top:0}
+.stand th[scope=row],.stand thead th:first-child{text-align:left;padding-left:12px;font-weight:600}
+.stand tr.mine th[scope=row]{color:var(--accent)}
+.sheet .bar h2{margin-right:auto}
 .foot ul{margin:6px 0 0;padding-left:18px}
 </style>
 <main id="app" class="wrap"></main>
@@ -152,11 +167,11 @@ function fmtDay(iso){ const [y,m,d] = iso.split("-").map(Number); const dt = new
 function fmtTime(t){ if(!t) return "TBA"; let [h,m] = t.split(":").map(Number); const ap = h>=12 ? "PM":"AM"; h = h%12 || 12; return h + ":" + String(m).padStart(2,"0") + " " + ap; }
 function isDone(g, now){ if(g.d < now.date) return true; if(g.d > now.date || !g.t) return false; const [h,m] = g.t.split(":").map(Number); return now.mins > h*60+m+150; }
 
-let prefs = {sel: [], tsel: [], tags: {}, lgs: {}, range: "30"};
+let prefs = {sel: [], tsel: [], tags: {}, lgs: {}, wsel: [], wlist: null, range: "30"};
 try { const p = JSON.parse(localStorage.getItem("pw-prefs") || "null"); if(p) prefs = Object.assign(prefs, p); } catch(e){}
 function savePrefs(){ try { localStorage.setItem("pw-prefs", JSON.stringify(prefs)); } catch(e){} }
 
-const VIEWS = {prospects: "Canucks prospects", others: "Other players", teams: "Teams"};
+const VIEWS = {prospects: "Canucks prospects", others: "Other players", teams: "Teams", wjc: "World Juniors"};
 function currentView(){ const h = location.hash.slice(1); return VIEWS[h] ? h : "prospects"; }
 let view = currentView();
 window.addEventListener("hashchange", () => { view = currentView(); render(); window.scrollTo(0,0); });
@@ -271,6 +286,142 @@ function teamCards(now){
   }).join("");
 }
 
+/* ---------- World Juniors tab ---------- */
+function navHtml(){
+  return Object.entries(VIEWS).filter(([k]) => k !== "wjc" || STATE.wjc)
+    .map(([k,l]) => `<a href="#${k}"${k===view ? ' aria-current="page"' : ""}>${l}</a>`).join("");
+}
+function wjcOf(p){ return STATE.wjc && STATE.wjc.players ? STATE.wjc.players[p.id] : null; }
+function wjcNote(p){
+  const w = wjcOf(p);
+  return w ? `<a class="wjcnote" href="#wjc">At World Juniors with ${esc(w.countryName)} →</a>` : "";
+}
+function wjcPlayers(){ return STATE.players.filter(p => wjcOf(p)); }
+function wjcLists(){ return ["canucks", "other"].filter(l => wjcPlayers().some(p => listOf(p) === l)); }
+function wjcPool(){ const l = prefs.wlist; return wjcPlayers().filter(p => !l || listOf(p) === l); }
+function wjcActive(){
+  const pool = wjcPool();
+  const ids = (prefs.wsel || []).filter(id => pool.some(p => p.id === id));
+  return ids.length ? pool.filter(p => ids.includes(p.id)) : pool;
+}
+function wjcIn(g, p){ const c = wjcOf(p).country; return g.home.abbr === c || g.away.abbr === c; }
+function wjcDone(g, now){ return g.final || isDone(g, now); }
+function wjcSeason(p){
+  const goalie = p.pos === "G";
+  const gs = STATE.wjc.games.filter(g => g.final && wjcIn(g, p));
+  const t = {gp: 0, g: 0, a: 0, sv: 0, ga: 0, w: 0, miss: 0, news: 0};
+  gs.forEach(g => {
+    const l = g.lines && g.lines[p.id];
+    if(!l){ t.miss++; return; }
+    if(l.dnp) return;
+    t.gp++; if(l.via) t.news++;
+    t.g += l.g || 0; t.a += l.a || 0; t.sv += l.sv || 0; t.ga += l.ga || 0; if(l.dec === "W") t.w++;
+  });
+  const cells = goalie
+    ? [["GP", t.gp], ["W", t.w], ["GA", t.ga], ["SV%", t.sv + t.ga ? (t.sv / (t.sv + t.ga)).toFixed(3).replace(/^0/, "") : "–"]]
+    : [["GP", t.gp], ["G", t.g], ["A", t.a], ["PTS", t.g + t.a]];
+  return {t, cells};
+}
+function wjcScore(g){
+  if(!g.final) return "";
+  const hw = g.home.score > g.away.score, w = hw ? g.home : g.away, l = hw ? g.away : g.home;
+  return `<span class="score">${esc(w.abbr)} ${esc(w.score)}–${esc(l.score)}${g.ot ? " " + esc(g.ot) : ""}</span>`;
+}
+function wjcLine(g, done, act){
+  const w = STATE.wjc;
+  const ps = act.filter(p => wjcIn(g, p));
+  const rows = ps.map(p => {
+    const l = g.lines && g.lines[p.id];
+    let body;
+    if(l && l.dnp) body = `<span class="hint">Did not play${l.why === "backup" ? " · backup goalie" : ""}</span>`;
+    else if(l && (l.sv != null || l.ga != null)) body = statPills([["SV", l.sv], ["GA", l.ga], ["MIN", l.min], ["", l.dec]]);
+    else if(l) body = statPills([["G", l.g], ["A", l.a], ["PTS", l.pts != null ? l.pts : (l.g || 0) + (l.a || 0)], ["+/-", l.pm != null ? (l.pm > 0 ? "+" : "") + l.pm : null], ["PIM", l.pim]]);
+    else body = `<span class="hint">${done ? "Stat line not in yet. It's added from news reports, usually within a day." : "Stats appear here after the game."}</span>`;
+    const via = l && l.via ? `<span class="hint">from news reports</span>` : "";
+    return `<div class="lrow"><span class="lname">${esc(p.name)}</span>${body}${via}</div>`;
+  }).join("");
+  const fin = g.final ? `<div class="lrow"><span class="lname">Final</span><span class="hint">${esc(g.away.name)} ${esc(g.away.score)}, ${esc(g.home.name)} ${esc(g.home.score)}${g.ot ? " (" + esc(g.ot) + ")" : ""}</span></div>` : "";
+  const none = !g.final ? `<span class="hint">${done ? "Score not in yet." : "The score appears here after the game."}</span>` : "";
+  const link = g.final && w.summary ? `<a class="boxlink" href="${esc(w.summary + g.id)}" target="_blank" rel="noopener">Game summary on Hockey Canada</a>` : "";
+  return `<div class="line">${fin}${rows}${none}${link}</div>`;
+}
+function renderWjc(now){
+  const w = STATE.wjc;
+  const all = wjcPlayers(), pool = wjcPool(), act = wjcActive();
+  const picked = act.length !== pool.length || !!prefs.wlist;
+  const countries = new Set(act.map(p => wjcOf(p).country));
+  const games = picked ? w.games.filter(g => countries.has(g.home.abbr) || countries.has(g.away.abbr)) : w.games;
+
+  const lists = wjcLists();
+  const LBL = {canucks: "Canucks prospects", other: "Other players"};
+  const filt = lists.length ? `<div class="filters"><div class="chips" role="group" aria-label="Filter by list">${lists.map(l => `<button type="button" class="chip" data-wlist="${l}" aria-pressed="${prefs.wlist === l}">${LBL[l]}</button>`).join("")}</div></div>` : "";
+
+  const sel = prefs.wsel || [];
+  const cards = pool.map(p => {
+    const c = wjcOf(p), on = sel.includes(p.id);
+    const {t, cells} = wjcSeason(p);
+    const ng = w.games.find(g => wjcIn(g, p) && !wjcDone(g, now));
+    const opp = g => g.home.abbr === c.country ? "vs " + g.away.name : "@ " + g.home.name;
+    const nx = ng ? `<b>Next:</b> ${fmtDay(ng.d)} · ${fmtTime(ng.t)} ${esc(opp(ng))}` : `<span style="color:var(--muted)">No more games</span>`;
+    const miss = t.miss ? `<div class="form">Stat lines still to come for ${t.miss} game${t.miss === 1 ? "" : "s"}</div>` : "";
+    const src = "Hockey Canada" + (t.news ? ` · ${t.news} game${t.news === 1 ? "" : "s"} from news reports` : "");
+    return `<div class="pcard${on ? " on" : ""}">
+      <button class="pbtn" type="button" data-wpid="${esc(p.id)}" aria-pressed="${on}">
+      <span class="nm">${esc(p.name)}</span>
+      <span class="tm">${esc(p.pos ? p.pos + " · " : "")}${esc(c.countryName)}</span>
+      <span class="tm">${listOf(p) === "other" ? "Other player" : "Canucks prospect"}</span>
+      <span class="nx">${nx}</span></button>
+      <div class="stats" aria-label="Tournament stats">${cells.map(([k,v]) => `<div><b>${esc(v)}</b><span>${k}</span></div>`).join("")}</div>
+      ${miss}<div class="src">Tournament · ${src}</div></div>`;
+  }).join("");
+
+  const mine = new Set(all.map(p => wjcOf(p).country));
+  const stand = (w.groups || []).map(gr => `<div class="stand"><h3>${esc(gr.name)}</h3>
+    <table><thead><tr><th scope="col">Team</th><th scope="col">GP</th><th scope="col">W</th><th scope="col">OTW</th><th scope="col">OTL</th><th scope="col">L</th><th scope="col">PTS</th><th scope="col">GD</th></tr></thead>
+    <tbody>${gr.teams.map(r => `<tr${mine.has(r.abbr) ? ' class="mine"' : ""}><th scope="row">${esc(r.name)}</th><td>${r.gp}</td><td>${r.w}</td><td>${r.otw}</td><td>${r.otl}</td><td>${r.l}</td><td><b>${r.pts}</b></td><td>${r.gf - r.ga > 0 ? "+" : ""}${r.gf - r.ga}</td></tr>`).join("")}</tbody></table></div>`).join("");
+
+  const byDay = new Map();
+  games.forEach(g => { if(!byDay.has(g.d)) byDay.set(g.d, []); byDay.get(g.d).push(g); });
+  const days = [...byDay.entries()].map(([d, gs]) => {
+    const rows = gs.map(g => {
+      const done = wjcDone(g, now);
+      const gid = "wjc|" + g.id, open = expanded.has(gid);
+      const ps = act.filter(p => wjcIn(g, p));
+      const round = g.round && !/^prelim/i.test(g.round) ? g.round + (/^(gold|bronze)$/i.test(g.round) ? " medal game" : "") : "";
+      const meta = [round, g.city, ps.map(p => p.name).join(", ")].filter(Boolean).map(esc).join(" · ");
+      return `<div class="game${done ? " done scored" : ""}${ps.length ? " mine" : ""}${open ? " open" : ""}" role="button" tabindex="0" aria-expanded="${open}" data-gid="${esc(gid)}">
+        <div class="time">${fmtTime(g.t)}</div>
+        <div class="who"><div class="pl">${esc(g.away.name)} <span class="at">@</span> ${esc(g.home.name)}</div>
+          ${meta ? `<div class="mu">${meta}</div>` : ""}</div>
+        <div class="tag">${g.final ? wjcScore(g) : done ? "Final" : ""}</div>
+        ${open ? wjcLine(g, done, act) : ""}</div>`;
+    }).join("");
+    return `<section class="day"><div class="dayh${d===now.date?" today":""}"><span>${d===now.date?"Today · ":""}${fmtDay(d)}</span><span class="cnt">${gs.length} game${gs.length===1?"":"s"}</span></div>${rows}</section>`;
+  }).join("");
+
+  const first = w.games.length ? fmtDay(w.games[0].d).replace(/^\w+, /, "") : "", last = w.games.length ? fmtDay(w.games[w.games.length-1].d).replace(/^\w+, /, "") : "";
+  const sub = all.length
+    ? `${esc(w.title)}, ${first} to ${last}. ${all.length} of your players ${all.length === 1 ? "is" : "are"} playing. Tap a player to filter. Tap a game for their stats from it.`
+    : `${esc(w.title)}, ${first} to ${last}. Your players appear here once they're named to a team (rosters come out in mid-December).`;
+  const age = ageDays();
+  $("#app").innerHTML = `
+    <nav class="tabs four" aria-label="Pages">${navHtml()}</nav>
+    <header class="head">
+      <span class="eyebrow">World Juniors · all times Vancouver</span>
+      <h1>World Juniors</h1>
+      <p class="sub">${sub}</p>
+    </header>
+    ${age > 2 ? `<div class="stale" role="status">This data is ${Math.floor(age)} days old. The automatic update may have stopped.</div>` : ""}
+    ${filt}
+    ${cards ? `<section class="players" aria-label="Players">${cards}</section>` : all.length ? `<div class="empty">None of your ${prefs.wlist === "other" ? "other players" : "Canucks prospects"} are playing.</div>` : ""}
+    ${stand ? `<section class="standings" aria-label="Standings"><h2>Standings</h2><div class="stgrid">${stand}</div><p class="hint">Preliminary round. 3 points for a win, 2 for an overtime or shootout win, 1 for an overtime or shootout loss.</p></section>` : ""}
+    <section class="sheet" aria-label="Schedule"><div class="bar"><h2>Schedule</h2>${sel.length ? `<button type="button" class="link" data-wclear>Show all players</button>` : ""}<span class="hint">${games.length} game${games.length===1?"":"s"}</span></div>
+      ${days || `<div class="empty">No games for these players.</div>`}</section>
+    <footer class="foot">
+      <span>Last updated ${esc(updatedTxt())}. Schedule, scores and Canada's box scores come from <a href="${esc(w.url)}" target="_blank" rel="noopener">Hockey Canada</a>. Hockey Canada doesn't publish player stats for games without Canada, so those stat lines are added from news reports by Claude, usually within a day.</span>
+    </footer>`;
+}
+
 function render(){
   if(!loaded){
     $("#app").innerHTML = `<header class="head"><span class="eyebrow">All times Vancouver</span><h1>Prospect Watch</h1></header>
@@ -278,6 +429,7 @@ function render(){
     return;
   }
   const now = bcNow();
+  if(view === "wjc"){ if(STATE.wjc) return renderWjc(now); view = "prospects"; }
   const teams = STATE.teams;
   const isTeams = view === "teams";
   const act = isTeams ? null : activePlayers();
@@ -304,7 +456,7 @@ function render(){
       ${(p.tags || []).length ? `<span class="chips">${p.tags.map(t => `<span class="chip">${esc(t)}</span>`).join("")}</span>` : ""}
       ${p.note ? `<span class="tm${isOut ? " out" : ""}">${esc(p.note)}</span>` : ""}
       <span class="nx">${nx}</span></button>
-      ${statsHtml(p.stats, p)}</div>`;
+      ${wjcNote(p)}${statsHtml(p.stats, p)}</div>`;
   }).join("");
 
   const days = [...byDay.entries()].map(([d, gs]) => {
@@ -349,9 +501,9 @@ function render(){
     ? `Canucks, Abbotsford and Giants games in one list. Tap a team to filter. Tap a game for the score.`
     : `${vp.length} player${vp.length===1?"":"s"} across ${nTeams} team${nTeams===1?"":"s"}. Tap a player to filter. Tap a game for their stats from it.`;
   const eyebrow = view === "others" ? "Players you follow · all times Vancouver" : isTeams ? "Vancouver teams · all times Vancouver" : "Vancouver Canucks prospects · all times Vancouver";
-  const nav = Object.entries(VIEWS).map(([k,l]) => `<a href="#${k}"${k===view ? ' aria-current="page"' : ""}>${l}</a>`).join("");
+  const nav = navHtml();
   $("#app").innerHTML = `
-    <nav class="tabs" aria-label="Pages">${nav}</nav>
+    <nav class="tabs${STATE.wjc ? " four" : ""}" aria-label="Pages">${nav}</nav>
     <header class="head">
       <span class="eyebrow">${eyebrow}</span>
       <h1>${isTeams ? "Team Schedules" : view === "others" ? "Player Watch" : "Prospect Watch"}</h1>
@@ -387,6 +539,11 @@ document.addEventListener("click", e => {
   if(e.target.closest("[data-clear]")){ if(view === "teams") prefs.tsel = []; else prefs.sel = prefs.sel.filter(id => !viewPlayers().some(p => p.id === id)); savePrefs(); render(); return; }
   const lb = e.target.closest("[data-lg]");
   if(lb){ const l = lb.dataset.lg; prefs.lgs = Object.assign({}, prefs.lgs, {[view]: lgSel() === l ? null : l}); savePrefs(); render(); return; }
+  const wl = e.target.closest("[data-wlist]");
+  if(wl){ prefs.wlist = prefs.wlist === wl.dataset.wlist ? null : wl.dataset.wlist; savePrefs(); render(); return; }
+  const wp = e.target.closest("[data-wpid]");
+  if(wp){ const id = wp.dataset.wpid, cur = prefs.wsel || []; prefs.wsel = cur.includes(id) ? cur.filter(x => x !== id) : [...cur, id]; savePrefs(); render(); return; }
+  if(e.target.closest("[data-wclear]")){ prefs.wsel = []; savePrefs(); render(); return; }
   const tg = e.target.closest("[data-tag]");
   if(tg){ const t = tg.dataset.tag; prefs.tags = Object.assign({}, prefs.tags, {[view]: tagSel() === t ? null : t}); savePrefs(); render(); return; }
 });
