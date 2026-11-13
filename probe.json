@@ -308,7 +308,7 @@
  },
  "nhl.standings": {
   "wildCardIndicator": "True",
-  "standingsDateTimeUtc": "2026-11-13T09:00:00Z",
+  "standingsDateTimeUtc": "2026-11-13T14:55:15Z",
   "standings": [
    {
     "conferenceAbbrev": "E",
@@ -841,8 +841,7 @@
     "type": "standings",
     "stat": "conference",
     "lang_id": "1",
-    "league_id": "4",
-    "team_id": "0"
+    "league_id": "4"
    },
    "Statviewtype": [
     {
@@ -1823,10 +1822,43 @@
  },
  "chn.box": {
   "url": "https://www.collegehockeynews.com/box/final/20261112/msu/ndm/",
-  "skater_rows": 0,
-  "rows": []
+  "skater_rows": 38,
+  "rows": [
+   [
+    "Danny Nelson",
+    "0",
+    "2",
+    "2",
+    "1",
+    "0",
+    "19:45",
+    "0",
+    "8-8"
+   ],
+   [
+    "Sammy Nelson",
+    "2",
+    "0",
+    "2",
+    "1",
+    "7",
+    "17:50",
+    "0",
+    "3-4"
+   ],
+   [
+    "Panayioti Fimis",
+    "1",
+    "0",
+    "1",
+    "1",
+    "2",
+    "16:07",
+    "0",
+    "10-5"
+   ]
+  ]
  },
- "chn.box.raw": "d>3</td>\n\t\t\t\t\t\t<td class=\"right\">60:21</td>\n\t\t\t\t\t\t<td></td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t<thead>\n\t\t\t\t<tr class=\"stats-header\">\n\t\t\t\t\t<td>Notre Dame</td>\n\t\t\t\t\t<td>SV</td>\n\t\t\t\t\t<td>GA</td>\n\t\t\t\t\t<td class=\"right\">Minutes</td>\n\t\t\t\t\t<td></td>\n\t\t\t\t</tr>\n\t\t\t\t</thead>\n\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Patrick Quinlan</td>\n\t\t\t\t\t\t<td>33</td>\n\t\t\t\t\t\t<td>2</td>\n\t\t\t\t\t\t<td class=\"right\">60:21</td>\n\t\t\t\t\t\t<td></td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t</tbody>\n\t\t\t</table>\n\t\t</div>\n\n\t\t<p><a href=\"/box/metrics.php?gd=117531\" class=\"button2\">Advanced Metrics</a></p>\n\t\t<div id=\"playersums\">\n\t\t\t\t\t\t\t<div class=\"playersum\">\n\t\t\t\t\t<table class=\"data\">\n\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t<tr class=\"stats-section\">\n\t\t\t\t\t\t\t<td>Notre Dame</td>\n\t\t\t\t\t\t\t<td>G</td>\n\t\t\t\t\t\t\t<td>A</td>\n\t\t\t\t\t\t\t<td>Pt.</td>\n\t\t\t\t\t\t\t<td>+/-</td>\n\t\t\t\t\t\t\t<td>Sh</td>\n\t\t\t\t\t\t\t<td>TOI</td>\t\t\t\t\t\t\t<td>PIM</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"center\">FOW&#8209;L</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td nowrap>Danny Nelson</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>2</td>\n\t\t\t\t\t\t\t\t\t\t<td>2</td>\n\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td></td>\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"center\">8&#8209;8</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td nowrap>Sammy Nelson</td>\n\t\t\t\t\t\t\t\t\t\t<td>2</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>2</td>\n\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t<td>7</td>\n\t\t\t\t\t\t\t\t\t\t<td></td>\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"center\">3&#8209;4</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td nowrap>Panayioti Fimis</td>\n\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t<td>2</td>\n\t\t\t\t\t\t\t\t\t\t<td></td>\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"center\">10&#8209;5</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td nowrap>Cole Brown</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>-1</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td></td>\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"center\"></td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td nowrap>Brennan Ali</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t<td></td>\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"center\"></td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td nowrap>Jayden Davis</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td></td>\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"center\">3&#8209;9</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td nowrap>Carter Slaggert</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t<td>3</td>\n\t\t\t\t\t\t\t\t\t\t<td></td>\t\t\t\t\t\t\t\t\t\t<td>2</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"center\"></td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
  "ahl.gamelog": {
   "SiteKit": {
    "Parameters": {
