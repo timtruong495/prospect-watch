@@ -1,0 +1,3026 @@
+{
+ "GameID": "5450",
+ "EventID": 7,
+ "SeasonID": 1047,
+ "TournamentID": 283,
+ "ExhibitionID": 1047,
+ "GameDetail": {
+  "id": 5450,
+  "homeTeam": {
+   "id": 175,
+   "name": "Canada",
+   "abbr": "CAN",
+   "score": 7,
+   "logo": "https://assets.leaguestat.com/hockeycanada/logos/175.png"
+  },
+  "awayTeam": {
+   "id": 170,
+   "name": "Czechia",
+   "abbr": "CZE",
+   "score": 5,
+   "logo": "https://assets.leaguestat.com/hockeycanada/logos/170.png"
+  },
+  "venue": "3M Arena",
+  "startDateTime": "December 27, 2025",
+  "startDateTimeDisplay": "7:30 pm CST",
+  "timezone": "America/Winnipeg",
+  "notes": "",
+  "scheduleNotes": "",
+  "ticketsUrl": "",
+  "currentPeriod": 3,
+  "shootout": false,
+  "overtimeGame": false,
+  "videoUrl": "https://www.tsn.ca/live/schedule",
+  "status": "completed",
+  "properties": {
+   "overtimeIntervals": 2,
+   "overtimeLength": 5,
+   "timeIntervals": [
+    "20",
+    "20",
+    "20"
+   ]
+  },
+  "totalIntervalCount": 3,
+  "homeShotsOnGoal": [
+   {
+    "period": "1",
+    "value": 11
+   },
+   {
+    "period": "2",
+    "value": 6
+   },
+   {
+    "period": "3",
+    "value": 10
+   }
+  ],
+  "awayShotsOnGoal": [
+   {
+    "period": "1",
+    "value": 11
+   },
+   {
+    "period": "2",
+    "value": 11
+   },
+   {
+    "period": "3",
+    "value": 11
+   }
+  ],
+  "homeFaceoff": {
+   "attempt": 0,
+   "won": 0
+  },
+  "awayFaceoff": {
+   "attempt": 0,
+   "won": 0
+  },
+  "homePowerPlayGoals": 1,
+  "awayPowerPlayGoals": 0,
+  "homePowerPlayCount": 3,
+  "awayPowerPlayCount": 3,
+  "homePimTotal": 6,
+  "awayPimTotal": 6,
+  "scoringPlays": [
+   {
+    "type": "penalty",
+    "player": "Vaclav Nestrasil",
+    "seconds": 213,
+    "timeInterval": 1,
+    "clockTimeString": "03:33",
+    "details": "Hooking - Minor (2:00)",
+    "teamId": 170,
+    "completed": true,
+    "playSummary": {
+     "details": "Hooking - Minor (2:00)"
+    },
+    "playByPlayString": "Penalty",
+    "playType": "Penalty",
+    "playTime": null,
+    "actionDetails": "Penalty: Vaclav Nestrasil",
+    "awayTeamScore": 0,
+    "homeTeamScore": 0
+   },
+   {
+    "type": "goal",
+    "player": "Brady Martin",
+    "seconds": 833,
+    "timeInterval": 1,
+    "clockTimeString": "13:53",
+    "details": "Assists: Gavin McKenna, Michael Hage",
+    "strength": "",
+    "teamId": 175,
+    "completed": true,
+    "playSummary": {
+     "details": "Assists: Gavin McKenna, Michael Hage"
+    },
+    "playByPlayString": "Goal",
+    "playType": "Goal",
+    "playTime": null,
+    "actionDetails": "Goal: Brady Martin",
+    "awayTeamScore": 0,
+    "homeTeamScore": 1
+   },
+   {
+    "type": "goal",
+    "player": "Tomas Poletin",
+    "seconds": 1021,
+    "timeInterval": 1,
+    "clockTimeString": "17:01",
+    "details": "Assists: Adam Benak, Max Psenicka",
+    "strength": "",
+    "teamId": 170,
+    "completed": true,
+    "playSummary": {
+     "details": "Assists: Adam Benak, Max Psenicka"
+    },
+    "playByPlayString": "Goal",
+    "playType": "Goal",
+    "playTime": null,
+    "actionDetails": "Goal: Tomas Poletin",
+    "awayTeamScore": 1,
+    "homeTeamScore": 1
+   },
+   {
+    "type": "goal",
+    "player": "Michael Hage",
+    "seconds": 1058,
+    "timeInterval": 1,
+    "clockTimeString": "17:38",
+    "details": "Assists: Brady Martin, Ben Danford",
+    "strength": "",
+    "teamId": 175,
+    "completed": true,
+    "playSummary": {
+     "details": "Assists: Brady Martin, Ben Danford"
+    },
+    "playByPlayString": "Goal",
+    "playType": "Goal",
+    "playTime": null,
+    "actionDetails": "Goal: Michael Hage",
+    "awayTeamScore": 1,
+    "homeTeamScore": 2
+   },
+   {
+    "type": "penalty",
+    "player": "Cole Beaudoin",
+    "seconds": 242,
+    "timeInterval": 2,
+    "clockTimeString": "04:02",
+    "details": "Slashing - Minor (2:00)",
+    "teamId": 175,
+    "completed": true,
+    "playSummary": {
+     "details": "Slashing - Minor (2:00)"
+    },
+    "playByPlayString": "Penalty",
+    "playType": "Penalty",
+    "playTime": null,
+    "actionDetails": "Penalty: Cole Beaudoin",
+    "awayTeamScore": 2,
+    "homeTeamScore": 2
+   },
+   {
+    "type": "goal",
+    "player": "Vojtech Cihar",
+    "seconds": 242,
+    "timeInterval": 2,
+    "clockTimeString": "04:02",
+    "details": "Assists: Adam Benak, Matyas Man",
+    "strength": "",
+    "teamId": 170,
+    "completed": true,
+    "playSummary": {
+     "details": "Assists: Adam Benak, Matyas Man"
+    },
+    "playByPlayString": "Goal",
+    "playType": "Goal",
+    "playTime": null,
+    "actionDetails": "Goal: Vojtech Cihar",
+    "awayTeamScore": 2,
+    "homeTeamScore": 2
+   },
+   {
+    "type": "penalty",
+    "player": "Matyas Man",
+    "seconds": 333,
+    "timeInterval": 2,
+    "clockTimeString": "05:33",
+    "details": "Hooking - Minor (2:00)",
+    "teamId": 170,
+    "completed": true,
+    "playSummary": {
+     "details": "Hooking - Minor (2:00)"
+    },
+    "playByPlayString": "Penalty",
+    "playType": "Penalty",
+    "playTime": null,
+    "actionDetails": "Penalty: Matyas Man",
+    "awayTeamScore": 2,
+    "homeTeamScore": 2
+   },
+   {
+    "type": "goal",
+    "player": "Petr Sikora",
+    "seconds": 733,
+    "timeInterval": 2,
+    "clockTimeString": "12:13",
+    "details": "Assists: Vojtech Cihar, Vaclav Nestrasil",
+    "strength": "",
+    "teamId": 170,
+    "completed": true,
+    "playSummary": {
+     "details": "Assists: Vojtech Cihar, Vaclav Nestrasil"
+    },
+    "playByPlayString": "Goal",
+    "playType": "Goal",
+    "playTime": null,
+    "actionDetails": "Goal: Petr Sikora",
+    "awayTeamScore": 3,
+    "homeTeamScore": 2
+   },
+   {
+    "type": "goal",
+    "player": "Zayne Parekh",
+    "seconds": 1022,
+    "timeInterval": 2,
+    "clockTimeString": "17:02",
+    "details": "Assists: Cameron Reid, Caleb Desnoyers",
+    "strength": "",
+    "teamId": 175,
+    "completed": true,
+    "playSummary": {
+     "details": "Assists: Cameron Reid, Caleb Desnoyers"
+    },
+    "playByPlayString": "Goal",
+    "playType": "Goal",
+    "playTime": null,
+    "actionDetails": "Goal: Zayne Parekh",
+    "awayTeamScore": 3,
+    "homeTeamScore": 3
+   },
+   {
+    "type": "penalty",
+    "player": "Adam Jiricek",
+    "seconds": 181,
+    "timeInterval": 3,
+    "clockTimeString": "03:01",
+    "details": "Roughing - Minor (2:00)",
+    "teamId": 170,
+    "completed": true,
+    "playSummary": {
+     "details": "Roughing - Minor (2:00)"
+    },
+    "playByPlayString": "Penalty",
+    "playType": "Penalty",
+    "playTime": null,
+    "actionDetails": "Penalty: Adam Jiricek",
+    "awayTeamScore": 3,
+    "homeTeamScore": 3
+   },
+   {
+    "type": "goal",
+    "player": "Zayne Parekh",
+    "seconds": 229,
+    "timeInterval": 3,
+    "clockTimeString": "03:49",
+    "details": "Assists: Gavin McKenna, Cole Reschny",
+    "strength": "(power play)",
+    "teamId": 175,
+    "completed": true,
+    "playSummary": {
+     "details": "Assists: Gavin McKenna, Cole Reschny"
+    },
+    "playByPlayString": "Goal (Power Play)",
+    "playType": "Goal",
+    "playTime": null,
+    "actionDetails": "Goal: Zayne Parekh",
+    "awayTeamScore": 3,
+    "homeTeamScore": 4
+   },
+   {
+    "type": "goal",
+    "player": "Tomas Poletin",
+    "seconds": 321,
+    "timeInterval": 3,
+    "clockTimeString": "05:21",
+    "details": "Assists: Petr Sikora, Tomas Galvas",
+    "strength": "",
+    "teamId": 170,
+    "completed": true,
+    "playSummary": {
+     "details": "Assists: Petr Sikora, Tomas Galvas"
+    },
+    "playByPlayString": "Goal",
+    "playType": "Goal",
+    "playTime": null,
+    "actionDetails": "Goal: Tomas Poletin",
+    "awayTeamScore": 4,
+    "homeTeamScore": 4
+   },
+   {
+    "type": "goal",
+    "player": "Tij Iginla",
+    "seconds": 392,
+    "timeInterval": 3,
+    "clockTimeString": "06:32",
+    "details": "Assists: Michael Misa, Ethan MacKenzie",
+    "strength": "",
+    "teamId": 175,
+    "completed": true,
+    "playSummary": {
+     "details": "Assists: Michael Misa, Ethan MacKenzie"
+    },
+    "playByPlayString": "Goal",
+    "playType": "Goal",
+    "playTime": null,
+    "actionDetails": "Goal: Tij Iginla",
+    "awayTeamScore": 4,
+    "homeTeamScore": 5
+   },
+   {
+    "type": "goal",
+    "player": "Ethan MacKenzie",
+    "seconds": 552,
+    "timeInterval": 3,
+    "clockTimeString": "09:12",
+    "details": "Assists: Michael Hage",
+    "strength": "",
+    "teamId": 175,
+    "completed": true,
+    "playSummary": {
+     "details": "Assists: Michael Hage"
+    },
+    "playByPlayString": "Goal",
+    "playType": "Goal",
+    "playTime": null,
+    "actionDetails": "Goal: Ethan MacKenzie",
+    "awayTeamScore": 4,
+    "homeTeamScore": 6
+   },
+   {
+    "type": "penalty",
+    "player": "Porter Martone",
+    "seconds": 709,
+    "timeInterval": 3,
+    "clockTimeString": "11:49",
+    "details": "Holding - Minor (2:00)",
+    "teamId": 175,
+    "completed": true,
+    "playSummary": {
+     "details": "Holding - Minor (2:00)"
+    },
+    "playByPlayString": "Penalty",
+    "playType": "Penalty",
+    "playTime": null,
+    "actionDetails": "Penalty: Porter Martone",
+    "awayTeamScore": 4,
+    "homeTeamScore": 6
+   },
+   {
+    "type": "goal",
+    "player": "Tomas Galvas",
+    "seconds": 926,
+    "timeInterval": 3,
+    "clockTimeString": "15:26",
+    "details": "Assists: Vaclav Nestrasil, Vojtech Cihar",
+    "strength": "",
+    "teamId": 170,
+    "completed": true,
+    "playSummary": {
+     "details": "Assists: Vaclav Nestrasil, Vojtech Cihar"
+    },
+    "playByPlayString": "Goal",
+    "playType": "Goal",
+    "playTime": null,
+    "actionDetails": "Goal: Tomas Galvas",
+    "awayTeamScore": 5,
+    "homeTeamScore": 6
+   },
+   {
+    "type": "penalty",
+    "player": "Porter Martone",
+    "seconds": 1140,
+    "timeInterval": 3,
+    "clockTimeString": "19:00",
+    "details": "Unsportsmanlike Conduct - Minor (2:00)",
+    "teamId": 175,
+    "completed": true,
+    "playSummary": {
+     "details": "Unsportsmanlike Conduct - Minor (2:00)"
+    },
+    "playByPlayString": "Penalty",
+    "playType": "Penalty",
+    "playTime": null,
+    "actionDetails": "Penalty: Porter Martone",
+    "awayTeamScore": 5,
+    "homeTeamScore": 7
+   },
+   {
+    "type": "goal",
+    "player": "Porter Martone",
+    "seconds": 1140,
+    "timeInterval": 3,
+    "clockTimeString": "19:00",
+    "details": "Assists: Cole Beaudoin, Ethan MacKenzie",
+    "strength": "",
+    "teamId": 175,
+    "completed": true,
+    "playSummary": {
+     "details": "Assists: Cole Beaudoin, Ethan MacKenzie"
+    },
+    "playByPlayString": "Goal (Empty Net)",
+    "playType": "Goal",
+    "playTime": null,
+    "actionDetails": "Goal: Porter Martone",
+    "awayTeamScore": 5,
+    "homeTeamScore": 7
+   }
+  ],
+  "homeGoalieStats": [
+   {
+    "id": 17498,
+    "name": "Carter George",
+    "jerseyNumber": "30",
+    "saves": 28,
+    "goalsAgainst": 5,
+    "sog": 33,
+    "minutesPlayedString": "60",
+    "savePercentage": 0.8484848484848485,
+    "start": true
+   }
+  ],
+  "awayGoalieStats": [
+   {
+    "id": 19648,
+    "name": "Michal Orsulak",
+    "jerseyNumber": "30",
+    "saves": 20,
+    "goalsAgainst": 6,
+    "sog": 26,
+    "minutesPlayedString": "58",
+    "savePercentage": 0.7692307692307693,
+    "start": true
+   }
+  ],
+  "scoringPlayTeams": [
+   {
+    "id": 175,
+    "name": "Canada",
+    "team": {
+     "abbrev": "CAN"
+    }
+   },
+   {
+    "id": 170,
+    "name": "Czechia",
+    "team": {
+     "abbrev": "CZE"
+    }
+   }
+  ],
+  "quickScoreId": null,
+  "quickScoreOvertime": false,
+  "quickScoreShootout": false,
+  "quickScoreForReal": false,
+  "homeShootout": false,
+  "visitorShootout": false,
+  "homeSkaterStats": [
+   {
+    "id": 20324,
+    "name": "Kashawn Aitcheson",
+    "jerseyNumber": "2",
+    "position": "D",
+    "teamId": 175,
+    "teamAbbr": "CAN",
+    "goals": 0,
+    "assists": 0,
+    "points": 0,
+    "pim": 0,
+    "ppg": 0,
+    "shots": 0,
+    "plusMinus": 0
+   },
+   {
+    "id": 17499,
+    "name": "Harrison Brunicke",
+    "jerseyNumber": "4",
+    "position": "D",
+    "teamId": 175,
+    "teamAbbr": "CAN",
+    "goals": 0,
+    "assists": 0,
+    "points": 0,
+    "pim": 0,
+    "ppg": 0,
+    "shots": 0,
+    "plusMinus": 0
+   },
+   {
+    "id": 20800,
+    "name": "Carson Carels",
+    "jerseyNumber": "5",
+    "position": "D",
+    "teamId": 175,
+    "teamAbbr": "CAN",
+    "goals": 0,
+    "assists": 0,
+    "points": 0,
+    "pim": 0,
+    "ppg": 0,
+    "shots": 0,
+    "plusMinus": 0
+   },
+   {
+    "id": 17457,
+    "name": "Michael Misa",
+    "jerseyNumber": "7",
+    "position": "F",
+    "teamId": 175,
+    "teamAbbr": "CAN",
+    "goals": 0,
+    "assists": 1,
+    "points": 1,
+    "pim": 0,
+    "ppg": 0,
+    "shots": 0,
+    "plusMinus": 0
+   },
+   {
+    "id": 18282,
+    "name": "Braeden Cootes",
+    "jerseyNumber": "8",
+    "position": "F",
+    "teamId": 175,
+    "teamAbbr": "CAN",
+    "goals": 0,
+    "assists": 0,
+    "points": 0,
+    "pim": 0,
+    "ppg": 0,
+    "shots": 0,
+    "plusMinus": 0
+   },
+   {
+    "id": 18522,
+    "name": "Gavin McKenna",
+    "jerseyNumber": "9",
+    "position": "F",
+    "teamId": 175,
+    "teamAbbr": "CAN",
+    "goals": 0,
+    "assists": 2,
+    "points": 2,
+    "pim": 0,
+    "ppg": 0,
+    "shots": 0,
+    "plusMinus": 0
+   },
+   {
+    "id": 19525,
+    "name": "Cameron Reid",
+    "jerseyNumber": "10",
+    "position": "D",
+    "teamId": 175,
+    "teamAbbr": "CAN",
+    "goals": 0,
+    "assists": 1,
+    "points": 1,
+    "pim": 0,
+    "ppg": 0,
+    "shots": 0,
+    "plusMinus": 0
+   },
+   {
+    "id": 17510,
+    "name": "Tij Iginla",
+    "jerseyNumber": "11",
+    "position": "F",
+    "teamId": 175,
+    "teamAbbr": "CAN",
+    "goals": 1,
+    "assists": 0,
+    "points": 1,
+    "pim": 0,
+    "ppg": 0,
+    "shots": 1,
+    "plusMinus": 0
+   },
+   {
+    "id": 22656,
+    "name": "Ethan MacKenzie",
+    "jerseyNumber": "13",
+    "position": "D",
+    "teamId": 175,
+    "teamAbbr": "CAN",
+    "goals": 1,
+    "assists": 2,
+    "points": 3,
+    "pim": 0,
+    "ppg": 0,
+    "shots": 1,
+    "plusMinus": 0
+   },
+   {
+    "id": 17890,
+    "name": "Ben Danford",
+    "jerseyNumber": "14",
+    "position": "D",
+    "teamId": 175,
+    "teamAbbr": "CAN",
+    "goals": 0,
+    "assists": 1,
+    "points": 1,
+    "pim": 0,
+    "ppg": 0,
+    "shots": 0,
+    "plusMinus": 0
+   },
+   {
+    "id": 17473,
+    "name": "Jett Luchanko",
+    "jerseyNumber": "17",
+    "position": "F",
+    "teamId": 175,
+    "teamAbbr": "CAN",
+    "goals": 0,
+    "assists": 0,
+    "points": 0,
+    "pim": 0,
+    "ppg": 0,
+    "shots": 0,
+    "plusMinus": 0
+   },
+   {
+    "id": 17484,
+    "name": "Zayne Parekh",
+    "jerseyNumber": "19",
+    "position": "D",
+    "teamId": 175,
+    "teamAbbr": "CAN",
+    "goals": 2,
+    "assists": 0,
+    "points": 2,
+    "pim": 0,
+    "ppg": 1,
+    "shots": 2,
+    "plusMinus": 0
+   },
+   {
+    "id": 18508,
+    "name": "Cole Reschny",
+    "jerseyNumber": "21",
+    "position": "F",
+    "teamId": 175,
+    "teamAbbr": "CAN",
+    "goals": 0,
+    "assists": 1,
+    "points": 1,
+    "pim": 0,
+    "ppg": 0,
+    "shots": 0,
+    "plusMinus": 0
+   },
+   {
+    "id": 17511,
+    "name": "Porter Martone",
+    "jerseyNumber": "22",
+    "position": "F",
+    "teamId": 175,
+    "teamAbbr": "CAN",
+    "goals": 1,
+    "assists": 0,
+    "points": 1,
+    "pim": 4,
+    "ppg": 0,
+    "shots": 1,
+    "plusMinus": 0
+   },
+   {
+    "id": 22716,
+    "name": "Sam O'Reilly",
+    "jerseyNumber": "23",
+    "position": "F",
+    "teamId": 175,
+    "teamAbbr": "CAN",
+    "goals": 0,
+    "assists": 0,
+    "points": 0,
+    "pim": 0,
+    "ppg": 0,
+    "shots": 0,
+    "plusMinus": 0
+   },
+   {
+    "id": 17508,
+    "name": "Liam Greentree",
+    "jerseyNumber": "24",
+    "position": "F",
+    "teamId": 175,
+    "teamAbbr": "CAN",
+    "goals": 0,
+    "assists": 0,
+    "points": 0,
+    "pim": 0,
+    "ppg": 0,
+    "shots": 0,
+    "plusMinus": 0
+   },
+   {
+    "id": 18483,
+    "name": "Caleb Desnoyers",
+    "jerseyNumber": "25",
+    "position": "F",
+    "teamId": 175,
+    "teamAbbr": "CAN",
+    "goals": 0,
+    "assists": 1,
+    "points": 1,
+    "pim": 0,
+    "ppg": 0,
+    "shots": 0,
+    "plusMinus": 0
+   },
+   {
+    "id": 17505,
+    "name": "Cole Beaudoin",
+    "jerseyNumber": "26",
+    "position": "F",
+    "teamId": 175,
+    "teamAbbr": "CAN",
+    "goals": 0,
+    "assists": 1,
+    "points": 1,
+    "pim": 2,
+    "ppg": 0,
+    "shots": 0,
+    "plusMinus": 0
+   },
+   {
+    "id": 18444,
+    "name": "Brady Martin",
+    "jerseyNumber": "28",
+    "position": "F",
+    "teamId": 175,
+    "teamAbbr": "CAN",
+    "goals": 1,
+    "assists": 1,
+    "points": 2,
+    "pim": 0,
+    "ppg": 0,
+    "shots": 1,
+    "plusMinus": 0
+   },
+   {
+    "id": 17509,
+    "name": "Michael Hage",
+    "jerseyNumber": "29",
+    "position": "F",
+    "teamId": 175,
+    "teamAbbr": "CAN",
+    "goals": 1,
+    "assists": 2,
+    "points": 3,
+    "pim": 0,
+    "ppg": 0,
+    "shots": 1,
+    "plusMinus": 0
+   }
+  ],
+  "awaySkaterStats": [
+   {
+    "id": 22719,
+    "name": "Max Psenicka",
+    "jerseyNumber": "3",
+    "position": "D",
+    "teamId": 170,
+    "teamAbbr": "CZE",
+    "goals": 0,
+    "assists": 1,
+    "points": 1,
+    "pim": 0,
+    "ppg": 0,
+    "shots": 0,
+    "plusMinus": 0
+   },
+   {
+    "id": 17901,
+    "name": "Adam Jiricek",
+    "jerseyNumber": "5",
+    "position": "D",
+    "teamId": 170,
+    "teamAbbr": "CZE",
+    "goals": 0,
+    "assists": 0,
+    "points": 0,
+    "pim": 2,
+    "ppg": 0,
+    "shots": 0,
+    "plusMinus": 0
+   },
+   {
+    "id": 17902,
+    "name": "Jakub Fibigr",
+    "jerseyNumber": "7",
+    "position": "D",
+    "teamId": 170,
+    "teamAbbr": "CZE",
+    "goals": 0,
+    "assists": 0,
+    "points": 0,
+    "pim": 0,
+    "ppg": 0,
+    "shots": 0,
+    "plusMinus": 0
+   },
+   {
+    "id": 22718,
+    "name": "Matyas Man",
+    "jerseyNumber": "8",
+    "position": "D",
+    "teamId": 170,
+    "teamAbbr": "CZE",
+    "goals": 0,
+    "assists": 1,
+    "points": 1,
+    "pim": 2,
+    "ppg": 0,
+    "shots": 0,
+    "plusMinus": 0
+   },
+   {
+    "id": 19664,
+    "name": "Vladimir Dravecky",
+    "jerseyNumber": "9",
+    "position": "D",
+    "teamId": 170,
+    "teamAbbr": "CZE",
+    "goals": 0,
+    "assists": 0,
+    "points": 0,
+    "pim": 0,
+    "ppg": 0,
+    "shots": 0,
+    "plusMinus": 0
+   },
+   {
+    "id": 17900,
+    "name": "Matej Kubiesa",
+    "jerseyNumber": "11",
+    "position": "F",
+    "teamId": 170,
+    "teamAbbr": "CZE",
+    "goals": 0,
+    "assists": 0,
+    "points": 0,
+    "pim": 0,
+    "ppg": 0,
+    "shots": 0,
+    "plusMinus": 0
+   },
+   {
+    "id": 19354,
+    "name": "Maxmilian Curran",
+    "jerseyNumber": "12",
+    "position": "F",
+    "teamId": 170,
+    "teamAbbr": "CZE",
+    "goals": 0,
+    "assists": 0,
+    "points": 0,
+    "pim": 0,
+    "ppg": 0,
+    "shots": 0,
+    "plusMinus": 0
+   },
+   {
+    "id": 19660,
+    "name": "Vaclav Nestrasil",
+    "jerseyNumber": "14",
+    "position": "F",
+    "teamId": 170,
+    "teamAbbr": "CZE",
+    "goals": 0,
+    "assists": 2,
+    "points": 2,
+    "pim": 2,
+    "ppg": 0,
+    "shots": 0,
+    "plusMinus": 0
+   },
+   {
+    "id": 19665,
+    "name": "Vojtech Cihar",
+    "jerseyNumber": "15",
+    "position": "F",
+    "teamId": 170,
+    "teamAbbr": "CZE",
+    "goals": 1,
+    "assists": 2,
+    "points": 3,
+    "pim": 0,
+    "ppg": 0,
+    "shots": 1,
+    "plusMinus": 0
+   },
+   {
+    "id": 21288,
+    "name": "Richard Zemlicka",
+    "jerseyNumber": "16",
+    "position": "F",
+    "teamId": 170,
+    "teamAbbr": "CZE",
+    "goals": 0,
+    "assists": 0,
+    "points": 0,
+    "pim": 0,
+    "ppg": 0,
+    "shots": 0,
+    "plusMinus": 0
+   },
+   {
+    "id": 17917,
+    "name": "Petr Sikora",
+    "jerseyNumber": "17",
+    "position": "F",
+    "teamId": 170,
+    "teamAbbr": "CZE",
+    "goals": 1,
+    "assists": 1,
+    "points": 2,
+    "pim": 0,
+    "ppg": 0,
+    "shots": 1,
+    "plusMinus": 0
+   },
+   {
+    "id": 19661,
+    "name": "Tomas Poletin",
+    "jerseyNumber": "18",
+    "position": "F",
+    "teamId": 170,
+    "teamAbbr": "CZE",
+    "goals": 2,
+    "assists": 0,
+    "points": 2,
+    "pim": 0,
+    "ppg": 0,
+    "shots": 2,
+    "plusMinus": 0
+   },
+   {
+    "id": 20846,
+    "name": "Adam Benak",
+    "jerseyNumber": "20",
+    "position": "F",
+    "teamId": 170,
+    "teamAbbr": "CZE",
+    "goals": 0,
+    "assists": 2,
+    "points": 2,
+    "pim": 0,
+    "ppg": 0,
+    "shots": 0,
+    "plusMinus": 0
+   },
+   {
+    "id": 17537,
+    "name": "Jiri Klima",
+    "jerseyNumber": "21",
+    "position": "F",
+    "teamId": 170,
+    "teamAbbr": "CZE",
+    "goals": 0,
+    "assists": 0,
+    "points": 0,
+    "pim": 0,
+    "ppg": 0,
+    "shots": 0,
+    "plusMinus": 0
+   },
+   {
+    "id": 17910,
+    "name": "Adam Titlbach",
+    "jerseyNumber": "22",
+    "position": "F",
+    "teamId": 170,
+    "teamAbbr": "CZE",
+    "goals": 0,
+    "assists": 0,
+    "points": 0,
+    "pim": 0,
+    "ppg": 0,
+    "shots": 0,
+    "plusMinus": 0
+   },
+   {
+    "id": 17909,
+    "name": "Tomas Galvas",
+    "jerseyNumber": "23",
+    "position": "D",
+    "teamId": 170,
+    "teamAbbr": "CZE",
+    "goals": 1,
+    "assists": 1,
+    "points": 2,
+    "pim": 0,
+    "ppg": 0,
+    "shots": 1,
+    "plusMinus": 0
+   },
+   {
+    "id": 19667,
+    "name": "Adam Novotny",
+    "jerseyNumber": "24",
+    "position": "F",
+    "teamId": 170,
+    "teamAbbr": "CZE",
+    "goals": 0,
+    "assists": 0,
+    "points": 0,
+    "pim": 0,
+    "ppg": 0,
+    "shots": 0,
+    "plusMinus": 0
+   },
+   {
+    "id": 22720,
+    "name": "Stepan Hoch",
+    "jerseyNumber": "25",
+    "position": "F",
+    "teamId": 170,
+    "teamAbbr": "CZE",
+    "goals": 0,
+    "assists": 0,
+    "points": 0,
+    "pim": 0,
+    "ppg": 0,
+    "shots": 0,
+    "plusMinus": 0
+   }
+  ],
+  "homeScratches": [
+   {
+    "id": 22657,
+    "name": "Carter Bear",
+    "jerseyNumber": "12",
+    "position": "F",
+    "teamId": 175,
+    "teamAbbr": "CAN",
+    "goals": null,
+    "assists": null,
+    "points": null,
+    "pim": null,
+    "ppg": null,
+    "shots": null,
+    "plusMinus": null,
+    "isScratch": true
+   },
+   {
+    "id": 19890,
+    "name": "Keaton Verhoeff",
+    "jerseyNumber": "20",
+    "position": "D",
+    "teamId": 175,
+    "teamAbbr": "CAN",
+    "goals": null,
+    "assists": null,
+    "points": null,
+    "pim": null,
+    "ppg": null,
+    "shots": null,
+    "plusMinus": null,
+    "isScratch": true
+   },
+   {
+    "id": 20831,
+    "name": "Joshua Ravensbergen",
+    "jerseyNumber": "31",
+    "position": "G",
+    "teamId": 175,
+    "teamAbbr": "CAN",
+    "goals": null,
+    "assists": null,
+    "points": null,
+    "pim": null,
+    "ppg": null,
+    "shots": null,
+    "plusMinus": null,
+    "isScratch": true
+   }
+  ],
+  "awayScratches": [
+   {
+    "id": 19647,
+    "name": "Ondrej Stebetak",
+    "jerseyNumber": "2",
+    "position": "G",
+    "teamId": 170,
+    "teamAbbr": "CZE",
+    "goals": null,
+    "assists": null,
+    "points": null,
+    "pim": null,
+    "ppg": null,
+    "shots": null,
+    "plusMinus": null,
+    "isScratch": true
+   }
+  ],
+  "startDateTimeISO": "2025-12-26T19:30:00-06:00",
+  "round": "Preliminary",
+  "gameNumber": "4",
+  "location": "3M Arena<br/>Minneapolis, MN"
+ },
+ "GameSummary": null,
+ "StatLeaders": {
+  "goaliesGaa": [
+   {
+    "playerId": 17498,
+    "teamId": "175",
+    "teamName": "Canada",
+    "playerName": "Carter George",
+    "shortName": "C. George",
+    "values": {
+     "hkggaa": 5,
+     "hkgspct": 0.8484848484848485
+    }
+   },
+   {
+    "playerId": 19648,
+    "teamId": "170",
+    "teamName": "Czechia",
+    "playerName": "Michal Orsulak",
+    "shortName": "M. Orsulak",
+    "values": {
+     "hkggaa": 6.113784319275403,
+     "hkgspct": 0.7692307692307693
+    }
+   }
+  ],
+  "goaliesSvPct": [
+   {
+    "playerId": 17498,
+    "teamId": "175",
+    "teamName": "Canada",
+    "playerName": "Carter George",
+    "shortName": "C. George",
+    "values": {
+     "hkggaa": 5,
+     "hkgspct": 0.8484848484848485
+    }
+   },
+   {
+    "playerId": 19648,
+    "teamId": "170",
+    "teamName": "Czechia",
+    "playerName": "Michal Orsulak",
+    "shortName": "M. Orsulak",
+    "values": {
+     "hkggaa": 6.113784319275403,
+     "hkgspct": 0.7692307692307693
+    }
+   }
+  ],
+  "hockeySkatersAssists": [
+   {
+    "playerId": 18522,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Gavin McKenna",
+    "shortName": "G. McKenna",
+    "values": {
+     "hkspts": 2,
+     "hksgl": 0,
+     "hksast": 2,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 22656,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Ethan MacKenzie",
+    "shortName": "E. MacKenzie",
+    "values": {
+     "hkspts": 3,
+     "hksgl": 1,
+     "hksast": 2,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 17509,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Michael Hage",
+    "shortName": "M. Hage",
+    "values": {
+     "hkspts": 3,
+     "hksgl": 1,
+     "hksast": 2,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 19660,
+    "teamId": 170,
+    "teamName": "Czechia",
+    "playerName": "Vaclav Nestrasil",
+    "shortName": "V. Nestrasil",
+    "values": {
+     "hkspts": 2,
+     "hksgl": 0,
+     "hksast": 2,
+     "hkspim": 2
+    }
+   },
+   {
+    "playerId": 19665,
+    "teamId": 170,
+    "teamName": "Czechia",
+    "playerName": "Vojtech Cihar",
+    "shortName": "V. Cihar",
+    "values": {
+     "hkspts": 3,
+     "hksgl": 1,
+     "hksast": 2,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 20846,
+    "teamId": 170,
+    "teamName": "Czechia",
+    "playerName": "Adam Benak",
+    "shortName": "A. Benak",
+    "values": {
+     "hkspts": 2,
+     "hksgl": 0,
+     "hksast": 2,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 17457,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Michael Misa",
+    "shortName": "M. Misa",
+    "values": {
+     "hkspts": 1,
+     "hksgl": 0,
+     "hksast": 1,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 19525,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Cameron Reid",
+    "shortName": "C. Reid",
+    "values": {
+     "hkspts": 1,
+     "hksgl": 0,
+     "hksast": 1,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 17890,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Ben Danford",
+    "shortName": "B. Danford",
+    "values": {
+     "hkspts": 1,
+     "hksgl": 0,
+     "hksast": 1,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 18508,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Cole Reschny",
+    "shortName": "C. Reschny",
+    "values": {
+     "hkspts": 1,
+     "hksgl": 0,
+     "hksast": 1,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 18483,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Caleb Desnoyers",
+    "shortName": "C. Desnoyers",
+    "values": {
+     "hkspts": 1,
+     "hksgl": 0,
+     "hksast": 1,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 17505,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Cole Beaudoin",
+    "shortName": "C. Beaudoin",
+    "values": {
+     "hkspts": 1,
+     "hksgl": 0,
+     "hksast": 1,
+     "hkspim": 2
+    }
+   },
+   {
+    "playerId": 18444,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Brady Martin",
+    "shortName": "B. Martin",
+    "values": {
+     "hkspts": 2,
+     "hksgl": 1,
+     "hksast": 1,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 22719,
+    "teamId": 170,
+    "teamName": "Czechia",
+    "playerName": "Max Psenicka",
+    "shortName": "M. Psenicka",
+    "values": {
+     "hkspts": 1,
+     "hksgl": 0,
+     "hksast": 1,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 22718,
+    "teamId": 170,
+    "teamName": "Czechia",
+    "playerName": "Matyas Man",
+    "shortName": "M. Man",
+    "values": {
+     "hkspts": 1,
+     "hksgl": 0,
+     "hksast": 1,
+     "hkspim": 2
+    }
+   },
+   {
+    "playerId": 17917,
+    "teamId": 170,
+    "teamName": "Czechia",
+    "playerName": "Petr Sikora",
+    "shortName": "P. Sikora",
+    "values": {
+     "hkspts": 2,
+     "hksgl": 1,
+     "hksast": 1,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 17909,
+    "teamId": 170,
+    "teamName": "Czechia",
+    "playerName": "Tomas Galvas",
+    "shortName": "T. Galvas",
+    "values": {
+     "hkspts": 2,
+     "hksgl": 1,
+     "hksast": 1,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 20324,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Kashawn Aitcheson",
+    "shortName": "K. Aitcheson",
+    "values": {
+     "hkspts": 0,
+     "hksgl": 0,
+     "hksast": 0,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 17499,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Harrison Brunicke",
+    "shortName": "H. Brunicke",
+    "values": {
+     "hkspts": 0,
+     "hksgl": 0,
+     "hksast": 0,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 20800,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Carson Carels",
+    "shortName": "C. Carels",
+    "values": {
+     "hkspts": 0,
+     "hksgl": 0,
+     "hksast": 0,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 18282,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Braeden Cootes",
+    "shortName": "B. Cootes",
+    "values": {
+     "hkspts": 0,
+     "hksgl": 0,
+     "hksast": 0,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 17510,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Tij Iginla",
+    "shortName": "T. Iginla",
+    "values": {
+     "hkspts": 1,
+     "hksgl": 1,
+     "hksast": 0,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 17473,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Jett Luchanko",
+    "shortName": "J. Luchanko",
+    "values": {
+     "hkspts": 0,
+     "hksgl": 0,
+     "hksast": 0,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 17484,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Zayne Parekh",
+    "shortName": "Z. Parekh",
+    "values": {
+     "hkspts": 2,
+     "hksgl": 2,
+     "hksast": 0,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 17511,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Porter Martone",
+    "shortName": "P. Martone",
+    "values": {
+     "hkspts": 1,
+     "hksgl": 1,
+     "hksast": 0,
+     "hkspim": 4
+    }
+   },
+   {
+    "playerId": 22716,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Sam O'Reilly",
+    "shortName": "S. O'Reilly",
+    "values": {
+     "hkspts": 0,
+     "hksgl": 0,
+     "hksast": 0,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 17508,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Liam Greentree",
+    "shortName": "L. Greentree",
+    "values": {
+     "hkspts": 0,
+     "hksgl": 0,
+     "hksast": 0,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 17901,
+    "teamId": 170,
+    "teamName": "Czechia",
+    "playerName": "Adam Jiricek",
+    "shortName": "A. Jiricek",
+    "values": {
+     "hkspts": 0,
+     "hksgl": 0,
+     "hksast": 0,
+     "hkspim": 2
+    }
+   },
+   {
+    "playerId": 17902,
+    "teamId": 170,
+    "teamName": "Czechia",
+    "playerName": "Jakub Fibigr",
+    "shortName": "J. Fibigr",
+    "values": {
+     "hkspts": 0,
+     "hksgl": 0,
+     "hksast": 0,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 19664,
+    "teamId": 170,
+    "teamName": "Czechia",
+    "playerName": "Vladimir Dravecky",
+    "shortName": "V. Dravecky",
+    "values": {
+     "hkspts": 0,
+     "hksgl": 0,
+     "hksast": 0,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 17900,
+    "teamId": 170,
+    "teamName": "Czechia",
+    "playerName": "Matej Kubiesa",
+    "shortName": "M. Kubiesa",
+    "values": {
+     "hkspts": 0,
+     "hksgl": 0,
+     "hksast": 0,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 19354,
+    "teamId": 170,
+    "teamName": "Czechia",
+    "playerName": "Maxmilian Curran",
+    "shortName": "M. Curran",
+    "values": {
+     "hkspts": 0,
+     "hksgl": 0,
+     "hksast": 0,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 21288,
+    "teamId": 170,
+    "teamName": "Czechia",
+    "playerName": "Richard Zemlicka",
+    "shortName": "R. Zemlicka",
+    "values": {
+     "hkspts": 0,
+     "hksgl": 0,
+     "hksast": 0,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 19661,
+    "teamId": 170,
+    "teamName": "Czechia",
+    "playerName": "Tomas Poletin",
+    "shortName": "T. Poletin",
+    "values": {
+     "hkspts": 2,
+     "hksgl": 2,
+     "hksast": 0,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 17537,
+    "teamId": 170,
+    "teamName": "Czechia",
+    "playerName": "Jiri Klima",
+    "shortName": "J. Klima",
+    "values": {
+     "hkspts": 0,
+     "hksgl": 0,
+     "hksast": 0,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 17910,
+    "teamId": 170,
+    "teamName": "Czechia",
+    "playerName": "Adam Titlbach",
+    "shortName": "A. Titlbach",
+    "values": {
+     "hkspts": 0,
+     "hksgl": 0,
+     "hksast": 0,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 19667,
+    "teamId": 170,
+    "teamName": "Czechia",
+    "playerName": "Adam Novotny",
+    "shortName": "A. Novotny",
+    "values": {
+     "hkspts": 0,
+     "hksgl": 0,
+     "hksast": 0,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 22720,
+    "teamId": 170,
+    "teamName": "Czechia",
+    "playerName": "Stepan Hoch",
+    "shortName": "S. Hoch",
+    "values": {
+     "hkspts": 0,
+     "hksgl": 0,
+     "hksast": 0,
+     "hkspim": 0
+    }
+   }
+  ],
+  "hockeySkatersGoals": [
+   {
+    "playerId": 17484,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Zayne Parekh",
+    "shortName": "Z. Parekh",
+    "values": {
+     "hkspts": 2,
+     "hksgl": 2,
+     "hksast": 0,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 19661,
+    "teamId": 170,
+    "teamName": "Czechia",
+    "playerName": "Tomas Poletin",
+    "shortName": "T. Poletin",
+    "values": {
+     "hkspts": 2,
+     "hksgl": 2,
+     "hksast": 0,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 22656,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Ethan MacKenzie",
+    "shortName": "E. MacKenzie",
+    "values": {
+     "hkspts": 3,
+     "hksgl": 1,
+     "hksast": 2,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 17509,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Michael Hage",
+    "shortName": "M. Hage",
+    "values": {
+     "hkspts": 3,
+     "hksgl": 1,
+     "hksast": 2,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 19665,
+    "teamId": 170,
+    "teamName": "Czechia",
+    "playerName": "Vojtech Cihar",
+    "shortName": "V. Cihar",
+    "values": {
+     "hkspts": 3,
+     "hksgl": 1,
+     "hksast": 2,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 18444,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Brady Martin",
+    "shortName": "B. Martin",
+    "values": {
+     "hkspts": 2,
+     "hksgl": 1,
+     "hksast": 1,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 17917,
+    "teamId": 170,
+    "teamName": "Czechia",
+    "playerName": "Petr Sikora",
+    "shortName": "P. Sikora",
+    "values": {
+     "hkspts": 2,
+     "hksgl": 1,
+     "hksast": 1,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 17909,
+    "teamId": 170,
+    "teamName": "Czechia",
+    "playerName": "Tomas Galvas",
+    "shortName": "T. Galvas",
+    "values": {
+     "hkspts": 2,
+     "hksgl": 1,
+     "hksast": 1,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 17510,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Tij Iginla",
+    "shortName": "T. Iginla",
+    "values": {
+     "hkspts": 1,
+     "hksgl": 1,
+     "hksast": 0,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 17511,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Porter Martone",
+    "shortName": "P. Martone",
+    "values": {
+     "hkspts": 1,
+     "hksgl": 1,
+     "hksast": 0,
+     "hkspim": 4
+    }
+   },
+   {
+    "playerId": 18522,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Gavin McKenna",
+    "shortName": "G. McKenna",
+    "values": {
+     "hkspts": 2,
+     "hksgl": 0,
+     "hksast": 2,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 19660,
+    "teamId": 170,
+    "teamName": "Czechia",
+    "playerName": "Vaclav Nestrasil",
+    "shortName": "V. Nestrasil",
+    "values": {
+     "hkspts": 2,
+     "hksgl": 0,
+     "hksast": 2,
+     "hkspim": 2
+    }
+   },
+   {
+    "playerId": 20846,
+    "teamId": 170,
+    "teamName": "Czechia",
+    "playerName": "Adam Benak",
+    "shortName": "A. Benak",
+    "values": {
+     "hkspts": 2,
+     "hksgl": 0,
+     "hksast": 2,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 17457,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Michael Misa",
+    "shortName": "M. Misa",
+    "values": {
+     "hkspts": 1,
+     "hksgl": 0,
+     "hksast": 1,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 19525,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Cameron Reid",
+    "shortName": "C. Reid",
+    "values": {
+     "hkspts": 1,
+     "hksgl": 0,
+     "hksast": 1,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 17890,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Ben Danford",
+    "shortName": "B. Danford",
+    "values": {
+     "hkspts": 1,
+     "hksgl": 0,
+     "hksast": 1,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 18508,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Cole Reschny",
+    "shortName": "C. Reschny",
+    "values": {
+     "hkspts": 1,
+     "hksgl": 0,
+     "hksast": 1,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 18483,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Caleb Desnoyers",
+    "shortName": "C. Desnoyers",
+    "values": {
+     "hkspts": 1,
+     "hksgl": 0,
+     "hksast": 1,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 17505,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Cole Beaudoin",
+    "shortName": "C. Beaudoin",
+    "values": {
+     "hkspts": 1,
+     "hksgl": 0,
+     "hksast": 1,
+     "hkspim": 2
+    }
+   },
+   {
+    "playerId": 22719,
+    "teamId": 170,
+    "teamName": "Czechia",
+    "playerName": "Max Psenicka",
+    "shortName": "M. Psenicka",
+    "values": {
+     "hkspts": 1,
+     "hksgl": 0,
+     "hksast": 1,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 22718,
+    "teamId": 170,
+    "teamName": "Czechia",
+    "playerName": "Matyas Man",
+    "shortName": "M. Man",
+    "values": {
+     "hkspts": 1,
+     "hksgl": 0,
+     "hksast": 1,
+     "hkspim": 2
+    }
+   },
+   {
+    "playerId": 20324,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Kashawn Aitcheson",
+    "shortName": "K. Aitcheson",
+    "values": {
+     "hkspts": 0,
+     "hksgl": 0,
+     "hksast": 0,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 17499,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Harrison Brunicke",
+    "shortName": "H. Brunicke",
+    "values": {
+     "hkspts": 0,
+     "hksgl": 0,
+     "hksast": 0,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 20800,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Carson Carels",
+    "shortName": "C. Carels",
+    "values": {
+     "hkspts": 0,
+     "hksgl": 0,
+     "hksast": 0,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 18282,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Braeden Cootes",
+    "shortName": "B. Cootes",
+    "values": {
+     "hkspts": 0,
+     "hksgl": 0,
+     "hksast": 0,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 17473,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Jett Luchanko",
+    "shortName": "J. Luchanko",
+    "values": {
+     "hkspts": 0,
+     "hksgl": 0,
+     "hksast": 0,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 22716,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Sam O'Reilly",
+    "shortName": "S. O'Reilly",
+    "values": {
+     "hkspts": 0,
+     "hksgl": 0,
+     "hksast": 0,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 17508,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Liam Greentree",
+    "shortName": "L. Greentree",
+    "values": {
+     "hkspts": 0,
+     "hksgl": 0,
+     "hksast": 0,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 17901,
+    "teamId": 170,
+    "teamName": "Czechia",
+    "playerName": "Adam Jiricek",
+    "shortName": "A. Jiricek",
+    "values": {
+     "hkspts": 0,
+     "hksgl": 0,
+     "hksast": 0,
+     "hkspim": 2
+    }
+   },
+   {
+    "playerId": 17902,
+    "teamId": 170,
+    "teamName": "Czechia",
+    "playerName": "Jakub Fibigr",
+    "shortName": "J. Fibigr",
+    "values": {
+     "hkspts": 0,
+     "hksgl": 0,
+     "hksast": 0,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 19664,
+    "teamId": 170,
+    "teamName": "Czechia",
+    "playerName": "Vladimir Dravecky",
+    "shortName": "V. Dravecky",
+    "values": {
+     "hkspts": 0,
+     "hksgl": 0,
+     "hksast": 0,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 17900,
+    "teamId": 170,
+    "teamName": "Czechia",
+    "playerName": "Matej Kubiesa",
+    "shortName": "M. Kubiesa",
+    "values": {
+     "hkspts": 0,
+     "hksgl": 0,
+     "hksast": 0,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 19354,
+    "teamId": 170,
+    "teamName": "Czechia",
+    "playerName": "Maxmilian Curran",
+    "shortName": "M. Curran",
+    "values": {
+     "hkspts": 0,
+     "hksgl": 0,
+     "hksast": 0,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 21288,
+    "teamId": 170,
+    "teamName": "Czechia",
+    "playerName": "Richard Zemlicka",
+    "shortName": "R. Zemlicka",
+    "values": {
+     "hkspts": 0,
+     "hksgl": 0,
+     "hksast": 0,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 17537,
+    "teamId": 170,
+    "teamName": "Czechia",
+    "playerName": "Jiri Klima",
+    "shortName": "J. Klima",
+    "values": {
+     "hkspts": 0,
+     "hksgl": 0,
+     "hksast": 0,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 17910,
+    "teamId": 170,
+    "teamName": "Czechia",
+    "playerName": "Adam Titlbach",
+    "shortName": "A. Titlbach",
+    "values": {
+     "hkspts": 0,
+     "hksgl": 0,
+     "hksast": 0,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 19667,
+    "teamId": 170,
+    "teamName": "Czechia",
+    "playerName": "Adam Novotny",
+    "shortName": "A. Novotny",
+    "values": {
+     "hkspts": 0,
+     "hksgl": 0,
+     "hksast": 0,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 22720,
+    "teamId": 170,
+    "teamName": "Czechia",
+    "playerName": "Stepan Hoch",
+    "shortName": "S. Hoch",
+    "values": {
+     "hkspts": 0,
+     "hksgl": 0,
+     "hksast": 0,
+     "hkspim": 0
+    }
+   }
+  ],
+  "hockeySkatersPoints": [
+   {
+    "playerId": 22656,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Ethan MacKenzie",
+    "shortName": "E. MacKenzie",
+    "values": {
+     "hkspts": 3,
+     "hksgl": 1,
+     "hksast": 2,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 17509,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Michael Hage",
+    "shortName": "M. Hage",
+    "values": {
+     "hkspts": 3,
+     "hksgl": 1,
+     "hksast": 2,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 19665,
+    "teamId": 170,
+    "teamName": "Czechia",
+    "playerName": "Vojtech Cihar",
+    "shortName": "V. Cihar",
+    "values": {
+     "hkspts": 3,
+     "hksgl": 1,
+     "hksast": 2,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 17484,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Zayne Parekh",
+    "shortName": "Z. Parekh",
+    "values": {
+     "hkspts": 2,
+     "hksgl": 2,
+     "hksast": 0,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 19661,
+    "teamId": 170,
+    "teamName": "Czechia",
+    "playerName": "Tomas Poletin",
+    "shortName": "T. Poletin",
+    "values": {
+     "hkspts": 2,
+     "hksgl": 2,
+     "hksast": 0,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 18444,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Brady Martin",
+    "shortName": "B. Martin",
+    "values": {
+     "hkspts": 2,
+     "hksgl": 1,
+     "hksast": 1,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 17917,
+    "teamId": 170,
+    "teamName": "Czechia",
+    "playerName": "Petr Sikora",
+    "shortName": "P. Sikora",
+    "values": {
+     "hkspts": 2,
+     "hksgl": 1,
+     "hksast": 1,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 17909,
+    "teamId": 170,
+    "teamName": "Czechia",
+    "playerName": "Tomas Galvas",
+    "shortName": "T. Galvas",
+    "values": {
+     "hkspts": 2,
+     "hksgl": 1,
+     "hksast": 1,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 18522,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Gavin McKenna",
+    "shortName": "G. McKenna",
+    "values": {
+     "hkspts": 2,
+     "hksgl": 0,
+     "hksast": 2,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 19660,
+    "teamId": 170,
+    "teamName": "Czechia",
+    "playerName": "Vaclav Nestrasil",
+    "shortName": "V. Nestrasil",
+    "values": {
+     "hkspts": 2,
+     "hksgl": 0,
+     "hksast": 2,
+     "hkspim": 2
+    }
+   },
+   {
+    "playerId": 20846,
+    "teamId": 170,
+    "teamName": "Czechia",
+    "playerName": "Adam Benak",
+    "shortName": "A. Benak",
+    "values": {
+     "hkspts": 2,
+     "hksgl": 0,
+     "hksast": 2,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 17510,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Tij Iginla",
+    "shortName": "T. Iginla",
+    "values": {
+     "hkspts": 1,
+     "hksgl": 1,
+     "hksast": 0,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 17511,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Porter Martone",
+    "shortName": "P. Martone",
+    "values": {
+     "hkspts": 1,
+     "hksgl": 1,
+     "hksast": 0,
+     "hkspim": 4
+    }
+   },
+   {
+    "playerId": 17457,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Michael Misa",
+    "shortName": "M. Misa",
+    "values": {
+     "hkspts": 1,
+     "hksgl": 0,
+     "hksast": 1,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 19525,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Cameron Reid",
+    "shortName": "C. Reid",
+    "values": {
+     "hkspts": 1,
+     "hksgl": 0,
+     "hksast": 1,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 17890,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Ben Danford",
+    "shortName": "B. Danford",
+    "values": {
+     "hkspts": 1,
+     "hksgl": 0,
+     "hksast": 1,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 18508,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Cole Reschny",
+    "shortName": "C. Reschny",
+    "values": {
+     "hkspts": 1,
+     "hksgl": 0,
+     "hksast": 1,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 18483,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Caleb Desnoyers",
+    "shortName": "C. Desnoyers",
+    "values": {
+     "hkspts": 1,
+     "hksgl": 0,
+     "hksast": 1,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 17505,
+    "teamId": 175,
+    "teamName": "Canada",
+    "playerName": "Cole Beaudoin",
+    "shortName": "C. Beaudoin",
+    "values": {
+     "hkspts": 1,
+     "hksgl": 0,
+     "hksast": 1,
+     "hkspim": 2
+    }
+   },
+   {
+    "playerId": 22719,
+    "teamId": 170,
+    "teamName": "Czechia",
+    "playerName": "Max Psenicka",
+    "shortName": "M. Psenicka",
+    "values": {
+     "hkspts": 1,
+     "hksgl": 0,
+     "hksast": 1,
+     "hkspim": 0
+    }
+   },
+   {
+    "playerId": 22718,
+    "teamId": 170,
+    "teamName": "Czechia",
+    "playerName": "Matyas Man",
+    "shortName": "M. Man",
+    "values": {
+     "hkspts": 1,
+     "hksgl": 0,
+     "hksast": 1,
+     "hkspim": 2
+    }
+   }
+  ]
+ },
+ "ShowLiveBlogLink": false,
+ "AwayGames": [
+  {
+   "id": 5475,
+   "gameNumber": "29",
+   "round": "Gold",
+   "status": "completed",
+   "gameStatusLabel": null,
+   "home": {
+    "id": 169,
+    "name": "Sweden",
+    "abbr": "SWE",
+    "score": 4,
+    "logo": "https://assets.leaguestat.com/hockeycanada/logos/169.png"
+   },
+   "away": {
+    "id": 170,
+    "name": "Czechia",
+    "abbr": "CZE",
+    "score": 2,
+    "logo": "https://assets.leaguestat.com/hockeycanada/logos/170.png"
+   },
+   "periods": "3",
+   "shootout": false,
+   "overtime": false,
+   "totalIntervalCount": 3,
+   "startDateTime": "2026-01-05T19:30:00-06:00",
+   "startDateTimeDisplay": "7:30 pm CST",
+   "venue": "Saint Paul, MN",
+   "ticketsUrl": "",
+   "videoUrl": "https://www.tsn.ca/live/schedule",
+   "ifNecessary": "0",
+   "seasonId": 1052
+  },
+  {
+   "id": 5473,
+   "gameNumber": "27",
+   "round": "Semifinal",
+   "status": "completed",
+   "gameStatusLabel": null,
+   "home": {
+    "id": 175,
+    "name": "Canada",
+    "abbr": "CAN",
+    "score": 4,
+    "logo": "https://assets.leaguestat.com/hockeycanada/logos/175.png"
+   },
+   "away": {
+    "id": 170,
+    "name": "Czechia",
+    "abbr": "CZE",
+    "score": 6,
+    "logo": "https://assets.leaguestat.com/hockeycanada/logos/170.png"
+   },
+   "periods": "3",
+   "shootout": false,
+   "overtime": false,
+   "totalIntervalCount": 3,
+   "startDateTime": "2026-01-04T19:30:00-06:00",
+   "startDateTimeDisplay": "7:30 pm CST",
+   "venue": "Saint Paul, MN",
+   "ticketsUrl": "",
+   "videoUrl": "https://www.tsn.ca/live/schedule",
+   "ifNecessary": "0",
+   "seasonId": 1050
+  },
+  {
+   "id": 5469,
+   "gameNumber": "23",
+   "round": "Quarterfinal",
+   "status": "completed",
+   "gameStatusLabel": null,
+   "home": {
+    "id": 170,
+    "name": "Czechia",
+    "abbr": "CZE",
+    "score": 6,
+    "logo": "https://assets.leaguestat.com/hockeycanada/logos/170.png"
+   },
+   "away": {
+    "id": 172,
+    "name": "Switzerland",
+    "abbr": "SUI",
+    "score": 2,
+    "logo": "https://assets.leaguestat.com/hockeycanada/logos/172.png"
+   },
+   "periods": "3",
+   "shootout": false,
+   "overtime": false,
+   "totalIntervalCount": 3,
+   "startDateTime": "2026-01-02T15:30:00-06:00",
+   "startDateTimeDisplay": "3:30 pm CST",
+   "venue": "Minneapolis, MN",
+   "ticketsUrl": "",
+   "videoUrl": "https://www.tsn.ca/live/schedule",
+   "ifNecessary": "0",
+   "seasonId": 1049
+  }
+ ],
+ "HomeGames": [
+  {
+   "id": 5474,
+   "gameNumber": "28",
+   "round": "Bronze",
+   "status": "completed",
+   "gameStatusLabel": null,
+   "home": {
+    "id": 175,
+    "name": "Canada",
+    "abbr": "CAN",
+    "score": 6,
+    "logo": "https://assets.leaguestat.com/hockeycanada/logos/175.png"
+   },
+   "away": {
+    "id": 168,
+    "name": "Finland",
+    "abbr": "FIN",
+    "score": 3,
+    "logo": "https://assets.leaguestat.com/hockeycanada/logos/168.png"
+   },
+   "periods": "3",
+   "shootout": false,
+   "overtime": false,
+   "totalIntervalCount": 3,
+   "startDateTime": "2026-01-05T15:30:00-06:00",
+   "startDateTimeDisplay": "3:30 pm CST",
+   "venue": "Saint Paul, MN",
+   "ticketsUrl": "",
+   "videoUrl": "https://www.tsn.ca/live/schedule",
+   "ifNecessary": "0",
+   "seasonId": 1051
+  },
+  {
+   "id": 5473,
+   "gameNumber": "27",
+   "round": "Semifinal",
+   "status": "completed",
+   "gameStatusLabel": null,
+   "home": {
+    "id": 175,
+    "name": "Canada",
+    "abbr": "CAN",
+    "score": 4,
+    "logo": "https://assets.leaguestat.com/hockeycanada/logos/175.png"
+   },
+   "away": {
+    "id": 170,
+    "name": "Czechia",
+    "abbr": "CZE",
+    "score": 6,
+    "logo": "https://assets.leaguestat.com/hockeycanada/logos/170.png"
+   },
+   "periods": "3",
+   "shootout": false,
+   "overtime": false,
+   "totalIntervalCount": 3,
+   "startDateTime": "2026-01-04T19:30:00-06:00",
+   "startDateTimeDisplay": "7:30 pm CST",
+   "venue": "Saint Paul, MN",
+   "ticketsUrl": "",
+   "videoUrl": "https://www.tsn.ca/live/schedule",
+   "ifNecessary": "0",
+   "seasonId": 1050
+  },
+  {
+   "id": 5471,
+   "gameNumber": "25",
+   "round": "Quarterfinal",
+   "status": "completed",
+   "gameStatusLabel": null,
+   "home": {
+    "id": 175,
+    "name": "Canada",
+    "abbr": "CAN",
+    "score": 7,
+    "logo": "https://assets.leaguestat.com/hockeycanada/logos/175.png"
+   },
+   "away": {
+    "id": 176,
+    "name": "Slovakia",
+    "abbr": "SVK",
+    "score": 1,
+    "logo": "https://assets.leaguestat.com/hockeycanada/logos/176.png"
+   },
+   "periods": "3",
+   "shootout": false,
+   "overtime": false,
+   "totalIntervalCount": 3,
+   "startDateTime": "2026-01-02T19:30:00-06:00",
+   "startDateTimeDisplay": "7:30 pm CST",
+   "venue": "Minneapolis, MN",
+   "ticketsUrl": "",
+   "videoUrl": "https://www.tsn.ca/live/schedule",
+   "ifNecessary": "0",
+   "seasonId": 1049
+  }
+ ],
+ "Teams": [],
+ "QuickScoreForReal": false,
+ "OvertimeGame": false,
+ "Shootout": false,
+ "HomeShootout": false,
+ "VisitorShootout": false,
+ "TotalPeriods": 3,
+ "Plays": [
+  {
+   "type": "penalty",
+   "player": "Vaclav Nestrasil",
+   "seconds": 213,
+   "timeInterval": 1,
+   "clockTimeString": "03:33",
+   "details": "Hooking - Minor (2:00)",
+   "teamId": 170,
+   "completed": true,
+   "playSummary": {
+    "details": "Hooking - Minor (2:00)"
+   },
+   "playByPlayString": "Penalty",
+   "playType": "Penalty",
+   "playTime": null,
+   "actionDetails": "Penalty: Vaclav Nestrasil",
+   "awayTeamScore": 0,
+   "homeTeamScore": 0
+  },
+  {
+   "type": "goal",
+   "player": "Brady Martin",
+   "seconds": 833,
+   "timeInterval": 1,
+   "clockTimeString": "13:53",
+   "details": "Assists: Gavin McKenna, Michael Hage",
+   "strength": "",
+   "teamId": 175,
+   "completed": true,
+   "playSummary": {
+    "details": "Assists: Gavin McKenna, Michael Hage"
+   },
+   "playByPlayString": "Goal",
+   "playType": "Goal",
+   "playTime": null,
+   "actionDetails": "Goal: Brady Martin",
+   "awayTeamScore": 0,
+   "homeTeamScore": 1
+  },
+  {
+   "type": "goal",
+   "player": "Tomas Poletin",
+   "seconds": 1021,
+   "timeInterval": 1,
+   "clockTimeString": "17:01",
+   "details": "Assists: Adam Benak, Max Psenicka",
+   "strength": "",
+   "teamId": 170,
+   "completed": true,
+   "playSummary": {
+    "details": "Assists: Adam Benak, Max Psenicka"
+   },
+   "playByPlayString": "Goal",
+   "playType": "Goal",
+   "playTime": null,
+   "actionDetails": "Goal: Tomas Poletin",
+   "awayTeamScore": 1,
+   "homeTeamScore": 1
+  },
+  {
+   "type": "goal",
+   "player": "Michael Hage",
+   "seconds": 1058,
+   "timeInterval": 1,
+   "clockTimeString": "17:38",
+   "details": "Assists: Brady Martin, Ben Danford",
+   "strength": "",
+   "teamId": 175,
+   "completed": true,
+   "playSummary": {
+    "details": "Assists: Brady Martin, Ben Danford"
+   },
+   "playByPlayString": "Goal",
+   "playType": "Goal",
+   "playTime": null,
+   "actionDetails": "Goal: Michael Hage",
+   "awayTeamScore": 1,
+   "homeTeamScore": 2
+  },
+  {
+   "type": "penalty",
+   "player": "Cole Beaudoin",
+   "seconds": 242,
+   "timeInterval": 2,
+   "clockTimeString": "04:02",
+   "details": "Slashing - Minor (2:00)",
+   "teamId": 175,
+   "completed": true,
+   "playSummary": {
+    "details": "Slashing - Minor (2:00)"
+   },
+   "playByPlayString": "Penalty",
+   "playType": "Penalty",
+   "playTime": null,
+   "actionDetails": "Penalty: Cole Beaudoin",
+   "awayTeamScore": 2,
+   "homeTeamScore": 2
+  },
+  {
+   "type": "goal",
+   "player": "Vojtech Cihar",
+   "seconds": 242,
+   "timeInterval": 2,
+   "clockTimeString": "04:02",
+   "details": "Assists: Adam Benak, Matyas Man",
+   "strength": "",
+   "teamId": 170,
+   "completed": true,
+   "playSummary": {
+    "details": "Assists: Adam Benak, Matyas Man"
+   },
+   "playByPlayString": "Goal",
+   "playType": "Goal",
+   "playTime": null,
+   "actionDetails": "Goal: Vojtech Cihar",
+   "awayTeamScore": 2,
+   "homeTeamScore": 2
+  },
+  {
+   "type": "penalty",
+   "player": "Matyas Man",
+   "seconds": 333,
+   "timeInterval": 2,
+   "clockTimeString": "05:33",
+   "details": "Hooking - Minor (2:00)",
+   "teamId": 170,
+   "completed": true,
+   "playSummary": {
+    "details": "Hooking - Minor (2:00)"
+   },
+   "playByPlayString": "Penalty",
+   "playType": "Penalty",
+   "playTime": null,
+   "actionDetails": "Penalty: Matyas Man",
+   "awayTeamScore": 2,
+   "homeTeamScore": 2
+  },
+  {
+   "type": "goal",
+   "player": "Petr Sikora",
+   "seconds": 733,
+   "timeInterval": 2,
+   "clockTimeString": "12:13",
+   "details": "Assists: Vojtech Cihar, Vaclav Nestrasil",
+   "strength": "",
+   "teamId": 170,
+   "completed": true,
+   "playSummary": {
+    "details": "Assists: Vojtech Cihar, Vaclav Nestrasil"
+   },
+   "playByPlayString": "Goal",
+   "playType": "Goal",
+   "playTime": null,
+   "actionDetails": "Goal: Petr Sikora",
+   "awayTeamScore": 3,
+   "homeTeamScore": 2
+  },
+  {
+   "type": "goal",
+   "player": "Zayne Parekh",
+   "seconds": 1022,
+   "timeInterval": 2,
+   "clockTimeString": "17:02",
+   "details": "Assists: Cameron Reid, Caleb Desnoyers",
+   "strength": "",
+   "teamId": 175,
+   "completed": true,
+   "playSummary": {
+    "details": "Assists: Cameron Reid, Caleb Desnoyers"
+   },
+   "playByPlayString": "Goal",
+   "playType": "Goal",
+   "playTime": null,
+   "actionDetails": "Goal: Zayne Parekh",
+   "awayTeamScore": 3,
+   "homeTeamScore": 3
+  },
+  {
+   "type": "penalty",
+   "player": "Adam Jiricek",
+   "seconds": 181,
+   "timeInterval": 3,
+   "clockTimeString": "03:01",
+   "details": "Roughing - Minor (2:00)",
+   "teamId": 170,
+   "completed": true,
+   "playSummary": {
+    "details": "Roughing - Minor (2:00)"
+   },
+   "playByPlayString": "Penalty",
+   "playType": "Penalty",
+   "playTime": null,
+   "actionDetails": "Penalty: Adam Jiricek",
+   "awayTeamScore": 3,
+   "homeTeamScore": 3
+  },
+  {
+   "type": "goal",
+   "player": "Zayne Parekh",
+   "seconds": 229,
+   "timeInterval": 3,
+   "clockTimeString": "03:49",
+   "details": "Assists: Gavin McKenna, Cole Reschny",
+   "strength": "(power play)",
+   "teamId": 175,
+   "completed": true,
+   "playSummary": {
+    "details": "Assists: Gavin McKenna, Cole Reschny"
+   },
+   "playByPlayString": "Goal (Power Play)",
+   "playType": "Goal",
+   "playTime": null,
+   "actionDetails": "Goal: Zayne Parekh",
+   "awayTeamScore": 3,
+   "homeTeamScore": 4
+  },
+  {
+   "type": "goal",
+   "player": "Tomas Poletin",
+   "seconds": 321,
+   "timeInterval": 3,
+   "clockTimeString": "05:21",
+   "details": "Assists: Petr Sikora, Tomas Galvas",
+   "strength": "",
+   "teamId": 170,
+   "completed": true,
+   "playSummary": {
+    "details": "Assists: Petr Sikora, Tomas Galvas"
+   },
+   "playByPlayString": "Goal",
+   "playType": "Goal",
+   "playTime": null,
+   "actionDetails": "Goal: Tomas Poletin",
+   "awayTeamScore": 4,
+   "homeTeamScore": 4
+  },
+  {
+   "type": "goal",
+   "player": "Tij Iginla",
+   "seconds": 392,
+   "timeInterval": 3,
+   "clockTimeString": "06:32",
+   "details": "Assists: Michael Misa, Ethan MacKenzie",
+   "strength": "",
+   "teamId": 175,
+   "completed": true,
+   "playSummary": {
+    "details": "Assists: Michael Misa, Ethan MacKenzie"
+   },
+   "playByPlayString": "Goal",
+   "playType": "Goal",
+   "playTime": null,
+   "actionDetails": "Goal: Tij Iginla",
+   "awayTeamScore": 4,
+   "homeTeamScore": 5
+  },
+  {
+   "type": "goal",
+   "player": "Ethan MacKenzie",
+   "seconds": 552,
+   "timeInterval": 3,
+   "clockTimeString": "09:12",
+   "details": "Assists: Michael Hage",
+   "strength": "",
+   "teamId": 175,
+   "completed": true,
+   "playSummary": {
+    "details": "Assists: Michael Hage"
+   },
+   "playByPlayString": "Goal",
+   "playType": "Goal",
+   "playTime": null,
+   "actionDetails": "Goal: Ethan MacKenzie",
+   "awayTeamScore": 4,
+   "homeTeamScore": 6
+  },
+  {
+   "type": "penalty",
+   "player": "Porter Martone",
+   "seconds": 709,
+   "timeInterval": 3,
+   "clockTimeString": "11:49",
+   "details": "Holding - Minor (2:00)",
+   "teamId": 175,
+   "completed": true,
+   "playSummary": {
+    "details": "Holding - Minor (2:00)"
+   },
+   "playByPlayString": "Penalty",
+   "playType": "Penalty",
+   "playTime": null,
+   "actionDetails": "Penalty: Porter Martone",
+   "awayTeamScore": 4,
+   "homeTeamScore": 6
+  },
+  {
+   "type": "goal",
+   "player": "Tomas Galvas",
+   "seconds": 926,
+   "timeInterval": 3,
+   "clockTimeString": "15:26",
+   "details": "Assists: Vaclav Nestrasil, Vojtech Cihar",
+   "strength": "",
+   "teamId": 170,
+   "completed": true,
+   "playSummary": {
+    "details": "Assists: Vaclav Nestrasil, Vojtech Cihar"
+   },
+   "playByPlayString": "Goal",
+   "playType": "Goal",
+   "playTime": null,
+   "actionDetails": "Goal: Tomas Galvas",
+   "awayTeamScore": 5,
+   "homeTeamScore": 6
+  },
+  {
+   "type": "penalty",
+   "player": "Porter Martone",
+   "seconds": 1140,
+   "timeInterval": 3,
+   "clockTimeString": "19:00",
+   "details": "Unsportsmanlike Conduct - Minor (2:00)",
+   "teamId": 175,
+   "completed": true,
+   "playSummary": {
+    "details": "Unsportsmanlike Conduct - Minor (2:00)"
+   },
+   "playByPlayString": "Penalty",
+   "playType": "Penalty",
+   "playTime": null,
+   "actionDetails": "Penalty: Porter Martone",
+   "awayTeamScore": 5,
+   "homeTeamScore": 7
+  },
+  {
+   "type": "goal",
+   "player": "Porter Martone",
+   "seconds": 1140,
+   "timeInterval": 3,
+   "clockTimeString": "19:00",
+   "details": "Assists: Cole Beaudoin, Ethan MacKenzie",
+   "strength": "",
+   "teamId": 175,
+   "completed": true,
+   "playSummary": {
+    "details": "Assists: Cole Beaudoin, Ethan MacKenzie"
+   },
+   "playByPlayString": "Goal (Empty Net)",
+   "playType": "Goal",
+   "playTime": null,
+   "actionDetails": "Goal: Porter Martone",
+   "awayTeamScore": 5,
+   "homeTeamScore": 7
+  }
+ ],
+ "Period1Away": 1,
+ "Period2Away": 2,
+ "Period3Away": 2,
+ "Period4Away": 0,
+ "Period5Away": 0,
+ "Period1Home": 2,
+ "Period2Home": 1,
+ "Period3Home": 4,
+ "Period4Home": 0,
+ "Period5Home": 0
+}

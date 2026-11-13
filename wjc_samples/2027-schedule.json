@@ -1,0 +1,51 @@
+{
+ "Links": [
+  {
+   "ContentID": 250033,
+   "Title": "Schedule",
+   "FeminineTitle": "Schedule",
+   "PageLink": "/en-ca/team-canada/men/junior/2026-27/world-championship/stats/schedule"
+  },
+  {
+   "ContentID": 250034,
+   "Title": "Rosters",
+   "FeminineTitle": "Rosters",
+   "PageLink": "/en-ca/team-canada/men/junior/2026-27/world-championship/stats/Team-Rosters"
+  },
+  {
+   "ContentID": 250035,
+   "Title": "Player Stats",
+   "FeminineTitle": "Player Stats",
+   "PageLink": "/en-ca/team-canada/men/junior/2026-27/world-championship/stats/Player-Stats"
+  },
+  {
+   "ContentID": 250036,
+   "Title": "Team Stats",
+   "FeminineTitle": "Team Stats",
+   "PageLink": "/en-ca/team-canada/men/junior/2026-27/world-championship/stats/Team-Stats"
+  },
+  {
+   "ContentID": 250037,
+   "Title": "Standings",
+   "FeminineTitle": "Standings",
+   "PageLink": "/en-ca/team-canada/men/junior/2026-27/world-championship/stats/Team-Standings"
+  }
+ ],
+ "LinkSelected": null,
+ "WomensEvent": false,
+ "Seasons": [
+  {
+   "id": 1,
+   "name": "Tournament"
+  },
+  {
+   "id": 2,
+   "name": "Exhibition"
+  }
+ ],
+ "eventId": "7",
+ "subseasonId": "1144",
+ "tournamentId": "316",
+ "lang": "en-ca",
+ "exhibitionId": "1168"
+}
