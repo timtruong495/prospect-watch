@@ -4,7 +4,8 @@
 Reads follow.json (who to follow), pulls schedules, scores, player game lines,
 season stats and standings from the NHL and HockeyTech (AHL/OHL/WHL) feeds, and
 writes data.json for the page. Leagues it can't read yet (NCAA) keep whatever
-is already in data.json. Standard library only.
+is already in data.json. From Dec 1 to Jan 12 it also reads the World Juniors
+from Hockey Canada (plus wjc_lines.json). Standard library only.
 
   python update.py            normal run
   python update.py --probe    also write probe.json (the shape of every feed
@@ -476,6 +477,219 @@ def season_stats(lines_by_game, games, goalie, league, team_name, url):
     return st
 
 
+# ---------- World Juniors (Hockey Canada's tournament pages) ----------
+# Hockey Canada's schedule page carries the whole tournament as built-in page
+# data: every game, time and score, plus full box scores for Canada's games
+# only. For other games, single-game pages list each team's lineup (used to
+# find which country a followed player is on), and stat lines come from
+# wjc_lines.json, which Claude's news task fills in from game reports.
+WJC_BASE = "https://www.hockeycanada.ca/en-ca/team-canada/men/junior/{season}/world-championship/stats/"
+WJC_SHOW = ((12, 1), (1, 12))  # the World Juniors tab exists from Dec 1 to Jan 12
+WJC_SCANS = 8  # most single-game pages read per run (each is read once)
+
+
+def wjc_year(today):
+    """Tournament year if today is inside the World Juniors window, else None."""
+    d = dt.date.fromisoformat(today)
+    if (d.month, d.day) >= WJC_SHOW[0]:
+        return d.year + 1
+    if (d.month, d.day) <= WJC_SHOW[1]:
+        return d.year
+    return None
+
+
+def wjc_season(year):
+    return "%d-%02d" % (year - 1, year % 100)
+
+
+def wjc_page_data(body, key):
+    """The dict holding key, from a Hockey Canada page's built-in (Next.js) data."""
+    m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', body, re.S)
+    if not m:
+        raise RuntimeError("no built-in data on the page")
+    found = next(find_dicts(json.loads(m.group(1)), (key,)), None)
+    if found is None:
+        raise RuntimeError("no %s in the page data" % key)
+    return found
+
+
+def wjc_team(t):
+    t = t or {}
+    return {"abbr": t.get("abbr") or "TBD", "name": t.get("name") or "To be decided"}
+
+
+def wjc_box_lines(gd, game, want, country):
+    """Stat lines for followed players from a game's box score (Canada's games)."""
+    lines = {}
+    named = [s for side in ("home", "away") for s in (gd.get(side + "SkaterStats") or []) if s.get("name")]
+    if not named:
+        return lines, False
+    for side in ("home", "away"):
+        abbr = game[side]["abbr"]
+        won = game.get("final") and game[side].get("score", 0) > game["away" if side == "home" else "home"].get("score", 0)
+        for s in gd.get(side + "SkaterStats") or []:
+            k = want.get(norm(s.get("name")))
+            if k:
+                country[k] = abbr
+                line = {"g": num(s.get("goals")), "a": num(s.get("assists")), "pts": num(s.get("points")),
+                        "pm": num(s.get("plusMinus")), "pim": num(s.get("pim"))}
+                lines[k] = {kk: vv for kk, vv in line.items() if vv is not None}
+        for s in gd.get(side + "GoalieStats") or []:
+            k = want.get(norm(s.get("name")))
+            if not k:
+                continue
+            country[k] = abbr
+            mins = num(s.get("minutesPlayedString")) or 0
+            if mins or s.get("start"):
+                line = {"sv": num(s.get("saves")), "ga": num(s.get("goalsAgainst")), "min": str(mins)}
+                if s.get("start"):
+                    line["dec"] = "W" if won else "L"
+                lines[k] = {kk: vv for kk, vv in line.items() if vv is not None}
+            else:
+                lines[k] = {"dnp": True, "why": "backup"}
+        for s in gd.get(side + "Scratches") or []:
+            k = want.get(norm(s.get("name")))
+            if k:
+                country[k] = abbr
+                lines.setdefault(k, {"dnp": True})
+    return lines, True
+
+
+def wjc_lineups(year, gid, want):
+    """Followed players named in a single game's lineups: {player key: country}."""
+    body = fetch_text(WJC_BASE.format(season=wjc_season(year)) + "game-summary/%s" % gid, "wjc.game")
+    gd = wjc_page_data(body, "GameDetail")["GameDetail"]
+    found = {}
+    for side, team in (("home", gd.get("homeTeam")), ("away", gd.get("awayTeam"))):
+        abbr = (team or {}).get("abbr")
+        for key in ("SkaterStats", "GoalieStats", "Scratches"):
+            for s in gd.get(side + key) or []:
+                k = want.get(norm(s.get("name")))
+                if k and abbr:
+                    found[k] = abbr
+    return found
+
+
+def wjc_standings(games):
+    """Group tables from the preliminary-round games (3 pts a win, 2 an OT/SO win, 1 an OT/SO loss)."""
+    prelim = [gm for gm in games if gm["round"].lower().startswith("prelim")]
+    group = {}  # team -> set of teams in its group (teams that meet in the preliminary round)
+    for gm in prelim:
+        a, b = gm["home"]["abbr"], gm["away"]["abbr"]
+        merged = group.get(a, {a}) | group.get(b, {b})
+        for t in merged:
+            group[t] = merged
+    tables, seen = [], set()
+    for members in group.values():
+        if id(members) in seen:
+            continue
+        seen.add(id(members))
+        rows = {t: {"abbr": t, "name": t, "gp": 0, "w": 0, "otw": 0, "otl": 0, "l": 0, "pts": 0, "gf": 0, "ga": 0} for t in members}
+        cities = {}
+        for gm in prelim:
+            if gm["home"]["abbr"] not in members:
+                continue
+            if gm.get("city"):
+                cities[gm["city"]] = cities.get(gm["city"], 0) + 1
+            for side, other in (("home", "away"), ("away", "home")):
+                r = rows[gm[side]["abbr"]]
+                r["name"] = gm[side]["name"]
+                if not gm.get("final"):
+                    continue
+                f, a = gm[side]["score"], gm[other]["score"]
+                r["gp"] += 1
+                r["gf"] += f
+                r["ga"] += a
+                won, extra = f > a, bool(gm.get("ot"))
+                kind = ("otw" if extra else "w") if won else ("otl" if extra else "l")
+                r[kind] += 1
+                r["pts"] += {"w": 3, "otw": 2, "otl": 1, "l": 0}[kind]
+        order = sorted(rows.values(), key=lambda r: (-r["pts"], -(r["gf"] - r["ga"]), -r["gf"], r["name"]))
+        city = max(cities, key=cities.get) if cities else ""
+        tables.append({"city": city, "teams": order})
+    cities = [t["city"] for t in tables]
+    for i, t in enumerate(sorted(tables, key=lambda t: t["city"])):
+        t["name"] = ("%s group" % t["city"]) if t["city"] and cities.count(t["city"]) == 1 else "Group %d" % (i + 1)
+    return sorted(tables, key=lambda t: t["name"])
+
+
+def wjc_update(year, follow, old_wjc, manual):
+    """The World Juniors block for data.json."""
+    season = wjc_season(year)
+    url = WJC_BASE.format(season=season) + "schedule"
+    mt = wjc_page_data(fetch_text(url, "wjc.schedule"), "dateGames")
+    PROBE.setdefault("wjc.schedule", shape(mt))
+    players = {p["key"]: p for p in follow.get("players", [])}
+    want = {norm(p["name"]): k for k, p in players.items()}
+    old_games = {gm["id"]: gm for gm in (old_wjc or {}).get("games", [])}
+    country = dict((old_wjc or {}).get("found") or {})  # found in lineups on earlier runs
+    games = []
+    for day in mt.get("dateGames", []):
+        for x in day.get("games", []):
+            o, gd = x.get("GameOverview") or {}, x.get("GameDetail") or {}
+            when = o.get("startDateTime")
+            d, t = to_bc(when) if when else (day.get("date"), None)
+            gm = {"id": str(o.get("id")), "n": num(o.get("gameNumber")), "d": d, "t": t,
+                  "round": o.get("round") or "", "home": wjc_team(o.get("home")), "away": wjc_team(o.get("away")),
+                  "city": (o.get("venue") or "").split(",")[0].strip()}
+            hs, vs = num((o.get("home") or {}).get("score")), num((o.get("away") or {}).get("score"))
+            if (o.get("status") or "").lower() == "completed" and hs is not None and vs is not None:
+                gm["final"] = True
+                gm["home"]["score"], gm["away"]["score"] = hs, vs
+                if o.get("shootout"):
+                    gm["ot"] = "SO"
+                elif o.get("overtime"):
+                    gm["ot"] = "OT"
+            lines, boxed = wjc_box_lines(gd, gm, want, country)
+            if boxed:
+                gm["box"] = True
+            gm["lines"] = lines
+            prev = old_games.get(gm["id"]) or {}
+            if prev.get("scanned"):
+                gm["scanned"] = True
+            games.append(gm)
+    games.sort(key=lambda gm: (gm["d"] or "", gm["t"] or "99", gm["n"] or 0))
+
+    # lineups from single-game pages (games without a box score), each read once
+    scans = 0
+    for gm in games:
+        if gm.get("final") and not gm.get("box") and not gm.get("scanned") and scans < WJC_SCANS:
+            scans += 1
+            try:
+                country.update(wjc_lineups(year, gm["id"], want))
+                gm["scanned"] = True
+            except Exception as e:  # noqa: BLE001
+                warn("World Juniors game %s: lineups not read (%s)" % (gm["n"], e))
+    found = dict(country)
+    for k, p in players.items():  # follow.json "wjc" country (set before games start) fills gaps
+        if p.get("wjc") and k not in country:
+            country[k] = str(p["wjc"]).upper()
+
+    # stat lines from news reports (wjc_lines.json) for games without a box score
+    missing = []
+    for gm in games:
+        for k, abbr in country.items():
+            if abbr not in (gm["home"]["abbr"], gm["away"]["abbr"]) or k in gm["lines"]:
+                continue
+            if gm.get("box") and gm.get("final"):  # full box score without them: not dressed
+                gm["lines"][k] = {"dnp": True}
+                continue
+            got = (manual.get(k) or {}).get(str(gm["n"]))
+            if got:
+                gm["lines"][k] = dict(got, via="news")
+            elif gm.get("final"):
+                missing.append({"player": k, "name": players[k]["name"], "game": gm["n"], "date": gm["d"],
+                                "match": "%s vs %s" % (gm["away"]["name"], gm["home"]["name"])})
+    names = {}
+    for gm in games:
+        for side in ("home", "away"):
+            names[gm[side]["abbr"]] = gm[side]["name"]
+    return {"year": year, "title": "%d IIHF World Junior Championship" % year, "url": url,
+            "summary": WJC_BASE.format(season=season) + "game-summary/",
+            "players": {k: {"country": c, "countryName": names.get(c, c)} for k, c in country.items()},
+            "found": found, "games": games, "groups": wjc_standings(games), "missing": missing}
+
+
 def load(name, default):
     p = ROOT / name
     return json.loads(p.read_text(encoding="utf-8")) if p.exists() else default
@@ -634,6 +848,14 @@ def main():
             "teams": {k: {kk: vv for kk, vv in t.items() if not kk.startswith("_") and kk != "ids" and vv is not None}
                       for k, t in teams.items()},
             "players": players, "games": games, "warnings": WARN}
+    year = wjc_year(today)
+    if year:
+        try:
+            data["wjc"] = wjc_update(year, follow, old.get("wjc"), load("wjc_lines.json", {}))
+        except Exception as e:  # noqa: BLE001
+            warn("World Juniors not updated (%s)" % e)
+            if old.get("wjc"):
+                data["wjc"] = old["wjc"]
     (ROOT / "data.json").write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     (ROOT / "ids.json").write_text(json.dumps(ids, indent=1), encoding="utf-8")
     if "--probe" in sys.argv:

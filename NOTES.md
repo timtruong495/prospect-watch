@@ -83,3 +83,26 @@ HockeyTech: https://lscluster.hockeytech.com/feed/?feed=modulekit&fmt=json&lang=
   CHN lists MSU's Oct 2 game vs Boston College as an exhibition.
 - User allowed small fixes to go straight to main (2026-11-11). Workflow can be started with
   gh api -X POST repos/timtruong495/prospect-watch/actions/workflows/414203236/dispatches -f ref=main
+
+## World Juniors tab (2026-11-13)
+- Source: Hockey Canada's tournament pages (Next.js built-in data, "__NEXT_DATA__"):
+  /en-ca/team-canada/men/junior/<season>/world-championship/stats/schedule, where <season> is 2026-27 for the
+  2027 tournament. modelTournament.dateGames[].games[] has GameOverview (id, gameNumber, round, status,
+  home/away abbr name score, overtime, shootout, startDateTime with offset, venue "City, ST") and GameDetail.
+- Hockey Canada only enters player stats for Canada's games. Those games have full box scores for both teams
+  (homeSkaterStats/awaySkaterStats, GoalieStats, Scratches). Other games: score only. Its tournament player-stats
+  list is built from Canada's games only (Novotný: 2 GP in 2026 instead of 7). The HockeyTech official game
+  report is empty for non-Canada games too.
+- Single-game pages (/stats/game-summary/<id>, gameData.GameDetail) list both lineups as "Scratches" for
+  non-Canada games; update.py reads each finished game once (8 per run, "scanned") to find which country a
+  followed player is on.
+- Ruled out: iihf.com (403 to automated requests), Elite Prospects (403), Flashscore (page is a shell; the
+  stats come from an internal feed; terms forbid automated use). Checked in 5 test runs, 2026-11-13.
+- Missing lines: Claude's news task reads data.json wjc.missing and writes wjc_lines.json
+  {playerKey: {gameNumber: {"g":1,"a":0} | {"sv":25,"ga":2} | {"dnp":true}}}. update.py marks them "via news".
+- Country before games start: follow.json "wjc": "CZE" on a player (IIHF three-letter code). Lineups found in
+  games take priority.
+- The tab and the update run from Dec 1 to Jan 12 (wjc_year in update.py). Outside it, data.json has no "wjc".
+- Group standings are worked out from preliminary-round games (3/2/1/0 points; ties by goal difference, then
+  goals for, not the IIHF head-to-head rule). Groups are named after the city where they play.
+- Tested against the 2026 tournament's real data (saved during the tests, then deleted).
