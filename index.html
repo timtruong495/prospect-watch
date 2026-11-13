@@ -127,6 +127,7 @@ button.chip{font-size:.82rem;padding:4px 11px}
 button.chip[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
 .form{font-size:.8rem;padding:7px 12px 0;background:var(--soft);font-variant-numeric:tabular-nums}
 .form b{font-weight:600}
+.form+.form{padding-top:2px}
 .stale{border:1.5px solid #b33a3a;border-radius:8px;padding:10px 12px;font-size:.88rem;background:var(--surface)}
 .foot summary{cursor:pointer}
 .foot ul{margin:6px 0 0;padding-left:18px}
@@ -177,9 +178,9 @@ function statsHtml(s, p){
   const src = s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.src || "source")}</a>` : esc(s.src || "");
   const f = formOf(p);
   const ppg = !goalie && s.gp > 0 && typeof s.pts === "number" ? `<b>Season:</b> ${(s.pts / s.gp).toFixed(2)} pts/game` : "";
-  const formTxt = [f ? `<b>Last ${f.n}:</b> ${esc(f.txt)}` : "", ppg].filter(Boolean).join(" · ");
+  const formTxt = [f ? `<b>Last ${f.n}:</b> ${esc(f.txt)}` : "", ppg].filter(Boolean).map(t => `<div class="form">${t}</div>`).join("");
   return `<div class="stats" aria-label="Season stats">${cells.map(([k,v]) => `<div><b>${v == null ? "–" : esc(v)}</b><span>${k}</span></div>`).join("")}</div>
-    ${formTxt ? `<div class="form">${formTxt}</div>` : ""}
+    ${formTxt}
     <div class="src">${esc(s.league || "")} ${extra ? "· " + esc(extra) + " " : ""}· as of ${esc(asOf)} · ${src}</div>`;
 }
 
@@ -193,8 +194,7 @@ function formOf(p){
     const sv = sum("sv"), ga = sum("ga");
     return {n: gs.length, txt: ga + " GA" + (sv + ga ? ", " + (sv / (sv + ga)).toFixed(3).replace(/^0/, "") + " SV%" : "")};
   }
-  const g = sum("g"), a = sum("a");
-  return {n: gs.length, txt: g + "G " + a + "A, " + ((g + a) / gs.length).toFixed(2) + " pts/game"};
+  return {n: gs.length, txt: sum("g") + "G " + sum("a") + "A"};
 }
 function draftTxt(d){
   if(!d || !d.year) return "";
