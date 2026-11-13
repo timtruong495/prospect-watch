@@ -1,79 +1,69 @@
-"""One-time test, round 4: save the full tournament data blocks.
+"""One-time test, round 5: other sources for non-Canada World Juniors games.
 
-Round 3 saved each page's small menu block by mistake (it took the first
-"modelTournament" it found). This round saves the largest "customData" block
-on each page instead, which is where round 2 found the schedule (dateGames)
-and player stats (Leaders). It also saves the rosters and standings pages.
-Single-game samples from round 3 stay in wjc_samples/.
+Hockey Canada only records player stats for Canada's games, and iihf.com turns
+away automated requests. This round checks Elite Prospects and Flashscore the
+same way: their published rules for automated visitors (robots.txt), then
+ordinary page requests with an honest User-Agent. It does not call any site's
+internal data feeds or copy headers from their pages.
 
 Run by the "World Juniors data test" workflow (Actions tab, run by hand).
-Python standard library only. Delete this file, its workflow and wjc_samples/
-once the World Juniors tab is finished.
+Writes wjc_samples/round5.json. Python standard library only. Delete this
+file, its workflow and wjc_samples/ once the World Juniors tab is finished.
 """
-import json, pathlib, re, urllib.request
+import html, json, pathlib, re, urllib.request
 
 ROOT = pathlib.Path(__file__).parent
 OUT = ROOT / "wjc_samples"
-PAGE = "https://www.hockeycanada.ca/en-ca/team-canada/men/junior/{season}/world-championship/stats/{page}"
-PAGES = [("2025-26", "2026", "schedule"), ("2025-26", "2026", "Player-Stats"), ("2025-26", "2026", "Team-Rosters"),
-         ("2025-26", "2026", "Team-Standings"), ("2026-27", "2027", "schedule"), ("2026-27", "2027", "Team-Rosters")]
 UA = "Mozilla/5.0 (compatible; prospect-watch; +https://github.com/timtruong495/prospect-watch)"
-LOG = {}
+ROBOTS = ["https://www.eliteprospects.com/robots.txt", "https://www.flashscore.ca/robots.txt",
+          "https://www.flashscore.info/robots.txt"]
+PAGES = {
+    # Adam Novotný (Elite Prospects id 876572, from follow.json): profile and 2025-26 game log
+    "ep.player": "https://www.eliteprospects.com/player/876572/adam-novotny",
+    "ep.gamelog": "https://www.eliteprospects.com/player/876572/adam-novotny/gamelog/2025-2026",
+    # Flashscore match page for Czechia vs Sweden, Jan 5, 2026 (the page itself, not its data feed)
+    "fs.match": "https://www.flashscore.info/match/ice-hockey/czech-republic-n5YYqbwk/sweden-MFCb1chr/summary/player-stats/overall/?mid=Ox8UWYHO",
+}
 
 
 def get(url):
     req = urllib.request.Request(url, headers={"User-Agent": UA})
     try:
         with urllib.request.urlopen(req, timeout=30) as r:
-            body = r.read().decode("utf-8", "replace")
-            LOG[url] = {"status": r.status, "length": len(body)}
-            return body
+            return r.status, r.read().decode("utf-8", "replace")
     except Exception as e:
-        LOG[url] = {"status": getattr(e, "code", 0), "error": str(e)[:200]}
-        return ""
+        return getattr(e, "code", 0), ""
 
 
-def next_data(body):
-    m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', body, re.S)
-    try:
-        return json.loads(m.group(1)) if m else None
-    except ValueError:
-        return None
+def text(body):
+    body = re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", body, flags=re.S | re.I)
+    return html.unescape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", body)))
 
 
-def every(o, key, out=None):
-    """Every value stored under key, at any depth."""
-    out = [] if out is None else out
-    if isinstance(o, dict):
-        for k, v in o.items():
-            if k == key:
-                out.append(v)
-            every(v, key, out)
-    elif isinstance(o, list):
-        for v in o:
-            every(v, key, out)
+def around(t, words, width=700, limit=6):
+    out = []
+    for w in words:
+        for m in re.finditer(w, t):
+            out.append(t[max(0, m.start() - 150): m.start() + width])
+            if len(out) >= limit:
+                return out
     return out
 
 
 def main():
     OUT.mkdir(exist_ok=True)
-    for old in OUT.glob("20*-schedule.json"):
-        old.unlink()
-    for old in OUT.glob("20*-player-stats.json"):
-        old.unlink()
-    saved = {}
-    for season, tag, page in PAGES:
-        nd = next_data(get(PAGE.format(season=season, page=page)))
-        blocks = [json.dumps(b, indent=1, ensure_ascii=False) for b in every(nd, "customData") if b] if nd else []
-        name = f"{tag}-{page.lower()}.json"
-        if blocks:
-            text = max(blocks, key=len)
-            (OUT / name).write_text(text, encoding="utf-8")
-            saved[name] = {"blocks": len(blocks), "sizes": sorted(len(b) for b in blocks)[-5:]}
-        else:
-            saved[name] = "no data found" if nd else "page has no built-in data"
-    (OUT / "log.json").write_text(json.dumps({"saved": saved, "requests": LOG}, indent=1), encoding="utf-8")
-    print(json.dumps(saved, indent=1))
+    result = {"robots": {}, "pages": {}}
+    for url in ROBOTS:
+        st, body = get(url)
+        result["robots"][url] = {"status": st, "text": body[:6000]}
+    for label, url in PAGES.items():
+        st, body = get(url)
+        t = text(body)
+        result["pages"][label] = {"url": url, "status": st, "length": len(body),
+                                  "title": (re.search(r"<title[^>]*>(.*?)</title>", body, re.S | re.I) or [None, ""])[1][:200],
+                                  "wjc": around(t, ["WJC", "World Junior"]), "start": t[:1500]}
+    (OUT / "round5.json").write_text(json.dumps(result, indent=1, ensure_ascii=False), encoding="utf-8")
+    print(json.dumps({k: v["status"] for k, v in {**result["robots"], **result["pages"]}.items()}, indent=1))
 
 
 if __name__ == "__main__":
