@@ -1,0 +1,360 @@
+{
+ "languageCode": "en-ca",
+ "eventId": "7",
+ "subseasonId": "1047",
+ "tournamentId": "283",
+ "exhibitionId": "1088",
+ "eventTitle": "2026 IIHF World Junior Championship",
+ "pageTitle": "Standings | World Junior Championship ",
+ "eventUrl": "/en-ca/team-canada/men/junior/2025-26/world-championship/",
+ "modelTournament": {
+  "divisions": [
+   {
+    "id": 33,
+    "name": "",
+    "teams": [
+     {
+      "games_played": 7,
+      "win_count": 6,
+      "regulation_win_count": 5,
+      "loss_count": 0,
+      "overtime_win": 1,
+      "overtime_loss": 0,
+      "points": 17,
+      "powerplays": 0,
+      "penaltykillpercentage": 0,
+      "powerplaypercentage": 0,
+      "penaltyminutes": 0,
+      "goals_for": 34,
+      "goals_against": 16,
+      "goals_differential": 18,
+      "team_instance": {
+       "id": 169,
+       "name": "Sweden",
+       "team": {
+        "id": 169,
+        "name": "Sweden",
+        "abbrev": "SWE",
+        "placeholder": false,
+        "thumbnails": {
+         "large": "https://assets.leaguestat.com/hockeycanada/logos/169.png",
+         "medium": "https://assets.leaguestat.com/hockeycanada/logos/169.png",
+         "small": "https://assets.leaguestat.com/hockeycanada/logos/169.png",
+         "large_square": "https://assets.leaguestat.com/hockeycanada/logos/169.png",
+         "medium_square": "https://assets.leaguestat.com/hockeycanada/logos/169.png"
+        }
+       }
+      }
+     },
+     {
+      "games_played": 5,
+      "win_count": 3,
+      "regulation_win_count": 3,
+      "loss_count": 2,
+      "overtime_win": 0,
+      "overtime_loss": 0,
+      "points": 9,
+      "powerplays": 0,
+      "penaltykillpercentage": 0,
+      "powerplaypercentage": 0,
+      "penaltyminutes": 0,
+      "goals_for": 20,
+      "goals_against": 19,
+      "goals_differential": 1,
+      "team_instance": {
+       "id": 174,
+       "name": "United States",
+       "team": {
+        "id": 174,
+        "name": "United States",
+        "abbrev": "USA",
+        "placeholder": false,
+        "thumbnails": {
+         "large": "https://assets.leaguestat.com/hockeycanada/logos/174.png",
+         "medium": "https://assets.leaguestat.com/hockeycanada/logos/174.png",
+         "small": "https://assets.leaguestat.com/hockeycanada/logos/174.png",
+         "large_square": "https://assets.leaguestat.com/hockeycanada/logos/174.png",
+         "medium_square": "https://assets.leaguestat.com/hockeycanada/logos/174.png"
+        }
+       }
+      }
+     },
+     {
+      "games_played": 5,
+      "win_count": 2,
+      "regulation_win_count": 2,
+      "loss_count": 3,
+      "overtime_win": 0,
+      "overtime_loss": 0,
+      "points": 6,
+      "powerplays": 0,
+      "penaltykillpercentage": 0,
+      "powerplaypercentage": 0,
+      "penaltyminutes": 0,
+      "goals_for": 12,
+      "goals_against": 14,
+      "goals_differential": -2,
+      "team_instance": {
+       "id": 172,
+       "name": "Switzerland",
+       "team": {
+        "id": 172,
+        "name": "Switzerland",
+        "abbrev": "SUI",
+        "placeholder": false,
+        "thumbnails": {
+         "large": "https://assets.leaguestat.com/hockeycanada/logos/172.png",
+         "medium": "https://assets.leaguestat.com/hockeycanada/logos/172.png",
+         "small": "https://assets.leaguestat.com/hockeycanada/logos/172.png",
+         "large_square": "https://assets.leaguestat.com/hockeycanada/logos/172.png",
+         "medium_square": "https://assets.leaguestat.com/hockeycanada/logos/172.png"
+        }
+       }
+      }
+     },
+     {
+      "games_played": 5,
+      "win_count": 1,
+      "regulation_win_count": 1,
+      "loss_count": 4,
+      "overtime_win": 0,
+      "overtime_loss": 0,
+      "points": 3,
+      "powerplays": 4,
+      "penaltykillpercentage": 66,
+      "powerplaypercentage": 0,
+      "penaltyminutes": 32,
+      "goals_for": 14,
+      "goals_against": 20,
+      "goals_differential": -6,
+      "team_instance": {
+       "id": 176,
+       "name": "Slovakia",
+       "team": {
+        "id": 176,
+        "name": "Slovakia",
+        "abbrev": "SVK",
+        "placeholder": false,
+        "thumbnails": {
+         "large": "https://assets.leaguestat.com/hockeycanada/logos/176.png",
+         "medium": "https://assets.leaguestat.com/hockeycanada/logos/176.png",
+         "small": "https://assets.leaguestat.com/hockeycanada/logos/176.png",
+         "large_square": "https://assets.leaguestat.com/hockeycanada/logos/176.png",
+         "medium_square": "https://assets.leaguestat.com/hockeycanada/logos/176.png"
+        }
+       }
+      }
+     },
+     {
+      "games_played": 5,
+      "win_count": 1,
+      "regulation_win_count": 1,
+      "loss_count": 4,
+      "overtime_win": 0,
+      "overtime_loss": 0,
+      "points": 2,
+      "powerplays": 0,
+      "penaltykillpercentage": 0,
+      "powerplaypercentage": 0,
+      "penaltyminutes": 0,
+      "goals_for": 13,
+      "goals_against": 26,
+      "goals_differential": -13,
+      "team_instance": {
+       "id": 325,
+       "name": "Germany",
+       "team": {
+        "id": 325,
+        "name": "Germany",
+        "abbrev": "GER",
+        "placeholder": false,
+        "thumbnails": {
+         "large": "https://assets.leaguestat.com/hockeycanada/logos/325.png",
+         "medium": "https://assets.leaguestat.com/hockeycanada/logos/325.png",
+         "small": "https://assets.leaguestat.com/hockeycanada/logos/325.png",
+         "large_square": "https://assets.leaguestat.com/hockeycanada/logos/325.png",
+         "medium_square": "https://assets.leaguestat.com/hockeycanada/logos/325.png"
+        }
+       }
+      }
+     }
+    ]
+   },
+   {
+    "id": 34,
+    "name": "",
+    "teams": [
+     {
+      "games_played": 7,
+      "win_count": 6,
+      "regulation_win_count": 5,
+      "loss_count": 1,
+      "overtime_win": 1,
+      "overtime_loss": 0,
+      "points": 15,
+      "powerplays": 23,
+      "penaltykillpercentage": 91,
+      "powerplaypercentage": 52,
+      "penaltyminutes": 62,
+      "goals_for": 42,
+      "goals_against": 21,
+      "goals_differential": 21,
+      "team_instance": {
+       "id": 175,
+       "name": "Canada",
+       "team": {
+        "id": 175,
+        "name": "Canada",
+        "abbrev": "CAN",
+        "placeholder": false,
+        "thumbnails": {
+         "large": "https://assets.leaguestat.com/hockeycanada/logos/175.png",
+         "medium": "https://assets.leaguestat.com/hockeycanada/logos/175.png",
+         "small": "https://assets.leaguestat.com/hockeycanada/logos/175.png",
+         "large_square": "https://assets.leaguestat.com/hockeycanada/logos/175.png",
+         "medium_square": "https://assets.leaguestat.com/hockeycanada/logos/175.png"
+        }
+       }
+      }
+     },
+     {
+      "games_played": 7,
+      "win_count": 5,
+      "regulation_win_count": 4,
+      "loss_count": 2,
+      "overtime_win": 1,
+      "overtime_loss": 0,
+      "points": 12,
+      "powerplays": 8,
+      "penaltykillpercentage": 57,
+      "powerplaypercentage": 0,
+      "penaltyminutes": 14,
+      "goals_for": 32,
+      "goals_against": 22,
+      "goals_differential": 10,
+      "team_instance": {
+       "id": 170,
+       "name": "Czechia",
+       "team": {
+        "id": 170,
+        "name": "Czechia",
+        "abbrev": "CZE",
+        "placeholder": false,
+        "thumbnails": {
+         "large": "https://assets.leaguestat.com/hockeycanada/logos/170.png",
+         "medium": "https://assets.leaguestat.com/hockeycanada/logos/170.png",
+         "small": "https://assets.leaguestat.com/hockeycanada/logos/170.png",
+         "large_square": "https://assets.leaguestat.com/hockeycanada/logos/170.png",
+         "medium_square": "https://assets.leaguestat.com/hockeycanada/logos/170.png"
+        }
+       }
+      }
+     },
+     {
+      "games_played": 8,
+      "win_count": 3,
+      "regulation_win_count": 3,
+      "loss_count": 2,
+      "overtime_win": 0,
+      "overtime_loss": 2,
+      "points": 11,
+      "powerplays": 7,
+      "penaltykillpercentage": 42,
+      "powerplaypercentage": 28,
+      "penaltyminutes": 16,
+      "goals_for": 29,
+      "goals_against": 23,
+      "goals_differential": 6,
+      "team_instance": {
+       "id": 168,
+       "name": "Finland",
+       "team": {
+        "id": 168,
+        "name": "Finland",
+        "abbrev": "FIN",
+        "placeholder": false,
+        "thumbnails": {
+         "large": "https://assets.leaguestat.com/hockeycanada/logos/168.png",
+         "medium": "https://assets.leaguestat.com/hockeycanada/logos/168.png",
+         "small": "https://assets.leaguestat.com/hockeycanada/logos/168.png",
+         "large_square": "https://assets.leaguestat.com/hockeycanada/logos/168.png",
+         "medium_square": "https://assets.leaguestat.com/hockeycanada/logos/168.png"
+        }
+       }
+      }
+     },
+     {
+      "games_played": 5,
+      "win_count": 1,
+      "regulation_win_count": 1,
+      "loss_count": 3,
+      "overtime_win": 0,
+      "overtime_loss": 1,
+      "points": 4,
+      "powerplays": 3,
+      "penaltykillpercentage": 33,
+      "powerplaypercentage": 0,
+      "penaltyminutes": 29,
+      "goals_for": 12,
+      "goals_against": 23,
+      "goals_differential": -11,
+      "team_instance": {
+       "id": 177,
+       "name": "Latvia",
+       "team": {
+        "id": 177,
+        "name": "Latvia",
+        "abbrev": "LAT",
+        "placeholder": false,
+        "thumbnails": {
+         "large": "https://assets.leaguestat.com/hockeycanada/logos/177.png",
+         "medium": "https://assets.leaguestat.com/hockeycanada/logos/177.png",
+         "small": "https://assets.leaguestat.com/hockeycanada/logos/177.png",
+         "large_square": "https://assets.leaguestat.com/hockeycanada/logos/177.png",
+         "medium_square": "https://assets.leaguestat.com/hockeycanada/logos/177.png"
+        }
+       }
+      }
+     },
+     {
+      "games_played": 5,
+      "win_count": 0,
+      "regulation_win_count": 0,
+      "loss_count": 5,
+      "overtime_win": 0,
+      "overtime_loss": 0,
+      "points": 0,
+      "powerplays": 1,
+      "penaltykillpercentage": 33,
+      "powerplaypercentage": 0,
+      "penaltyminutes": 6,
+      "goals_for": 12,
+      "goals_against": 35,
+      "goals_differential": -23,
+      "team_instance": {
+       "id": 171,
+       "name": "Denmark",
+       "team": {
+        "id": 171,
+        "name": "Denmark",
+        "abbrev": "DEN",
+        "placeholder": false,
+        "thumbnails": {
+         "large": "https://assets.leaguestat.com/hockeycanada/logos/171.png",
+         "medium": "https://assets.leaguestat.com/hockeycanada/logos/171.png",
+         "small": "https://assets.leaguestat.com/hockeycanada/logos/171.png",
+         "large_square": "https://assets.leaguestat.com/hockeycanada/logos/171.png",
+         "medium_square": "https://assets.leaguestat.com/hockeycanada/logos/171.png"
+        }
+       }
+      }
+     }
+    ]
+   }
+  ],
+  "eventId": "7",
+  "subseasonId": "1047",
+  "tournamentId": "283",
+  "lang": "en-ca"
+ }
+}

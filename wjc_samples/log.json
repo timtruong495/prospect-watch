@@ -1,44 +1,75 @@
 {
- "picked": {
-  "other": "5447",
-  "canada": "5450"
+ "saved": {
+  "2026-schedule.json": {
+   "blocks": 5,
+   "sizes": [
+    1674,
+    1904,
+    2230,
+    55188,
+    517144
+   ]
+  },
+  "2026-player-stats.json": {
+   "blocks": 10,
+   "sizes": [
+    172743,
+    172743,
+    172743,
+    172743,
+    172743
+   ]
+  },
+  "2026-team-rosters.json": {
+   "blocks": 2,
+   "sizes": [
+    301,
+    1674
+   ]
+  },
+  "2026-team-standings.json": {
+   "blocks": 2,
+   "sizes": [
+    1674,
+    10882
+   ]
+  },
+  "2027-schedule.json": {
+   "blocks": 5,
+   "sizes": [
+    1904,
+    2060,
+    2230,
+    38168,
+    55188
+   ]
+  },
+  "2027-team-rosters.json": "no data found"
  },
  "requests": {
   "https://www.hockeycanada.ca/en-ca/team-canada/men/junior/2025-26/world-championship/stats/schedule": {
    "status": 200,
    "length": 936551
   },
-  "https://www.hockeycanada.ca/en-ca/team-canada/men/junior/2025-26/world-championship/stats/player-stats": {
+  "https://www.hockeycanada.ca/en-ca/team-canada/men/junior/2025-26/world-championship/stats/Player-Stats": {
    "status": 200,
-   "length": 1016417
+   "length": 1016476
+  },
+  "https://www.hockeycanada.ca/en-ca/team-canada/men/junior/2025-26/world-championship/stats/Team-Rosters": {
+   "status": 200,
+   "length": 116033
+  },
+  "https://www.hockeycanada.ca/en-ca/team-canada/men/junior/2025-26/world-championship/stats/Team-Standings": {
+   "status": 200,
+   "length": 119104
   },
   "https://www.hockeycanada.ca/en-ca/team-canada/men/junior/2026-27/world-championship/stats/schedule": {
    "status": 200,
    "length": 641140
   },
-  "https://www.hockeycanada.ca/en-ca/team-canada/men/junior/2026-27/world-championship/stats/player-stats": {
+  "https://www.hockeycanada.ca/en-ca/team-canada/men/junior/2026-27/world-championship/stats/Team-Rosters": {
    "status": 200,
-   "length": 225559
-  },
-  "https://www.hockeycanada.ca/en-ca/team-canada/men/junior/2025-26/world-championship/stats/game-summary/5447": {
-   "status": 200,
-   "length": 223221
-  },
-  "https://www.hockeycanada.ca/en-ca/team-canada/men/junior/2025-26/world-championship/stats/game-summary/5448": {
-   "status": 200,
-   "length": 230051
-  },
-  "https://www.hockeycanada.ca/en-ca/team-canada/men/junior/2025-26/world-championship/stats/game-summary/5449": {
-   "status": 200,
-   "length": 220291
-  },
-  "https://www.hockeycanada.ca/en-ca/team-canada/men/junior/2025-26/world-championship/stats/game-summary/5450": {
-   "status": 200,
-   "length": 278693
-  },
-  "https://lscluster.hockeytech.com/game_reports/official-game-report.php?client_code=hockeycanada&game_id=5447&lang_id=1": {
-   "status": 200,
-   "length": 14458
+   "length": 4146
   }
  }
 }

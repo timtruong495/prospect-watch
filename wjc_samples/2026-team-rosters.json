@@ -1,0 +1,76 @@
+{
+ "languageCode": "en-ca",
+ "modelTournament": {
+  "Links": [
+   {
+    "ContentID": 250033,
+    "Title": "Schedule",
+    "FeminineTitle": "Schedule",
+    "PageLink": "/en-ca/team-canada/men/junior/2025-26/world-championship/stats/schedule"
+   },
+   {
+    "ContentID": 250034,
+    "Title": "Rosters",
+    "FeminineTitle": "Rosters",
+    "PageLink": "/en-ca/team-canada/men/junior/2025-26/world-championship/stats/Team-Rosters"
+   },
+   {
+    "ContentID": 250037,
+    "Title": "Standings",
+    "FeminineTitle": "Standings",
+    "PageLink": "/en-ca/team-canada/men/junior/2025-26/world-championship/stats/Team-Standings"
+   }
+  ],
+  "LinkSelected": null,
+  "WomensEvent": false,
+  "Seasons": [
+   {
+    "id": 1,
+    "name": "Tournament"
+   },
+   {
+    "id": 2,
+    "name": "Exhibition"
+   }
+  ],
+  "eventId": "7",
+  "subseasonId": "1047",
+  "tournamentId": "283",
+  "lang": "en-ca",
+  "exhibitionId": "1088"
+ },
+ "modelExhibition": {
+  "Links": [
+   {
+    "ContentID": 250033,
+    "Title": "Schedule",
+    "FeminineTitle": "Schedule",
+    "PageLink": "/en-ca/team-canada/men/junior/2025-26/world-championship/stats/schedule"
+   },
+   {
+    "ContentID": 250034,
+    "Title": "Rosters",
+    "FeminineTitle": "Rosters",
+    "PageLink": "/en-ca/team-canada/men/junior/2025-26/world-championship/stats/Team-Rosters"
+   }
+  ],
+  "LinkSelected": null,
+  "WomensEvent": false,
+  "Seasons": [
+   {
+    "id": 1,
+    "name": "Tournament"
+   },
+   {
+    "id": 2,
+    "name": "Exhibition"
+   }
+  ],
+  "eventId": "7",
+  "subseasonId": "1047",
+  "tournamentId": "283",
+  "lang": "en-ca",
+  "exhibitionId": "1088"
+ },
+ "eventUrl": "/en-ca/team-canada/men/junior/2025-26/world-championship/"
+}
