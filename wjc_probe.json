@@ -2,365 +2,3088 @@
  "hc.2026.schedule": {
   "url": "https://www.hockeycanada.ca/en-ca/team-canada/men/junior/2025-26/world-championship/stats/schedule",
   "status": 200,
-  "type": "text/html; charset=utf-8",
-  "length": 936190,
-  "title": "2026 IIHF World Junior Championship Schedule | Minneapolis &amp; Saint Paul, Minnesota<!-- --> - <!-- -->2026 IIHF World Junior Championship",
-  "scripts": [
-   "https://hockeycanada.vercel.app/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js",
-   "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
-   "https://hockeycanada.vercel.app/_next/static/chunks/webpack-dfb539db4af6defd.js",
-   "https://hockeycanada.vercel.app/_next/static/chunks/framework-ffee79c6390da51e.js",
-   "https://hockeycanada.vercel.app/_next/static/chunks/main-538b3f669ef25e92.js",
-   "https://hockeycanada.vercel.app/_next/static/chunks/pages/_app-d2f6b5b1d0fd9482.js",
-   "https://hockeycanada.vercel.app/_next/static/chunks/1bfc9850-d9902d0e10ec1409.js",
-   "https://hockeycanada.vercel.app/_next/static/chunks/265cea07-5b8f0e5667b59f91.js",
-   "https://hockeycanada.vercel.app/_next/static/chunks/29c1a539-33b677d3aa4ef8b5.js",
-   "https://hockeycanada.vercel.app/_next/static/chunks/75fc9c18-c8186ff75bc30b43.js",
-   "https://hockeycanada.vercel.app/_next/static/chunks/5c0b189e-6a2346c6d69a369d.js",
-   "https://hockeycanada.vercel.app/_next/static/chunks/170-20667dd6bb8c279d.js",
-   "https://hockeycanada.vercel.app/_next/static/chunks/157-ed49566f3ab9e671.js",
-   "https://hockeycanada.vercel.app/_next/static/chunks/pages/%5B...slug%5D-0d786d0a8a7b7882.js",
-   "https://hockeycanada.vercel.app/_next/static/hnEVBHI8xM1qkc6G-FzNt/_buildManifest.js",
-   "https://hockeycanada.vercel.app/_next/static/hnEVBHI8xM1qkc6G-FzNt/_ssgManifest.js"
-  ],
-  "hits": [
-   "imer\"}}]}},\"languageCode\":\"en-ca\",\"channelName\":\"website\",\"isPreview\":false,\"isDevelopmentMode\":false,\"notFound\":false,\"gameId\":null,\"gameData\":null,\"tournamentToggle\":null,\"teamId\":null,\"teamDataTournament\":null,\"liveBlogGameId\":null,\"playerId\":null,\"playerDataTournament\":null},\"__N_S",
-   "\"notFound\":false,\"gameId\":null,\"gameData\":null,\"tournamentToggle\":null,\"teamId\":null,\"teamDataTournament\":null,\"liveBlogGameId\":null,\"playerId\":null,\"playerDataTournament\":null},\"__N_SSG\":true},\"page\":\"/[...slug]\",\"query\":{\"slug\":[\"team-canada\",\"men\",\"junior\",\"2025-26\",\"world-champions"
-  ],
-  "scriptHits": {
-   "https://hockeycanada.vercel.app/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js": {
-    "status": 200,
-    "hits": [
-     "l!=a&&Nr(a,t[n],t,r)}),a=$r(e),u=function(t,e,r){var n,o,u=a(t),c=s(t,e);return c?c.value=r:(u.last=c={index:o=Kr(e,!0),key:e,value:r,previous:n=u.last,next:void 0,removed:!1},u.first||(u.first=c),n&&(n.next=c),i?u.size++:t.size++,\"F\"!==o&&(u.index[o]=c)),t},s=function(t,e){var r,n=a",
-     "==o&&(u.index[o]=c)),t},s=function(t,e){var r,n=a(t),o=Kr(e);if(\"F\"!==o)return n.index[o];for(r=n.first;r;r=r.next)if(r.key==e)return r};return Dr(o.prototype,{clear:function(){for(var t=a(this),e=t.index,r=t.first;r;)r.removed=!0,r.previous&&(r.previous=r.previous.next=void 0),delet",
-     "e\"),wa(\"search\"),wa(\"species\"),wa(\"split\"),wa(\"toPrimitive\"),wa(\"toStringTag\"),wa(\"unscopables\"),Ce(Math,\"Math\",!0),Ce(n.JSON,\"JSON\",!0),wa(\"asyncDispose\"),wa(\"dispose\"),wa(\"observable\"),wa(\"patternMatch\"),wa(\"replaceAll\"),ma.f(\"asyncIterator\");var iu=je.codeAt;Lt({target:\"String\",pro",
-     "ace(cs,ls)},ps=function(t,e){if(e)for(var r,n,o=e.split(\"&\"),i=0;i<o.length;)(r=o[i++]).length&&(n=r.split(\"=\"),t.push({key:ss(n.shift()),value:ss(n.join(\"=\"))}))},ds=function(t){this.entries.length=0,ps(this.entries,t)},vs=function(t,e){if(t<e)throw TypeError(\"Not enough arguments\")",
-     "d:e})},\"Iterator\",function(){var t=ns(this),e=t.kind,r=t.iterator.next(),n=r.value;return r.done||(r.value=\"keys\"===e?n.key:\"values\"===e?n.value:[n.key,n.value]),r}),ys=function(){Cr(this,ys,Zu);var t,e,r,n,o,i,a,u,s,c=arguments.length>0?arguments[0]:void 0,f=this,l=[];if(es(f,{type:",
-     "))).next).call(o)).done||(u=i.call(o)).done||!i.call(o).done)throw TypeError(\"Expected sequence with length 2\");l.push({key:a.value+\"\",value:u.value+\"\"})}else for(s in c)w(c,s)&&l.push({key:s,value:c[s]+\"\"});else ps(l,\"string\"==typeof c?\"?\"===c.charAt(0)?c.slice(1):c:c+\"\")},ms=ys.pro",
-     ")?c.slice(1):c:c+\"\")},ms=ys.prototype;Dr(ms,{append:function(t,e){vs(arguments.length,2);var r=rs(this);r.entries.push({key:t+\"\",value:e+\"\"}),r.updateURL()},delete:function(t){vs(arguments.length,1);for(var e=rs(this),r=e.entries,n=t+\"\",o=0;o<r.length;)r[o].key===n?r.splice(o,1):o++;",
-     "\"}),r.updateURL()},delete:function(t){vs(arguments.length,1);for(var e=rs(this),r=e.entries,n=t+\"\",o=0;o<r.length;)r[o].key===n?r.splice(o,1):o++;e.updateURL()},get:function(t){vs(arguments.length,1);for(var e=rs(this).entries,r=t+\"\",n=0;n<e.length;n++)if(e[n].key===r)return e[n].val",
-     ":o++;e.updateURL()},get:function(t){vs(arguments.length,1);for(var e=rs(this).entries,r=t+\"\",n=0;n<e.length;n++)if(e[n].key===r)return e[n].value;return null},getAll:function(t){vs(arguments.length,1);for(var e=rs(this).entries,r=t+\"\",n=[],o=0;o<e.length;o++)e[o].key===r&&n.push(e[o]",
-     "e;return null},getAll:function(t){vs(arguments.length,1);for(var e=rs(this).entries,r=t+\"\",n=[],o=0;o<e.length;o++)e[o].key===r&&n.push(e[o].value);return n},has:function(t){vs(arguments.length,1);for(var e=rs(this).entries,r=t+\"\",n=0;n<e.length;)if(e[n++].key===r)return!0;return!1},",
-     "[o].value);return n},has:function(t){vs(arguments.length,1);for(var e=rs(this).entries,r=t+\"\",n=0;n<e.length;)if(e[n++].key===r)return!0;return!1},set:function(t,e){vs(arguments.length,1);for(var r,n=rs(this),o=n.entries,i=!1,a=t+\"\",u=e+\"\",s=0;s<o.length;s++)(r=o[s]).key===a&&(i?o.sp",
-     "et:function(t,e){vs(arguments.length,1);for(var r,n=rs(this),o=n.entries,i=!1,a=t+\"\",u=e+\"\",s=0;s<o.length;s++)(r=o[s]).key===a&&(i?o.splice(s--,1):(i=!0,r.value=u));i||o.push({key:a,value:u}),n.updateURL()},sort:function(){var t,e,r,n=rs(this),o=n.entries,i=o.slice();for(o.length=0,",
-     " body as text\");return Promise.resolve(this._bodyText)},gl&&(this.formData=function(){return this.text().then(kl)}),this.json=function(){return this.text().then(JSON.parse)},this}xl.prototype.append=function(t,e){t=wl(t),e=Sl(e);var r=this.map[t];this.map[t]=r?r+\", \"+e:e},xl.prototype"
+  "length": 936551,
+  "hasNextData": true,
+  "buildId": "hnEVBHI8xM1qkc6G-FzNt",
+  "shape": {
+   "sitemapNode": {
+    "pageID": 26529,
+    "contentID": -1,
+    "path": "/team-canada/men/junior/2025-26/world-championship/stats/schedule",
+    "title": "2026 IIHF World Junior Championship Schedule | Minneapolis & Saint Paul, Minneso",
+    "name": "schedule",
+    "menuText": "Schedule and Scores",
+    "isFolder": false,
+    "visible": {
+     "menu": true
+    },
+    "redirect": null,
+    "target": null
+   },
+   "page": {
+    "pageID": 26529,
+    "name": "schedule",
+    "path": null,
+    "title": "2026 IIHF World Junior Championship Schedule | Minneapolis & Saint Paul, Minneso",
+    "menuText": "Schedule and Scores",
+    "pageType": "static",
+    "templateName": "(New) Microsite 1 col w/o Title with TopTabsZone",
+    "redirectUrl": "",
+    "securePage": false,
+    "requiresApproval": false,
+    "excludeFromOutputCache": false,
+    "visible": {
+     "menu": true,
+     "sitemap": true
+    },
+    "seo": {
+     "metaDescription": "",
+     "metaKeywords": "",
+     "metaHTML": "",
+     "menuVisible": null,
+     "sitemapVisible": null
+    },
+    "scripts": {
+     "excludedFromGlobal": false,
+     "top": null,
+     "bottom": null
+    },
+    "properties": {
+     "state": 2,
+     "modified": "2025-12-17T14:46:04.973",
+     "versionID": 411829
+    },
+    "zones": {
+     "TopTabsZone": [
+      "list of 1",
+      {
+       "moduleName": "StatsTab",
+       "item": {
+        "contentID": "…",
+        "properties": "…",
+        "fields": "…"
+       },
+       "customData": {
+        "languageCode": "…",
+        "modelTournament": "…",
+        "modelExhibition": "…",
+        "eventUrl": "…"
+       }
+      }
+     ],
+     "MainContentZone1": [
+      "list of 1",
+      {
+       "moduleName": "RichTextArea-wNOMargin",
+       "item": {
+        "contentID": "…",
+        "properties": "…",
+        "fields": "…"
+       },
+       "customData": null
+      }
+     ],
+     "MainContentZone2": [],
+     "MainContentZone3": [],
+     "MainContentZone4": [],
+     "MainContentZone5": [],
+     "LeftContentZone": [
+      "list of 2",
+      {
+       "moduleName": "StatsScoresAndSchedule",
+       "item": {
+        "contentID": "…",
+        "properties": "…",
+        "fields": "…"
+       },
+       "customData": {
+        "languageCode": "…",
+        "eventId": "…",
+        "subseasonId": "…",
+        "tournamentId": "…",
+        "exhibitionId": "…",
+        "modelTournament": "…",
+        "eventTitle": "…",
+        "pageTitle": "…",
+        "eventUrl": "…"
+       }
+      }
+     ],
+     "RightContentZone": [
+      "list of 7",
+      {
+       "moduleName": "ADCustomSelection",
+       "item": {
+        "contentID": "…",
+        "properties": "…",
+        "fields": "…"
+       },
+       "customData": null
+      }
+     ],
+     "MainContentZone6": [],
+     "MainContentZone7": [],
+     "MainContentZone8": [],
+     "MainContentZone9": [],
+     "MainContentZone": [],
+     "MicrositeMetadataWithTitle": []
+    }
+   },
+   "dynamicPageItem": null,
+   "pageTemplateName": "NewMicrosite1colwoTitlewithTopTabsZone",
+   "globalData": {
+    "siteHeader": null,
+    "micrositeHeader": {
+     "header": {
+      "hockeyCanadaLogo": {
+       "label": "Hockey Canada logo",
+       "url": "https://cdn.hockeycanada.ca/hockey-canada/Attachments/NewItems/logoLarge_2022112",
+       "target": null,
+       "filesize": 158441,
+       "pixelHeight": "1797",
+       "pixelWidth": "1920",
+       "height": 1797,
+       "width": 1920
+      },
+      "searchLogo": {
+       "label": null,
+       "url": "https://cdn.hockeycanada.ca/hockey-canada/Attachments/NewItems/searchIcon_202211",
+       "target": null,
+       "filesize": 7444,
+       "pixelHeight": "512",
+       "pixelWidth": "512",
+       "height": 512,
+       "width": 512
+      },
+      "searchLabel": "Search",
+      "searchTheSiteLabel": "Search the site",
+      "topMenuItems": [
+       "list of 5",
+       {
+        "title": "…",
+        "url": "…",
+        "subLinks": "…",
+        "manuallyPickedBadges": "…"
+       }
+      ],
+      "rightMenuItems": [
+       "list of 2",
+       {
+        "title": "…",
+        "url": "…",
+        "subLinks": "…",
+        "manuallyPickedBadges": "…"
+       }
+      ],
+      "socialLinks": [
+       "list of 5",
+       {
+        "title": "…",
+        "linkURL": "…",
+        "onClick": "…",
+        "image": "…"
+       }
+      ],
+      "languageCode": "en-ca",
+      "adLeaderboardHeaderID": "318290",
+      "topGlobalScripts": "<!-- Global site tag (gtag.js) - Google Analytics GA4 updated June 2023-->\r\n<scr"
+     },
+     "logo": {
+      "url": "https://cdn.hockeycanada.ca/hockey-canada/Template-Assets/Nav/hc_subsite_hdr_log"
+     },
+     "name": "2025-26 National Junior Team",
+     "nameHTML": null,
+     "doNotDisplayPageTitle": true,
+     "displayScoreboard": false,
+     "useKidsFont": false,
+     "teamEventKey": null,
+     "dynamicMenus": [
+      "list of 3",
+      [
+       "list of 1",
+       {
+        "title": "…",
+        "url": "…",
+        "subLinks": "…",
+        "manuallyPickedBadges": "…"
+       }
+      ]
+     ],
+     "backgroundImage": null,
+     "headerBackgroundImage": null,
+     "bodyBackgroundImage": null,
+     "headerBackgroundColour": "#000000",
+     "bodyBackgroundColour": null,
+     "headerBackgroundRepeat": false,
+     "showYear": false,
+     "seasons": null,
+     "baseURL": "/team-canada/men/junior/2025-26",
+     "referenceName": "",
+     "newsLink": null,
+     "browseByYearLabel": null,
+     "menuBackgroundColour": "#CC0000",
+     "menuEdgeColour": null,
+     "menuEdgeGradientPercentage": null,
+     "menuSeparatorColour": null,
+     "panelBackgroundColour": "#EEEEEE",
+     "menuFont": "Roboto Condensed",
+     "menuFontSize": "13px",
+     "menuFontWeight": "Normal",
+     "menuFontColour": "#FFFFFF",
+     "menuSelectedFont": null,
+     "menuSelectedFontSize": null,
+     "menuSelectedFontWeight": null,
+     "menuSelectedFontColour": null,
+     "menuDropdownFontColour": "#333333",
+     "includeJQuery": false,
+     "includeGoogleAdsJavaScript": false,
+     "pageTakeover": false,
+     "hasTextHomeLink": false,
+     "micrositeURL": "/team-canada/men/junior/2025-26",
+     "pageContentID": null,
+     "hoveredTopNavBackgroundColor": "#666666",
+     "hoveredPanelBackgroundColor": "#666666",
+     "hoveredTopNavFontColor": "#ffffff",
+     "hoveredPanelFontColor": "#ffffff",
+     "kidsMenuIcons": [],
+     "languageCode": "en-ca",
+     "searchLabel": "Search",
+     "searchTheSiteLabel": "Search the site",
+     "leaderboardHeaderAds": [
+      "list of 1",
+      {
+       "size": "ADLeaderboardHeader",
+       "documentbody": "<div id=\"div-gpt-ad-1482512683727-0\">\r\n<script type=\"text/javascript\">// <![CDAT",
+       "enabled": true,
+       "name": "HC_FullSite_CustomLeaderboard_Header_External_970_Max",
+       "adUnit": "var mastheader = googletag.sizeMapping().addSize([0, 0], [320, 50]).addSize([310"
+      }
+     ],
+     "leaderboardFooterAds": null,
+     "pageTakeoverData": null
+    },
+    "footer": {
+     "exploreHockeyCanadaLabel": "Community",
+     "aboutHockeyCanadaLabel": "About",
+     "quickLinksLabel": "Corporate",
+     "keepUpWithHockeyCanadaLabel": "Connect with Hockey Canada",
+     "newsletters": "<p style=\"text-align: center;\">&nbsp;<a href=\"/en-ca/news/insider\" target=\"_self",
+     "copyright": "&copy; Copyright 2026 Hockey Canada",
+     "copyrightColour": "",
+     "selectLanguageLabel": "Select Language",
+     "backgroundImage": {
+      "label": null,
+      "url": "https://cdn.hockeycanada.ca/hockey-canada/Template-Assets/Backgrounds/Footer/tex",
+      "target": null,
+      "filesize": 635,
+      "pixelHeight": "211",
+      "pixelWidth": "29",
+      "height": 211,
+      "width": 29
+     },
+     "backgroundColor": "#333333",
+     "copyrightBackgroundColor": "#000000",
+     "switchLanguageBackgroundColor": "#4b4c4e",
+     "exploreHockeyCanadaLinks": [
+      "list of 6",
+      {
+       "title": "Subscribe",
+       "url": {
+        "href": "…",
+        "target": "…",
+        "text": "…"
+       }
+      }
+     ],
+     "aboutHockeyCanadaLinks": [
+      "list of 6",
+      {
+       "title": "Our Mission",
+       "url": {
+        "href": "…",
+        "target": "…",
+        "text": "…"
+       }
+      }
+     ],
+     "quickLinks": [
+      "list of 5",
+      {
+       "title": "Annual Reporting",
+       "url": {
+        "href": "…",
+        "target": "…",
+        "text": "…"
+       }
+      }
+     ],
+     "socialLinks": [
+      "list of 6",
+      {
+       "title": "Facebook",
+       "linkURL": {
+        "href": "…",
+        "target": "…",
+        "text": "…"
+       },
+       "onClick": "_gaq.push(['_trackEvent', 'Social', 'Click', 'Facebook-HockeyCanada']);",
+       "image": {
+        "label": "…",
+        "url": "…",
+        "target": "…",
+        "filesize": "…",
+        "pixelHeight": "…",
+        "pixelWidth": "…",
+        "height": "…",
+        "width": "…"
+       }
+      }
+     ],
+     "adLeaderboardFooterID": "272132",
+     "leaderboardFooterAds": [
+      "list of 1",
+      {
+       "size": "ADLeaderboardFooter",
+       "documentbody": "<div id=\"div-gpt-ad-1517954084085-0\">\r\n<script type=\"text/javascript\">// <![CDAT",
+       "enabled": true,
+       "name": "HC_FullSite_CustomLeaderboard_Footer_External",
+       "adUnit": "var mastfooter = googletag.sizeMapping().addSize([0, 0], [320, 50]).addSize([310"
+      }
+     ],
+     "languageCode": "en-ca",
+     "leftLinks": [
+      "list of 1",
+      {
+       "title": "Privacy Policy",
+       "url": {
+        "href": "…",
+        "target": "…",
+        "text": "…"
+       }
+      }
+     ],
+     "rightLinks": [
+      "list of 1",
+      {
+       "title": "Copyright & Legal Disclaimer",
+       "url": {
+        "href": "…",
+        "target": "…",
+        "text": "…"
+       }
+      }
+     ]
+    }
+   },
+   "languageCode": "en-ca",
+   "channelName": "website",
+   "isPreview": false,
+   "isDevelopmentMode": false,
+   "notFound": false,
+   "gameId": null,
+   "gameData": null,
+   "tournamentToggle": null,
+   "teamId": null,
+   "teamDataTournament": null,
+   "liveBlogGameId": null,
+   "playerId": null,
+   "playerDataTournament": null
+  },
+  "games": {},
+  "players": {
+   ".props.pageProps.page.zones.LeftContentZone[0].customData.modelTournament.dateGames[0].games[0].GameDetail.homeSkaterStats": {
+    "count": 1,
+    "samples": [
+     {
+      "id": 0,
+      "name": "",
+      "jerseyNumber": null,
+      "position": "",
+      "teamId": 169,
+      "teamAbbr": "SWE",
+      "goals": 3,
+      "assists": 0,
+      "points": 3,
+      "pim": 0,
+      "ppg": 0,
+      "shots": 0,
+      "plusMinus": 0
+     }
     ]
    },
-   "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js": {
-    "status": 200,
-    "hits": [
-     "m=d(this,h);m.list||(m.list=this[0][m.id]=[]);m.entry?m.entry.value=k:(m.entry={next:this[1],ca:this[1].ca,head:this[1],key:h,value:k},m.list.push(m.entry),this[1].ca.next=m.entry,this[1].ca=m.entry,this.size++);return this};e.prototype.delete=function(h){h=d(this,h);return h.entry&&",
-     "esponsive_dummy_ad\")&&(tb([1,2,3,4,5,6,7,8],e.F)||e.h===1)&&e.h!==2&&(f=JSON.stringify({googMsgType:\"adpnt\",key_value:[{key:\"qid\",value:\"DUMMY_AD\"}]}),c.dash=\"<\"+Xp+\">window.top.postMessage('\"+f+\"', '*');\\n          </\"+Xp+'>\\n          <div id=\"dummyAd\" style=\"width:'+d+\"px;height:\""
+   ".props.pageProps.page.zones.LeftContentZone[0].customData.modelTournament.dateGames[0].games[0].GameDetail.awaySkaterStats": {
+    "count": 1,
+    "samples": [
+     {
+      "id": 0,
+      "name": "",
+      "jerseyNumber": null,
+      "position": "",
+      "teamId": 176,
+      "teamAbbr": "SVK",
+      "goals": 2,
+      "assists": 0,
+      "points": 2,
+      "pim": 0,
+      "ppg": 0,
+      "shots": 0,
+      "plusMinus": 0
+     }
     ]
    },
-   "https://hockeycanada.vercel.app/_next/static/chunks/webpack-dfb539db4af6defd.js": {
-    "status": 200,
-    "hits": [
-     "(document.cookie))return;}catch(e){return;}var s=document.createElement('script');s.src='https://vercel.live/_next-live/feedback/feedback.js';s.setAttribute(\"data-explicit-opt-in\",\"true\");s.setAttribute(\"data-cookie-opt-in\",\"true\");s.setAttribute(\"data-deployment-id\",\"dpl_8oEWPtffDVZ"
+   ".props.pageProps.page.zones.LeftContentZone[0].customData.modelTournament.dateGames[0].games[1].GameDetail.homeSkaterStats": {
+    "count": 1,
+    "samples": [
+     {
+      "id": 0,
+      "name": "",
+      "jerseyNumber": null,
+      "position": "",
+      "teamId": 168,
+      "teamAbbr": "FIN",
+      "goals": 6,
+      "assists": 0,
+      "points": 6,
+      "pim": 0,
+      "ppg": 0,
+      "shots": 0,
+      "plusMinus": 0
+     }
     ]
    },
-   "https://hockeycanada.vercel.app/_next/static/chunks/framework-ffee79c6390da51e.js": {
-    "status": 200,
-    "hits": [
-     "iveEvent;return b.getModifierState?b.getModifierState(a):!!(a=Od[a])&&!!b[a]}function zd(){return Pd}var Rd=rd(A({},ud,{key:function(a){if(a.key){var b=Md[a.key]||a.key;if(\"Unidentified\"!==b)return b}return\"keypress\"===a.type?13===(a=od(a))?\"Enter\":String.fromCharCode(a):\"keydown\"===",
-     "d),c)}if(eb(b)||Ka(b))return(b=Ah(b,a.mode,c,null)).return=a,b;th(a,b)}return null}function r(a,b,c,d){var e=null!==b?b.key:null;if(\"string\"==typeof c&&\"\"!==c||\"number\"==typeof c)return null!==e?null:h(a,b,\"\"+c,d);if(\"object\"==typeof c&&null!==c){switch(c.$$typeof){case va:return c.k",
-     "mber\"==typeof c)return null!==e?null:h(a,b,\"\"+c,d);if(\"object\"==typeof c&&null!==c){switch(c.$$typeof){case va:return c.key===e?k(a,b,c,d):null;case wa:return c.key===e?l(a,b,c,d):null;case Ha:return r(a,b,(e=c._init)(c._payload),d)}if(eb(c)||Ka(c))return null!==e?null:m(a,b,c,d,null",
-     "f1.props.children),\"object\"==typeof f1&&null!==f1){switch(f1.$$typeof){case va:a:{for(var k=f1.key,l=d1;null!==l;){if(l.key===k){if((k=f1.type)===ya){if(7===l.tag){c(a1,l.sibling),(d1=e(l,f1.props.children)).return=a1,a1=d1;break a}}else if(l.elementType===k||\"object\"==typeof k&&null",
-     "key,f1.props,null,a1.mode,h)).ref=sh(a1,d1,f1),h.return=a1,a1=h)}return g(a1);case wa:a:{for(l=f1.key;null!==d1;){if(d1.key===l){if(4===d1.tag&&d1.stateNode.containerInfo===f1.containerInfo&&d1.stateNode.implementation===f1.implementation){c(a1,d1.sibling),(d1=e(d1,f1.children||[])).",
-     "e 19:d=a.stateNode;break;default:throw Error(p(314))}null!==d&&d.delete(b),Zk(a,c)}function al(a,b,c,d){this.tag=a,this.key=c,this.sibling=this.child=this.return=this.stateNode=this.type=this.elementType=null,this.index=0,this.ref=null,this.pendingProps=b,this.dependencies=this.memoi",
-     "ror(p(200));return function(a,b,c){var d=3<arguments.length&&void 0!==arguments[3]?arguments[3]:null;return{$$typeof:wa,key:null==d?null:\"\"+d,children:a,containerInfo:b,implementation:null}}(a,b,null,c)},exports.createRoot=function(a,b){if(!ol(a))throw Error(p(299));var c=!1,d=\"\",e=l",
-     "ragment\"),m=Object.prototype.hasOwnProperty,n=f.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,p={key:!0,ref:!0,__self:!0,__source:!0};function q(c,a,g){var b,d={},e=null,h=null;for(b in void 0!==g&&(e=\"\"+g),void 0!==a.key&&(e=\"\"+a.key),void 0!==a.ref&&(h=a.ref)",
-     "erty(b)&&(d[b]=a[b]);if(c&&c.defaultProps)for(b in a=c.defaultProps)void 0===d[b]&&(d[b]=a[b]);return{$$typeof:k,type:c,key:e,ref:h,props:d,_owner:n.current}}exports.Fragment=l,exports.jsx=q,exports.jsxs=q},2408:function(__unused_webpack_module,exports){/**  * @license React  * react",
-     "=G,C(H,E.prototype),H.isPureReactComponent=!0;var I=Array.isArray,J=Object.prototype.hasOwnProperty,K={current:null},L={key:!0,ref:!0,__self:!0,__source:!0};function M(a,b,e){var d,c={},k=null,h=null;if(null!=b)for(d in void 0!==b.ref&&(h=b.ref),void 0!==b.key&&(k=\"\"+b.key),b)J.call(",
-     "ts[m+2];c.children=f}if(a&&a.defaultProps)for(d in g=a.defaultProps)void 0===c[d]&&(c[d]=g[d]);return{$$typeof:l,type:a,key:k,ref:h,props:c,_owner:K.current}}function O(a){return\"object\"==typeof a&&null!==a&&a.$$typeof===l}var P=/\\/+/g;function Q(a,b){var a1,b1;return\"object\"==typeof",
-     ")?(e=\"\",null!=a&&(e=a.replace(P,\"$&/\")+\"/\"),R(c,b,e,\"\",function(a){return a})):null!=c&&(O(c)&&(a1=c,b1=e+(!c.key||h&&h.key===c.key?\"\":(\"\"+c.key).replace(P,\"$&/\")+\"/\")+a,c={$$typeof:l,type:a1.type,key:b1,ref:a1.ref,props:a1.props,_owner:a1._owner}),b.push(c)),1;if(h=0,d=\"\"===d?\".\":d+",
-     "d.children=e;else if(1<f){g=Array(f);for(var m=0;m<f;m++)g[m]=arguments[m+2];d.children=g}return{$$typeof:l,type:a.type,key:c,ref:k,props:d,_owner:h}},exports.createContext=function(a){return(a={$$typeof:u,_currentValue:a,_currentValue2:a,_threadCount:0,Provider:null,Consumer:null,_d"
+   ".props.pageProps.page.zones.LeftContentZone[0].customData.modelTournament.dateGames[0].games[1].GameDetail.awaySkaterStats": {
+    "count": 1,
+    "samples": [
+     {
+      "id": 0,
+      "name": "",
+      "jerseyNumber": null,
+      "position": "",
+      "teamId": 171,
+      "teamAbbr": "DEN",
+      "goals": 2,
+      "assists": 0,
+      "points": 2,
+      "pim": 0,
+      "ppg": 0,
+      "shots": 0,
+      "plusMinus": 0
+     }
     ]
    },
-   "https://hockeycanada.vercel.app/_next/static/chunks/main-538b3f669ef25e92.js": {
-    "status": 200,
-    "hits": [
-     "e,excluded){if(null==source)return{};var key,i,target={},sourceKeys=Object.keys(source);for(i=0;i<sourceKeys.length;i++)key=sourceKeys[i],excluded.indexOf(key)>=0||(target[key]=source[key]);return target}},37:function(){\"trimStart\"in String.prototype||(String.prototype.trimStart=Stri",
-     "t dataRoute=_getAssetPathFromRoute.default(_removeTrailingSlash.removeTrailingSlash(_addLocale.addLocale(path,locale)),\".json\");return _addBasePath.addBasePath(\"/_next/data/\".concat(this.buildId).concat(dataRoute).concat(search),!0)})(params.skipInterpolation?asPathname:_isDynamic.isD",
-     "ategories={};return h=>{let isUnique=!0,hasKey=!1;if(h.key&&\"number\"!=typeof h.key&&h.key.indexOf(\"$\")>0){hasKey=!0;let key=h.key.slice(h.key.indexOf(\"$\")+1);keys.has(key)?isUnique=!1:keys.add(key)}switch(h.type){case\"title\":case\"base\":tags.has(h.type)?isUnique=!1:tags.add(h.type);br",
-     "que=!1:(categories.add(category),metaCategories[metatype]=categories)}}}}return isUnique}}()).reverse().map((c,i)=>{let key=c.key||i;if(!inAmpMode&&\"link\"===c.type&&c.props.href&&[\"https://fonts.googleapis.com/css\",\"https://use.typekit.net/\"].some(url=>c.props.href.startsWith(url))){",
-     "h(origin)?url.substring(origin.length):url}function omit(object,keys){let omitted={};return Object.keys(object).forEach(key=>{keys.includes(key)||(omitted[key]=object[key])}),omitted}function isLocalURL(url){if(!_utils.isAbsoluteUrl(url))return!0;try{let locationOrigin=_utils.getLoca",
-     "ePath(parsed.pathname):parsed.pathname;if(routeMatch&&pathname!==cleanedParsedPathname&&Object.keys(routeMatch).forEach(key=>{routeMatch&&query[key]===routeMatch[key]&&delete query[key]}),_isDynamic.isDynamicRoute(pathname)){let prefixedAs=!routeProps.shallow&&routeInfo.resolvedAs?ro",
-     "ushState\"!==method||_utils.getURL()!==as)&&(this._shallow=options.shallow,window.history[method]({url,as,options,__N:!0,key:this._key=\"pushState\"!==method?this._key:createKey()},\"\",as))}handleRouteInfoError(err,pathname,query,as,routeProps,loadErrorFail){var _this=this;return _async_",
-     "e:\"next\"})})(data.dataHref,data.response,options).then(effect=>({dataHref:data.dataHref,cacheKey:data.cacheKey,json:data.json,response:data.response,text:data.text,effect}))).catch(_err=>null):null));if(isQueryUpdating&&data&&(data.json=self.__NEXT_DATA__.props),handleCancelled(),(nul",
-     "json:data.json,response:data.response,text:data.text,effect}))).catch(_err=>null):null));if(isQueryUpdating&&data&&(data.json=self.__NEXT_DATA__.props),handleCancelled(),(null==data?void 0:null==(ref=data.effect)?void 0:ref.type)===\"redirect-internal\"||(null==data?void 0:null==(ref4=d",
-     "nfo&&_this.route===route&&!hasMiddleware))return _extends({},existingInfo,{route});if(\"/api\"===route||route.startsWith(\"/api/\"))return handleHardNavigation({url:as,router:_this}),new Promise(()=>{});let routeInfo=cachedRouteInfo||(yield _this.fetchComponent(route).then(res=>({Componen",
-     " _this._getData(_async_to_generator(function*(){if(shouldFetchData){let{json,cacheKey:_cacheKey}=(null==data?void 0:data.json)?data:yield fetchNextData({dataHref:_this.pageLoader.getDataHref({href:_formatUrl.formatWithValidation({pathname,query}),asPath:resolvedAs,locale}),isServerRen",
-     "{let stateKeys=Object.keys(a);if(stateKeys.length!==Object.keys(b).length)return!1;for(let i=stateKeys.length;i--;){let key=stateKeys[i];if(\"query\"===key){let queryKeys=Object.keys(a.query);if(queryKeys.length!==Object.keys(b.query).length)return!1;for(let j=queryKeys.length;j--;){le",
-     "ffix.addPathSuffix(_addPathPrefix.addPathPrefix(pathname,\"/_next/data/\".concat(info.buildId)),\"/\"===info.pathname?\"index.json\":\".json\")),pathname=_addPathPrefix.addPathPrefix(pathname,info.basePath),!info.buildId&&info.trailingSlash?pathname.endsWith(\"/\")?pathname:_addPathSuffix.addPa",
-     "Path),info.basePath=basePath),!0===options.parseData&&info.pathname.startsWith(\"/_next/data/\")&&info.pathname.endsWith(\".json\")){let paths=info.pathname.replace(/^\\/_next\\/data\\//,\"\").replace(/\\.json$/,\"\").split(\"/\"),buildId=paths[0];info.pathname=\"index\"!==paths[1]?\"/\".concat(paths.s",
-     "ramsList[_key-1]=arguments[_key];return searchParamsList.forEach(searchParams=>{Array.from(searchParams.keys()).forEach(key=>target.delete(key)),searchParams.forEach((value,key)=>target.append(key,value))}),target}},2650:function(__unused_webpack_module,exports,__webpack_require__){\""
+   ".props.pageProps.page.zones.LeftContentZone[0].customData.modelTournament.dateGames[0].games[2].GameDetail.homeSkaterStats": {
+    "count": 1,
+    "samples": [
+     {
+      "id": 0,
+      "name": "",
+      "jerseyNumber": null,
+      "position": "",
+      "teamId": 174,
+      "teamAbbr": "USA",
+      "goals": 6,
+      "assists": 0,
+      "points": 6,
+      "pim": 0,
+      "ppg": 0,
+      "shots": 0,
+      "plusMinus": 0
+     }
     ]
    },
-   "https://hockeycanada.vercel.app/_next/static/chunks/pages/_app-d2f6b5b1d0fd9482.js": {
-    "status": 200,
-    "hits": [
-     "tails)&&(theDetails_1=payloadDetails(),payloadDetails=null),theDetails_1}}),_self[_DYN_GET_CTX]=function(key){return key?key===PerfEvent[strParentContextKey]||key===PerfEvent[strChildrenContextKey]?_self[key]:(_self.ctx||{})[key]:null},_self[_DYN_SET_CTX]=function(key,value){key&&(key",
-     "===PerfEvent[strChildrenContextKey]?_self[key]:(_self.ctx||{})[key]:null},_self[_DYN_SET_CTX]=function(key,value){key&&(key===PerfEvent[strParentContextKey]?(_self[key]||(_self[_DYN_IS_CHILD_EVT]=function(){return!0}),_self[key]=value):key===PerfEvent[strChildrenContextKey]?_self[key",
-     "y&&(key===PerfEvent[strParentContextKey]?(_self[key]||(_self[_DYN_IS_CHILD_EVT]=function(){return!0}),_self[key]=value):key===PerfEvent[strChildrenContextKey]?_self[key]=value:(_self.ctx=_self.ctx||{})[key]=value)},_self.complete=function(){var childTime=0,childEvts=_self[_DYN_GET_CT",
-     "nts[name]&&_throwInternal(logger,2,62,\"start was called more than once for this event without calling stop.\",{name:name,key:name},!0),_events[name]=+new Date},_self.stop=function(name,url,properties,measurements){var start=_events[name];if(isNaN(start))_throwInternal(logger,2,63,\"sto",
-     "rt=_events[name];if(isNaN(start))_throwInternal(logger,2,63,\"stop was called without a corresponding start.\",{name:name,key:name},!0);else{var duration=dateTimeUtilsDuration(start,+new Date);_self.action(name,url,duration,properties,measurements)}delete _events[name],_events[name]=vo",
-     "().parse(buffer_1)),buffer_1&&ts_utils_isArray(buffer_1))return buffer_1}}catch(e){_throwInternal(logger,1,42,\" storage key: \"+key+\", \"+getExceptionName(e),{exception:dumpObj(e)})}return[]}function _setBuffer(key,buffer){var prefixedKey=key;try{prefixedKey=_namePrefix?_namePrefix+\"_\"",
-     "on)}catch(e){setItem(logger,prefixedKey,JSON[_DynamicConstants_DYN_STRINGIFY]([])),_throwInternal(logger,2,41,\" storage key: \"+prefixedKey+\", \"+getExceptionName(e)+\". Buffer cleared\",{exception:dumpObj(e)})}}function _getItemsFromPreviousKey(key){try{var items=_getBufferBase(key),tra",
-     ",kv){var kvParts=kv[dist_es5_DynamicConstants_DYN_SPLIT](\"=\");if(2===kvParts[dist_es5_DynamicConstants_DYN_LENGTH]){var key=kvParts[0][dist_es5_DynamicConstants_DYN_TO_LOWER_CASE](),value=kvParts[1];fields[key]=value}return fields},{});if(objKeys(result)[dist_es5_DynamicConstants_DYN",
-     "=cfgDfMerge(((_d={}).AppInsightsCfgSyncPlugin=cfgDfMerge({cfgUrl:\"https://js.monitor.azure.com/scripts/b/ai.config.1.cfg.json\",syncMode:2}),_d)),AISku_a);function _parseCs(config,configCs){return createSyncPromise(function(resolve,reject){doAwaitResponse(configCs,function(res){var cur"
+   ".props.pageProps.page.zones.LeftContentZone[0].customData.modelTournament.dateGames[0].games[2].GameDetail.awaySkaterStats": {
+    "count": 1,
+    "samples": [
+     {
+      "id": 0,
+      "name": "",
+      "jerseyNumber": null,
+      "position": "",
+      "teamId": 325,
+      "teamAbbr": "GER",
+      "goals": 3,
+      "assists": 0,
+      "points": 3,
+      "pim": 0,
+      "ppg": 0,
+      "shots": 0,
+      "plusMinus": 0
+     }
+    ]
+   },
+   ".props.pageProps.page.zones.LeftContentZone[0].customData.modelTournament.dateGames[1].games[0].GameDetail.homeSkaterStats": {
+    "count": 1,
+    "samples": [
+     {
+      "id": 0,
+      "name": "",
+      "jerseyNumber": null,
+      "position": "",
+      "teamId": 176,
+      "teamAbbr": "SVK",
+      "goals": 4,
+      "assists": 0,
+      "points": 4,
+      "pim": 0,
+      "ppg": 0,
+      "shots": 0,
+      "plusMinus": 0
+     }
+    ]
+   },
+   ".props.pageProps.page.zones.LeftContentZone[0].customData.modelTournament.dateGames[1].games[0].GameDetail.awaySkaterStats": {
+    "count": 1,
+    "samples": [
+     {
+      "id": 0,
+      "name": "",
+      "jerseyNumber": null,
+      "position": "",
+      "teamId": 325,
+      "teamAbbr": "GER",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0,
+      "ppg": 0,
+      "shots": 0,
+      "plusMinus": 0
+     }
+    ]
+   },
+   ".props.pageProps.page.zones.LeftContentZone[0].customData.modelTournament.dateGames[1].games[1].GameDetail.homeSkaterStats": {
+    "count": 20,
+    "samples": [
+     {
+      "id": 20324,
+      "name": "Kashawn Aitcheson",
+      "jerseyNumber": "2",
+      "position": "D",
+      "teamId": 175,
+      "teamAbbr": "CAN",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0,
+      "ppg": 0,
+      "shots": 0,
+      "plusMinus": 0
+     },
+     {
+      "id": 17499,
+      "name": "Harrison Brunicke",
+      "jerseyNumber": "4",
+      "position": "D",
+      "teamId": 175,
+      "teamAbbr": "CAN",
+      "goals": 0,
+      "assists": 1,
+      "points": 1,
+      "pim": 0,
+      "ppg": 0,
+      "shots": 0,
+      "plusMinus": 0
+     },
+     {
+      "id": 20800,
+      "name": "Carson Carels",
+      "jerseyNumber": "5",
+      "position": "D",
+      "teamId": 175,
+      "teamAbbr": "CAN",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0,
+      "ppg": 0,
+      "shots": 0,
+      "plusMinus": 0
+     }
+    ]
+   },
+   ".props.pageProps.page.zones.LeftContentZone[0].customData.modelTournament.dateGames[1].games[1].GameDetail.awaySkaterStats": {
+    "count": 20,
+    "samples": [
+     {
+      "id": 20501,
+      "name": "Krisjanis Sarts",
+      "jerseyNumber": "2",
+      "position": "D",
+      "teamId": 177,
+      "teamAbbr": "LAT",
+      "goals": 0,
+      "assists": 1,
+      "points": 1,
+      "pim": 0,
+      "ppg": 0,
+      "shots": 0,
+      "plusMinus": 0
+     },
+     {
+      "id": 22722,
+      "name": "Martins Vitols",
+      "jerseyNumber": "6",
+      "position": "D",
+      "teamId": 177,
+      "teamAbbr": "LAT",
+      "goals": 0,
+      "assists": 0,
+      "points": 0,
+      "pim": 0,
+      "ppg": 0,
+      "shots": 0,
+      "plusMinus": 0
+     },
+     {
+      "id": 21358,
+      "name": "Rudolfs Berzkalns",
+      "jerseyNumber": "7",
+      "position": "F",
+      "teamId": 177,
+      "teamAbbr": "LAT",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0,
+      "ppg": 0,
+      "shots": 1,
+      "plusMinus": 0
+     }
+    ]
+   },
+   ".props.pageProps.page.zones.LeftContentZone[0].customData.modelTournament.dateGames[1].games[2].GameDetail.homeSkaterStats": {
+    "count": 1,
+    "samples": [
+     {
+      "id": 0,
+      "name": "",
+      "jerseyNumber": null,
+      "position": "",
+      "teamId": 172,
+      "teamAbbr": "SUI",
+      "goals": 1,
+      "assists": 0,
+      "points": 1,
+      "pim": 0,
+      "ppg": 0,
+      "shots": 0,
+      "plusMinus": 0
+     }
+    ]
+   },
+   ".props.pageProps.page.zones.LeftContentZone[0].customData.modelTournament.dateGames[1].games[2].GameDetail.awaySkaterStats": {
+    "count": 1,
+    "samples": [
+     {
+      "id": 0,
+      "name": "",
+      "jerseyNumber": null,
+      "position": "",
+      "teamId": 174,
+      "teamAbbr": "USA",
+      "goals": 2,
+      "assists": 0,
+      "points": 2,
+      "pim": 0,
+      "ppg": 0,
+      "shots": 0,
+      "plusMinus": 0
+     }
+    ]
+   },
+   ".props.pageProps.page.zones.LeftContentZone[0].customData.modelTournament.dateGames[2].games[0].GameDetail.homeSkaterStats": {
+    "count": 1,
+    "samples": [
+     {
+      "id": 0,
+      "name": "",
+      "jerseyNumber": null,
+      "position": "",
+      "teamId": 169,
+      "teamAbbr": "SWE",
+      "goals": 4,
+      "assists": 0,
+      "points": 4,
+      "pim": 0,
+      "ppg": 0,
+      "shots": 0,
+      "plusMinus": 0
+     }
+    ]
+   },
+   ".props.pageProps.page.zones.LeftContentZone[0].customData.modelTournament.dateGames[2].games[0].GameDetail.awaySkaterStats": {
+    "count": 1,
+    "samples": [
+     {
+      "id": 0,
+      "name": "",
+      "jerseyNumber": null,
+      "position": "",
+      "teamId": 172,
+      "teamAbbr": "SUI",
+      "goals": 2,
+      "assists": 0,
+      "points": 2,
+      "pim": 0,
+      "ppg": 0,
+      "shots": 0,
+      "plusMinus": 0
+     }
+    ]
+   },
+   ".props.pageProps.page.zones.LeftContentZone[0].customData.modelTournament.dateGames[2].games[1].GameDetail.awaySkaterStats": {
+    "count": 1,
+    "samples": [
+     {
+      "id": 0,
+      "name": "",
+      "jerseyNumber": null,
+      "position": "",
+      "teamId": 168,
+      "teamAbbr": "FIN",
+      "goals": 8,
+      "assists": 0,
+      "points": 8,
+      "pim": 0,
+      "ppg": 0,
+      "shots": 0,
+      "plusMinus": 0
+     }
     ]
    }
+  },
+  "addresses": [
+   "http://abuse-free-sport.ca/en/",
+   "http://instagram.com/hockeycanada",
+   "http://www.facebook.com/HockeyCanada",
+   "http://www.instagram.com/HockeyCanada",
+   "http://www.linkedin.com/company/hockey-canada/",
+   "http://www.twitter.com/HockeyCanada",
+   "http://www.youtube.com/hockeycanadavideos",
+   "https://assets.leaguestat.com/hockeycanada/logos/168.png",
+   "https://assets.leaguestat.com/hockeycanada/logos/169.png",
+   "https://assets.leaguestat.com/hockeycanada/logos/170.png",
+   "https://assets.leaguestat.com/hockeycanada/logos/171.png",
+   "https://assets.leaguestat.com/hockeycanada/logos/172.png",
+   "https://assets.leaguestat.com/hockeycanada/logos/174.png",
+   "https://assets.leaguestat.com/hockeycanada/logos/175.png",
+   "https://assets.leaguestat.com/hockeycanada/logos/176.png",
+   "https://assets.leaguestat.com/hockeycanada/logos/177.png",
+   "https://assets.leaguestat.com/hockeycanada/logos/325.png",
+   "https://beyondtheboardssummit.ca/",
+   "https://cdn.hockeycanada.ca/hockey-canada/Attachments/NewItems/logoLarge_20221122063258_0.png",
+   "https://cdn.hockeycanada.ca/hockey-canada/Attachments/NewItems/searchIcon_20221122064053_0.png",
+   "https://cdn.hockeycanada.ca/hockey-canada/Logos/640x360/Federations/hockey_canada_640.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/Logos/hockey-canada-jersey-logo-300x300.png",
+   "https://cdn.hockeycanada.ca/hockey-canada/Logos/newlogo.png",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3546/2021-wjc-dec-27-can-svk-04.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3547/2021-wjc-dec-29-can-sui-08.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3548/2021-wjc-dec-31-can-fin-04.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3549/2021-wjc-jan-02-can-cze-16.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3550/2021-wjc-jan-04-can-rus-12.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3551/2021-wjc-jan-05-can-usa-12.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3552/team-canada-action-18.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3553/behind-the-scenes-36.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3554/around-the-rink-30.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3597/2021-22-njt-july-31-red-wht-14.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3599/2021-22-njt-aug-01-red-wht-11.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3605/2021-njt-nmu18-aug-03-robi-will-12.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3607/2021-22-njt-nmu18t-aug-03-cam-dyck-01.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3645/2022-njt-dec-11-can-usports-12.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3647/2022-njt-dec-12-can-usports-05.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3652/janes-all-in-masks-2022-01.JPG",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3743/2021-22-njt-aug-8-can-swe-02.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3744/2022-wjc-aug-10-can-lat-12.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3745/2022-wjc-aug-11-can-svk-17.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3746/2022-wjc-aug-15-can-fin-10.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3751/2022-wjc-aug-20-can-fin-07.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3815/2023-wjc-dec-19-can-sui-16.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3817/2023-wjc-dec-21-can-svk-08.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3819/2023-wjc-dec-26-can-cze-09.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3821/2023-wjc-dec-28-can-ger-04.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3823/2023-wjc-dec-29-can-aus-16.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3824/2023-wjc-dec-31-can-swe-15.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3825/2023-wjc-jan-02-can-svk-16.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3826/2023-wjc-jan-04-can-usa-10.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3827/2023-wjc-jan-05-can-cze-14.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3925/2024-WJC-Dec",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4057/2024-can-usports-08.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4059/2024-can-usports-01.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4060/2024-can-sui-01.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4061/2024-can-swe-01.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4062/2024-can-cze-15.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4063/2025-can-fin-10.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4066/2025-can-lat-12.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4067/2025-can-ger-12.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4068/2025-can-usa-02.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4073/2025-can-cze-02.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4206/2025-wjc-dec-17th-02.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4207/2025-wjc-dec-20th-16.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4211/2026-wjc-can-cze-dec-26-11.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4212/2026-wjc-can-lat-dec-27-02.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4213/2026-wjc-can-den-dec-29-07.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4214/2026-wjc-can-fin-dec-31-05.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4216/2026-wjc-can-svk-jan-02-04.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4217/2026-wjc-can-cze-jan-04-07.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/National-Championships/Men/National-Junior-A/Subsite-Assets/2024-centennial-cup-logo.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/National-Championships/Men/National-Junior-A/Subsite-Assets/centennial-cup-event-module.png",
+   "https://cdn.hockeycanada.ca/hockey-canada/National-Championships/Men/National-Midget/2015/2015_teluscup_logo_640.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/National-Championships/Men/National-Midget/subsite-assets/2024-telus-cup-logo.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/National-Championships/Men/National-Midget/subsite-assets/telus-cup-event-module.png",
+   "https://cdn.hockeycanada.ca/hockey-canada/National-Championships/Men/World-Junior-A-Challenge/Subsite-Assets/2025-wjac-event-module-hdr.png",
+   "https://cdn.hockeycanada.ca/hockey-canada/National-Championships/Men/World-Junior-A-Challenge/Subsite-Assets/wjahc-event-module.png",
+   "https://cdn.hockeycanada.ca/hockey-canada/National-Championships/Men/World-U17-Challenge/Subsite-Assets/2025-u17wc-event-module-hdr.png"
+  ],
+  "gameLinks": [
+   "/en-ca/hockey-programs/game-change",
+   "/en-ca/team-canada/men/junior/2025-26/world-championship/stats/game-summary/5447",
+   "/en-ca/team-canada/men/junior/2025-26/world-championship/stats/game-summary/5448",
+   "/en-ca/team-canada/men/junior/2025-26/world-championship/stats/game-summary/5449",
+   "/en-ca/team-canada/men/junior/2025-26/world-championship/stats/game-summary/5450",
+   "/en-ca/team-canada/men/junior/2025-26/world-championship/stats/game-summary/5451",
+   "/en-ca/team-canada/men/junior/2025-26/world-championship/stats/game-summary/5452",
+   "/en-ca/team-canada/men/junior/2025-26/world-championship/stats/game-summary/5453",
+   "/en-ca/team-canada/men/junior/2025-26/world-championship/stats/game-summary/5454",
+   "/en-ca/team-canada/men/junior/2025-26/world-championship/stats/game-summary/5455",
+   "/en-ca/team-canada/men/junior/2025-26/world-championship/stats/game-summary/5456",
+   "/en-ca/team-canada/men/junior/2025-26/world-championship/stats/game-summary/5457",
+   "/en-ca/team-canada/men/junior/2025-26/world-championship/stats/game-summary/5458",
+   "/en-ca/team-canada/men/junior/2025-26/world-championship/stats/game-summary/5459",
+   "/en-ca/team-canada/men/junior/2025-26/world-championship/stats/game-summary/5460",
+   "/en-ca/team-canada/men/junior/2025-26/world-championship/stats/game-summary/5461",
+   "/en-ca/team-canada/men/junior/2025-26/world-championship/stats/game-summary/5462",
+   "/en-ca/team-canada/men/junior/2025-26/world-championship/stats/game-summary/5463",
+   "/en-ca/team-canada/men/junior/2025-26/world-championship/stats/game-summary/5464",
+   "/en-ca/team-canada/men/junior/2025-26/world-championship/stats/game-summary/5465",
+   "/en-ca/team-canada/men/junior/2025-26/world-championship/stats/game-summary/5466",
+   "/en-ca/team-canada/men/junior/2025-26/world-championship/stats/game-summary/5467",
+   "/en-ca/team-canada/men/junior/2025-26/world-championship/stats/game-summary/5468",
+   "/en-ca/team-canada/men/junior/2025-26/world-championship/stats/game-summary/5469",
+   "/en-ca/team-canada/men/junior/2025-26/world-championship/stats/game-summary/5470",
+   "/en-ca/team-canada/men/junior/2025-26/world-championship/stats/game-summary/5471",
+   "/en-ca/team-canada/men/junior/2025-26/world-championship/stats/game-summary/5472",
+   "/en-ca/team-canada/men/junior/2025-26/world-championship/stats/game-summary/5473",
+   "/en-ca/team-canada/men/junior/2025-26/world-championship/stats/game-summary/5474",
+   "/en-ca/team-canada/men/junior/2025-26/world-championship/stats/game-summary/5475"
+  ],
+  "jsonAddress": {
+   "url": "https://www.hockeycanada.ca/_next/data/hnEVBHI8xM1qkc6G-FzNt/en-ca/team-canada/men/junior/2025-26/world-championship/stats/schedule.json",
+   "status": 200,
+   "length": 709035
   }
  },
  "hc.2026.playerstats": {
   "url": "https://www.hockeycanada.ca/en-ca/team-canada/men/junior/2025-26/world-championship/stats/player-stats",
   "status": 200,
-  "type": "text/html; charset=utf-8",
-  "length": 1016110,
-  "title": "Player Statistics<!-- --> - <!-- -->2026 IIHF World Junior Championship",
-  "scripts": [
-   "https://hockeycanada.vercel.app/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js",
-   "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
-   "https://hockeycanada.vercel.app/_next/static/chunks/webpack-dfb539db4af6defd.js",
-   "https://hockeycanada.vercel.app/_next/static/chunks/framework-ffee79c6390da51e.js",
-   "https://hockeycanada.vercel.app/_next/static/chunks/main-538b3f669ef25e92.js",
-   "https://hockeycanada.vercel.app/_next/static/chunks/pages/_app-d2f6b5b1d0fd9482.js",
-   "https://hockeycanada.vercel.app/_next/static/chunks/1bfc9850-d9902d0e10ec1409.js",
-   "https://hockeycanada.vercel.app/_next/static/chunks/265cea07-5b8f0e5667b59f91.js",
-   "https://hockeycanada.vercel.app/_next/static/chunks/29c1a539-33b677d3aa4ef8b5.js",
-   "https://hockeycanada.vercel.app/_next/static/chunks/75fc9c18-c8186ff75bc30b43.js",
-   "https://hockeycanada.vercel.app/_next/static/chunks/5c0b189e-6a2346c6d69a369d.js",
-   "https://hockeycanada.vercel.app/_next/static/chunks/170-20667dd6bb8c279d.js",
-   "https://hockeycanada.vercel.app/_next/static/chunks/157-ed49566f3ab9e671.js",
-   "https://hockeycanada.vercel.app/_next/static/chunks/pages/%5B...slug%5D-0d786d0a8a7b7882.js",
-   "https://hockeycanada.vercel.app/_next/static/hnEVBHI8xM1qkc6G-FzNt/_buildManifest.js",
-   "https://hockeycanada.vercel.app/_next/static/hnEVBHI8xM1qkc6G-FzNt/_ssgManifest.js"
-  ],
-  "hits": [
-   "imer\"}}]}},\"languageCode\":\"en-ca\",\"channelName\":\"website\",\"isPreview\":false,\"isDevelopmentMode\":false,\"notFound\":false,\"gameId\":null,\"gameData\":null,\"tournamentToggle\":null,\"teamId\":null,\"teamDataTournament\":null,\"liveBlogGameId\":null,\"playerId\":null,\"playerDataTournament\":null},\"__N_S",
-   "\"notFound\":false,\"gameId\":null,\"gameData\":null,\"tournamentToggle\":null,\"teamId\":null,\"teamDataTournament\":null,\"liveBlogGameId\":null,\"playerId\":null,\"playerDataTournament\":null},\"__N_SSG\":true},\"page\":\"/[...slug]\",\"query\":{\"slug\":[\"team-canada\",\"men\",\"junior\",\"2025-26\",\"world-champions"
-  ],
-  "scriptHits": {
-   "https://hockeycanada.vercel.app/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js": {
-    "status": 200,
-    "hits": [
-     "l!=a&&Nr(a,t[n],t,r)}),a=$r(e),u=function(t,e,r){var n,o,u=a(t),c=s(t,e);return c?c.value=r:(u.last=c={index:o=Kr(e,!0),key:e,value:r,previous:n=u.last,next:void 0,removed:!1},u.first||(u.first=c),n&&(n.next=c),i?u.size++:t.size++,\"F\"!==o&&(u.index[o]=c)),t},s=function(t,e){var r,n=a",
-     "==o&&(u.index[o]=c)),t},s=function(t,e){var r,n=a(t),o=Kr(e);if(\"F\"!==o)return n.index[o];for(r=n.first;r;r=r.next)if(r.key==e)return r};return Dr(o.prototype,{clear:function(){for(var t=a(this),e=t.index,r=t.first;r;)r.removed=!0,r.previous&&(r.previous=r.previous.next=void 0),delet",
-     "e\"),wa(\"search\"),wa(\"species\"),wa(\"split\"),wa(\"toPrimitive\"),wa(\"toStringTag\"),wa(\"unscopables\"),Ce(Math,\"Math\",!0),Ce(n.JSON,\"JSON\",!0),wa(\"asyncDispose\"),wa(\"dispose\"),wa(\"observable\"),wa(\"patternMatch\"),wa(\"replaceAll\"),ma.f(\"asyncIterator\");var iu=je.codeAt;Lt({target:\"String\",pro",
-     "ace(cs,ls)},ps=function(t,e){if(e)for(var r,n,o=e.split(\"&\"),i=0;i<o.length;)(r=o[i++]).length&&(n=r.split(\"=\"),t.push({key:ss(n.shift()),value:ss(n.join(\"=\"))}))},ds=function(t){this.entries.length=0,ps(this.entries,t)},vs=function(t,e){if(t<e)throw TypeError(\"Not enough arguments\")",
-     "d:e})},\"Iterator\",function(){var t=ns(this),e=t.kind,r=t.iterator.next(),n=r.value;return r.done||(r.value=\"keys\"===e?n.key:\"values\"===e?n.value:[n.key,n.value]),r}),ys=function(){Cr(this,ys,Zu);var t,e,r,n,o,i,a,u,s,c=arguments.length>0?arguments[0]:void 0,f=this,l=[];if(es(f,{type:",
-     "))).next).call(o)).done||(u=i.call(o)).done||!i.call(o).done)throw TypeError(\"Expected sequence with length 2\");l.push({key:a.value+\"\",value:u.value+\"\"})}else for(s in c)w(c,s)&&l.push({key:s,value:c[s]+\"\"});else ps(l,\"string\"==typeof c?\"?\"===c.charAt(0)?c.slice(1):c:c+\"\")},ms=ys.pro",
-     ")?c.slice(1):c:c+\"\")},ms=ys.prototype;Dr(ms,{append:function(t,e){vs(arguments.length,2);var r=rs(this);r.entries.push({key:t+\"\",value:e+\"\"}),r.updateURL()},delete:function(t){vs(arguments.length,1);for(var e=rs(this),r=e.entries,n=t+\"\",o=0;o<r.length;)r[o].key===n?r.splice(o,1):o++;",
-     "\"}),r.updateURL()},delete:function(t){vs(arguments.length,1);for(var e=rs(this),r=e.entries,n=t+\"\",o=0;o<r.length;)r[o].key===n?r.splice(o,1):o++;e.updateURL()},get:function(t){vs(arguments.length,1);for(var e=rs(this).entries,r=t+\"\",n=0;n<e.length;n++)if(e[n].key===r)return e[n].val",
-     ":o++;e.updateURL()},get:function(t){vs(arguments.length,1);for(var e=rs(this).entries,r=t+\"\",n=0;n<e.length;n++)if(e[n].key===r)return e[n].value;return null},getAll:function(t){vs(arguments.length,1);for(var e=rs(this).entries,r=t+\"\",n=[],o=0;o<e.length;o++)e[o].key===r&&n.push(e[o]",
-     "e;return null},getAll:function(t){vs(arguments.length,1);for(var e=rs(this).entries,r=t+\"\",n=[],o=0;o<e.length;o++)e[o].key===r&&n.push(e[o].value);return n},has:function(t){vs(arguments.length,1);for(var e=rs(this).entries,r=t+\"\",n=0;n<e.length;)if(e[n++].key===r)return!0;return!1},",
-     "[o].value);return n},has:function(t){vs(arguments.length,1);for(var e=rs(this).entries,r=t+\"\",n=0;n<e.length;)if(e[n++].key===r)return!0;return!1},set:function(t,e){vs(arguments.length,1);for(var r,n=rs(this),o=n.entries,i=!1,a=t+\"\",u=e+\"\",s=0;s<o.length;s++)(r=o[s]).key===a&&(i?o.sp",
-     "et:function(t,e){vs(arguments.length,1);for(var r,n=rs(this),o=n.entries,i=!1,a=t+\"\",u=e+\"\",s=0;s<o.length;s++)(r=o[s]).key===a&&(i?o.splice(s--,1):(i=!0,r.value=u));i||o.push({key:a,value:u}),n.updateURL()},sort:function(){var t,e,r,n=rs(this),o=n.entries,i=o.slice();for(o.length=0,",
-     " body as text\");return Promise.resolve(this._bodyText)},gl&&(this.formData=function(){return this.text().then(kl)}),this.json=function(){return this.text().then(JSON.parse)},this}xl.prototype.append=function(t,e){t=wl(t),e=Sl(e);var r=this.map[t];this.map[t]=r?r+\", \"+e:e},xl.prototype"
+  "length": 1016412,
+  "hasNextData": true,
+  "buildId": "hnEVBHI8xM1qkc6G-FzNt",
+  "shape": {
+   "sitemapNode": {
+    "pageID": 26532,
+    "contentID": -1,
+    "path": "/team-canada/men/junior/2025-26/world-championship/stats/player-stats",
+    "title": "Player Statistics",
+    "name": "player-stats",
+    "menuText": "Player Statistics",
+    "isFolder": false,
+    "visible": {
+     "menu": true
+    },
+    "redirect": null,
+    "target": null
+   },
+   "page": {
+    "pageID": 26532,
+    "name": "player-stats",
+    "path": null,
+    "title": "Player Statistics",
+    "menuText": "Player Statistics",
+    "pageType": "static",
+    "templateName": "(New) Microsite 1 col w/o Title with TopTabsZone",
+    "redirectUrl": "",
+    "securePage": false,
+    "requiresApproval": false,
+    "excludeFromOutputCache": false,
+    "visible": {
+     "menu": true,
+     "sitemap": true
+    },
+    "seo": {
+     "metaDescription": "",
+     "metaKeywords": "",
+     "metaHTML": "",
+     "menuVisible": null,
+     "sitemapVisible": null
+    },
+    "scripts": {
+     "excludedFromGlobal": false,
+     "top": null,
+     "bottom": null
+    },
+    "properties": {
+     "state": 2,
+     "modified": "2025-12-23T22:44:45.237",
+     "versionID": 411859
+    },
+    "zones": {
+     "TopTabsZone": [
+      "list of 1",
+      {
+       "moduleName": "StatsTab",
+       "item": {
+        "contentID": "…",
+        "properties": "…",
+        "fields": "…"
+       },
+       "customData": {
+        "languageCode": "…",
+        "modelTournament": "…",
+        "modelExhibition": "…",
+        "eventUrl": "…"
+       }
+      }
+     ],
+     "MainContentZone1": [
+      "list of 1",
+      {
+       "moduleName": "Stats-PlayerStats-Tabs",
+       "item": {
+        "contentID": "…",
+        "properties": "…",
+        "fields": "…"
+       },
+       "customData": {
+        "languageCode": "…",
+        "eventTitle": "…",
+        "pageTitle": "…",
+        "eventUrl": "…"
+       }
+      }
+     ],
+     "MainContentZone2": [],
+     "MainContentZone3": [],
+     "MainContentZone4": [],
+     "MainContentZone5": [],
+     "LeftContentZone": [
+      "list of 7",
+      {
+       "moduleName": "Stats-PlayerStats-Points",
+       "item": {
+        "contentID": "…",
+        "properties": "…",
+        "fields": "…"
+       },
+       "customData": {
+        "languageCode": "…",
+        "eventId": "…",
+        "subseasonId": "…",
+        "tournamentId": "…",
+        "exhibitionId": "…",
+        "eventTitle": "…",
+        "pageTitle": "…",
+        "eventUrl": "…",
+        "modelTournament": "…"
+       }
+      }
+     ],
+     "RightContentZone": [
+      "list of 3",
+      {
+       "moduleName": "ADCustomSelection",
+       "item": {
+        "contentID": "…",
+        "properties": "…",
+        "fields": "…"
+       },
+       "customData": null
+      }
+     ],
+     "MainContentZone6": [],
+     "MainContentZone7": [],
+     "MainContentZone8": [],
+     "MainContentZone9": [],
+     "MainContentZone": [],
+     "MicrositeMetadataWithTitle": []
+    }
+   },
+   "dynamicPageItem": null,
+   "pageTemplateName": "NewMicrosite1colwoTitlewithTopTabsZone",
+   "globalData": {
+    "siteHeader": null,
+    "micrositeHeader": {
+     "header": {
+      "hockeyCanadaLogo": {
+       "label": "Hockey Canada logo",
+       "url": "https://cdn.hockeycanada.ca/hockey-canada/Attachments/NewItems/logoLarge_2022112",
+       "target": null,
+       "filesize": 158441,
+       "pixelHeight": "1797",
+       "pixelWidth": "1920",
+       "height": 1797,
+       "width": 1920
+      },
+      "searchLogo": {
+       "label": null,
+       "url": "https://cdn.hockeycanada.ca/hockey-canada/Attachments/NewItems/searchIcon_202211",
+       "target": null,
+       "filesize": 7444,
+       "pixelHeight": "512",
+       "pixelWidth": "512",
+       "height": 512,
+       "width": 512
+      },
+      "searchLabel": "Search",
+      "searchTheSiteLabel": "Search the site",
+      "topMenuItems": [
+       "list of 5",
+       {
+        "title": "…",
+        "url": "…",
+        "subLinks": "…",
+        "manuallyPickedBadges": "…"
+       }
+      ],
+      "rightMenuItems": [
+       "list of 2",
+       {
+        "title": "…",
+        "url": "…",
+        "subLinks": "…",
+        "manuallyPickedBadges": "…"
+       }
+      ],
+      "socialLinks": [
+       "list of 5",
+       {
+        "title": "…",
+        "linkURL": "…",
+        "onClick": "…",
+        "image": "…"
+       }
+      ],
+      "languageCode": "en-ca",
+      "adLeaderboardHeaderID": "318290",
+      "topGlobalScripts": "<!-- Global site tag (gtag.js) - Google Analytics GA4 updated June 2023-->\r\n<scr"
+     },
+     "logo": {
+      "url": "https://cdn.hockeycanada.ca/hockey-canada/Template-Assets/Nav/hc_subsite_hdr_log"
+     },
+     "name": "2025-26 National Junior Team",
+     "nameHTML": null,
+     "doNotDisplayPageTitle": true,
+     "displayScoreboard": false,
+     "useKidsFont": false,
+     "teamEventKey": null,
+     "dynamicMenus": [
+      "list of 3",
+      [
+       "list of 1",
+       {
+        "title": "…",
+        "url": "…",
+        "subLinks": "…",
+        "manuallyPickedBadges": "…"
+       }
+      ]
+     ],
+     "backgroundImage": null,
+     "headerBackgroundImage": null,
+     "bodyBackgroundImage": null,
+     "headerBackgroundColour": "#000000",
+     "bodyBackgroundColour": null,
+     "headerBackgroundRepeat": false,
+     "showYear": false,
+     "seasons": null,
+     "baseURL": "/team-canada/men/junior/2025-26",
+     "referenceName": "",
+     "newsLink": null,
+     "browseByYearLabel": null,
+     "menuBackgroundColour": "#CC0000",
+     "menuEdgeColour": null,
+     "menuEdgeGradientPercentage": null,
+     "menuSeparatorColour": null,
+     "panelBackgroundColour": "#EEEEEE",
+     "menuFont": "Roboto Condensed",
+     "menuFontSize": "13px",
+     "menuFontWeight": "Normal",
+     "menuFontColour": "#FFFFFF",
+     "menuSelectedFont": null,
+     "menuSelectedFontSize": null,
+     "menuSelectedFontWeight": null,
+     "menuSelectedFontColour": null,
+     "menuDropdownFontColour": "#333333",
+     "includeJQuery": false,
+     "includeGoogleAdsJavaScript": false,
+     "pageTakeover": false,
+     "hasTextHomeLink": false,
+     "micrositeURL": "/team-canada/men/junior/2025-26",
+     "pageContentID": null,
+     "hoveredTopNavBackgroundColor": "#666666",
+     "hoveredPanelBackgroundColor": "#666666",
+     "hoveredTopNavFontColor": "#ffffff",
+     "hoveredPanelFontColor": "#ffffff",
+     "kidsMenuIcons": [],
+     "languageCode": "en-ca",
+     "searchLabel": "Search",
+     "searchTheSiteLabel": "Search the site",
+     "leaderboardHeaderAds": [
+      "list of 1",
+      {
+       "size": "ADLeaderboardHeader",
+       "documentbody": "<div id=\"div-gpt-ad-1482512683727-0\">\r\n<script type=\"text/javascript\">// <![CDAT",
+       "enabled": true,
+       "name": "HC_FullSite_CustomLeaderboard_Header_External_970_Max",
+       "adUnit": "var mastheader = googletag.sizeMapping().addSize([0, 0], [320, 50]).addSize([310"
+      }
+     ],
+     "leaderboardFooterAds": null,
+     "pageTakeoverData": null
+    },
+    "footer": {
+     "exploreHockeyCanadaLabel": "Community",
+     "aboutHockeyCanadaLabel": "About",
+     "quickLinksLabel": "Corporate",
+     "keepUpWithHockeyCanadaLabel": "Connect with Hockey Canada",
+     "newsletters": "<p style=\"text-align: center;\">&nbsp;<a href=\"/en-ca/news/insider\" target=\"_self",
+     "copyright": "&copy; Copyright 2026 Hockey Canada",
+     "copyrightColour": "",
+     "selectLanguageLabel": "Select Language",
+     "backgroundImage": {
+      "label": null,
+      "url": "https://cdn.hockeycanada.ca/hockey-canada/Template-Assets/Backgrounds/Footer/tex",
+      "target": null,
+      "filesize": 635,
+      "pixelHeight": "211",
+      "pixelWidth": "29",
+      "height": 211,
+      "width": 29
+     },
+     "backgroundColor": "#333333",
+     "copyrightBackgroundColor": "#000000",
+     "switchLanguageBackgroundColor": "#4b4c4e",
+     "exploreHockeyCanadaLinks": [
+      "list of 6",
+      {
+       "title": "Subscribe",
+       "url": {
+        "href": "…",
+        "target": "…",
+        "text": "…"
+       }
+      }
+     ],
+     "aboutHockeyCanadaLinks": [
+      "list of 6",
+      {
+       "title": "Our Mission",
+       "url": {
+        "href": "…",
+        "target": "…",
+        "text": "…"
+       }
+      }
+     ],
+     "quickLinks": [
+      "list of 5",
+      {
+       "title": "Annual Reporting",
+       "url": {
+        "href": "…",
+        "target": "…",
+        "text": "…"
+       }
+      }
+     ],
+     "socialLinks": [
+      "list of 6",
+      {
+       "title": "Facebook",
+       "linkURL": {
+        "href": "…",
+        "target": "…",
+        "text": "…"
+       },
+       "onClick": "_gaq.push(['_trackEvent', 'Social', 'Click', 'Facebook-HockeyCanada']);",
+       "image": {
+        "label": "…",
+        "url": "…",
+        "target": "…",
+        "filesize": "…",
+        "pixelHeight": "…",
+        "pixelWidth": "…",
+        "height": "…",
+        "width": "…"
+       }
+      }
+     ],
+     "adLeaderboardFooterID": "272132",
+     "leaderboardFooterAds": [
+      "list of 1",
+      {
+       "size": "ADLeaderboardFooter",
+       "documentbody": "<div id=\"div-gpt-ad-1517954084085-0\">\r\n<script type=\"text/javascript\">// <![CDAT",
+       "enabled": true,
+       "name": "HC_FullSite_CustomLeaderboard_Footer_External",
+       "adUnit": "var mastfooter = googletag.sizeMapping().addSize([0, 0], [320, 50]).addSize([310"
+      }
+     ],
+     "languageCode": "en-ca",
+     "leftLinks": [
+      "list of 1",
+      {
+       "title": "Privacy Policy",
+       "url": {
+        "href": "…",
+        "target": "…",
+        "text": "…"
+       }
+      }
+     ],
+     "rightLinks": [
+      "list of 1",
+      {
+       "title": "Copyright & Legal Disclaimer",
+       "url": {
+        "href": "…",
+        "target": "…",
+        "text": "…"
+       }
+      }
+     ]
+    }
+   },
+   "languageCode": "en-ca",
+   "channelName": "website",
+   "isPreview": false,
+   "isDevelopmentMode": false,
+   "notFound": false,
+   "gameId": null,
+   "gameData": null,
+   "tournamentToggle": null,
+   "teamId": null,
+   "teamDataTournament": null,
+   "liveBlogGameId": null,
+   "playerId": null,
+   "playerDataTournament": null
+  },
+  "games": {},
+  "players": {
+   ".props.pageProps.page.zones.LeftContentZone[0].customData.modelTournament.Leaders.Goalies": {
+    "count": 14,
+    "samples": [
+     {
+      "MinutesPlayed": "240",
+      "SecondsPlayed": "10800",
+      "Active": "1",
+      "GoalsAgainst": "13",
+      "PlayerId": "17498",
+      "LatestTeamId": "175",
+      "TeamName": "Canada",
+      "Name": "Carter George",
+      "FirstName": "Carter",
+      "LastName": "George",
+      "Shutouts": "0",
+      "Shots": "99",
+      "Saves": "86",
+      "GamesPlayed": "4",
+      "GoalsAgainstAverage": "3.25",
+      "SavePercentage": "0.8686868686868687"
+     },
+     {
+      "MinutesPlayed": "180",
+      "SecondsPlayed": "3644",
+      "Active": "1",
+      "GoalsAgainst": "7",
+      "PlayerId": "18432",
+      "LatestTeamId": "175",
+      "TeamName": "Canada",
+      "Name": "Jack Ivankovic",
+      "FirstName": "Jack",
+      "LastName": "Ivankovic",
+      "Shutouts": "0",
+      "Shots": "85",
+      "Saves": "78",
+      "GamesPlayed": "3",
+      "GoalsAgainstAverage": "2.3333333333333335",
+      "SavePercentage": "0.9176470588235294"
+     },
+     {
+      "MinutesPlayed": "119",
+      "SecondsPlayed": "3533",
+      "Active": "1",
+      "GoalsAgainst": "10",
+      "PlayerId": "19648",
+      "LatestTeamId": "170",
+      "TeamName": "Czechia",
+      "Name": "Michal Orsulak",
+      "FirstName": "Michal",
+      "LastName": "Orsulak",
+      "Shutouts": "0",
+      "Shots": "49",
+      "Saves": "39",
+      "GamesPlayed": "2",
+      "GoalsAgainstAverage": "5.042016806722689",
+      "SavePercentage": "0.7959183673469388"
+     }
     ]
    },
-   "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js": {
-    "status": 200,
-    "hits": [
-     "m=d(this,h);m.list||(m.list=this[0][m.id]=[]);m.entry?m.entry.value=k:(m.entry={next:this[1],ca:this[1].ca,head:this[1],key:h,value:k},m.list.push(m.entry),this[1].ca.next=m.entry,this[1].ca=m.entry,this.size++);return this};e.prototype.delete=function(h){h=d(this,h);return h.entry&&",
-     "esponsive_dummy_ad\")&&(tb([1,2,3,4,5,6,7,8],e.F)||e.h===1)&&e.h!==2&&(f=JSON.stringify({googMsgType:\"adpnt\",key_value:[{key:\"qid\",value:\"DUMMY_AD\"}]}),c.dash=\"<\"+Xp+\">window.top.postMessage('\"+f+\"', '*');\\n          </\"+Xp+'>\\n          <div id=\"dummyAd\" style=\"width:'+d+\"px;height:\""
+   ".props.pageProps.page.zones.LeftContentZone[0].customData.modelTournament.Leaders.Skaters": {
+    "count": 143,
+    "samples": [
+     {
+      "Active": "1",
+      "PlayerId": "17509",
+      "Name": "Michael Hage",
+      "TeamName": "Canada",
+      "LatestTeamId": "175",
+      "FirstName": "Michael",
+      "LastName": "Hage",
+      "PowerPlayGoals": "1",
+      "PenaltyMinutes": "0",
+      "GamesPlayed": "7",
+      "Goals": "2",
+      "Assists": "13",
+      "Points": "15"
+     },
+     {
+      "Active": "1",
+      "PlayerId": "18522",
+      "Name": "Gavin McKenna",
+      "TeamName": "Canada",
+      "LatestTeamId": "175",
+      "FirstName": "Gavin",
+      "LastName": "McKenna",
+      "PowerPlayGoals": "1",
+      "PenaltyMinutes": "14",
+      "GamesPlayed": "7",
+      "Goals": "4",
+      "Assists": "10",
+      "Points": "14"
+     },
+     {
+      "Active": "1",
+      "PlayerId": "17484",
+      "Name": "Zayne Parekh",
+      "TeamName": "Canada",
+      "LatestTeamId": "175",
+      "FirstName": "Zayne",
+      "LastName": "Parekh",
+      "PowerPlayGoals": "2",
+      "PenaltyMinutes": "10",
+      "GamesPlayed": "7",
+      "Goals": "5",
+      "Assists": "8",
+      "Points": "13"
+     }
     ]
    },
-   "https://hockeycanada.vercel.app/_next/static/chunks/webpack-dfb539db4af6defd.js": {
-    "status": 200,
-    "hits": [
-     "(document.cookie))return;}catch(e){return;}var s=document.createElement('script');s.src='https://vercel.live/_next-live/feedback/feedback.js';s.setAttribute(\"data-explicit-opt-in\",\"true\");s.setAttribute(\"data-cookie-opt-in\",\"true\");s.setAttribute(\"data-deployment-id\",\"dpl_8oEWPtffDVZ"
+   ".props.pageProps.page.zones.LeftContentZone[1].customData.modelTournament.Leaders.Goalies": {
+    "count": 14,
+    "samples": [
+     {
+      "MinutesPlayed": "240",
+      "SecondsPlayed": "10800",
+      "Active": "1",
+      "GoalsAgainst": "13",
+      "PlayerId": "17498",
+      "LatestTeamId": "175",
+      "TeamName": "Canada",
+      "Name": "Carter George",
+      "FirstName": "Carter",
+      "LastName": "George",
+      "Shutouts": "0",
+      "Shots": "99",
+      "Saves": "86",
+      "GamesPlayed": "4",
+      "GoalsAgainstAverage": "3.25",
+      "SavePercentage": "0.8686868686868687"
+     },
+     {
+      "MinutesPlayed": "180",
+      "SecondsPlayed": "3644",
+      "Active": "1",
+      "GoalsAgainst": "7",
+      "PlayerId": "18432",
+      "LatestTeamId": "175",
+      "TeamName": "Canada",
+      "Name": "Jack Ivankovic",
+      "FirstName": "Jack",
+      "LastName": "Ivankovic",
+      "Shutouts": "0",
+      "Shots": "85",
+      "Saves": "78",
+      "GamesPlayed": "3",
+      "GoalsAgainstAverage": "2.3333333333333335",
+      "SavePercentage": "0.9176470588235294"
+     },
+     {
+      "MinutesPlayed": "119",
+      "SecondsPlayed": "3533",
+      "Active": "1",
+      "GoalsAgainst": "10",
+      "PlayerId": "19648",
+      "LatestTeamId": "170",
+      "TeamName": "Czechia",
+      "Name": "Michal Orsulak",
+      "FirstName": "Michal",
+      "LastName": "Orsulak",
+      "Shutouts": "0",
+      "Shots": "49",
+      "Saves": "39",
+      "GamesPlayed": "2",
+      "GoalsAgainstAverage": "5.042016806722689",
+      "SavePercentage": "0.7959183673469388"
+     }
     ]
    },
-   "https://hockeycanada.vercel.app/_next/static/chunks/framework-ffee79c6390da51e.js": {
-    "status": 200,
-    "hits": [
-     "iveEvent;return b.getModifierState?b.getModifierState(a):!!(a=Od[a])&&!!b[a]}function zd(){return Pd}var Rd=rd(A({},ud,{key:function(a){if(a.key){var b=Md[a.key]||a.key;if(\"Unidentified\"!==b)return b}return\"keypress\"===a.type?13===(a=od(a))?\"Enter\":String.fromCharCode(a):\"keydown\"===",
-     "d),c)}if(eb(b)||Ka(b))return(b=Ah(b,a.mode,c,null)).return=a,b;th(a,b)}return null}function r(a,b,c,d){var e=null!==b?b.key:null;if(\"string\"==typeof c&&\"\"!==c||\"number\"==typeof c)return null!==e?null:h(a,b,\"\"+c,d);if(\"object\"==typeof c&&null!==c){switch(c.$$typeof){case va:return c.k",
-     "mber\"==typeof c)return null!==e?null:h(a,b,\"\"+c,d);if(\"object\"==typeof c&&null!==c){switch(c.$$typeof){case va:return c.key===e?k(a,b,c,d):null;case wa:return c.key===e?l(a,b,c,d):null;case Ha:return r(a,b,(e=c._init)(c._payload),d)}if(eb(c)||Ka(c))return null!==e?null:m(a,b,c,d,null",
-     "f1.props.children),\"object\"==typeof f1&&null!==f1){switch(f1.$$typeof){case va:a:{for(var k=f1.key,l=d1;null!==l;){if(l.key===k){if((k=f1.type)===ya){if(7===l.tag){c(a1,l.sibling),(d1=e(l,f1.props.children)).return=a1,a1=d1;break a}}else if(l.elementType===k||\"object\"==typeof k&&null",
-     "key,f1.props,null,a1.mode,h)).ref=sh(a1,d1,f1),h.return=a1,a1=h)}return g(a1);case wa:a:{for(l=f1.key;null!==d1;){if(d1.key===l){if(4===d1.tag&&d1.stateNode.containerInfo===f1.containerInfo&&d1.stateNode.implementation===f1.implementation){c(a1,d1.sibling),(d1=e(d1,f1.children||[])).",
-     "e 19:d=a.stateNode;break;default:throw Error(p(314))}null!==d&&d.delete(b),Zk(a,c)}function al(a,b,c,d){this.tag=a,this.key=c,this.sibling=this.child=this.return=this.stateNode=this.type=this.elementType=null,this.index=0,this.ref=null,this.pendingProps=b,this.dependencies=this.memoi",
-     "ror(p(200));return function(a,b,c){var d=3<arguments.length&&void 0!==arguments[3]?arguments[3]:null;return{$$typeof:wa,key:null==d?null:\"\"+d,children:a,containerInfo:b,implementation:null}}(a,b,null,c)},exports.createRoot=function(a,b){if(!ol(a))throw Error(p(299));var c=!1,d=\"\",e=l",
-     "ragment\"),m=Object.prototype.hasOwnProperty,n=f.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,p={key:!0,ref:!0,__self:!0,__source:!0};function q(c,a,g){var b,d={},e=null,h=null;for(b in void 0!==g&&(e=\"\"+g),void 0!==a.key&&(e=\"\"+a.key),void 0!==a.ref&&(h=a.ref)",
-     "erty(b)&&(d[b]=a[b]);if(c&&c.defaultProps)for(b in a=c.defaultProps)void 0===d[b]&&(d[b]=a[b]);return{$$typeof:k,type:c,key:e,ref:h,props:d,_owner:n.current}}exports.Fragment=l,exports.jsx=q,exports.jsxs=q},2408:function(__unused_webpack_module,exports){/**  * @license React  * react",
-     "=G,C(H,E.prototype),H.isPureReactComponent=!0;var I=Array.isArray,J=Object.prototype.hasOwnProperty,K={current:null},L={key:!0,ref:!0,__self:!0,__source:!0};function M(a,b,e){var d,c={},k=null,h=null;if(null!=b)for(d in void 0!==b.ref&&(h=b.ref),void 0!==b.key&&(k=\"\"+b.key),b)J.call(",
-     "ts[m+2];c.children=f}if(a&&a.defaultProps)for(d in g=a.defaultProps)void 0===c[d]&&(c[d]=g[d]);return{$$typeof:l,type:a,key:k,ref:h,props:c,_owner:K.current}}function O(a){return\"object\"==typeof a&&null!==a&&a.$$typeof===l}var P=/\\/+/g;function Q(a,b){var a1,b1;return\"object\"==typeof",
-     ")?(e=\"\",null!=a&&(e=a.replace(P,\"$&/\")+\"/\"),R(c,b,e,\"\",function(a){return a})):null!=c&&(O(c)&&(a1=c,b1=e+(!c.key||h&&h.key===c.key?\"\":(\"\"+c.key).replace(P,\"$&/\")+\"/\")+a,c={$$typeof:l,type:a1.type,key:b1,ref:a1.ref,props:a1.props,_owner:a1._owner}),b.push(c)),1;if(h=0,d=\"\"===d?\".\":d+",
-     "d.children=e;else if(1<f){g=Array(f);for(var m=0;m<f;m++)g[m]=arguments[m+2];d.children=g}return{$$typeof:l,type:a.type,key:c,ref:k,props:d,_owner:h}},exports.createContext=function(a){return(a={$$typeof:u,_currentValue:a,_currentValue2:a,_threadCount:0,Provider:null,Consumer:null,_d"
+   ".props.pageProps.page.zones.LeftContentZone[1].customData.modelTournament.Leaders.Skaters": {
+    "count": 143,
+    "samples": [
+     {
+      "Active": "1",
+      "PlayerId": "17509",
+      "Name": "Michael Hage",
+      "TeamName": "Canada",
+      "LatestTeamId": "175",
+      "FirstName": "Michael",
+      "LastName": "Hage",
+      "PowerPlayGoals": "1",
+      "PenaltyMinutes": "0",
+      "GamesPlayed": "7",
+      "Goals": "2",
+      "Assists": "13",
+      "Points": "15"
+     },
+     {
+      "Active": "1",
+      "PlayerId": "18522",
+      "Name": "Gavin McKenna",
+      "TeamName": "Canada",
+      "LatestTeamId": "175",
+      "FirstName": "Gavin",
+      "LastName": "McKenna",
+      "PowerPlayGoals": "1",
+      "PenaltyMinutes": "14",
+      "GamesPlayed": "7",
+      "Goals": "4",
+      "Assists": "10",
+      "Points": "14"
+     },
+     {
+      "Active": "1",
+      "PlayerId": "17484",
+      "Name": "Zayne Parekh",
+      "TeamName": "Canada",
+      "LatestTeamId": "175",
+      "FirstName": "Zayne",
+      "LastName": "Parekh",
+      "PowerPlayGoals": "2",
+      "PenaltyMinutes": "10",
+      "GamesPlayed": "7",
+      "Goals": "5",
+      "Assists": "8",
+      "Points": "13"
+     }
     ]
    },
-   "https://hockeycanada.vercel.app/_next/static/chunks/main-538b3f669ef25e92.js": {
-    "status": 200,
-    "hits": [
-     "e,excluded){if(null==source)return{};var key,i,target={},sourceKeys=Object.keys(source);for(i=0;i<sourceKeys.length;i++)key=sourceKeys[i],excluded.indexOf(key)>=0||(target[key]=source[key]);return target}},37:function(){\"trimStart\"in String.prototype||(String.prototype.trimStart=Stri",
-     "t dataRoute=_getAssetPathFromRoute.default(_removeTrailingSlash.removeTrailingSlash(_addLocale.addLocale(path,locale)),\".json\");return _addBasePath.addBasePath(\"/_next/data/\".concat(this.buildId).concat(dataRoute).concat(search),!0)})(params.skipInterpolation?asPathname:_isDynamic.isD",
-     "ategories={};return h=>{let isUnique=!0,hasKey=!1;if(h.key&&\"number\"!=typeof h.key&&h.key.indexOf(\"$\")>0){hasKey=!0;let key=h.key.slice(h.key.indexOf(\"$\")+1);keys.has(key)?isUnique=!1:keys.add(key)}switch(h.type){case\"title\":case\"base\":tags.has(h.type)?isUnique=!1:tags.add(h.type);br",
-     "que=!1:(categories.add(category),metaCategories[metatype]=categories)}}}}return isUnique}}()).reverse().map((c,i)=>{let key=c.key||i;if(!inAmpMode&&\"link\"===c.type&&c.props.href&&[\"https://fonts.googleapis.com/css\",\"https://use.typekit.net/\"].some(url=>c.props.href.startsWith(url))){",
-     "h(origin)?url.substring(origin.length):url}function omit(object,keys){let omitted={};return Object.keys(object).forEach(key=>{keys.includes(key)||(omitted[key]=object[key])}),omitted}function isLocalURL(url){if(!_utils.isAbsoluteUrl(url))return!0;try{let locationOrigin=_utils.getLoca",
-     "ePath(parsed.pathname):parsed.pathname;if(routeMatch&&pathname!==cleanedParsedPathname&&Object.keys(routeMatch).forEach(key=>{routeMatch&&query[key]===routeMatch[key]&&delete query[key]}),_isDynamic.isDynamicRoute(pathname)){let prefixedAs=!routeProps.shallow&&routeInfo.resolvedAs?ro",
-     "ushState\"!==method||_utils.getURL()!==as)&&(this._shallow=options.shallow,window.history[method]({url,as,options,__N:!0,key:this._key=\"pushState\"!==method?this._key:createKey()},\"\",as))}handleRouteInfoError(err,pathname,query,as,routeProps,loadErrorFail){var _this=this;return _async_",
-     "e:\"next\"})})(data.dataHref,data.response,options).then(effect=>({dataHref:data.dataHref,cacheKey:data.cacheKey,json:data.json,response:data.response,text:data.text,effect}))).catch(_err=>null):null));if(isQueryUpdating&&data&&(data.json=self.__NEXT_DATA__.props),handleCancelled(),(nul",
-     "json:data.json,response:data.response,text:data.text,effect}))).catch(_err=>null):null));if(isQueryUpdating&&data&&(data.json=self.__NEXT_DATA__.props),handleCancelled(),(null==data?void 0:null==(ref=data.effect)?void 0:ref.type)===\"redirect-internal\"||(null==data?void 0:null==(ref4=d",
-     "nfo&&_this.route===route&&!hasMiddleware))return _extends({},existingInfo,{route});if(\"/api\"===route||route.startsWith(\"/api/\"))return handleHardNavigation({url:as,router:_this}),new Promise(()=>{});let routeInfo=cachedRouteInfo||(yield _this.fetchComponent(route).then(res=>({Componen",
-     " _this._getData(_async_to_generator(function*(){if(shouldFetchData){let{json,cacheKey:_cacheKey}=(null==data?void 0:data.json)?data:yield fetchNextData({dataHref:_this.pageLoader.getDataHref({href:_formatUrl.formatWithValidation({pathname,query}),asPath:resolvedAs,locale}),isServerRen",
-     "{let stateKeys=Object.keys(a);if(stateKeys.length!==Object.keys(b).length)return!1;for(let i=stateKeys.length;i--;){let key=stateKeys[i];if(\"query\"===key){let queryKeys=Object.keys(a.query);if(queryKeys.length!==Object.keys(b.query).length)return!1;for(let j=queryKeys.length;j--;){le",
-     "ffix.addPathSuffix(_addPathPrefix.addPathPrefix(pathname,\"/_next/data/\".concat(info.buildId)),\"/\"===info.pathname?\"index.json\":\".json\")),pathname=_addPathPrefix.addPathPrefix(pathname,info.basePath),!info.buildId&&info.trailingSlash?pathname.endsWith(\"/\")?pathname:_addPathSuffix.addPa",
-     "Path),info.basePath=basePath),!0===options.parseData&&info.pathname.startsWith(\"/_next/data/\")&&info.pathname.endsWith(\".json\")){let paths=info.pathname.replace(/^\\/_next\\/data\\//,\"\").replace(/\\.json$/,\"\").split(\"/\"),buildId=paths[0];info.pathname=\"index\"!==paths[1]?\"/\".concat(paths.s",
-     "ramsList[_key-1]=arguments[_key];return searchParamsList.forEach(searchParams=>{Array.from(searchParams.keys()).forEach(key=>target.delete(key)),searchParams.forEach((value,key)=>target.append(key,value))}),target}},2650:function(__unused_webpack_module,exports,__webpack_require__){\""
+   ".props.pageProps.page.zones.LeftContentZone[2].customData.modelTournament.Leaders.Goalies": {
+    "count": 14,
+    "samples": [
+     {
+      "MinutesPlayed": "240",
+      "SecondsPlayed": "10800",
+      "Active": "1",
+      "GoalsAgainst": "13",
+      "PlayerId": "17498",
+      "LatestTeamId": "175",
+      "TeamName": "Canada",
+      "Name": "Carter George",
+      "FirstName": "Carter",
+      "LastName": "George",
+      "Shutouts": "0",
+      "Shots": "99",
+      "Saves": "86",
+      "GamesPlayed": "4",
+      "GoalsAgainstAverage": "3.25",
+      "SavePercentage": "0.8686868686868687"
+     },
+     {
+      "MinutesPlayed": "180",
+      "SecondsPlayed": "3644",
+      "Active": "1",
+      "GoalsAgainst": "7",
+      "PlayerId": "18432",
+      "LatestTeamId": "175",
+      "TeamName": "Canada",
+      "Name": "Jack Ivankovic",
+      "FirstName": "Jack",
+      "LastName": "Ivankovic",
+      "Shutouts": "0",
+      "Shots": "85",
+      "Saves": "78",
+      "GamesPlayed": "3",
+      "GoalsAgainstAverage": "2.3333333333333335",
+      "SavePercentage": "0.9176470588235294"
+     },
+     {
+      "MinutesPlayed": "119",
+      "SecondsPlayed": "3533",
+      "Active": "1",
+      "GoalsAgainst": "10",
+      "PlayerId": "19648",
+      "LatestTeamId": "170",
+      "TeamName": "Czechia",
+      "Name": "Michal Orsulak",
+      "FirstName": "Michal",
+      "LastName": "Orsulak",
+      "Shutouts": "0",
+      "Shots": "49",
+      "Saves": "39",
+      "GamesPlayed": "2",
+      "GoalsAgainstAverage": "5.042016806722689",
+      "SavePercentage": "0.7959183673469388"
+     }
     ]
    },
-   "https://hockeycanada.vercel.app/_next/static/chunks/pages/_app-d2f6b5b1d0fd9482.js": {
-    "status": 200,
-    "hits": [
-     "tails)&&(theDetails_1=payloadDetails(),payloadDetails=null),theDetails_1}}),_self[_DYN_GET_CTX]=function(key){return key?key===PerfEvent[strParentContextKey]||key===PerfEvent[strChildrenContextKey]?_self[key]:(_self.ctx||{})[key]:null},_self[_DYN_SET_CTX]=function(key,value){key&&(key",
-     "===PerfEvent[strChildrenContextKey]?_self[key]:(_self.ctx||{})[key]:null},_self[_DYN_SET_CTX]=function(key,value){key&&(key===PerfEvent[strParentContextKey]?(_self[key]||(_self[_DYN_IS_CHILD_EVT]=function(){return!0}),_self[key]=value):key===PerfEvent[strChildrenContextKey]?_self[key",
-     "y&&(key===PerfEvent[strParentContextKey]?(_self[key]||(_self[_DYN_IS_CHILD_EVT]=function(){return!0}),_self[key]=value):key===PerfEvent[strChildrenContextKey]?_self[key]=value:(_self.ctx=_self.ctx||{})[key]=value)},_self.complete=function(){var childTime=0,childEvts=_self[_DYN_GET_CT",
-     "nts[name]&&_throwInternal(logger,2,62,\"start was called more than once for this event without calling stop.\",{name:name,key:name},!0),_events[name]=+new Date},_self.stop=function(name,url,properties,measurements){var start=_events[name];if(isNaN(start))_throwInternal(logger,2,63,\"sto",
-     "rt=_events[name];if(isNaN(start))_throwInternal(logger,2,63,\"stop was called without a corresponding start.\",{name:name,key:name},!0);else{var duration=dateTimeUtilsDuration(start,+new Date);_self.action(name,url,duration,properties,measurements)}delete _events[name],_events[name]=vo",
-     "().parse(buffer_1)),buffer_1&&ts_utils_isArray(buffer_1))return buffer_1}}catch(e){_throwInternal(logger,1,42,\" storage key: \"+key+\", \"+getExceptionName(e),{exception:dumpObj(e)})}return[]}function _setBuffer(key,buffer){var prefixedKey=key;try{prefixedKey=_namePrefix?_namePrefix+\"_\"",
-     "on)}catch(e){setItem(logger,prefixedKey,JSON[_DynamicConstants_DYN_STRINGIFY]([])),_throwInternal(logger,2,41,\" storage key: \"+prefixedKey+\", \"+getExceptionName(e)+\". Buffer cleared\",{exception:dumpObj(e)})}}function _getItemsFromPreviousKey(key){try{var items=_getBufferBase(key),tra",
-     ",kv){var kvParts=kv[dist_es5_DynamicConstants_DYN_SPLIT](\"=\");if(2===kvParts[dist_es5_DynamicConstants_DYN_LENGTH]){var key=kvParts[0][dist_es5_DynamicConstants_DYN_TO_LOWER_CASE](),value=kvParts[1];fields[key]=value}return fields},{});if(objKeys(result)[dist_es5_DynamicConstants_DYN",
-     "=cfgDfMerge(((_d={}).AppInsightsCfgSyncPlugin=cfgDfMerge({cfgUrl:\"https://js.monitor.azure.com/scripts/b/ai.config.1.cfg.json\",syncMode:2}),_d)),AISku_a);function _parseCs(config,configCs){return createSyncPromise(function(resolve,reject){doAwaitResponse(configCs,function(res){var cur"
+   ".props.pageProps.page.zones.LeftContentZone[2].customData.modelTournament.Leaders.Skaters": {
+    "count": 143,
+    "samples": [
+     {
+      "Active": "1",
+      "PlayerId": "17509",
+      "Name": "Michael Hage",
+      "TeamName": "Canada",
+      "LatestTeamId": "175",
+      "FirstName": "Michael",
+      "LastName": "Hage",
+      "PowerPlayGoals": "1",
+      "PenaltyMinutes": "0",
+      "GamesPlayed": "7",
+      "Goals": "2",
+      "Assists": "13",
+      "Points": "15"
+     },
+     {
+      "Active": "1",
+      "PlayerId": "18522",
+      "Name": "Gavin McKenna",
+      "TeamName": "Canada",
+      "LatestTeamId": "175",
+      "FirstName": "Gavin",
+      "LastName": "McKenna",
+      "PowerPlayGoals": "1",
+      "PenaltyMinutes": "14",
+      "GamesPlayed": "7",
+      "Goals": "4",
+      "Assists": "10",
+      "Points": "14"
+     },
+     {
+      "Active": "1",
+      "PlayerId": "17484",
+      "Name": "Zayne Parekh",
+      "TeamName": "Canada",
+      "LatestTeamId": "175",
+      "FirstName": "Zayne",
+      "LastName": "Parekh",
+      "PowerPlayGoals": "2",
+      "PenaltyMinutes": "10",
+      "GamesPlayed": "7",
+      "Goals": "5",
+      "Assists": "8",
+      "Points": "13"
+     }
     ]
    }
+  },
+  "addresses": [
+   "http://abuse-free-sport.ca/en/",
+   "http://instagram.com/hockeycanada",
+   "http://www.facebook.com/HockeyCanada",
+   "http://www.instagram.com/HockeyCanada",
+   "http://www.linkedin.com/company/hockey-canada/",
+   "http://www.twitter.com/HockeyCanada",
+   "http://www.youtube.com/hockeycanadavideos",
+   "https://beyondtheboardssummit.ca/",
+   "https://cdn.hockeycanada.ca/hockey-canada/Attachments/NewItems/logoLarge_20221122063258_0.png",
+   "https://cdn.hockeycanada.ca/hockey-canada/Attachments/NewItems/searchIcon_20221122064053_0.png",
+   "https://cdn.hockeycanada.ca/hockey-canada/Logos/newlogo.png",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4237/2026-olym-can-fra-06.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4239/2026-olyw-can-sui-09.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4240/2026-olyw-can-usa-15.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4241/2026-olym-can-cze-13.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4243/2026-olym-can-fin-13.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4244/2026-olym-feb-22-can-usa-gold-33.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4246/2026-para-can-svk-11.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4247/2026-para-can-jpn-04.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4248/2026-para-can-cze-10.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4249/2026-para-can-chn-02.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4250/2026-para-can-usa-16.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4267/2026-u18wc-can-svk-11.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4268/2026-u18wc-can-lat-09.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4269/2026-u18wc-can-nor-10.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4270/2026-u18wc-can-fin-09.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4271/2026-u18wc-can-swe-04.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4285/2026-mwc-may-10-can-fra-09.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4286/2026-mwc-may-13-can-hun-17.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4287/2026-mwc-may-15-can-swe-04.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4288/2026-mwc-may-15-can-ita-04.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4289/2026-mwc-may-18-can-den-08.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4290/2026-mwc-may-18-can-nor-08.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4291/2026-mwc-may-18-can-slo-09.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4292/2026-mwc-may-18-can-svk-02.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4293/2026-mwc-may-15-can-cze-02.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4294/2026-mwc-may-28-can-usa-11.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4295/2026-mwc-may-30-can-fin-07.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4296/2026-mwc-may-31-can-nor-12.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4298/2026-hgc-game-1-can-sui-14.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4299/2026-hgc-game-2-can-svk-13.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4300/2026-hgc-game-3-can-swe-11.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4301/2026-hgc-game-4-can-fin-09.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4302/2026-hgc-game-5-can-usa-24.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4304/2026-nwu18-series-vs-usa-01.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4305/2026-nwu18-series-vs-usa-03.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4306/2026-nwu18-series-vs-usa-08.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4309/2026-nwdt-series-vs-usa-10.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4310/2026-nwdt-series-vs-usa-10.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4311/2026-nwdt-series-vs-usa-11.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4313/2026-iph-oct-18-can-usa-04.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4315/2026-iph-oct-19-can-sel-08.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4316/2026-iph-oct-21-can-cze-09.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4317/2026-iph-oct-23-can-cze-09.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4318/2026-iph-oct-24-can-usa-16.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4320/2026-wwc-oct28-can-usa-06.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4321/2026-wwc-oct30-can-usa-02.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4330/2026-wwc-can-swe-06.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4331/2026-wwc-can-jpn-07.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4332/2026-wwc-can-den-03.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4333/2026-wwc-can-fin-10.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/Social-Media/Icons/facebook-white-logo-30x30.png",
+   "https://cdn.hockeycanada.ca/hockey-canada/Social-Media/Icons/facebook-white-logo-65x65.png",
+   "https://cdn.hockeycanada.ca/hockey-canada/Social-Media/Icons/instagram-white-logo-30x30.png",
+   "https://cdn.hockeycanada.ca/hockey-canada/Social-Media/Icons/instagram-white-logo-65x65.png",
+   "https://cdn.hockeycanada.ca/hockey-canada/Social-Media/Icons/linkedin-white-logo-30x30.png",
+   "https://cdn.hockeycanada.ca/hockey-canada/Social-Media/Icons/tiktok-white-logo-30x30.png",
+   "https://cdn.hockeycanada.ca/hockey-canada/Social-Media/Icons/tiktok-white-logo-65x65.png",
+   "https://cdn.hockeycanada.ca/hockey-canada/Social-Media/Icons/x-white-logo-30x30.png",
+   "https://cdn.hockeycanada.ca/hockey-canada/Social-Media/Icons/x-white-logo-65x65.png",
+   "https://cdn.hockeycanada.ca/hockey-canada/Social-Media/Icons/youtube-white-logo-30x30.png",
+   "https://cdn.hockeycanada.ca/hockey-canada/Social-Media/Icons/youtube-white-logo-65x65.png",
+   "https://cdn.hockeycanada.ca/hockey-canada/Team-Canada/Men/Junior/2026/downloads/2026-wjc-can-njt-media-guide.pdf",
+   "https://cdn.hockeycanada.ca/hockey-canada/Template-Assets/Backgrounds/Footer/texture_repeat_black.png",
+   "https://cdn.hockeycanada.ca/hockey-canada/Template-Assets/Logos/hc-insider-logo-e.png",
+   "https://cdn.hockeycanada.ca/hockey-canada/Template-Assets/Nav/hc_subsite_hdr_logo.png",
+   "https://connect.facebook.net/en_US/fbevents.js",
+   "https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=/EcHi1a4ZP00O4",
+   "https://hockeycanada.pd.dmh.veritone.com",
+   "https://hockeycanada.vercel.app"
+  ],
+  "gameLinks": [
+   "/en-ca/hockey-programs/game-change",
+   "https://www.hockeycanada.ca/en-ca/photos/380920/2026-27-nwdt-usa-5-–-can-2-game-3",
+   "https://www.hockeycanada.ca/en-ca/videos?title=para-2026-paralympic-winter-games-para-hockey-team-named-for-2026-paralympic-winter-games"
+  ],
+  "jsonAddress": {
+   "url": "https://www.hockeycanada.ca/_next/data/hnEVBHI8xM1qkc6G-FzNt/en-ca/team-canada/men/junior/2025-26/world-championship/stats/player-stats.json",
+   "status": 200,
+   "length": 903239
   }
+ },
+ "hc.2026.standings": {
+  "url": "https://www.hockeycanada.ca/en-ca/team-canada/men/junior/2025-26/world-championship/stats/standings",
+  "status": 200,
+  "length": 169988,
+  "hasNextData": false,
+  "gameLinks": [
+   "/en-ca/hockey-programs/game-change"
+  ]
  },
  "hc.2027.schedule": {
   "url": "https://www.hockeycanada.ca/en-ca/team-canada/men/junior/2026-27/world-championship/stats/schedule",
   "status": 200,
-  "type": "text/html; charset=utf-8",
-  "length": 640779,
-  "title": "IIHF World Junior Championship 2027 Schedule | Edmonton &amp; Red Deer, Alberta<!-- --> - <!-- -->IIHF World Junior Championship 2027",
-  "scripts": [
-   "https://hockeycanada.vercel.app/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js",
-   "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
-   "https://hockeycanada.vercel.app/_next/static/chunks/webpack-dfb539db4af6defd.js",
-   "https://hockeycanada.vercel.app/_next/static/chunks/framework-ffee79c6390da51e.js",
-   "https://hockeycanada.vercel.app/_next/static/chunks/main-538b3f669ef25e92.js",
-   "https://hockeycanada.vercel.app/_next/static/chunks/pages/_app-d2f6b5b1d0fd9482.js",
-   "https://hockeycanada.vercel.app/_next/static/chunks/1bfc9850-d9902d0e10ec1409.js",
-   "https://hockeycanada.vercel.app/_next/static/chunks/265cea07-5b8f0e5667b59f91.js",
-   "https://hockeycanada.vercel.app/_next/static/chunks/29c1a539-33b677d3aa4ef8b5.js",
-   "https://hockeycanada.vercel.app/_next/static/chunks/75fc9c18-c8186ff75bc30b43.js",
-   "https://hockeycanada.vercel.app/_next/static/chunks/5c0b189e-6a2346c6d69a369d.js",
-   "https://hockeycanada.vercel.app/_next/static/chunks/170-20667dd6bb8c279d.js",
-   "https://hockeycanada.vercel.app/_next/static/chunks/157-ed49566f3ab9e671.js",
-   "https://hockeycanada.vercel.app/_next/static/chunks/pages/%5B...slug%5D-0d786d0a8a7b7882.js",
-   "https://hockeycanada.vercel.app/_next/static/hnEVBHI8xM1qkc6G-FzNt/_buildManifest.js",
-   "https://hockeycanada.vercel.app/_next/static/hnEVBHI8xM1qkc6G-FzNt/_ssgManifest.js"
+  "length": 641140,
+  "hasNextData": true,
+  "buildId": "hnEVBHI8xM1qkc6G-FzNt",
+  "shape": {
+   "sitemapNode": {
+    "pageID": 26994,
+    "contentID": -1,
+    "path": "/team-canada/men/junior/2026-27/world-championship/stats/schedule",
+    "title": "IIHF World Junior Championship 2027 Schedule | Edmonton & Red Deer, Alberta",
+    "name": "schedule",
+    "menuText": "Schedule and Scores",
+    "isFolder": false,
+    "visible": {
+     "menu": true
+    },
+    "redirect": null,
+    "target": null
+   },
+   "page": {
+    "pageID": 26994,
+    "name": "schedule",
+    "path": null,
+    "title": "IIHF World Junior Championship 2027 Schedule | Edmonton & Red Deer, Alberta",
+    "menuText": "Schedule and Scores",
+    "pageType": "static",
+    "templateName": "(New) Microsite 1 col w/o Title with TopTabsZone",
+    "redirectUrl": "",
+    "securePage": false,
+    "requiresApproval": false,
+    "excludeFromOutputCache": false,
+    "visible": {
+     "menu": true,
+     "sitemap": true
+    },
+    "seo": {
+     "metaDescription": "",
+     "metaKeywords": "",
+     "metaHTML": "",
+     "menuVisible": null,
+     "sitemapVisible": null
+    },
+    "scripts": {
+     "excludedFromGlobal": false,
+     "top": null,
+     "bottom": null
+    },
+    "properties": {
+     "state": 2,
+     "modified": "2026-09-22T11:30:09.38",
+     "versionID": 418578
+    },
+    "zones": {
+     "TopTabsZone": [
+      "list of 1",
+      {
+       "moduleName": "StatsTab",
+       "item": {
+        "contentID": "…",
+        "properties": "…",
+        "fields": "…"
+       },
+       "customData": {
+        "languageCode": "…",
+        "modelTournament": "…",
+        "modelExhibition": "…",
+        "eventUrl": "…"
+       }
+      }
+     ],
+     "MainContentZone1": [],
+     "MainContentZone2": [],
+     "MainContentZone3": [],
+     "MainContentZone4": [],
+     "MainContentZone5": [],
+     "LeftContentZone": [
+      "list of 2",
+      {
+       "moduleName": "StatsScoresAndSchedule",
+       "item": {
+        "contentID": "…",
+        "properties": "…",
+        "fields": "…"
+       },
+       "customData": {
+        "languageCode": "…",
+        "eventId": "…",
+        "subseasonId": "…",
+        "tournamentId": "…",
+        "exhibitionId": "…",
+        "modelTournament": "…",
+        "eventTitle": "…",
+        "pageTitle": "…",
+        "eventUrl": "…"
+       }
+      }
+     ],
+     "RightContentZone": [
+      "list of 7",
+      {
+       "moduleName": "ADCustomSelection",
+       "item": {
+        "contentID": "…",
+        "properties": "…",
+        "fields": "…"
+       },
+       "customData": null
+      }
+     ],
+     "MainContentZone6": [],
+     "MainContentZone7": [],
+     "MainContentZone8": [],
+     "MainContentZone9": [],
+     "MainContentZone": [],
+     "MicrositeMetadataWithTitle": []
+    }
+   },
+   "dynamicPageItem": null,
+   "pageTemplateName": "NewMicrosite1colwoTitlewithTopTabsZone",
+   "globalData": {
+    "siteHeader": null,
+    "micrositeHeader": {
+     "header": {
+      "hockeyCanadaLogo": {
+       "label": "Hockey Canada logo",
+       "url": "https://cdn.hockeycanada.ca/hockey-canada/Attachments/NewItems/logoLarge_2022112",
+       "target": null,
+       "filesize": 158441,
+       "pixelHeight": "1797",
+       "pixelWidth": "1920",
+       "height": 1797,
+       "width": 1920
+      },
+      "searchLogo": {
+       "label": null,
+       "url": "https://cdn.hockeycanada.ca/hockey-canada/Attachments/NewItems/searchIcon_202211",
+       "target": null,
+       "filesize": 7444,
+       "pixelHeight": "512",
+       "pixelWidth": "512",
+       "height": 512,
+       "width": 512
+      },
+      "searchLabel": "Search",
+      "searchTheSiteLabel": "Search the site",
+      "topMenuItems": [
+       "list of 5",
+       {
+        "title": "…",
+        "url": "…",
+        "subLinks": "…",
+        "manuallyPickedBadges": "…"
+       }
+      ],
+      "rightMenuItems": [
+       "list of 2",
+       {
+        "title": "…",
+        "url": "…",
+        "subLinks": "…",
+        "manuallyPickedBadges": "…"
+       }
+      ],
+      "socialLinks": [
+       "list of 5",
+       {
+        "title": "…",
+        "linkURL": "…",
+        "onClick": "…",
+        "image": "…"
+       }
+      ],
+      "languageCode": "en-ca",
+      "adLeaderboardHeaderID": "318290",
+      "topGlobalScripts": "<!-- Global site tag (gtag.js) - Google Analytics GA4 updated June 2023-->\r\n<scr"
+     },
+     "logo": {
+      "url": "https://cdn.hockeycanada.ca/hockey-canada/Template-Assets/Nav/hc_subsite_hdr_log"
+     },
+     "name": "2026-27 National Junior Team",
+     "nameHTML": null,
+     "doNotDisplayPageTitle": true,
+     "displayScoreboard": false,
+     "useKidsFont": false,
+     "teamEventKey": null,
+     "dynamicMenus": [
+      "list of 4",
+      [
+       "list of 1",
+       {
+        "title": "…",
+        "url": "…",
+        "subLinks": "…",
+        "manuallyPickedBadges": "…"
+       }
+      ]
+     ],
+     "backgroundImage": null,
+     "headerBackgroundImage": null,
+     "bodyBackgroundImage": null,
+     "headerBackgroundColour": "#000000",
+     "bodyBackgroundColour": null,
+     "headerBackgroundRepeat": false,
+     "showYear": false,
+     "seasons": null,
+     "baseURL": "/team-canada/men/junior/2026-27",
+     "referenceName": "",
+     "newsLink": null,
+     "browseByYearLabel": null,
+     "menuBackgroundColour": "#CC0000",
+     "menuEdgeColour": null,
+     "menuEdgeGradientPercentage": null,
+     "menuSeparatorColour": null,
+     "panelBackgroundColour": "#EEEEEE",
+     "menuFont": "Roboto Condensed",
+     "menuFontSize": "13px",
+     "menuFontWeight": "Normal",
+     "menuFontColour": "#FFFFFF",
+     "menuSelectedFont": null,
+     "menuSelectedFontSize": null,
+     "menuSelectedFontWeight": null,
+     "menuSelectedFontColour": null,
+     "menuDropdownFontColour": "#333333",
+     "includeJQuery": false,
+     "includeGoogleAdsJavaScript": false,
+     "pageTakeover": false,
+     "hasTextHomeLink": false,
+     "micrositeURL": "/team-canada/men/junior/2026-27",
+     "pageContentID": null,
+     "hoveredTopNavBackgroundColor": "#666666",
+     "hoveredPanelBackgroundColor": "#666666",
+     "hoveredTopNavFontColor": "#ffffff",
+     "hoveredPanelFontColor": "#ffffff",
+     "kidsMenuIcons": [],
+     "languageCode": "en-ca",
+     "searchLabel": "Search",
+     "searchTheSiteLabel": "Search the site",
+     "leaderboardHeaderAds": [
+      "list of 1",
+      {
+       "size": "ADLeaderboardHeader",
+       "documentbody": "<div id=\"div-gpt-ad-1482512683727-0\">\r\n<script type=\"text/javascript\">// <![CDAT",
+       "enabled": true,
+       "name": "HC_FullSite_CustomLeaderboard_Header_External_970_Max",
+       "adUnit": "var mastheader = googletag.sizeMapping().addSize([0, 0], [320, 50]).addSize([310"
+      }
+     ],
+     "leaderboardFooterAds": null,
+     "pageTakeoverData": null
+    },
+    "footer": {
+     "exploreHockeyCanadaLabel": "Community",
+     "aboutHockeyCanadaLabel": "About",
+     "quickLinksLabel": "Corporate",
+     "keepUpWithHockeyCanadaLabel": "Connect with Hockey Canada",
+     "newsletters": "<p style=\"text-align: center;\">&nbsp;<a href=\"/en-ca/news/insider\" target=\"_self",
+     "copyright": "&copy; Copyright 2026 Hockey Canada",
+     "copyrightColour": "",
+     "selectLanguageLabel": "Select Language",
+     "backgroundImage": {
+      "label": null,
+      "url": "https://cdn.hockeycanada.ca/hockey-canada/Template-Assets/Backgrounds/Footer/tex",
+      "target": null,
+      "filesize": 635,
+      "pixelHeight": "211",
+      "pixelWidth": "29",
+      "height": 211,
+      "width": 29
+     },
+     "backgroundColor": "#333333",
+     "copyrightBackgroundColor": "#000000",
+     "switchLanguageBackgroundColor": "#4b4c4e",
+     "exploreHockeyCanadaLinks": [
+      "list of 6",
+      {
+       "title": "Subscribe",
+       "url": {
+        "href": "…",
+        "target": "…",
+        "text": "…"
+       }
+      }
+     ],
+     "aboutHockeyCanadaLinks": [
+      "list of 6",
+      {
+       "title": "Our Mission",
+       "url": {
+        "href": "…",
+        "target": "…",
+        "text": "…"
+       }
+      }
+     ],
+     "quickLinks": [
+      "list of 5",
+      {
+       "title": "Annual Reporting",
+       "url": {
+        "href": "…",
+        "target": "…",
+        "text": "…"
+       }
+      }
+     ],
+     "socialLinks": [
+      "list of 6",
+      {
+       "title": "Facebook",
+       "linkURL": {
+        "href": "…",
+        "target": "…",
+        "text": "…"
+       },
+       "onClick": "_gaq.push(['_trackEvent', 'Social', 'Click', 'Facebook-HockeyCanada']);",
+       "image": {
+        "label": "…",
+        "url": "…",
+        "target": "…",
+        "filesize": "…",
+        "pixelHeight": "…",
+        "pixelWidth": "…",
+        "height": "…",
+        "width": "…"
+       }
+      }
+     ],
+     "adLeaderboardFooterID": "272132",
+     "leaderboardFooterAds": [
+      "list of 1",
+      {
+       "size": "ADLeaderboardFooter",
+       "documentbody": "<div id=\"div-gpt-ad-1517954084085-0\">\r\n<script type=\"text/javascript\">// <![CDAT",
+       "enabled": true,
+       "name": "HC_FullSite_CustomLeaderboard_Footer_External",
+       "adUnit": "var mastfooter = googletag.sizeMapping().addSize([0, 0], [320, 50]).addSize([310"
+      }
+     ],
+     "languageCode": "en-ca",
+     "leftLinks": [
+      "list of 1",
+      {
+       "title": "Privacy Policy",
+       "url": {
+        "href": "…",
+        "target": "…",
+        "text": "…"
+       }
+      }
+     ],
+     "rightLinks": [
+      "list of 1",
+      {
+       "title": "Copyright & Legal Disclaimer",
+       "url": {
+        "href": "…",
+        "target": "…",
+        "text": "…"
+       }
+      }
+     ]
+    }
+   },
+   "languageCode": "en-ca",
+   "channelName": "website",
+   "isPreview": false,
+   "isDevelopmentMode": false,
+   "notFound": false,
+   "gameId": null,
+   "gameData": null,
+   "tournamentToggle": null,
+   "teamId": null,
+   "teamDataTournament": null,
+   "liveBlogGameId": null,
+   "playerId": null,
+   "playerDataTournament": null
+  },
+  "games": {},
+  "players": {},
+  "addresses": [
+   "http://abuse-free-sport.ca/en/",
+   "http://instagram.com/hockeycanada",
+   "http://www.facebook.com/HockeyCanada",
+   "http://www.instagram.com/HockeyCanada",
+   "http://www.linkedin.com/company/hockey-canada/",
+   "http://www.twitter.com/HockeyCanada",
+   "http://www.youtube.com/hockeycanadavideos",
+   "https://assets.leaguestat.com/hockeycanada/logos/168.png",
+   "https://assets.leaguestat.com/hockeycanada/logos/169.png",
+   "https://assets.leaguestat.com/hockeycanada/logos/170.png",
+   "https://assets.leaguestat.com/hockeycanada/logos/172.png",
+   "https://assets.leaguestat.com/hockeycanada/logos/174.png",
+   "https://assets.leaguestat.com/hockeycanada/logos/175.png",
+   "https://assets.leaguestat.com/hockeycanada/logos/176.png",
+   "https://assets.leaguestat.com/hockeycanada/logos/177.png",
+   "https://assets.leaguestat.com/hockeycanada/logos/178.png",
+   "https://assets.leaguestat.com/hockeycanada/logos/325.png",
+   "https://assets.leaguestat.com/hockeycanada/logos/326.png",
+   "https://assets.leaguestat.com/hockeycanada/logos/618.png",
+   "https://assets.leaguestat.com/hockeycanada/logos/619.png",
+   "https://assets.leaguestat.com/hockeycanada/logos/620.png",
+   "https://assets.leaguestat.com/hockeycanada/logos/622.png",
+   "https://assets.leaguestat.com/hockeycanada/logos/951.png",
+   "https://assets.leaguestat.com/hockeycanada/logos/953.png",
+   "https://beyondtheboardssummit.ca/",
+   "https://cdn.hockeycanada.ca/hockey-canada/Attachments/NewItems/logoLarge_20221122063258_0.png",
+   "https://cdn.hockeycanada.ca/hockey-canada/Attachments/NewItems/searchIcon_20221122064053_0.png",
+   "https://cdn.hockeycanada.ca/hockey-canada/Logos/640x360/Federations/hockey_canada_640.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/Logos/hockey-canada-jersey-logo-300x300.png",
+   "https://cdn.hockeycanada.ca/hockey-canada/Logos/newlogo.png",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3546/2021-wjc-dec-27-can-svk-04.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3547/2021-wjc-dec-29-can-sui-08.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3548/2021-wjc-dec-31-can-fin-04.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3549/2021-wjc-jan-02-can-cze-16.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3550/2021-wjc-jan-04-can-rus-12.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3551/2021-wjc-jan-05-can-usa-12.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3552/team-canada-action-18.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3553/behind-the-scenes-36.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3554/around-the-rink-30.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3597/2021-22-njt-july-31-red-wht-14.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3599/2021-22-njt-aug-01-red-wht-11.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3605/2021-njt-nmu18-aug-03-robi-will-12.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3607/2021-22-njt-nmu18t-aug-03-cam-dyck-01.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3645/2022-njt-dec-11-can-usports-12.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3647/2022-njt-dec-12-can-usports-05.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3652/janes-all-in-masks-2022-01.JPG",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3743/2021-22-njt-aug-8-can-swe-02.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3744/2022-wjc-aug-10-can-lat-12.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3745/2022-wjc-aug-11-can-svk-17.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3746/2022-wjc-aug-15-can-fin-10.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3751/2022-wjc-aug-20-can-fin-07.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3815/2023-wjc-dec-19-can-sui-16.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3817/2023-wjc-dec-21-can-svk-08.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3819/2023-wjc-dec-26-can-cze-09.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3821/2023-wjc-dec-28-can-ger-04.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3823/2023-wjc-dec-29-can-aus-16.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3824/2023-wjc-dec-31-can-swe-15.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3825/2023-wjc-jan-02-can-svk-16.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3826/2023-wjc-jan-04-can-usa-10.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3827/2023-wjc-jan-05-can-cze-14.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3925/2024-WJC-Dec",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4057/2024-can-usports-08.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4059/2024-can-usports-01.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4060/2024-can-sui-01.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4061/2024-can-swe-01.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4062/2024-can-cze-15.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4063/2025-can-fin-10.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4066/2025-can-lat-12.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4067/2025-can-ger-12.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4068/2025-can-usa-02.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4073/2025-can-cze-02.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4206/2025-wjc-dec-17th-02.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4207/2025-wjc-dec-20th-16.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4211/2026-wjc-can-cze-dec-26-11.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4212/2026-wjc-can-lat-dec-27-02.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4213/2026-wjc-can-den-dec-29-07.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4214/2026-wjc-can-fin-dec-31-05.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4216/2026-wjc-can-svk-jan-02-04.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4217/2026-wjc-can-cze-jan-04-07.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/National-Championships/Men/National-Junior-A/Subsite-Assets/2024-centennial-cup-logo.jpg"
   ],
-  "hits": [
-   "imer\"}}]}},\"languageCode\":\"en-ca\",\"channelName\":\"website\",\"isPreview\":false,\"isDevelopmentMode\":false,\"notFound\":false,\"gameId\":null,\"gameData\":null,\"tournamentToggle\":null,\"teamId\":null,\"teamDataTournament\":null,\"liveBlogGameId\":null,\"playerId\":null,\"playerDataTournament\":null},\"__N_S",
-   "\"notFound\":false,\"gameId\":null,\"gameData\":null,\"tournamentToggle\":null,\"teamId\":null,\"teamDataTournament\":null,\"liveBlogGameId\":null,\"playerId\":null,\"playerDataTournament\":null},\"__N_SSG\":true},\"page\":\"/[...slug]\",\"query\":{\"slug\":[\"team-canada\",\"men\",\"junior\",\"2026-27\",\"world-champions"
+  "gameLinks": [
+   "/en-ca/hockey-programs/game-change",
+   "/en-ca/team-canada/men/junior/2026-27/world-championship/stats/game-summary/5803",
+   "/en-ca/team-canada/men/junior/2026-27/world-championship/stats/game-summary/5804",
+   "/en-ca/team-canada/men/junior/2026-27/world-championship/stats/game-summary/5805",
+   "/en-ca/team-canada/men/junior/2026-27/world-championship/stats/game-summary/5806",
+   "/en-ca/team-canada/men/junior/2026-27/world-championship/stats/game-summary/5807",
+   "/en-ca/team-canada/men/junior/2026-27/world-championship/stats/game-summary/5808",
+   "/en-ca/team-canada/men/junior/2026-27/world-championship/stats/game-summary/5809",
+   "/en-ca/team-canada/men/junior/2026-27/world-championship/stats/game-summary/5810",
+   "/en-ca/team-canada/men/junior/2026-27/world-championship/stats/game-summary/5811",
+   "/en-ca/team-canada/men/junior/2026-27/world-championship/stats/game-summary/5812",
+   "/en-ca/team-canada/men/junior/2026-27/world-championship/stats/game-summary/5813",
+   "/en-ca/team-canada/men/junior/2026-27/world-championship/stats/game-summary/5814",
+   "/en-ca/team-canada/men/junior/2026-27/world-championship/stats/game-summary/5815",
+   "/en-ca/team-canada/men/junior/2026-27/world-championship/stats/game-summary/5816",
+   "/en-ca/team-canada/men/junior/2026-27/world-championship/stats/game-summary/5817",
+   "/en-ca/team-canada/men/junior/2026-27/world-championship/stats/game-summary/5818",
+   "/en-ca/team-canada/men/junior/2026-27/world-championship/stats/game-summary/5819",
+   "/en-ca/team-canada/men/junior/2026-27/world-championship/stats/game-summary/5820",
+   "/en-ca/team-canada/men/junior/2026-27/world-championship/stats/game-summary/5821",
+   "/en-ca/team-canada/men/junior/2026-27/world-championship/stats/game-summary/5822",
+   "/en-ca/team-canada/men/junior/2026-27/world-championship/stats/game-summary/5823",
+   "/en-ca/team-canada/men/junior/2026-27/world-championship/stats/game-summary/5824",
+   "/en-ca/team-canada/men/junior/2026-27/world-championship/stats/game-summary/5825",
+   "/en-ca/team-canada/men/junior/2026-27/world-championship/stats/game-summary/5826",
+   "/en-ca/team-canada/men/junior/2026-27/world-championship/stats/game-summary/5827",
+   "/en-ca/team-canada/men/junior/2026-27/world-championship/stats/game-summary/5828",
+   "/en-ca/team-canada/men/junior/2026-27/world-championship/stats/game-summary/5829",
+   "/en-ca/team-canada/men/junior/2026-27/world-championship/stats/game-summary/5830",
+   "/en-ca/team-canada/men/junior/2026-27/world-championship/stats/game-summary/5831"
   ],
-  "scriptHits": {
-   "https://hockeycanada.vercel.app/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js": {
-    "status": 200,
-    "hits": [
-     "l!=a&&Nr(a,t[n],t,r)}),a=$r(e),u=function(t,e,r){var n,o,u=a(t),c=s(t,e);return c?c.value=r:(u.last=c={index:o=Kr(e,!0),key:e,value:r,previous:n=u.last,next:void 0,removed:!1},u.first||(u.first=c),n&&(n.next=c),i?u.size++:t.size++,\"F\"!==o&&(u.index[o]=c)),t},s=function(t,e){var r,n=a",
-     "==o&&(u.index[o]=c)),t},s=function(t,e){var r,n=a(t),o=Kr(e);if(\"F\"!==o)return n.index[o];for(r=n.first;r;r=r.next)if(r.key==e)return r};return Dr(o.prototype,{clear:function(){for(var t=a(this),e=t.index,r=t.first;r;)r.removed=!0,r.previous&&(r.previous=r.previous.next=void 0),delet",
-     "e\"),wa(\"search\"),wa(\"species\"),wa(\"split\"),wa(\"toPrimitive\"),wa(\"toStringTag\"),wa(\"unscopables\"),Ce(Math,\"Math\",!0),Ce(n.JSON,\"JSON\",!0),wa(\"asyncDispose\"),wa(\"dispose\"),wa(\"observable\"),wa(\"patternMatch\"),wa(\"replaceAll\"),ma.f(\"asyncIterator\");var iu=je.codeAt;Lt({target:\"String\",pro",
-     "ace(cs,ls)},ps=function(t,e){if(e)for(var r,n,o=e.split(\"&\"),i=0;i<o.length;)(r=o[i++]).length&&(n=r.split(\"=\"),t.push({key:ss(n.shift()),value:ss(n.join(\"=\"))}))},ds=function(t){this.entries.length=0,ps(this.entries,t)},vs=function(t,e){if(t<e)throw TypeError(\"Not enough arguments\")",
-     "d:e})},\"Iterator\",function(){var t=ns(this),e=t.kind,r=t.iterator.next(),n=r.value;return r.done||(r.value=\"keys\"===e?n.key:\"values\"===e?n.value:[n.key,n.value]),r}),ys=function(){Cr(this,ys,Zu);var t,e,r,n,o,i,a,u,s,c=arguments.length>0?arguments[0]:void 0,f=this,l=[];if(es(f,{type:",
-     "))).next).call(o)).done||(u=i.call(o)).done||!i.call(o).done)throw TypeError(\"Expected sequence with length 2\");l.push({key:a.value+\"\",value:u.value+\"\"})}else for(s in c)w(c,s)&&l.push({key:s,value:c[s]+\"\"});else ps(l,\"string\"==typeof c?\"?\"===c.charAt(0)?c.slice(1):c:c+\"\")},ms=ys.pro",
-     ")?c.slice(1):c:c+\"\")},ms=ys.prototype;Dr(ms,{append:function(t,e){vs(arguments.length,2);var r=rs(this);r.entries.push({key:t+\"\",value:e+\"\"}),r.updateURL()},delete:function(t){vs(arguments.length,1);for(var e=rs(this),r=e.entries,n=t+\"\",o=0;o<r.length;)r[o].key===n?r.splice(o,1):o++;",
-     "\"}),r.updateURL()},delete:function(t){vs(arguments.length,1);for(var e=rs(this),r=e.entries,n=t+\"\",o=0;o<r.length;)r[o].key===n?r.splice(o,1):o++;e.updateURL()},get:function(t){vs(arguments.length,1);for(var e=rs(this).entries,r=t+\"\",n=0;n<e.length;n++)if(e[n].key===r)return e[n].val",
-     ":o++;e.updateURL()},get:function(t){vs(arguments.length,1);for(var e=rs(this).entries,r=t+\"\",n=0;n<e.length;n++)if(e[n].key===r)return e[n].value;return null},getAll:function(t){vs(arguments.length,1);for(var e=rs(this).entries,r=t+\"\",n=[],o=0;o<e.length;o++)e[o].key===r&&n.push(e[o]",
-     "e;return null},getAll:function(t){vs(arguments.length,1);for(var e=rs(this).entries,r=t+\"\",n=[],o=0;o<e.length;o++)e[o].key===r&&n.push(e[o].value);return n},has:function(t){vs(arguments.length,1);for(var e=rs(this).entries,r=t+\"\",n=0;n<e.length;)if(e[n++].key===r)return!0;return!1},",
-     "[o].value);return n},has:function(t){vs(arguments.length,1);for(var e=rs(this).entries,r=t+\"\",n=0;n<e.length;)if(e[n++].key===r)return!0;return!1},set:function(t,e){vs(arguments.length,1);for(var r,n=rs(this),o=n.entries,i=!1,a=t+\"\",u=e+\"\",s=0;s<o.length;s++)(r=o[s]).key===a&&(i?o.sp",
-     "et:function(t,e){vs(arguments.length,1);for(var r,n=rs(this),o=n.entries,i=!1,a=t+\"\",u=e+\"\",s=0;s<o.length;s++)(r=o[s]).key===a&&(i?o.splice(s--,1):(i=!0,r.value=u));i||o.push({key:a,value:u}),n.updateURL()},sort:function(){var t,e,r,n=rs(this),o=n.entries,i=o.slice();for(o.length=0,",
-     " body as text\");return Promise.resolve(this._bodyText)},gl&&(this.formData=function(){return this.text().then(kl)}),this.json=function(){return this.text().then(JSON.parse)},this}xl.prototype.append=function(t,e){t=wl(t),e=Sl(e);var r=this.map[t];this.map[t]=r?r+\", \"+e:e},xl.prototype"
-    ]
-   },
-   "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js": {
-    "status": 200,
-    "hits": [
-     "m=d(this,h);m.list||(m.list=this[0][m.id]=[]);m.entry?m.entry.value=k:(m.entry={next:this[1],ca:this[1].ca,head:this[1],key:h,value:k},m.list.push(m.entry),this[1].ca.next=m.entry,this[1].ca=m.entry,this.size++);return this};e.prototype.delete=function(h){h=d(this,h);return h.entry&&",
-     "esponsive_dummy_ad\")&&(tb([1,2,3,4,5,6,7,8],e.F)||e.h===1)&&e.h!==2&&(f=JSON.stringify({googMsgType:\"adpnt\",key_value:[{key:\"qid\",value:\"DUMMY_AD\"}]}),c.dash=\"<\"+Xp+\">window.top.postMessage('\"+f+\"', '*');\\n          </\"+Xp+'>\\n          <div id=\"dummyAd\" style=\"width:'+d+\"px;height:\""
-    ]
-   },
-   "https://hockeycanada.vercel.app/_next/static/chunks/webpack-dfb539db4af6defd.js": {
-    "status": 200,
-    "hits": [
-     "(document.cookie))return;}catch(e){return;}var s=document.createElement('script');s.src='https://vercel.live/_next-live/feedback/feedback.js';s.setAttribute(\"data-explicit-opt-in\",\"true\");s.setAttribute(\"data-cookie-opt-in\",\"true\");s.setAttribute(\"data-deployment-id\",\"dpl_8oEWPtffDVZ"
-    ]
-   },
-   "https://hockeycanada.vercel.app/_next/static/chunks/framework-ffee79c6390da51e.js": {
-    "status": 200,
-    "hits": [
-     "iveEvent;return b.getModifierState?b.getModifierState(a):!!(a=Od[a])&&!!b[a]}function zd(){return Pd}var Rd=rd(A({},ud,{key:function(a){if(a.key){var b=Md[a.key]||a.key;if(\"Unidentified\"!==b)return b}return\"keypress\"===a.type?13===(a=od(a))?\"Enter\":String.fromCharCode(a):\"keydown\"===",
-     "d),c)}if(eb(b)||Ka(b))return(b=Ah(b,a.mode,c,null)).return=a,b;th(a,b)}return null}function r(a,b,c,d){var e=null!==b?b.key:null;if(\"string\"==typeof c&&\"\"!==c||\"number\"==typeof c)return null!==e?null:h(a,b,\"\"+c,d);if(\"object\"==typeof c&&null!==c){switch(c.$$typeof){case va:return c.k",
-     "mber\"==typeof c)return null!==e?null:h(a,b,\"\"+c,d);if(\"object\"==typeof c&&null!==c){switch(c.$$typeof){case va:return c.key===e?k(a,b,c,d):null;case wa:return c.key===e?l(a,b,c,d):null;case Ha:return r(a,b,(e=c._init)(c._payload),d)}if(eb(c)||Ka(c))return null!==e?null:m(a,b,c,d,null",
-     "f1.props.children),\"object\"==typeof f1&&null!==f1){switch(f1.$$typeof){case va:a:{for(var k=f1.key,l=d1;null!==l;){if(l.key===k){if((k=f1.type)===ya){if(7===l.tag){c(a1,l.sibling),(d1=e(l,f1.props.children)).return=a1,a1=d1;break a}}else if(l.elementType===k||\"object\"==typeof k&&null",
-     "key,f1.props,null,a1.mode,h)).ref=sh(a1,d1,f1),h.return=a1,a1=h)}return g(a1);case wa:a:{for(l=f1.key;null!==d1;){if(d1.key===l){if(4===d1.tag&&d1.stateNode.containerInfo===f1.containerInfo&&d1.stateNode.implementation===f1.implementation){c(a1,d1.sibling),(d1=e(d1,f1.children||[])).",
-     "e 19:d=a.stateNode;break;default:throw Error(p(314))}null!==d&&d.delete(b),Zk(a,c)}function al(a,b,c,d){this.tag=a,this.key=c,this.sibling=this.child=this.return=this.stateNode=this.type=this.elementType=null,this.index=0,this.ref=null,this.pendingProps=b,this.dependencies=this.memoi",
-     "ror(p(200));return function(a,b,c){var d=3<arguments.length&&void 0!==arguments[3]?arguments[3]:null;return{$$typeof:wa,key:null==d?null:\"\"+d,children:a,containerInfo:b,implementation:null}}(a,b,null,c)},exports.createRoot=function(a,b){if(!ol(a))throw Error(p(299));var c=!1,d=\"\",e=l",
-     "ragment\"),m=Object.prototype.hasOwnProperty,n=f.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,p={key:!0,ref:!0,__self:!0,__source:!0};function q(c,a,g){var b,d={},e=null,h=null;for(b in void 0!==g&&(e=\"\"+g),void 0!==a.key&&(e=\"\"+a.key),void 0!==a.ref&&(h=a.ref)",
-     "erty(b)&&(d[b]=a[b]);if(c&&c.defaultProps)for(b in a=c.defaultProps)void 0===d[b]&&(d[b]=a[b]);return{$$typeof:k,type:c,key:e,ref:h,props:d,_owner:n.current}}exports.Fragment=l,exports.jsx=q,exports.jsxs=q},2408:function(__unused_webpack_module,exports){/**  * @license React  * react",
-     "=G,C(H,E.prototype),H.isPureReactComponent=!0;var I=Array.isArray,J=Object.prototype.hasOwnProperty,K={current:null},L={key:!0,ref:!0,__self:!0,__source:!0};function M(a,b,e){var d,c={},k=null,h=null;if(null!=b)for(d in void 0!==b.ref&&(h=b.ref),void 0!==b.key&&(k=\"\"+b.key),b)J.call(",
-     "ts[m+2];c.children=f}if(a&&a.defaultProps)for(d in g=a.defaultProps)void 0===c[d]&&(c[d]=g[d]);return{$$typeof:l,type:a,key:k,ref:h,props:c,_owner:K.current}}function O(a){return\"object\"==typeof a&&null!==a&&a.$$typeof===l}var P=/\\/+/g;function Q(a,b){var a1,b1;return\"object\"==typeof",
-     ")?(e=\"\",null!=a&&(e=a.replace(P,\"$&/\")+\"/\"),R(c,b,e,\"\",function(a){return a})):null!=c&&(O(c)&&(a1=c,b1=e+(!c.key||h&&h.key===c.key?\"\":(\"\"+c.key).replace(P,\"$&/\")+\"/\")+a,c={$$typeof:l,type:a1.type,key:b1,ref:a1.ref,props:a1.props,_owner:a1._owner}),b.push(c)),1;if(h=0,d=\"\"===d?\".\":d+",
-     "d.children=e;else if(1<f){g=Array(f);for(var m=0;m<f;m++)g[m]=arguments[m+2];d.children=g}return{$$typeof:l,type:a.type,key:c,ref:k,props:d,_owner:h}},exports.createContext=function(a){return(a={$$typeof:u,_currentValue:a,_currentValue2:a,_threadCount:0,Provider:null,Consumer:null,_d"
-    ]
-   },
-   "https://hockeycanada.vercel.app/_next/static/chunks/main-538b3f669ef25e92.js": {
-    "status": 200,
-    "hits": [
-     "e,excluded){if(null==source)return{};var key,i,target={},sourceKeys=Object.keys(source);for(i=0;i<sourceKeys.length;i++)key=sourceKeys[i],excluded.indexOf(key)>=0||(target[key]=source[key]);return target}},37:function(){\"trimStart\"in String.prototype||(String.prototype.trimStart=Stri",
-     "t dataRoute=_getAssetPathFromRoute.default(_removeTrailingSlash.removeTrailingSlash(_addLocale.addLocale(path,locale)),\".json\");return _addBasePath.addBasePath(\"/_next/data/\".concat(this.buildId).concat(dataRoute).concat(search),!0)})(params.skipInterpolation?asPathname:_isDynamic.isD",
-     "ategories={};return h=>{let isUnique=!0,hasKey=!1;if(h.key&&\"number\"!=typeof h.key&&h.key.indexOf(\"$\")>0){hasKey=!0;let key=h.key.slice(h.key.indexOf(\"$\")+1);keys.has(key)?isUnique=!1:keys.add(key)}switch(h.type){case\"title\":case\"base\":tags.has(h.type)?isUnique=!1:tags.add(h.type);br",
-     "que=!1:(categories.add(category),metaCategories[metatype]=categories)}}}}return isUnique}}()).reverse().map((c,i)=>{let key=c.key||i;if(!inAmpMode&&\"link\"===c.type&&c.props.href&&[\"https://fonts.googleapis.com/css\",\"https://use.typekit.net/\"].some(url=>c.props.href.startsWith(url))){",
-     "h(origin)?url.substring(origin.length):url}function omit(object,keys){let omitted={};return Object.keys(object).forEach(key=>{keys.includes(key)||(omitted[key]=object[key])}),omitted}function isLocalURL(url){if(!_utils.isAbsoluteUrl(url))return!0;try{let locationOrigin=_utils.getLoca",
-     "ePath(parsed.pathname):parsed.pathname;if(routeMatch&&pathname!==cleanedParsedPathname&&Object.keys(routeMatch).forEach(key=>{routeMatch&&query[key]===routeMatch[key]&&delete query[key]}),_isDynamic.isDynamicRoute(pathname)){let prefixedAs=!routeProps.shallow&&routeInfo.resolvedAs?ro",
-     "ushState\"!==method||_utils.getURL()!==as)&&(this._shallow=options.shallow,window.history[method]({url,as,options,__N:!0,key:this._key=\"pushState\"!==method?this._key:createKey()},\"\",as))}handleRouteInfoError(err,pathname,query,as,routeProps,loadErrorFail){var _this=this;return _async_",
-     "e:\"next\"})})(data.dataHref,data.response,options).then(effect=>({dataHref:data.dataHref,cacheKey:data.cacheKey,json:data.json,response:data.response,text:data.text,effect}))).catch(_err=>null):null));if(isQueryUpdating&&data&&(data.json=self.__NEXT_DATA__.props),handleCancelled(),(nul",
-     "json:data.json,response:data.response,text:data.text,effect}))).catch(_err=>null):null));if(isQueryUpdating&&data&&(data.json=self.__NEXT_DATA__.props),handleCancelled(),(null==data?void 0:null==(ref=data.effect)?void 0:ref.type)===\"redirect-internal\"||(null==data?void 0:null==(ref4=d",
-     "nfo&&_this.route===route&&!hasMiddleware))return _extends({},existingInfo,{route});if(\"/api\"===route||route.startsWith(\"/api/\"))return handleHardNavigation({url:as,router:_this}),new Promise(()=>{});let routeInfo=cachedRouteInfo||(yield _this.fetchComponent(route).then(res=>({Componen",
-     " _this._getData(_async_to_generator(function*(){if(shouldFetchData){let{json,cacheKey:_cacheKey}=(null==data?void 0:data.json)?data:yield fetchNextData({dataHref:_this.pageLoader.getDataHref({href:_formatUrl.formatWithValidation({pathname,query}),asPath:resolvedAs,locale}),isServerRen",
-     "{let stateKeys=Object.keys(a);if(stateKeys.length!==Object.keys(b).length)return!1;for(let i=stateKeys.length;i--;){let key=stateKeys[i];if(\"query\"===key){let queryKeys=Object.keys(a.query);if(queryKeys.length!==Object.keys(b.query).length)return!1;for(let j=queryKeys.length;j--;){le",
-     "ffix.addPathSuffix(_addPathPrefix.addPathPrefix(pathname,\"/_next/data/\".concat(info.buildId)),\"/\"===info.pathname?\"index.json\":\".json\")),pathname=_addPathPrefix.addPathPrefix(pathname,info.basePath),!info.buildId&&info.trailingSlash?pathname.endsWith(\"/\")?pathname:_addPathSuffix.addPa",
-     "Path),info.basePath=basePath),!0===options.parseData&&info.pathname.startsWith(\"/_next/data/\")&&info.pathname.endsWith(\".json\")){let paths=info.pathname.replace(/^\\/_next\\/data\\//,\"\").replace(/\\.json$/,\"\").split(\"/\"),buildId=paths[0];info.pathname=\"index\"!==paths[1]?\"/\".concat(paths.s",
-     "ramsList[_key-1]=arguments[_key];return searchParamsList.forEach(searchParams=>{Array.from(searchParams.keys()).forEach(key=>target.delete(key)),searchParams.forEach((value,key)=>target.append(key,value))}),target}},2650:function(__unused_webpack_module,exports,__webpack_require__){\""
-    ]
-   },
-   "https://hockeycanada.vercel.app/_next/static/chunks/pages/_app-d2f6b5b1d0fd9482.js": {
-    "status": 200,
-    "hits": [
-     "tails)&&(theDetails_1=payloadDetails(),payloadDetails=null),theDetails_1}}),_self[_DYN_GET_CTX]=function(key){return key?key===PerfEvent[strParentContextKey]||key===PerfEvent[strChildrenContextKey]?_self[key]:(_self.ctx||{})[key]:null},_self[_DYN_SET_CTX]=function(key,value){key&&(key",
-     "===PerfEvent[strChildrenContextKey]?_self[key]:(_self.ctx||{})[key]:null},_self[_DYN_SET_CTX]=function(key,value){key&&(key===PerfEvent[strParentContextKey]?(_self[key]||(_self[_DYN_IS_CHILD_EVT]=function(){return!0}),_self[key]=value):key===PerfEvent[strChildrenContextKey]?_self[key",
-     "y&&(key===PerfEvent[strParentContextKey]?(_self[key]||(_self[_DYN_IS_CHILD_EVT]=function(){return!0}),_self[key]=value):key===PerfEvent[strChildrenContextKey]?_self[key]=value:(_self.ctx=_self.ctx||{})[key]=value)},_self.complete=function(){var childTime=0,childEvts=_self[_DYN_GET_CT",
-     "nts[name]&&_throwInternal(logger,2,62,\"start was called more than once for this event without calling stop.\",{name:name,key:name},!0),_events[name]=+new Date},_self.stop=function(name,url,properties,measurements){var start=_events[name];if(isNaN(start))_throwInternal(logger,2,63,\"sto",
-     "rt=_events[name];if(isNaN(start))_throwInternal(logger,2,63,\"stop was called without a corresponding start.\",{name:name,key:name},!0);else{var duration=dateTimeUtilsDuration(start,+new Date);_self.action(name,url,duration,properties,measurements)}delete _events[name],_events[name]=vo",
-     "().parse(buffer_1)),buffer_1&&ts_utils_isArray(buffer_1))return buffer_1}}catch(e){_throwInternal(logger,1,42,\" storage key: \"+key+\", \"+getExceptionName(e),{exception:dumpObj(e)})}return[]}function _setBuffer(key,buffer){var prefixedKey=key;try{prefixedKey=_namePrefix?_namePrefix+\"_\"",
-     "on)}catch(e){setItem(logger,prefixedKey,JSON[_DynamicConstants_DYN_STRINGIFY]([])),_throwInternal(logger,2,41,\" storage key: \"+prefixedKey+\", \"+getExceptionName(e)+\". Buffer cleared\",{exception:dumpObj(e)})}}function _getItemsFromPreviousKey(key){try{var items=_getBufferBase(key),tra",
-     ",kv){var kvParts=kv[dist_es5_DynamicConstants_DYN_SPLIT](\"=\");if(2===kvParts[dist_es5_DynamicConstants_DYN_LENGTH]){var key=kvParts[0][dist_es5_DynamicConstants_DYN_TO_LOWER_CASE](),value=kvParts[1];fields[key]=value}return fields},{});if(objKeys(result)[dist_es5_DynamicConstants_DYN",
-     "=cfgDfMerge(((_d={}).AppInsightsCfgSyncPlugin=cfgDfMerge({cfgUrl:\"https://js.monitor.azure.com/scripts/b/ai.config.1.cfg.json\",syncMode:2}),_d)),AISku_a);function _parseCs(config,configCs){return createSyncPromise(function(resolve,reject){doAwaitResponse(configCs,function(res){var cur"
-    ]
-   }
+  "jsonAddress": {
+   "url": "https://www.hockeycanada.ca/_next/data/hnEVBHI8xM1qkc6G-FzNt/en-ca/team-canada/men/junior/2026-27/world-championship/stats/schedule.json",
+   "status": 200,
+   "length": 427281
   }
  },
- "iihf.2026.schedule": {
-  "url": "https://www.iihf.com/en/events/2026/wm20/schedule",
-  "status": 403,
-  "type": "",
-  "length": 0,
-  "title": "",
-  "scripts": [],
-  "hits": []
- },
- "iihf.2027.schedule": {
-  "url": "https://www.iihf.com/en/events/2027/wm20/schedule",
-  "status": 403,
-  "type": "",
-  "length": 0,
-  "title": "",
-  "scripts": [],
-  "hits": []
- },
- "hockeytech.found": {
-  "client_codes": [],
-  "keys": []
+ "hc.2026.game": {
+  "url": "https://www.hockeycanada.ca/en-ca/team-canada/men/junior/2025-26/world-championship/stats/game-summary/5447",
+  "status": 200,
+  "length": 223221,
+  "hasNextData": true,
+  "buildId": "hnEVBHI8xM1qkc6G-FzNt",
+  "shape": {
+   "sitemapNode": {
+    "pageID": 26534,
+    "contentID": -1,
+    "path": "/team-canada/men/junior/2025-26/world-championship/stats/game-summary",
+    "title": "Game Summary | World Junior Championship ",
+    "name": "game-summary",
+    "menuText": "Game Summary",
+    "isFolder": false,
+    "visible": {
+     "menu": false
+    },
+    "redirect": null,
+    "target": null
+   },
+   "page": {
+    "pageID": 26534,
+    "name": "game-summary",
+    "path": null,
+    "title": "Game Summary | World Junior Championship ",
+    "menuText": "Game Summary",
+    "pageType": "static",
+    "templateName": "(New) Microsite 1 col w/o Title with TopTabsZone",
+    "redirectUrl": "",
+    "securePage": false,
+    "requiresApproval": false,
+    "excludeFromOutputCache": false,
+    "visible": {
+     "menu": false,
+     "sitemap": true
+    },
+    "seo": {
+     "metaDescription": "",
+     "metaKeywords": "",
+     "metaHTML": "",
+     "menuVisible": null,
+     "sitemapVisible": null
+    },
+    "scripts": {
+     "excludedFromGlobal": false,
+     "top": null,
+     "bottom": null
+    },
+    "properties": {
+     "state": 2,
+     "modified": "2025-12-23T16:47:46.38",
+     "versionID": 411855
+    },
+    "zones": {
+     "TopTabsZone": [
+      "list of 1",
+      {
+       "moduleName": "StatsTab",
+       "item": {
+        "contentID": "…",
+        "properties": "…",
+        "fields": "…"
+       },
+       "customData": {
+        "languageCode": "…",
+        "modelTournament": "…",
+        "modelExhibition": "…",
+        "eventUrl": "…"
+       }
+      }
+     ],
+     "MainContentZone1": [
+      "list of 2",
+      {
+       "moduleName": "Stats-GameDetails",
+       "item": {
+        "contentID": "…",
+        "properties": "…",
+        "fields": "…"
+       },
+       "customData": {
+        "eventTitle": "…",
+        "pageTitle": "…",
+        "eventUrl": "…",
+        "exhibitionId": "…"
+       }
+      }
+     ],
+     "MainContentZone2": [
+      "list of 3",
+      {
+       "moduleName": "Stats-GameDetails-Scoring",
+       "item": {
+        "contentID": "…",
+        "properties": "…",
+        "fields": "…"
+       },
+       "customData": {
+        "eventUrl": "…"
+       }
+      }
+     ],
+     "MainContentZone3": [
+      "list of 1",
+      {
+       "moduleName": "Stats-Menu",
+       "item": {
+        "contentID": "…",
+        "properties": "…",
+        "fields": "…"
+       },
+       "customData": null
+      }
+     ],
+     "MainContentZone4": [],
+     "MainContentZone5": [],
+     "LeftContentZone": [
+      "list of 7",
+      {
+       "moduleName": "Stats-GameDetails-Overview",
+       "item": {
+        "contentID": "…",
+        "properties": "…",
+        "fields": "…"
+       },
+       "customData": null
+      }
+     ],
+     "RightContentZone": [
+      "list of 4",
+      {
+       "moduleName": "ADCustomSelection",
+       "item": {
+        "contentID": "…",
+        "properties": "…",
+        "fields": "…"
+       },
+       "customData": null
+      }
+     ],
+     "MainContentZone6": [],
+     "MainContentZone7": [],
+     "MainContentZone8": [],
+     "MainContentZone9": [],
+     "MainContentZone": [],
+     "MicrositeMetadataWithTitle": []
+    }
+   },
+   "dynamicPageItem": null,
+   "pageTemplateName": "NewMicrosite1colwoTitlewithTopTabsZone",
+   "globalData": {
+    "siteHeader": null,
+    "micrositeHeader": {
+     "header": {
+      "hockeyCanadaLogo": {
+       "label": "Hockey Canada logo",
+       "url": "https://cdn.hockeycanada.ca/hockey-canada/Attachments/NewItems/logoLarge_2022112",
+       "target": null,
+       "filesize": 158441,
+       "pixelHeight": "1797",
+       "pixelWidth": "1920",
+       "height": 1797,
+       "width": 1920
+      },
+      "searchLogo": {
+       "label": null,
+       "url": "https://cdn.hockeycanada.ca/hockey-canada/Attachments/NewItems/searchIcon_202211",
+       "target": null,
+       "filesize": 7444,
+       "pixelHeight": "512",
+       "pixelWidth": "512",
+       "height": 512,
+       "width": 512
+      },
+      "searchLabel": "Search",
+      "searchTheSiteLabel": "Search the site",
+      "topMenuItems": [
+       "list of 5",
+       {
+        "title": "…",
+        "url": "…",
+        "subLinks": "…",
+        "manuallyPickedBadges": "…"
+       }
+      ],
+      "rightMenuItems": [
+       "list of 2",
+       {
+        "title": "…",
+        "url": "…",
+        "subLinks": "…",
+        "manuallyPickedBadges": "…"
+       }
+      ],
+      "socialLinks": [
+       "list of 5",
+       {
+        "title": "…",
+        "linkURL": "…",
+        "onClick": "…",
+        "image": "…"
+       }
+      ],
+      "languageCode": "en-ca",
+      "adLeaderboardHeaderID": "318290",
+      "topGlobalScripts": "<!-- Global site tag (gtag.js) - Google Analytics GA4 updated June 2023-->\r\n<scr"
+     },
+     "logo": {
+      "url": "https://cdn.hockeycanada.ca/hockey-canada/Template-Assets/Nav/hc_subsite_hdr_log"
+     },
+     "name": "2025-26 National Junior Team",
+     "nameHTML": null,
+     "doNotDisplayPageTitle": true,
+     "displayScoreboard": false,
+     "useKidsFont": false,
+     "teamEventKey": null,
+     "dynamicMenus": [
+      "list of 3",
+      [
+       "list of 1",
+       {
+        "title": "…",
+        "url": "…",
+        "subLinks": "…",
+        "manuallyPickedBadges": "…"
+       }
+      ]
+     ],
+     "backgroundImage": null,
+     "headerBackgroundImage": null,
+     "bodyBackgroundImage": null,
+     "headerBackgroundColour": "#000000",
+     "bodyBackgroundColour": null,
+     "headerBackgroundRepeat": false,
+     "showYear": false,
+     "seasons": null,
+     "baseURL": "/team-canada/men/junior/2025-26",
+     "referenceName": "",
+     "newsLink": null,
+     "browseByYearLabel": null,
+     "menuBackgroundColour": "#CC0000",
+     "menuEdgeColour": null,
+     "menuEdgeGradientPercentage": null,
+     "menuSeparatorColour": null,
+     "panelBackgroundColour": "#EEEEEE",
+     "menuFont": "Roboto Condensed",
+     "menuFontSize": "13px",
+     "menuFontWeight": "Normal",
+     "menuFontColour": "#FFFFFF",
+     "menuSelectedFont": null,
+     "menuSelectedFontSize": null,
+     "menuSelectedFontWeight": null,
+     "menuSelectedFontColour": null,
+     "menuDropdownFontColour": "#333333",
+     "includeJQuery": false,
+     "includeGoogleAdsJavaScript": false,
+     "pageTakeover": false,
+     "hasTextHomeLink": false,
+     "micrositeURL": "/team-canada/men/junior/2025-26",
+     "pageContentID": null,
+     "hoveredTopNavBackgroundColor": "#666666",
+     "hoveredPanelBackgroundColor": "#666666",
+     "hoveredTopNavFontColor": "#ffffff",
+     "hoveredPanelFontColor": "#ffffff",
+     "kidsMenuIcons": [],
+     "languageCode": "en-ca",
+     "searchLabel": "Search",
+     "searchTheSiteLabel": "Search the site",
+     "leaderboardHeaderAds": [
+      "list of 1",
+      {
+       "size": "ADLeaderboardHeader",
+       "documentbody": "<div id=\"div-gpt-ad-1482512683727-0\">\r\n<script type=\"text/javascript\">// <![CDAT",
+       "enabled": true,
+       "name": "HC_FullSite_CustomLeaderboard_Header_External_970_Max",
+       "adUnit": "var mastheader = googletag.sizeMapping().addSize([0, 0], [320, 50]).addSize([310"
+      }
+     ],
+     "leaderboardFooterAds": null,
+     "pageTakeoverData": null
+    },
+    "footer": {
+     "exploreHockeyCanadaLabel": "Community",
+     "aboutHockeyCanadaLabel": "About",
+     "quickLinksLabel": "Corporate",
+     "keepUpWithHockeyCanadaLabel": "Connect with Hockey Canada",
+     "newsletters": "<p style=\"text-align: center;\">&nbsp;<a href=\"/en-ca/news/insider\" target=\"_self",
+     "copyright": "&copy; Copyright 2026 Hockey Canada",
+     "copyrightColour": "",
+     "selectLanguageLabel": "Select Language",
+     "backgroundImage": {
+      "label": null,
+      "url": "https://cdn.hockeycanada.ca/hockey-canada/Template-Assets/Backgrounds/Footer/tex",
+      "target": null,
+      "filesize": 635,
+      "pixelHeight": "211",
+      "pixelWidth": "29",
+      "height": 211,
+      "width": 29
+     },
+     "backgroundColor": "#333333",
+     "copyrightBackgroundColor": "#000000",
+     "switchLanguageBackgroundColor": "#4b4c4e",
+     "exploreHockeyCanadaLinks": [
+      "list of 6",
+      {
+       "title": "Subscribe",
+       "url": {
+        "href": "…",
+        "target": "…",
+        "text": "…"
+       }
+      }
+     ],
+     "aboutHockeyCanadaLinks": [
+      "list of 6",
+      {
+       "title": "Our Mission",
+       "url": {
+        "href": "…",
+        "target": "…",
+        "text": "…"
+       }
+      }
+     ],
+     "quickLinks": [
+      "list of 5",
+      {
+       "title": "Annual Reporting",
+       "url": {
+        "href": "…",
+        "target": "…",
+        "text": "…"
+       }
+      }
+     ],
+     "socialLinks": [
+      "list of 6",
+      {
+       "title": "Facebook",
+       "linkURL": {
+        "href": "…",
+        "target": "…",
+        "text": "…"
+       },
+       "onClick": "_gaq.push(['_trackEvent', 'Social', 'Click', 'Facebook-HockeyCanada']);",
+       "image": {
+        "label": "…",
+        "url": "…",
+        "target": "…",
+        "filesize": "…",
+        "pixelHeight": "…",
+        "pixelWidth": "…",
+        "height": "…",
+        "width": "…"
+       }
+      }
+     ],
+     "adLeaderboardFooterID": "272132",
+     "leaderboardFooterAds": [
+      "list of 1",
+      {
+       "size": "ADLeaderboardFooter",
+       "documentbody": "<div id=\"div-gpt-ad-1517954084085-0\">\r\n<script type=\"text/javascript\">// <![CDAT",
+       "enabled": true,
+       "name": "HC_FullSite_CustomLeaderboard_Footer_External",
+       "adUnit": "var mastfooter = googletag.sizeMapping().addSize([0, 0], [320, 50]).addSize([310"
+      }
+     ],
+     "languageCode": "en-ca",
+     "leftLinks": [
+      "list of 1",
+      {
+       "title": "Privacy Policy",
+       "url": {
+        "href": "…",
+        "target": "…",
+        "text": "…"
+       }
+      }
+     ],
+     "rightLinks": [
+      "list of 1",
+      {
+       "title": "Copyright & Legal Disclaimer",
+       "url": {
+        "href": "…",
+        "target": "…",
+        "text": "…"
+       }
+      }
+     ]
+    }
+   },
+   "languageCode": "en-ca",
+   "channelName": "website",
+   "isPreview": false,
+   "isDevelopmentMode": false,
+   "notFound": false,
+   "gameId": "5447",
+   "gameData": {
+    "GameID": "5447",
+    "EventID": 7,
+    "SeasonID": 1047,
+    "TournamentID": 283,
+    "ExhibitionID": 1047,
+    "GameDetail": {
+     "id": 5447,
+     "homeTeam": {
+      "id": 169,
+      "name": "Sweden",
+      "abbr": "SWE",
+      "score": 3,
+      "logo": "https://assets.leaguestat.com/hockeycanada/logos/169.png"
+     },
+     "awayTeam": {
+      "id": 176,
+      "name": "Slovakia",
+      "abbr": "SVK",
+      "score": 2,
+      "logo": "https://assets.leaguestat.com/hockeycanada/logos/176.png"
+     },
+     "venue": "Grand Casino Arena",
+     "startDateTime": "December 26, 2025",
+     "startDateTimeDisplay": "12:00 pm CST",
+     "timezone": "America/Winnipeg",
+     "notes": "",
+     "scheduleNotes": "",
+     "ticketsUrl": "",
+     "currentPeriod": 3,
+     "shootout": false,
+     "overtimeGame": false,
+     "videoUrl": "https://www.tsn.ca/live/schedule",
+     "status": "completed",
+     "properties": {
+      "overtimeIntervals": 2,
+      "overtimeLength": 5,
+      "timeIntervals": [
+       "list of 3",
+       "20"
+      ]
+     },
+     "totalIntervalCount": 3,
+     "homeShotsOnGoal": [
+      "list of 3",
+      {
+       "period": "1",
+       "value": 0
+      }
+     ],
+     "awayShotsOnGoal": [
+      "list of 3",
+      {
+       "period": "1",
+       "value": 0
+      }
+     ],
+     "homeFaceoff": {
+      "attempt": 0,
+      "won": 0
+     },
+     "awayFaceoff": {
+      "attempt": 0,
+      "won": 0
+     },
+     "homePowerPlayGoals": 0,
+     "awayPowerPlayGoals": 0,
+     "homePowerPlayCount": 0,
+     "awayPowerPlayCount": 0,
+     "homePimTotal": 0,
+     "awayPimTotal": 0,
+     "scoringPlays": [
+      "list of 5",
+      {
+       "type": "goal",
+       "player": "",
+       "seconds": 0,
+       "timeInterval": 2,
+       "clockTimeString": "",
+       "details": "",
+       "strength": "",
+       "teamId": 169,
+       "completed": true,
+       "playSummary": {
+        "details": "…"
+       },
+       "playByPlayString": "Goal",
+       "playType": "Goal",
+       "playTime": null,
+       "actionDetails": "Goal:  ",
+       "awayTeamScore": 1,
+       "homeTeamScore": 2
+      }
+     ],
+     "homeGoalieStats": [],
+     "awayGoalieStats": [],
+     "scoringPlayTeams": [
+      "list of 2",
+      {
+       "id": 169,
+       "name": "Sweden",
+       "team": {
+        "abbrev": "…"
+       }
+      }
+     ],
+     "quickScoreId": "1",
+     "quickScoreOvertime": false,
+     "quickScoreShootout": false,
+     "quickScoreForReal": true,
+     "homeShootout": false,
+     "visitorShootout": false,
+     "homeSkaterStats": [
+      "list of 1",
+      {
+       "id": 0,
+       "name": "",
+       "jerseyNumber": null,
+       "position": "",
+       "teamId": 169,
+       "teamAbbr": "SWE",
+       "goals": 3,
+       "assists": 0,
+       "points": 3,
+       "pim": 0,
+       "ppg": 0,
+       "shots": 0,
+       "plusMinus": 0
+      }
+     ],
+     "awaySkaterStats": [
+      "list of 1",
+      {
+       "id": 0,
+       "name": "",
+       "jerseyNumber": null,
+       "position": "",
+       "teamId": 176,
+       "teamAbbr": "SVK",
+       "goals": 2,
+       "assists": 0,
+       "points": 2,
+       "pim": 0,
+       "ppg": 0,
+       "shots": 0,
+       "plusMinus": 0
+      }
+     ],
+     "homeScratches": [],
+     "awayScratches": [
+      "list of 25",
+      {
+       "id": 20137,
+       "name": "Filip Kovalcik",
+       "jerseyNumber": "5",
+       "position": "D",
+       "teamId": 176,
+       "teamAbbr": "SVK",
+       "goals": null,
+       "assists": null,
+       "points": null,
+       "pim": null,
+       "ppg": null,
+       "shots": null,
+       "plusMinus": null,
+       "isScratch": true
+      }
+     ],
+     "startDateTimeISO": "2025-12-26T12:00:00-06:00",
+     "round": "Preliminary",
+     "gameNumber": "1",
+     "location": "Grand Casino Arena<br/>Saint Paul, MN"
+    },
+    "GameSummary": null,
+    "StatLeaders": {
+     "goaliesGaa": [],
+     "goaliesSvPct": [],
+     "hockeySkatersAssists": [],
+     "hockeySkatersGoals": [],
+     "hockeySkatersPoints": []
+    },
+    "ShowLiveBlogLink": false,
+    "AwayGames": [
+     "list of 3",
+     {
+      "id": 5471,
+      "gameNumber": "25",
+      "round": "Quarterfinal",
+      "status": "completed",
+      "gameStatusLabel": null,
+      "home": {
+       "id": 175,
+       "name": "Canada",
+       "abbr": "CAN",
+       "score": 7,
+       "logo": "https://assets.leaguestat.com/hockeycanada/logos/175.png"
+      },
+      "away": {
+       "id": 176,
+       "name": "Slovakia",
+       "abbr": "SVK",
+       "score": 1,
+       "logo": "https://assets.leaguestat.com/hockeycanada/logos/176.png"
+      },
+      "periods": "3",
+      "shootout": false,
+      "overtime": false,
+      "totalIntervalCount": 3,
+      "startDateTime": "2026-01-02T19:30:00-06:00",
+      "startDateTimeDisplay": "7:30 pm CST",
+      "venue": "Minneapolis, MN",
+      "ticketsUrl": "",
+      "videoUrl": "https://www.tsn.ca/live/schedule",
+      "ifNecessary": "0",
+      "seasonId": 1049
+     }
+    ],
+    "HomeGames": [
+     "list of 3",
+     {
+      "id": 5475,
+      "gameNumber": "29",
+      "round": "Gold",
+      "status": "completed",
+      "gameStatusLabel": null,
+      "home": {
+       "id": 169,
+       "name": "Sweden",
+       "abbr": "SWE",
+       "score": 4,
+       "logo": "https://assets.leaguestat.com/hockeycanada/logos/169.png"
+      },
+      "away": {
+       "id": 170,
+       "name": "Czechia",
+       "abbr": "CZE",
+       "score": 2,
+       "logo": "https://assets.leaguestat.com/hockeycanada/logos/170.png"
+      },
+      "periods": "3",
+      "shootout": false,
+      "overtime": false,
+      "totalIntervalCount": 3,
+      "startDateTime": "2026-01-05T19:30:00-06:00",
+      "startDateTimeDisplay": "7:30 pm CST",
+      "venue": "Saint Paul, MN",
+      "ticketsUrl": "",
+      "videoUrl": "https://www.tsn.ca/live/schedule",
+      "ifNecessary": "0",
+      "seasonId": 1052
+     }
+    ],
+    "Teams": [],
+    "QuickScoreForReal": true,
+    "OvertimeGame": false,
+    "Shootout": false,
+    "HomeShootout": false,
+    "VisitorShootout": false,
+    "TotalPeriods": 3,
+    "Plays": [
+     "list of 5",
+     {
+      "type": "goal",
+      "player": "",
+      "seconds": 0,
+      "timeInterval": 2,
+      "clockTimeString": "",
+      "details": "",
+      "strength": "",
+      "teamId": 169,
+      "completed": true,
+      "playSummary": {
+       "details": ""
+      },
+      "playByPlayString": "Goal",
+      "playType": "Goal",
+      "playTime": null,
+      "actionDetails": "Goal:  ",
+      "awayTeamScore": 1,
+      "homeTeamScore": 2
+     }
+    ],
+    "Period1Away": 0,
+    "Period2Away": 1,
+    "Period3Away": 1,
+    "Period4Away": 0,
+    "Period5Away": 0,
+    "Period1Home": 0,
+    "Period2Home": 2,
+    "Period3Home": 1,
+    "Period4Home": 0,
+    "Period5Home": 0
+   },
+   "tournamentToggle": null,
+   "teamId": null,
+   "teamDataTournament": null,
+   "liveBlogGameId": null,
+   "playerId": null,
+   "playerDataTournament": null
+  },
+  "games": {},
+  "players": {
+   ".props.pageProps.gameData.GameDetail.homeSkaterStats": {
+    "count": 1,
+    "samples": [
+     {
+      "id": 0,
+      "name": "",
+      "jerseyNumber": null,
+      "position": "",
+      "teamId": 169,
+      "teamAbbr": "SWE",
+      "goals": 3,
+      "assists": 0,
+      "points": 3,
+      "pim": 0,
+      "ppg": 0,
+      "shots": 0,
+      "plusMinus": 0
+     }
+    ]
+   },
+   ".props.pageProps.gameData.GameDetail.awaySkaterStats": {
+    "count": 1,
+    "samples": [
+     {
+      "id": 0,
+      "name": "",
+      "jerseyNumber": null,
+      "position": "",
+      "teamId": 176,
+      "teamAbbr": "SVK",
+      "goals": 2,
+      "assists": 0,
+      "points": 2,
+      "pim": 0,
+      "ppg": 0,
+      "shots": 0,
+      "plusMinus": 0
+     }
+    ]
+   },
+   ".props.pageProps.gameData.GameDetail.awayScratches": {
+    "count": 25,
+    "samples": [
+     {
+      "id": 20137,
+      "name": "Filip Kovalcik",
+      "jerseyNumber": "5",
+      "position": "D",
+      "teamId": 176,
+      "teamAbbr": "SVK",
+      "goals": null,
+      "assists": null,
+      "points": null,
+      "pim": null,
+      "ppg": null,
+      "shots": null,
+      "plusMinus": null,
+      "isScratch": true
+     },
+     {
+      "id": 20893,
+      "name": "Michal Capos",
+      "jerseyNumber": "6",
+      "position": "D",
+      "teamId": 176,
+      "teamAbbr": "SVK",
+      "goals": null,
+      "assists": null,
+      "points": null,
+      "pim": null,
+      "ppg": null,
+      "shots": null,
+      "plusMinus": null,
+      "isScratch": true
+     },
+     {
+      "id": 20890,
+      "name": "Adam Kalman",
+      "jerseyNumber": "7",
+      "position": "D",
+      "teamId": 176,
+      "teamAbbr": "SVK",
+      "goals": null,
+      "assists": null,
+      "points": null,
+      "pim": null,
+      "ppg": null,
+      "shots": null,
+      "plusMinus": null,
+      "isScratch": true
+     }
+    ]
+   }
+  },
+  "addresses": [
+   "http://abuse-free-sport.ca/en/",
+   "http://instagram.com/hockeycanada",
+   "http://www.facebook.com/HockeyCanada",
+   "http://www.instagram.com/HockeyCanada",
+   "http://www.linkedin.com/company/hockey-canada/",
+   "http://www.twitter.com/HockeyCanada",
+   "http://www.youtube.com/hockeycanadavideos",
+   "https://assets.leaguestat.com/hockeycanada/logos/168.png",
+   "https://assets.leaguestat.com/hockeycanada/logos/169.png",
+   "https://assets.leaguestat.com/hockeycanada/logos/170.png",
+   "https://assets.leaguestat.com/hockeycanada/logos/172.png",
+   "https://assets.leaguestat.com/hockeycanada/logos/174.png",
+   "https://assets.leaguestat.com/hockeycanada/logos/175.png",
+   "https://assets.leaguestat.com/hockeycanada/logos/176.png",
+   "https://assets.leaguestat.com/hockeycanada/logos/177.png",
+   "https://beyondtheboardssummit.ca/",
+   "https://cdn.hockeycanada.ca/hockey-canada/Attachments/NewItems/logoLarge_20221122063258_0.png",
+   "https://cdn.hockeycanada.ca/hockey-canada/Attachments/NewItems/searchIcon_20221122064053_0.png",
+   "https://cdn.hockeycanada.ca/hockey-canada/Logos/newlogo.png",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3546/2021-wjc-dec-27-can-svk-04.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3547/2021-wjc-dec-29-can-sui-08.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3548/2021-wjc-dec-31-can-fin-04.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3549/2021-wjc-jan-02-can-cze-16.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3550/2021-wjc-jan-04-can-rus-12.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3551/2021-wjc-jan-05-can-usa-12.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3552/team-canada-action-18.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3553/behind-the-scenes-36.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3554/around-the-rink-30.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3597/2021-22-njt-july-31-red-wht-14.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3599/2021-22-njt-aug-01-red-wht-11.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3605/2021-njt-nmu18-aug-03-robi-will-12.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3607/2021-22-njt-nmu18t-aug-03-cam-dyck-01.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3645/2022-njt-dec-11-can-usports-12.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3647/2022-njt-dec-12-can-usports-05.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3652/janes-all-in-masks-2022-01.JPG",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3743/2021-22-njt-aug-8-can-swe-02.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3744/2022-wjc-aug-10-can-lat-12.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3745/2022-wjc-aug-11-can-svk-17.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3746/2022-wjc-aug-15-can-fin-10.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3751/2022-wjc-aug-20-can-fin-07.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3815/2023-wjc-dec-19-can-sui-16.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3817/2023-wjc-dec-21-can-svk-08.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3819/2023-wjc-dec-26-can-cze-09.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3821/2023-wjc-dec-28-can-ger-04.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3823/2023-wjc-dec-29-can-aus-16.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3824/2023-wjc-dec-31-can-swe-15.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3825/2023-wjc-jan-02-can-svk-16.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3826/2023-wjc-jan-04-can-usa-10.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3827/2023-wjc-jan-05-can-cze-14.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/3925/2024-WJC-Dec",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4057/2024-can-usports-08.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4059/2024-can-usports-01.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4060/2024-can-sui-01.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4061/2024-can-swe-01.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4062/2024-can-cze-15.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4063/2025-can-fin-10.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4066/2025-can-lat-12.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4067/2025-can-ger-12.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4068/2025-can-usa-02.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4073/2025-can-cze-02.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4206/2025-wjc-dec-17th-02.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4207/2025-wjc-dec-20th-16.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4211/2026-wjc-can-cze-dec-26-11.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4212/2026-wjc-can-lat-dec-27-02.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4213/2026-wjc-can-den-dec-29-07.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4214/2026-wjc-can-fin-dec-31-05.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4216/2026-wjc-can-svk-jan-02-04.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/MediaGroupings/4217/2026-wjc-can-cze-jan-04-07.jpg",
+   "https://cdn.hockeycanada.ca/hockey-canada/Social-Media/Icons/facebook-white-logo-30x30.png",
+   "https://cdn.hockeycanada.ca/hockey-canada/Social-Media/Icons/facebook-white-logo-65x65.png",
+   "https://cdn.hockeycanada.ca/hockey-canada/Social-Media/Icons/instagram-white-logo-30x30.png",
+   "https://cdn.hockeycanada.ca/hockey-canada/Social-Media/Icons/instagram-white-logo-65x65.png",
+   "https://cdn.hockeycanada.ca/hockey-canada/Social-Media/Icons/linkedin-white-logo-30x30.png",
+   "https://cdn.hockeycanada.ca/hockey-canada/Social-Media/Icons/tiktok-white-logo-30x30.png",
+   "https://cdn.hockeycanada.ca/hockey-canada/Social-Media/Icons/tiktok-white-logo-65x65.png",
+   "https://cdn.hockeycanada.ca/hockey-canada/Social-Media/Icons/x-white-logo-30x30.png",
+   "https://cdn.hockeycanada.ca/hockey-canada/Social-Media/Icons/x-white-logo-65x65.png",
+   "https://cdn.hockeycanada.ca/hockey-canada/Social-Media/Icons/youtube-white-logo-30x30.png",
+   "https://cdn.hockeycanada.ca/hockey-canada/Social-Media/Icons/youtube-white-logo-65x65.png",
+   "https://cdn.hockeycanada.ca/hockey-canada/Team-Canada/Men/Junior/2026/2026-wjc-canada-bronze.jpg"
+  ],
+  "gameLinks": [
+   "/en-ca/hockey-programs/game-change",
+   "https://lscluster.hockeytech.com/game_reports/official-game-report.php?client_code=hockeycanada&amp;game_id=5447&amp;lang_id=1",
+   "https://www.hockeycanada.ca/en-ca/team-canada/men/junior/2025-26/world-championship/stats/game-summary",
+   "https://www.hockeycanada.ca/fr-ca/team-canada/men/junior/2025-26/world-championship/stats/game-summary"
+  ]
  }
 }
