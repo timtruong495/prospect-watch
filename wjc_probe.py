@@ -1,111 +1,99 @@
-"""One-time test, round 2: look inside Hockey Canada's World Juniors pages.
+"""One-time test, round 3: save real copies of World Juniors data.
 
-Round 1 found that hockeycanada.ca serves the pages (status 200) with the data
-built into each page (a Next.js "__NEXT_DATA__" block), and that iihf.com
-refuses automated requests (403). This round records the shape of that built-in
-data, sample game and player records, and links to game pages. iihf.com is
-not tried again: it turns away automated requests, so it is not a source.
+Rounds 1 and 2 found that hockeycanada.ca pages carry the whole tournament
+(schedule, scores, player stats) as built-in data, with full box scores only
+for Canada's games. This round saves trimmed copies of that data from last
+year's tournament (plus this year's schedule) into wjc_samples/, along with
+the HockeyTech official game report for one non-Canada game, so the World
+Juniors tab can be built and tested against real data.
 
 Run by the "World Juniors data test" workflow (Actions tab, run by hand).
-Writes wjc_probe.json. Python standard library only. Delete this file and its
-workflow once the data source is settled.
+Python standard library only. Delete this file, its workflow and wjc_samples/
+once the World Juniors tab is finished.
 """
-import json, pathlib, re, urllib.parse, urllib.request
+import json, pathlib, re, urllib.request
 
 ROOT = pathlib.Path(__file__).parent
-BASE = "https://www.hockeycanada.ca/en-ca/team-canada/men/junior/{season}/world-championship/{page}"
-PAGES = {
-    "hc.2026.schedule": ("2025-26", "stats/schedule"),
-    "hc.2026.playerstats": ("2025-26", "stats/player-stats"),
-    "hc.2026.standings": ("2025-26", "stats/standings"),
-    "hc.2027.schedule": ("2026-27", "stats/schedule"),
-}
+OUT = ROOT / "wjc_samples"
+SITE = "https://www.hockeycanada.ca"
+PAGE = SITE + "/en-ca/team-canada/men/junior/{season}/world-championship/stats/{page}"
+REPORT = "https://lscluster.hockeytech.com/game_reports/official-game-report.php?client_code=hockeycanada&game_id={}&lang_id=1"
 UA = "Mozilla/5.0 (compatible; prospect-watch; +https://github.com/timtruong495/prospect-watch)"
-GAMEY = {"gameid", "game_id", "homegoals", "homescore", "home_goal_count", "visitorgoals", "awayscore", "hometeam", "visitingteam", "awayteam"}
-PLAYERY = {"playerid", "player_id", "goals", "assists", "points", "firstname", "first_name", "jersey"}
+LOG = {}
 
 
-def get(url, accept="text/html,*/*"):
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": accept, "Accept-Language": "en-CA,en;q=0.9"})
+def get(url):
+    req = urllib.request.Request(url, headers={"User-Agent": UA})
     try:
         with urllib.request.urlopen(req, timeout=30) as r:
-            return r.status, r.read().decode("utf-8", "replace")
-    except urllib.error.HTTPError as e:
-        return e.code, ""
+            body = r.read().decode("utf-8", "replace")
+            LOG[url] = {"status": r.status, "length": len(body)}
+            return body
     except Exception as e:
-        return 0, type(e).__name__ + ": " + str(e)[:200]
-
-
-def shape(o, depth=0, maxd=7):
-    """Keys tree with sample values; lists show their length and first item."""
-    if depth >= maxd:
-        return "…"
-    if isinstance(o, dict):
-        return {k: shape(v, depth + 1, maxd) for k, v in list(o.items())[:60]}
-    if isinstance(o, list):
-        return [f"list of {len(o)}", shape(o[0], depth + 1, maxd)] if o else []
-    if isinstance(o, str):
-        return o[:80]
-    return o
-
-
-def find(o, wanted, path="", out=None, limit=4):
-    """Paths of lists whose items look like games or players, with samples."""
-    out = {} if out is None else out
-    if isinstance(o, dict):
-        for k, v in o.items():
-            find(v, wanted, path + "." + k, out, limit)
-    elif isinstance(o, list):
-        if o and isinstance(o[0], dict) and len({k.lower() for k in o[0]} & wanted) >= 2 and path not in out:
-            out[path] = {"count": len(o), "samples": o[:limit]}
-        for i, v in enumerate(o[:3]):
-            find(v, wanted, path + f"[{i}]", out, limit)
-    return out
+        LOG[url] = {"status": getattr(e, "code", 0), "error": str(e)[:200]}
+        return ""
 
 
 def next_data(body):
     m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', body, re.S)
-    if not m:
-        return None
     try:
-        return json.loads(m.group(1))
+        return json.loads(m.group(1)) if m else None
     except ValueError:
         return None
 
 
-def look(url):
-    status, body = get(url)
-    nd = next_data(body)
-    entry = {"url": url, "status": status, "length": len(body), "hasNextData": nd is not None}
-    if nd:
-        entry["buildId"] = nd.get("buildId")
-        entry["shape"] = shape(nd.get("props", {}).get("pageProps", {}), maxd=6)
-        entry["games"] = find(nd, GAMEY)
-        entry["players"] = find(nd, PLAYERY, limit=3)
-        # other data addresses mentioned inside the data (feeds the page may call later)
-        entry["addresses"] = sorted(set(re.findall(r"https?://[^\"'\s<>\\]+", json.dumps(nd))))[:80]
-    entry["gameLinks"] = sorted(set(re.findall(r'href="([^"]*game[^"]*)"', body, re.I)))[:30]
-    return entry, nd
+def first(o, key):
+    """First value stored under key, at any depth."""
+    if isinstance(o, dict):
+        if key in o:
+            return o[key]
+        o = list(o.values())
+    if isinstance(o, list):
+        for v in o:
+            r = first(v, key)
+            if r is not None:
+                return r
+    return None
+
+
+def save(name, data):
+    OUT.mkdir(exist_ok=True)
+    text = data if isinstance(data, str) else json.dumps(data, indent=1, ensure_ascii=False)
+    (OUT / name).write_text(text, encoding="utf-8")
+
+
+def skaters(game):
+    gd = (game or {}).get("GameDetail") or {}
+    return [p for p in (gd.get("homeSkaterStats") or []) + (gd.get("awaySkaterStats") or []) if p.get("name")]
 
 
 def main():
-    probe = {}
-    for label, (season, page) in PAGES.items():
-        entry, nd = look(BASE.format(season=season, page=page))
-        probe[label] = entry
-        # the same data as plain JSON (Next.js data address), if it answers
-        if nd and nd.get("buildId"):
-            slug = "/".join(nd.get("query", {}).get("slug", []))
-            jurl = f"https://www.hockeycanada.ca/_next/data/{nd['buildId']}/en-ca/{slug}.json"
-            st, body = get(jurl, "application/json")
-            entry["jsonAddress"] = {"url": jurl, "status": st, "length": len(body)}
-    # follow the first game link from last year's schedule (a single game page)
-    links = [l for l in probe["hc.2026.schedule"].get("gameLinks", []) if re.search(r"\d{4,}", l)]
-    if links:
-        url = urllib.parse.urljoin(BASE.format(season="2025-26", page="stats/schedule"), links[0])
-        probe["hc.2026.game"], _ = look(url)
-    (ROOT / "wjc_probe.json").write_text(json.dumps(probe, indent=1, ensure_ascii=False), encoding="utf-8")
-    print(json.dumps({k: v.get("status") for k, v in probe.items()}, indent=1))
+    links = []
+    for season, tag in (("2025-26", "2026"), ("2026-27", "2027")):
+        for page in ("schedule", "player-stats"):
+            body = get(PAGE.format(season=season, page=page))
+            nd = next_data(body)
+            mt = first(nd, "modelTournament") if nd else None
+            if mt is not None:
+                save(f"{tag}-{page}.json", mt)
+            if page == "schedule" and tag == "2026":
+                links = sorted(set(re.findall(r'/stats/game-summary/(\d+)', body)))
+    # single-game pages: one Canada game (full box score) and one other game
+    picked = {}
+    for gid in links[:16]:
+        gd = first(next_data(get(PAGE.format(season="2025-26", page="game-summary/" + gid))), "gameData")
+        if not gd:
+            continue
+        kind = "canada" if skaters(gd) else "other"
+        if kind not in picked:
+            picked[kind] = gid
+            save(f"2026-game-{kind}-{gid}.json", gd)
+        if len(picked) == 2:
+            break
+    if "other" in picked:
+        save(f"2026-report-{picked['other']}.html", get(REPORT.format(picked["other"])))
+    save("log.json", {"picked": picked, "requests": LOG})
+    print(json.dumps({"picked": picked, "files": sorted(p.name for p in OUT.iterdir())}, indent=1))
 
 
 if __name__ == "__main__":
