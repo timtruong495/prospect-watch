@@ -15,6 +15,16 @@ and box-score pages instead. It knows Boston University, Michigan, Michigan Stat
 For a player at another school, add `"ids": {"chnTeam": "School-Name/NN"}` to the player, taken
 from the school's schedule address on collegehockeynews.com (`/schedules/team/School-Name/NN`).
 
+## Calendar feeds
+
+Each tab (Canucks prospects, Other players, Teams) has its own calendar file that phones can
+subscribe to: `canucks-prospects.ics`, `other-players.ics` and `teams.ics`. `update.py` rewrites
+them at every update, next to `data.json`. Each game is one event, 2.5 hours long (all day when
+there's no start time yet). After a game the score goes in the title and stat lines in the notes.
+They cover the last 30 days and the rest of the season, plus World Juniors games with your
+players. The "Subscribe in your calendar" link at the bottom of each tab has the iPhone and
+Google Calendar steps. Players added to `follow.json` show up in the calendar at the next update.
+
 ## World Juniors (Dec 26 to Jan 5)
 
 From Dec 1 to Jan 12 the page has a World Juniors tab: the whole tournament schedule, scores and

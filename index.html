@@ -150,6 +150,16 @@ button.lgf[aria-pressed="true"]{background:var(--lc);border-color:var(--lc);colo
 .stand tr.mine th[scope=row]{color:var(--accent)}
 .sheet .bar h2{margin-right:auto}
 .foot ul{margin:6px 0 0;padding-left:18px}
+/* calendar subscription */
+.cal{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px;font-size:.88rem;color:var(--ink)}
+.cal summary{font-weight:600;color:var(--accent)}
+.cal p{margin:10px 0 0}
+.cal ol{margin:6px 0 0;padding-left:20px;display:flex;flex-direction:column;gap:3px}
+.cal h3{margin:14px 0 0;font-size:.9rem}
+.cal .primary{display:inline-block;text-decoration:none;margin-top:10px}
+.copyrow{display:flex;gap:8px;margin-top:8px}
+.copyrow input{flex:1 1 auto;font-size:.8rem}
+.copyrow button{background:var(--surface);border:1.5px solid var(--line);border-radius:7px;padding:6px 12px;font-weight:600;font-size:.85rem;white-space:nowrap}
 </style>
 <main id="app" class="wrap"></main>
 <script id="page-script">
@@ -520,12 +530,34 @@ function render(){
       <span class="hint">${total} game${total===1?"":"s"}</span>
     </div>
     <div class="sheet">${days || `<div class="empty">${results ? "No results yet. Scores are added at each update." : "No games in this range."}</div>`}</div>
+    ${calHtml()}
     <footer class="foot">
       <span>Last updated ${esc(updatedTxt())}. Schedules, scores and stats come from each league's own data.</span>
       ${warns.length ? `<details><summary>${warns.length} item${warns.length === 1 ? "" : "s"} couldn't be updated last time</summary><ul>${warns.map(w => `<li>${esc(w)}</li>`).join("")}</ul></details>` : ""}
     </footer>`;
 }
 
+/* "Subscribe in your calendar": one calendar file per tab, written by update.py next to data.json */
+let calOpen = false;
+document.addEventListener("toggle", e => { if(e.target.classList && e.target.classList.contains("cal")) calOpen = e.target.open; }, true);
+const CAL_FILES = {prospects: ["canucks-prospects.ics", "Canucks prospects"], others: ["other-players.ics", "Other players"], teams: ["teams.ics", "Vancouver teams"]};
+function calHtml(){
+  const f = CAL_FILES[view];
+  if(!f) return "";
+  const https = new URL(f[0], location.href).href.replace(/^http:/, "https:");
+  const webcal = https.replace(/^https:/, "webcal:");
+  const what = view === "teams" ? "Canucks, Abbotsford and Giants games" : "games for every player on this tab";
+  return `<details class="cal"${calOpen ? " open" : ""}><summary>Subscribe in your calendar</summary>
+    <p>Adds ${what} to your calendar and keeps them up to date. After each game the score goes in the title and stat lines go in the notes. Covers the last 30 days and the rest of the season${view === "teams" ? "" : ", plus World Juniors games"}. No alerts.</p>
+    <h3>iPhone or iPad</h3>
+    <ol><li>On the iPhone, tap the button below.</li><li>Tap <b>Subscribe</b>, then <b>Add</b>.</li></ol>
+    <a class="primary" href="${esc(webcal)}">Add to iPhone calendar</a>
+    <h3>Google Calendar</h3>
+    <ol><li>On a computer, go to calendar.google.com.</li><li>Next to <b>Other calendars</b>, click <b>+</b>, then <b>From URL</b>.</li><li>Paste the address below and click <b>Add calendar</b>.</li></ol>
+    <p>It then shows up in the Google Calendar app on your phone too. Google checks for changes every few hours, so scores can show up there later than on this page.</p>
+    <div class="copyrow"><input type="text" readonly value="${esc(https)}" aria-label="Calendar address" data-caladdr><button type="button" data-copycal>Copy</button></div>
+  </details>`;
+}
 function addDays(iso, n){ const d = new Date(iso + "T00:00:00Z"); d.setUTCDate(d.getUTCDate() + n); return d.toISOString().slice(0,10); }
 document.addEventListener("click", e => {
   const card = e.target.closest("[data-pid]");
@@ -544,6 +576,13 @@ document.addEventListener("click", e => {
   const wp = e.target.closest("[data-wpid]");
   if(wp){ const id = wp.dataset.wpid, cur = prefs.wsel || []; prefs.wsel = cur.includes(id) ? cur.filter(x => x !== id) : [...cur, id]; savePrefs(); render(); return; }
   if(e.target.closest("[data-wclear]")){ prefs.wsel = []; savePrefs(); render(); return; }
+  const cp = e.target.closest("[data-copycal]");
+  if(cp){
+    const inp = $("[data-caladdr]"), done = () => { cp.textContent = "Copied"; setTimeout(() => { cp.textContent = "Copy"; }, 2000); };
+    if(navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(inp.value).then(done, () => { inp.select(); });
+    else inp.select();
+    return;
+  }
   const tg = e.target.closest("[data-tag]");
   if(tg){ const t = tg.dataset.tag; prefs.tags = Object.assign({}, prefs.tags, {[view]: tagSel() === t ? null : t}); savePrefs(); render(); return; }
 });

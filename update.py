@@ -3,13 +3,15 @@
 
 Reads follow.json (who to follow), pulls schedules, scores, player game lines,
 season stats and standings from the NHL and HockeyTech (AHL/OHL/WHL) feeds, and
-writes data.json for the page. Leagues it can't read yet (NCAA) keep whatever
+writes data.json for the page, plus one calendar (.ics) file per tab. Leagues it can't read yet (NCAA) keep whatever
 is already in data.json. From Dec 1 to Jan 12 it also reads the World Juniors
 from Hockey Canada (plus wjc_lines.json). Standard library only.
 
   python update.py            normal run
   python update.py --probe    also write probe.json (the shape of every feed
                               response) to help fix field names
+  python update.py --calendars  only rebuild the calendar (.ics) files from
+                              the current data.json, without downloading
 """
 import datetime as dt, html, json, pathlib, re, sys, time, unicodedata, urllib.parse, urllib.request
 from zoneinfo import ZoneInfo
@@ -690,6 +692,238 @@ def wjc_update(year, follow, old_wjc, manual):
             "found": found, "games": games, "groups": wjc_standings(games), "missing": missing}
 
 
+# ---------- Calendar feeds (.ics) ----------
+# One calendar file per tab, next to data.json, for subscribing in a phone's
+# calendar (webcal). One event per game, 2.5 hours long (all day when there's
+# no time yet), from 30 days ago to the end of the season. After a game the
+# score goes in the title and the stat lines in the notes. Event ids (UID)
+# stay the same from run to run, so a calendar app replaces events instead
+# of adding copies. No alerts.
+SITE = "https://timtruong495.github.io/prospect-watch/"
+CALENDARS = (  # file, title, page tab, which players ("teams" = the followed teams)
+    ("canucks-prospects.ics", "Canucks prospects", "prospects", "canucks"),
+    ("other-players.ics", "Other players", "others", "other"),
+    ("teams.ics", "Vancouver teams", "teams", "teams"),
+)
+CAL_DAYS_BACK = 30
+CAL_LENGTH = dt.timedelta(minutes=150)
+
+
+def last_name(name):
+    parts = name.split()
+    while len(parts) > 1 and parts[-1].rstrip(".").lower() in ("jr", "sr", "ii", "iii", "iv"):
+        parts.pop()
+    return parts[-1] if parts else name
+
+
+def team_labels(teams, follow):
+    """Short team names for event titles: 'Petes', 'Canucks', 'Michigan State'."""
+    out = {}
+    for k, t in teams.items():
+        if t.get("league") == "NCAA":
+            slug = next(((p.get("ids") or {}).get("chnTeam") for p in follow.get("players", [])
+                         if p.get("teamKey") == k and (p.get("ids") or {}).get("chnTeam")), None) \
+                or CHN_TEAMS.get(norm(t["name"]))
+            out[k] = slug.split("/")[0].replace("-", " ") if slug else t["name"]
+        else:
+            out[k] = t["name"].split()[-1]
+    # two teams with the same nickname (Vancouver and Abbotsford Canucks): the NHL team keeps it,
+    # the others go by their city
+    for k, t in teams.items():
+        if t.get("league") != "NHL" and list(out.values()).count(out[k]) > 1 and " " in t["name"]:
+            out[k] = t["name"].rsplit(" ", 1)[0]
+    return out
+
+
+def score_txt(s):
+    """'W 4–2 OT' for the team named first."""
+    return "%s %s–%s%s" % (s.get("res", ""), s.get("f"), s.get("a"), " " + s["ot"] if s.get("ot") else "")
+
+
+def line_txt(l):
+    """A player's stat line for the event notes."""
+    if l.get("dnp"):
+        return "did not play" + (" (backup goalie)" if l.get("why") == "backup" else " (%s)" % l["why"] if l.get("why") else "")
+    parts = []
+    if l.get("sv") is not None or l.get("ga") is not None:
+        sv, ga = l.get("sv"), l.get("ga")
+        if sv is not None:
+            parts.append("%s saves" % sv)
+        if ga is not None:
+            parts.append("%s GA" % ga)
+        if sv is not None and ga is not None and sv + ga:
+            parts.append(("%.3f" % (sv / (sv + ga))).lstrip("0") + " SV%")
+        if l.get("dec"):
+            parts.append({"W": "win", "L": "loss", "O": "OT loss", "OTL": "OT loss"}.get(l["dec"], l["dec"]))
+    else:
+        g_, a_ = l.get("g"), l.get("a")
+        pts = l.get("pts") if l.get("pts") is not None else (g_ or 0) + (a_ or 0)
+        parts.append("%s G, %s A, %s PTS" % (g_ or 0, a_ or 0, pts))
+        if l.get("pm") is not None:
+            parts.append("%s%s" % ("+" if l["pm"] > 0 else "", l["pm"]))
+        if l.get("sog") is not None:
+            parts.append("%s SOG" % l["sog"])
+        if l.get("pim"):
+            parts.append("%s PIM" % l["pim"])
+    return ", ".join(parts) + (" (from news reports)" if l.get("via") else "")
+
+
+def ics_text(s):
+    return str(s).replace("\\", "\\\\").replace(";", "\\;").replace(",", "\\,").replace("\n", "\\n")
+
+
+def ics_fold(line):
+    """Split a line into 75-byte pieces (calendar file rule), never inside a character."""
+    out, cur = [], ""
+    for ch in line:
+        if len((cur + ch).encode("utf-8")) > (75 if not out else 74):
+            out.append(cur)
+            cur = ""
+        cur += ch
+    out.append(cur)
+    return "\r\n ".join(out)
+
+
+def ics_event(uid, stamp, d, t, title, notes, url=None, location=None):
+    if t:
+        start = dt.datetime.fromisoformat("%sT%s" % (d, t)).replace(tzinfo=BC).astimezone(dt.timezone.utc)
+        when = ["DTSTART:" + start.strftime("%Y%m%dT%H%M%SZ"),
+                "DTEND:" + (start + CAL_LENGTH).strftime("%Y%m%dT%H%M%SZ")]
+    else:
+        day = dt.date.fromisoformat(d)
+        when = ["DTSTART;VALUE=DATE:" + day.strftime("%Y%m%d"),
+                "DTEND;VALUE=DATE:" + (day + dt.timedelta(days=1)).strftime("%Y%m%d")]
+    lines = ["BEGIN:VEVENT", "UID:" + uid, "DTSTAMP:" + stamp] + when + [
+        "SUMMARY:" + ics_text(title), "DESCRIPTION:" + ics_text("\n".join(notes)), "TRANSP:TRANSPARENT"]
+    if location:
+        lines.append("LOCATION:" + ics_text(location))
+    if url:
+        lines.append("URL:" + url)
+    return lines + ["END:VEVENT"]
+
+
+def club_events(data, labels, which, tab, start, stamp, cal):
+    """Events for the players' (or followed teams') club games."""
+    teams, is_teams = data["teams"], which == "teams"
+    plist = [p for p in data["players"] if (p.get("list") or "canucks") == which] if not is_teams else []
+    on_team = {}
+    for p in plist:
+        on_team.setdefault(p["team"], []).append(p)
+    keys = {k for k, t in teams.items() if t.get("followed")} if is_teams else set(on_team)
+    norm_label = {norm(labels[k]): k for k in keys}
+    groups = {}  # one entry per game, even when two followed teams play each other
+    for gm in data["games"]:
+        if gm["team"] not in keys or not gm.get("d") or gm["d"] < start:
+            continue
+        lg = (teams.get(gm["team"]) or {}).get("league", "")
+        if lg == "NCAA":  # college game ids change once the box score is up: match by day and schools
+            other = norm_label.get(norm(gm.get("opp")))
+            key = ("ncaa", gm["d"]) + tuple(sorted({gm["team"], other} - {None}))
+        else:
+            key = (lg.lower(), gm["gid"])
+        groups.setdefault(key, []).append(gm)
+    events, used = [], set()
+    for key, gms in groups.items():
+        main = next((gm for gm in gms if gm.get("home") is False), gms[0])
+        ts = [main["team"]] + [gm["team"] for gm in gms if gm["team"] != main["team"]]
+        lg = (teams.get(main["team"]) or {}).get("league", "")
+        title = "%s %s %s" % (labels[main["team"]], "@" if main.get("home") is False else "vs", main.get("opp"))
+        if main.get("ex"):
+            title += " (exhibition)"
+        if not is_teams:
+            title += " · " + ", ".join(last_name(p["name"]) for k in ts for p in on_team.get(k, []))
+        notes = []
+        if main.get("score"):
+            s = main["score"]
+            title = score_txt(s) + " · " + title
+            notes.append("Final: %s %s, %s %s%s" % (labels[main["team"]], s["f"], main.get("opp"), s["a"],
+                                                    " (%s)" % s["ot"] if s.get("ot") else ""))
+        else:
+            joiner = " at " if main.get("home") is False else " vs "
+            notes.append(joiner.join(teams[k]["name"] for k in ts) + " · " + lg)
+        by_team = {gm["team"]: gm for gm in gms}
+        for k in ts:
+            for p in on_team.get(k, []) if not is_teams else [p for p in data["players"] if p["team"] == k]:
+                l = (by_team[k].get("lines") or {}).get(p["id"])
+                if by_team[k].get("score"):
+                    notes.append("%s: %s" % (p["name"], line_txt(l) if l else "no stat line yet"))
+                else:
+                    notes.append(p["name"] + ("" if len(ts) == 1 else " (%s)" % labels[k]))
+        if main.get("note"):
+            notes.append(main["note"])
+        box = next((gm.get("box") for gm in gms if gm.get("box")), None)
+        if box:
+            notes.append("Box score: " + box)
+        notes.append("Prospect Watch: %s#%s" % (SITE, tab))
+        uid = "%s-%s" % (cal, "-".join(re.sub(r"[^a-z0-9]+", "", str(x).lower()) for x in key))
+        n, base = 2, uid
+        while uid in used:
+            uid, n = "%s-%d" % (base, n), n + 1
+        used.add(uid)
+        events.append((main["d"], main.get("t") or "", ics_event(uid + "@prospect-watch", stamp, main["d"], main.get("t"),
+                                                                 title, notes, box or SITE + "#" + tab)))
+    return events
+
+
+def wjc_events(data, which, tab, start, stamp, cal):
+    """World Juniors games with followed players from this list."""
+    w = data.get("wjc") or {}
+    plist = [p for p in data["players"] if (p.get("list") or "canucks") == which and p["id"] in (w.get("players") or {})]
+    events = []
+    for gm in w.get("games", []):
+        if not gm.get("d") or gm["d"] < start:
+            continue
+        sides = {s: [p for p in plist if w["players"][p["id"]]["country"] == gm[s]["abbr"]] for s in ("home", "away")}
+        if not sides["home"] and not sides["away"]:
+            continue
+        us = "away" if sides["away"] else "home"
+        them = "home" if us == "away" else "away"
+        title = "WJC: %s %s %s · %s" % (gm[us]["name"], "@" if us == "away" else "vs", gm[them]["name"],
+                                        ", ".join(last_name(p["name"]) for p in sides[us] + sides[them]))
+        rnd = gm.get("round") or ""
+        notes = ["%d World Junior Championship%s" % (w.get("year", 0), " · " + rnd if rnd else "")]
+        if gm.get("final"):
+            f, a = gm[us]["score"], gm[them]["score"]
+            title = score_txt({"res": "W" if f > a else "L", "f": f, "a": a, "ot": gm.get("ot")}) + " · " + title
+            notes = ["Final: %s %s, %s %s%s" % (gm["away"]["name"], gm["away"]["score"], gm["home"]["name"],
+                                                gm["home"]["score"], " (%s)" % gm["ot"] if gm.get("ot") else "")] + notes
+        for p in sides[us] + sides[them]:
+            l = (gm.get("lines") or {}).get(p["id"])
+            if gm.get("final"):
+                notes.append("%s: %s" % (p["name"], line_txt(l) if l else "stat line not in yet (added from news reports, usually within a day)"))
+            else:
+                notes.append("%s (%s)" % (p["name"], w["players"][p["id"]].get("countryName")))
+        link = (w.get("summary") or "") + str(gm["id"]) if gm.get("final") and w.get("summary") else w.get("url")
+        if gm.get("final") and link:
+            notes.append("Game summary: " + link)
+        notes.append("Prospect Watch: %s#wjc" % SITE)
+        uid = "%s-wjc%s-%s@prospect-watch" % (cal, w.get("year", ""), re.sub(r"[^a-z0-9]+", "", str(gm["id"]).lower()))
+        events.append((gm["d"], gm.get("t") or "", ics_event(uid, stamp, gm["d"], gm.get("t"), title, notes,
+                                                             link or SITE + "#wjc", gm.get("city"))))
+    return events
+
+
+def write_calendars(data, follow, today):
+    """Write one .ics file per tab (see CALENDARS)."""
+    labels = team_labels(data["teams"], follow)
+    start = (dt.date.fromisoformat(today) - dt.timedelta(days=CAL_DAYS_BACK)).isoformat()
+    stamp = dt.datetime.fromisoformat(data["updatedAt"].replace("Z", "+00:00")).strftime("%Y%m%dT%H%M%SZ")
+    for fname, title, tab, which in CALENDARS:
+        cal = fname.split(".")[0]
+        events = club_events(data, labels, which, tab, start, stamp, cal)
+        if which != "teams":
+            events += wjc_events(data, which, tab, start, stamp, cal)
+        events.sort(key=lambda e: (e[0], e[1]))
+        lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Prospect Watch//Calendar feed//EN", "CALSCALE:GREGORIAN",
+                 "METHOD:PUBLISH", "X-WR-CALNAME:" + ics_text("%s · Prospect Watch" % title),
+                 "X-WR-CALDESC:" + ics_text("Games from Prospect Watch (%s#%s). Scores and stat lines are added after each game." % (SITE, tab)),
+                 "X-WR-TIMEZONE:America/Vancouver", "REFRESH-INTERVAL;VALUE=DURATION:PT1H", "X-PUBLISHED-TTL:PT1H"]
+        for e in events:
+            lines += e[2]
+        lines.append("END:VCALENDAR")
+        (ROOT / fname).write_text("\r\n".join(ics_fold(x) for x in lines) + "\r\n", encoding="utf-8", newline="")
+
+
 def load(name, default):
     p = ROOT / name
     return json.loads(p.read_text(encoding="utf-8")) if p.exists() else default
@@ -699,6 +933,10 @@ def main():
     follow = load("follow.json", None)
     if not follow:
         sys.exit("follow.json is missing")
+    if "--calendars" in sys.argv:  # only rebuild the calendar files from the current data.json (no downloads)
+        write_calendars(load("data.json", None), follow, dt.datetime.now(BC).strftime("%Y-%m-%d"))
+        print("Calendar files written")
+        return
     old = load("data.json", {"teams": {}, "players": [], "games": []})
     notes = load("notes.json", {})
     ids = load("ids.json", {"seasons": {}, "teams": {}, "players": {}})
@@ -856,6 +1094,10 @@ def main():
             warn("World Juniors not updated (%s)" % e)
             if old.get("wjc"):
                 data["wjc"] = old["wjc"]
+    try:
+        write_calendars(data, follow, today)
+    except Exception as e:  # noqa: BLE001
+        warn("Calendar files not updated (%s)" % e)
     (ROOT / "data.json").write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     (ROOT / "ids.json").write_text(json.dumps(ids, indent=1), encoding="utf-8")
     if "--probe" in sys.argv:

@@ -106,3 +106,23 @@ HockeyTech: https://lscluster.hockeytech.com/feed/?feed=modulekit&fmt=json&lang=
 - Group standings are worked out from preliminary-round games (3/2/1/0 points; ties by goal difference, then
   goals for, not the IIHF head-to-head rule). Groups are named after the city where they play.
 - Tested against the 2026 tournament's real data (saved during the tests, then deleted).
+
+## Calendar feeds (2026-11-14)
+- update.py writes canucks-prospects.ics, other-players.ics and teams.ics (write_calendars, CALENDARS) right
+  before data.json. A failure there is a warning, not a failed run. `update.py --calendars` rebuilds them
+  from the current data.json without downloading (used for offline testing).
+- One event per game, 2.5 hours, times in UTC (no time zone block needed); all-day when the game has no time.
+  Window: 30 days back plus everything ahead in data.json. TRANSP:TRANSPARENT (games don't block "busy"), no alarms.
+- Titles: "<team> @|vs <opp> · <last names>"; teams.ics uses just the matchup. Short team names: last word of
+  the name ("Petes", "Marlies"), college schools from the College Hockey News page name ("Michigan State").
+  Two teams with the same nickname: the NHL team keeps it, the other uses its city ("Abbotsford").
+  After the game: "W 4–2 OT · ..." from the point of view of the team named first.
+- Two followed teams playing each other become one event, named from the away team's side. HockeyTech and
+  NHL games match by game id. College game ids change once the box score is up, so college games match by
+  day plus opponent name = the other followed school's name.
+- UIDs: "<calendar>-<league>-<game id>" (college: "<calendar>-ncaa-<date>-<team keys>"; World Juniors:
+  "<calendar>-wjc<year>-<game id>"), so updates replace events. The calendar name is in the UID so the same
+  game in two subscribed calendars doesn't clash.
+- World Juniors events (player calendars only) come from data.json "wjc", which only exists Dec 1 to Jan 12,
+  so they drop out of the calendars after Jan 12 even though they're within 30 days.
+- Checked with the Python icalendar parser (lines folded at 75 bytes, commas/semicolons escaped).
