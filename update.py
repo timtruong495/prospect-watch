@@ -359,6 +359,7 @@ def ncaa_games(slug):
         if len(samples) < 12:
             samples.append(tx[:160])
         day, rest, score = int(m.group(1)), m.group(2), None
+        rest = re.sub(r"^\d+\s+(?=[WLT]\s+\d+\s*-\s*\d+\s)", "", rest)  # footnote number before the result
         r = re.match(r"^([WLT])\s+(\d+)\s*-\s*(\d+)\s*((?:\d?ot|so)\b)?\s*(.*)$", rest, re.I)
         if r:
             ot = (r.group(4) or "").lower()

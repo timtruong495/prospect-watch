@@ -79,6 +79,8 @@ HockeyTech: https://lscluster.hockeytech.com/feed/?feed=modulekit&fmt=json&lang=
   Worked on the first real run: 4 schools, 38/35/35/37 games, all box scores parsed (38 skater rows).
 - CHN times have no AM/PM (hours below 11 are treated as PM). Exhibition games "(ex)" are shown but not counted
   in season totals. Ties show as T.
+- A footnote number can come before the result ("31 Sat 1 W 5 - 3 vs. North Dakota", a special-event game); it's
+  dropped before reading the score (fixed 2026-11-14: that game had shown the score as its opponent).
 - Totals match the hand-checked numbers except Romani: 7 GP 5-5-10 here vs 8 GP 12 pts before, because
   CHN lists MSU's Oct 2 game vs Boston College as an exhibition.
 - User allowed small fixes to go straight to main (2026-11-11). Workflow can be started with
