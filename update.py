@@ -701,10 +701,11 @@ def wjc_update(year, follow, old_wjc, manual):
 # stay the same from run to run, so a calendar app replaces events instead
 # of adding copies. No alerts.
 SITE = "https://timtruong495.github.io/prospect-watch/"
-CALENDARS = (  # file, title, page tab, which players ("teams" = the followed teams)
+CALENDARS = (  # file, title, page tab, which players ("teams" = the followed teams, "all" = everything)
     ("canucks-prospects.ics", "Canucks prospects", "prospects", "canucks"),
     ("other-players.ics", "Other players", "others", "other"),
     ("teams.ics", "Vancouver teams", "teams", "teams"),
+    ("all-games.ics", "All games", "", "all"),  # all three tabs in one, each game once
 )
 CAL_DAYS_BACK = 30
 CAL_LENGTH = dt.timedelta(minutes=150)
@@ -806,11 +807,12 @@ def ics_event(uid, stamp, d, t, title, notes, url=None, location=None):
 def club_events(data, labels, which, tab, start, stamp, cal):
     """Events for the players' (or followed teams') club games."""
     teams, is_teams = data["teams"], which == "teams"
-    plist = [p for p in data["players"] if (p.get("list") or "canucks") == which] if not is_teams else []
+    page = SITE + ("#" + tab if tab else "")
+    plist = [p for p in data["players"] if which == "all" or (p.get("list") or "canucks") == which] if not is_teams else []
     on_team = {}
     for p in plist:
         on_team.setdefault(p["team"], []).append(p)
-    keys = {k for k, t in teams.items() if t.get("followed")} if is_teams else set(on_team)
+    keys = set(on_team) | ({k for k, t in teams.items() if t.get("followed")} if which in ("teams", "all") else set())
     norm_label = {norm(labels[k]): k for k in keys}
     groups = {}  # one entry per game, even when two followed teams play each other
     for gm in data["games"]:
@@ -831,8 +833,9 @@ def club_events(data, labels, which, tab, start, stamp, cal):
         title = "%s %s %s" % (labels[main["team"]], "@" if main.get("home") is False else "vs", main.get("opp"))
         if main.get("ex"):
             title += " (exhibition)"
-        if not is_teams:
-            title += " · " + ", ".join(last_name(p["name"]) for k in ts for p in on_team.get(k, []))
+        names = [last_name(p["name"]) for k in ts for p in on_team.get(k, [])]
+        if names and not is_teams:
+            title += " · " + ", ".join(names)
         notes = []
         if main.get("score"):
             s = main["score"]
@@ -855,21 +858,22 @@ def club_events(data, labels, which, tab, start, stamp, cal):
         box = next((gm.get("box") for gm in gms if gm.get("box")), None)
         if box:
             notes.append("Box score: " + box)
-        notes.append("Prospect Watch: %s#%s" % (SITE, tab))
+        notes.append("Prospect Watch: " + page)
         uid = "%s-%s" % (cal, "-".join(re.sub(r"[^a-z0-9]+", "", str(x).lower()) for x in key))
         n, base = 2, uid
         while uid in used:
             uid, n = "%s-%d" % (base, n), n + 1
         used.add(uid)
         events.append((main["d"], main.get("t") or "", ics_event(uid + "@prospect-watch", stamp, main["d"], main.get("t"),
-                                                                 title, notes, box or SITE + "#" + tab)))
+                                                                 title, notes, box or page)))
     return events
 
 
 def wjc_events(data, which, tab, start, stamp, cal):
     """World Juniors games with followed players from this list."""
     w = data.get("wjc") or {}
-    plist = [p for p in data["players"] if (p.get("list") or "canucks") == which and p["id"] in (w.get("players") or {})]
+    plist = [p for p in data["players"] if (which == "all" or (p.get("list") or "canucks") == which)
+             and p["id"] in (w.get("players") or {})]
     events = []
     for gm in w.get("games", []):
         if not gm.get("d") or gm["d"] < start:
@@ -917,7 +921,7 @@ def write_calendars(data, follow, today):
         events.sort(key=lambda e: (e[0], e[1]))
         lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Prospect Watch//Calendar feed//EN", "CALSCALE:GREGORIAN",
                  "METHOD:PUBLISH", "X-WR-CALNAME:" + ics_text("%s · Prospect Watch" % title),
-                 "X-WR-CALDESC:" + ics_text("Games from Prospect Watch (%s#%s). Scores and stat lines are added after each game." % (SITE, tab)),
+                 "X-WR-CALDESC:" + ics_text("Games from Prospect Watch (%s%s). Scores and stat lines are added after each game." % (SITE, "#" + tab if tab else "")),
                  "X-WR-TIMEZONE:America/Vancouver", "REFRESH-INTERVAL;VALUE=DURATION:PT1H", "X-PUBLISHED-TTL:PT1H"]
         for e in events:
             lines += e[2]

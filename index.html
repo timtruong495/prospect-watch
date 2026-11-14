@@ -544,8 +544,9 @@ const CAL_FILES = {prospects: ["canucks-prospects.ics", "Canucks prospects"], ot
 function calHtml(){
   const f = CAL_FILES[view];
   if(!f) return "";
-  const https = new URL(f[0], location.href).href.replace(/^http:/, "https:");
-  const webcal = https.replace(/^https:/, "webcal:");
+  const addr = file => new URL(file, location.href).href.replace(/^http:/, "https:");
+  const https = addr(f[0]), webcal = https.replace(/^https:/, "webcal:");
+  const allHttps = addr("all-games.ics"), allWebcal = allHttps.replace(/^https:/, "webcal:");
   const what = view === "teams" ? "Canucks, Abbotsford and Giants games" : "games for every player on this tab";
   return `<details class="cal"${calOpen ? " open" : ""}><summary>Subscribe in your calendar</summary>
     <p>Adds ${what} to your calendar and keeps them up to date. After each game the score goes in the title and stat lines go in the notes. Covers the last 30 days and the rest of the season${view === "teams" ? "" : ", plus World Juniors games"}. No alerts.</p>
@@ -555,7 +556,11 @@ function calHtml(){
     <h3>Google Calendar</h3>
     <ol><li>On a computer, go to calendar.google.com.</li><li>Next to <b>Other calendars</b>, click <b>+</b>, then <b>From URL</b>.</li><li>Paste the address below and click <b>Add calendar</b>.</li></ol>
     <p>It then shows up in the Google Calendar app on your phone too. Google checks for changes every few hours, so scores can show up there later than on this page.</p>
-    <div class="copyrow"><input type="text" readonly value="${esc(https)}" aria-label="Calendar address" data-caladdr><button type="button" data-copycal>Copy</button></div>
+    <div class="copyrow"><input type="text" readonly value="${esc(https)}" aria-label="Calendar address"><button type="button" data-copycal>Copy</button></div>
+    <h3>Everything in one calendar</h3>
+    <p>Following more than one tab? A game that's on two tabs (like Cootes's Abbotsford games) shows up twice if you subscribe to both calendars. The All games calendar has every game from all three tabs, each one once. Subscribe to it instead of the others, the same way as above.</p>
+    <a class="primary" href="${esc(allWebcal)}">Add All games to iPhone calendar</a>
+    <div class="copyrow"><input type="text" readonly value="${esc(allHttps)}" aria-label="All games calendar address"><button type="button" data-copycal>Copy</button></div>
   </details>`;
 }
 function addDays(iso, n){ const d = new Date(iso + "T00:00:00Z"); d.setUTCDate(d.getUTCDate() + n); return d.toISOString().slice(0,10); }
@@ -578,7 +583,7 @@ document.addEventListener("click", e => {
   if(e.target.closest("[data-wclear]")){ prefs.wsel = []; savePrefs(); render(); return; }
   const cp = e.target.closest("[data-copycal]");
   if(cp){
-    const inp = $("[data-caladdr]"), done = () => { cp.textContent = "Copied"; setTimeout(() => { cp.textContent = "Copy"; }, 2000); };
+    const inp = cp.parentNode.querySelector("input"), done = () => { cp.textContent = "Copied"; setTimeout(() => { cp.textContent = "Copy"; }, 2000); };
     if(navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(inp.value).then(done, () => { inp.select(); });
     else inp.select();
     return;

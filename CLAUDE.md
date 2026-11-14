@@ -16,7 +16,8 @@ All times are Vancouver time. British Columbia stays on UTC-7 all year from 2026
 - **Canucks prospects** and **Other players**: player cards (season stats, last-5 totals, season pts/game,
   draft line, tags, news note; "Out:" notes show in red), a league filter (from each player's team, not
   tags), a tag filter, and a day-by-day schedule. Tap a game for the player's stat line.
-- Each of these three tabs ends with "Subscribe in your calendar" (its .ics feed, iPhone and Google steps).
+- Each of these three tabs ends with "Subscribe in your calendar" (its .ics feed, iPhone and Google steps,
+  then the All games calendar).
 - **Teams**: Vancouver Canucks (NHL), Abbotsford Canucks (AHL), Vancouver Giants (WHL).
 - **World Juniors** (only Dec 1 to Jan 12): whole tournament schedule, group standings, cards for followed
   players on national teams, Canucks prospects / Other players filter. Regular cards link to it.
@@ -32,7 +33,8 @@ All times are Vancouver time. British Columbia stays on UTC-7 all year from 2026
 - `.github/workflows/update.yml`: runs `update.py --probe` at :07 past the hour, 4 PM to midnight plus
   6 AM and noon Vancouver time, and commits as prospect-watch-bot ("Update data"). Main gets these
   commits all the time, so fetch and rebase before pushing.
-- `canucks-prospects.ics`, `other-players.ics`, `teams.ics`: calendar feeds, one per tab, written by
+- `canucks-prospects.ics`, `other-players.ics`, `teams.ics`: calendar feeds, one per tab, plus
+  `all-games.ics` (all three in one, each game once, so games on two tabs don't show twice). Written by
   update.py (`update.py --calendars` rebuilds them from data.json without downloading).
 - `ids.json` (cached league ids), `probe.json` (raw feed shapes for debugging), `README.md` (owner-facing
   how-to), `NOTES.md` (detailed technical log: read it before changing data code).
