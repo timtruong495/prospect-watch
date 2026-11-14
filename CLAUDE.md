@@ -16,6 +16,7 @@ All times are Vancouver time. British Columbia stays on UTC-7 all year from 2026
 - **Canucks prospects** and **Other players**: player cards (season stats, last-5 totals, season pts/game,
   draft line, tags, news note; "Out:" notes show in red), a league filter (from each player's team, not
   tags), a tag filter, and a day-by-day schedule. Tap a game for the player's stat line.
+- Each of these three tabs ends with "Subscribe in your calendar" (its .ics feed, iPhone and Google steps).
 - **Teams**: Vancouver Canucks (NHL), Abbotsford Canucks (AHL), Vancouver Giants (WHL).
 - **World Juniors** (only Dec 1 to Jan 12): whole tournament schedule, group standings, cards for followed
   players on national teams, Canucks prospects / Other players filter. Regular cards link to it.
@@ -31,6 +32,8 @@ All times are Vancouver time. British Columbia stays on UTC-7 all year from 2026
 - `.github/workflows/update.yml`: runs `update.py --probe` at :07 past the hour, 4 PM to midnight plus
   6 AM and noon Vancouver time, and commits as prospect-watch-bot ("Update data"). Main gets these
   commits all the time, so fetch and rebase before pushing.
+- `canucks-prospects.ics`, `other-players.ics`, `teams.ics`: calendar feeds, one per tab, written by
+  update.py (`update.py --calendars` rebuilds them from data.json without downloading).
 - `ids.json` (cached league ids), `probe.json` (raw feed shapes for debugging), `README.md` (owner-facing
   how-to), `NOTES.md` (detailed technical log: read it before changing data code).
 - `__pycache__/update.cpython-313.pyc` is tracked by mistake: don't commit changes to it.
@@ -60,16 +63,6 @@ read the results and delete the probe when done. Test code offline against saved
   wjc_lines.json from data.json's wjc.missing list. Created by Claude; the owner attached the repository.
 
 ## Ideas list
-- **Calendar feed (next):** one .ics file per tab (Canucks prospects, Other players, Teams), written by
-  update.py next to data.json and subscribed to via webcal. Decided with the owner:
-  - one event per game, 2.5 hours long; all-day if no time is set
-  - titles like "Petes @ Oshawa · Novotný, Medvedev, Rogowski"; team calendar uses the matchup
-  - after the game, the score goes in the title ("W 4–2 · ...") and stat lines in the notes
-  - two followed teams playing each other: one event, not two
-  - last 30 days plus the rest of the season; World Juniors games with followed players in the window
-  - stable event ids so updates replace events; no alerts
-  - a "Subscribe in your calendar" link at the bottom of each tab, with iPhone and Google steps
-  - big enough to go as a pull request
 - Draft details still missing for Cootes, Rogowski, Malhotra, Dervin and Medvedev (a "draft" block in
   follow.json).
 - Option to count exhibition games (Romani shows 10 points in 7 games without MSU's Oct 2 exhibition).
