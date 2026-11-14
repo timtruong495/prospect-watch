@@ -127,4 +127,7 @@ HockeyTech: https://lscluster.hockeytech.com/feed/?feed=modulekit&fmt=json&lang=
   game in two subscribed calendars doesn't clash.
 - World Juniors events (player calendars only) come from data.json "wjc", which only exists Dec 1 to Jan 12,
   so they drop out of the calendars after Jan 12 even though they're within 30 days.
+- all-games.ics (added 2026-11-14, owner's choice): every player plus the followed teams in one calendar, same
+  merging, so a game on two tabs is one event (Abbotsford games with Cootes, Michigan games with Dervin and DuPont).
+  Teams with no followed player keep the bare matchup title. Each calendar's UIDs start with its own name.
 - Checked with the Python icalendar parser (lines folded at 75 bytes, commas/semicolons escaped).

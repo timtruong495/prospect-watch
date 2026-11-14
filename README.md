@@ -18,7 +18,10 @@ from the school's schedule address on collegehockeynews.com (`/schedules/team/Sc
 ## Calendar feeds
 
 Each tab (Canucks prospects, Other players, Teams) has its own calendar file that phones can
-subscribe to: `canucks-prospects.ics`, `other-players.ics` and `teams.ics`. `update.py` rewrites
+subscribe to: `canucks-prospects.ics`, `other-players.ics` and `teams.ics`. There's also
+`all-games.ics`, which has every game from all three tabs, each one once. Use it instead of the
+others if you follow more than one tab, so games on two tabs (like Cootes's Abbotsford games)
+don't show up twice. `update.py` rewrites
 them at every update, next to `data.json`. Each game is one event, 2.5 hours long (all day when
 there's no start time yet). After a game the score goes in the title and stat lines in the notes.
 They cover the last 30 days and the rest of the season, plus World Juniors games with your
