@@ -308,7 +308,7 @@
  },
  "nhl.standings": {
   "wildCardIndicator": "True",
-  "standingsDateTimeUtc": "2026-11-14T03:54:15Z",
+  "standingsDateTimeUtc": "2026-11-14T04:56:00Z",
   "standings": [
    {
     "conferenceAbbrev": "E",
@@ -841,8 +841,7 @@
     "type": "standings",
     "stat": "conference",
     "lang_id": "1",
-    "league_id": "4",
-    "team_id": "0"
+    "league_id": "4"
    },
    "Statviewtype": [
     {
@@ -1370,7 +1369,7 @@
      "clinched_playoff_spot": "0",
      "clinched_group_title": "0",
      "clinched_conference": "0",
-     "overall_rank": "1",
+     "overall_rank": "2",
      "shootout_games_played": "3",
      "games_played": "21",
      "shootout_pct": "0.667",
@@ -1444,7 +1443,7 @@
      "clinched_playoff_spot": "0",
      "clinched_group_title": "0",
      "clinched_conference": "0",
-     "overall_rank": "2",
+     "overall_rank": "3",
      "shootout_games_played": "2",
      "games_played": "20",
      "shootout_pct": "0.000",
