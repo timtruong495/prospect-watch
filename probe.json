@@ -308,7 +308,7 @@
  },
  "nhl.standings": {
   "wildCardIndicator": "True",
-  "standingsDateTimeUtc": "2026-11-18T01:16:30Z",
+  "standingsDateTimeUtc": "2026-11-18T02:55:45Z",
   "standings": [
    {
     "conferenceAbbrev": "W",
@@ -325,12 +325,12 @@
     "divisionRoadSequence": "1",
     "divisionSequence": "1",
     "gameTypeId": "2",
-    "gamesPlayed": "22",
-    "goalDifferential": "27",
-    "goalDifferentialPctg": "1.227273",
-    "goalAgainst": "60",
-    "goalFor": "87",
-    "goalsForPctg": "3.954545",
+    "gamesPlayed": "23",
+    "goalDifferential": "30",
+    "goalDifferentialPctg": "1.304348",
+    "goalAgainst": "62",
+    "goalFor": "92",
+    "goalsForPctg": "4.0",
     "homeGamesPlayed": "12",
     "homeGoalDifferential": "3",
     "homeGoalsAgainst": "40",
@@ -343,9 +343,9 @@
     "homeTies": "0",
     "homeWins": "7",
     "l10GamesPlayed": "10",
-    "l10GoalDifferential": "18",
-    "l10GoalsAgainst": "17",
-    "l10GoalsFor": "35",
+    "l10GoalDifferential": "17",
+    "l10GoalsAgainst": "19",
+    "l10GoalsFor": "36",
     "l10Losses": "1",
     "l10OtLosses": "1",
     "l10Points": "17",
@@ -362,28 +362,28 @@
     "placeName": {
      "default": "Edmonton"
     },
-    "pointPctg": "0.795455",
-    "points": "35",
-    "regulationPlusOtWinPctg": "0.681818",
-    "regulationPlusOtWins": "15",
-    "regulationWinPctg": "0.590909",
-    "regulationWins": "13",
-    "roadGamesPlayed": "10",
-    "roadGoalDifferential": "24",
-    "roadGoalsAgainst": "20",
-    "roadGoalsFor": "44",
+    "pointPctg": "0.804348",
+    "points": "37",
+    "regulationPlusOtWinPctg": "0.695652",
+    "regulationPlusOtWins": "16",
+    "regulationWinPctg": "0.608696",
+    "regulationWins": "14",
+    "roadGamesPlayed": "11",
+    "roadGoalDifferential": "27",
+    "roadGoalsAgainst": "22",
+    "roadGoalsFor": "49",
     "roadLosses": "0",
     "roadOtLosses": "1",
-    "roadPoints": "19",
-    "roadRegulationPlusOtWins": "9",
-    "roadRegulationWins": "9",
+    "roadPoints": "21",
+    "roadRegulationPlusOtWins": "10",
+    "roadRegulationWins": "10",
     "roadTies": "0",
-    "roadWins": "9",
+    "roadWins": "10",
     "seasonId": "20262027",
     "shootoutLosses": "2",
     "shootoutWins": "1",
     "streakCode": "W",
-    "streakCount": "5",
+    "streakCount": "6",
     "teamName": {
      "default": "Edmonton Oilers",
      "fr": "Oilers d'Edmonton"
@@ -399,7 +399,7 @@
     "ties": "0",
     "waiversSequence": "31",
     "wildcardSequence": "0",
-    "winPctg": "0.727273"
+    "winPctg": "0.73913"
    },
    {
     "conferenceAbbrev": "E",
@@ -841,7 +841,8 @@
     "type": "standings",
     "stat": "conference",
     "lang_id": "1",
-    "league_id": "4"
+    "league_id": "4",
+    "team_id": "0"
    },
    "Statviewtype": [
     {
@@ -1215,7 +1216,7 @@
      "htv_game_id": "",
      "client_code": "whl",
      "scheduled_time": "6:05 pm PCT",
-     "broadcasters": {},
+     "broadcasters": [],
      "mobile_calendar": "https://lscluster.hockeytech.com/components/calendar/ical_ad"
     },
     {
