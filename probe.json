@@ -308,7 +308,7 @@
  },
  "nhl.standings": {
   "wildCardIndicator": "True",
-  "standingsDateTimeUtc": "2026-11-18T20:57:15Z",
+  "standingsDateTimeUtc": "2026-11-19T01:14:15Z",
   "standings": [
    {
     "conferenceAbbrev": "W",
@@ -2137,7 +2137,7 @@
       "faceoffs_taken": "0",
       "faceoffs_won": "0"
      },
-     "... 20 items"
+     "... 21 items"
     ]
    },
    "Copyright": {
