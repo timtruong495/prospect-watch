@@ -308,7 +308,7 @@
  },
  "nhl.standings": {
   "wildCardIndicator": "True",
-  "standingsDateTimeUtc": "2026-11-19T01:14:15Z",
+  "standingsDateTimeUtc": "2026-11-19T02:56:00Z",
   "standings": [
    {
     "conferenceAbbrev": "W",
@@ -841,8 +841,7 @@
     "type": "standings",
     "stat": "conference",
     "lang_id": "1",
-    "league_id": "4",
-    "team_id": "0"
+    "league_id": "4"
    },
    "Statviewtype": [
     {
@@ -968,7 +967,7 @@
      "percentage_full": "0.55263",
      "clinched_playoff_spot": "0",
      "clinched_group_title": "0",
-     "overall_rank": "5",
+     "overall_rank": "6",
      "shootout_games_played": "1",
      "games_played": "19",
      "shootout_pct": "1.000",
@@ -1821,6 +1820,12 @@
   ],
   "parsed": 38
  },
+ "chn.box": {
+  "url": "https://www.collegehockeynews.com/box/final/20261118/qui/bu_/",
+  "skater_rows": 0,
+  "rows": []
+ },
+ "chn.box.raw": "iversity</td>\n\t\t\t\t\t<td>SV</td>\n\t\t\t\t\t<td>GA</td>\n\t\t\t\t\t<td class=\"right\">Minutes</td>\n\t\t\t\t\t<td></td>\n\t\t\t\t</tr>\n\t\t\t\t</thead>\n\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>EMPTY NET</td>\n\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t<td class=\"right\">0:24</td>\n\t\t\t\t\t\t<td></td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Mikhail Yegorov</td>\n\t\t\t\t\t\t<td>36</td>\n\t\t\t\t\t\t<td>2</td>\n\t\t\t\t\t\t<td class=\"right\">64:36</td>\n\t\t\t\t\t\t<td></td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t</tbody>\n\t\t\t</table>\n\t\t</div>\n\n\t\t<p><a href=\"/box/metrics.php?gd=117366\" class=\"button2\">Advanced Metrics</a></p>\n\t\t<div id=\"playersums\">\n\t\t\t\t\t\t\t<div class=\"playersum\">\n\t\t\t\t\t<table class=\"data\">\n\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t<tr class=\"stats-section\">\n\t\t\t\t\t\t\t<td>Boston University</td>\n\t\t\t\t\t\t\t<td>G</td>\n\t\t\t\t\t\t\t<td>A</td>\n\t\t\t\t\t\t\t<td>Pt.</td>\n\t\t\t\t\t\t\t<td>+/-</td>\n\t\t\t\t\t\t\t<td>Sh</td>\n\t\t\t\t\t\t\t<td>TOI</td>\t\t\t\t\t\t\t<td>PIM</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"center\">FOW&#8209;L</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td nowrap>Jack Murtagh</td>\n\t\t\t\t\t\t\t\t\t\t<td>2</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>2</td>\n\t\t\t\t\t\t\t\t\t\t<td>2</td>\n\t\t\t\t\t\t\t\t\t\t<td>4</td>\n\t\t\t\t\t\t\t\t\t\t<td></td>\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"center\">0&#8209;1</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td nowrap>Caleb Malhotra</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>2</td>\n\t\t\t\t\t\t\t\t\t\t<td>2</td>\n\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t<td>3</td>\n\t\t\t\t\t\t\t\t\t\t<td></td>\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"center\">6&#8209;6</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td nowrap>Nick Roukounakis</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td></td>\t\t\t\t\t\t\t\t\t\t<td>2</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"center\">1&#8209;0</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td nowrap>Kamil Bednarik</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td></td>\t\t\t\t\t\t\t\t\t\t<td>2</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"center\">5&#8209;11</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td nowrap>Jay Feldberg</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td></td>\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"center\"></td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td nowrap>Ben Merrill</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>-1</td>\n\t\t\t\t\t\t\t\t\t\t<td>2</td>\n\t\t\t\t\t\t\t\t\t\t<td></td>\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"center\">1&#8209;0</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td nowrap>Jonathan Morello</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t<td></td>\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"center\">2&#8209;5</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
  "ahl.gamelog": {
   "SiteKit": {
    "Parameters": {
