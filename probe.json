@@ -308,7 +308,7 @@
  },
  "nhl.standings": {
   "wildCardIndicator": "True",
-  "standingsDateTimeUtc": "2026-11-20T06:10:00Z",
+  "standingsDateTimeUtc": "2026-11-20T08:22:45Z",
   "standings": [
    {
     "conferenceAbbrev": "W",
@@ -1316,7 +1316,8 @@
     "type": "standings",
     "stat": "conference",
     "lang_id": "1",
-    "league_id": "26"
+    "league_id": "26",
+    "team_id": "0"
    },
    "Statviewtype": [
     {
