@@ -308,7 +308,7 @@
  },
  "nhl.standings": {
   "wildCardIndicator": "True",
-  "standingsDateTimeUtc": "2026-11-21T08:53:46Z",
+  "standingsDateTimeUtc": "2026-11-21T14:54:30Z",
   "standings": [
    {
     "conferenceAbbrev": "W",
@@ -1823,10 +1823,43 @@
  },
  "chn.box": {
   "url": "https://www.collegehockeynews.com/box/final/20261120/bu_/mer/",
-  "skater_rows": 0,
-  "rows": []
+  "skater_rows": 37,
+  "rows": [
+   [
+    "Ty Daneault",
+    "2",
+    "1",
+    "3",
+    "4",
+    "3",
+    "17:06",
+    "0",
+    ""
+   ],
+   [
+    "Caden Cranston",
+    "2",
+    "1",
+    "3",
+    "2",
+    "2",
+    "21:53",
+    "0",
+    "0-1"
+   ],
+   [
+    "Alex Mercier",
+    "0",
+    "1",
+    "1",
+    "2",
+    "0",
+    "13:37",
+    "2",
+    ""
+   ]
+  ]
  },
- "chn.box.raw": "d>4</td>\n\t\t\t\t\t\t<td class=\"right\">57:43</td>\n\t\t\t\t\t\t<td></td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t</tbody>\n\t\t\t\t<thead>\n\t\t\t\t<tr class=\"stats-header\">\n\t\t\t\t\t<td>Merrimack</td>\n\t\t\t\t\t<td>SV</td>\n\t\t\t\t\t<td>GA</td>\n\t\t\t\t\t<td class=\"right\">Minutes</td>\n\t\t\t\t\t<td></td>\n\t\t\t\t</tr>\n\t\t\t\t</thead>\n\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Linards Feldbergs</td>\n\t\t\t\t\t\t<td>36</td>\n\t\t\t\t\t\t<td>3</td>\n\t\t\t\t\t\t<td class=\"right\">60:00</td>\n\t\t\t\t\t\t<td></td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t</tbody>\n\t\t\t</table>\n\t\t</div>\n\n\t\t<p><a href=\"/box/metrics.php?gd=117372\" class=\"button2\">Advanced Metrics</a></p>\n\t\t<div id=\"playersums\">\n\t\t\t\t\t\t\t<div class=\"playersum\">\n\t\t\t\t\t<table class=\"data\">\n\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t<tr class=\"stats-section\">\n\t\t\t\t\t\t\t<td>Merrimack</td>\n\t\t\t\t\t\t\t<td>G</td>\n\t\t\t\t\t\t\t<td>A</td>\n\t\t\t\t\t\t\t<td>Pt.</td>\n\t\t\t\t\t\t\t<td>+/-</td>\n\t\t\t\t\t\t\t<td>Sh</td>\n\t\t\t\t\t\t\t<td>TOI</td>\t\t\t\t\t\t\t<td>PIM</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"center\">FOW&#8209;L</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td nowrap>Ty Daneault</td>\n\t\t\t\t\t\t\t\t\t\t<td>2</td>\n\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t<td>3</td>\n\t\t\t\t\t\t\t\t\t\t<td>4</td>\n\t\t\t\t\t\t\t\t\t\t<td>3</td>\n\t\t\t\t\t\t\t\t\t\t<td></td>\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"center\"></td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td nowrap>Caden Cranston</td>\n\t\t\t\t\t\t\t\t\t\t<td>2</td>\n\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t<td>3</td>\n\t\t\t\t\t\t\t\t\t\t<td>2</td>\n\t\t\t\t\t\t\t\t\t\t<td>2</td>\n\t\t\t\t\t\t\t\t\t\t<td></td>\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"center\">0&#8209;1</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td nowrap>Alex Mercier</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t<td>2</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td></td>\t\t\t\t\t\t\t\t\t\t<td>2</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"center\"></td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td nowrap>Caelan Fitzpatrick</td>\n\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t<td></td>\t\t\t\t\t\t\t\t\t\t<td>4</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"center\"></td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td nowrap>Parker Lalonde</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t<td>2</td>\n\t\t\t\t\t\t\t\t\t\t<td>2</td>\n\t\t\t\t\t\t\t\t\t\t<td></td>\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"center\">8&#8209;11</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td nowrap>Justin Gill</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t<td>3</td>\n\t\t\t\t\t\t\t\t\t\t<td></td>\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"center\">9&#8209;5</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td nowrap>Mavrick Lachance</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t<td>2</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td></td>\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"center\">2&#8209;5</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t",
  "ahl.gamelog": {
   "SiteKit": {
    "Parameters": {
