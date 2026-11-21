@@ -308,7 +308,7 @@
  },
  "nhl.standings": {
   "wildCardIndicator": "True",
-  "standingsDateTimeUtc": "2026-11-21T03:55:15Z",
+  "standingsDateTimeUtc": "2026-11-21T04:58:30Z",
   "standings": [
    {
     "conferenceAbbrev": "W",
@@ -968,7 +968,7 @@
      "percentage_full": "0.57500",
      "clinched_playoff_spot": "0",
      "clinched_group_title": "0",
-     "overall_rank": "4",
+     "overall_rank": "5",
      "shootout_games_played": "1",
      "games_played": "20",
      "shootout_pct": "1.000",
