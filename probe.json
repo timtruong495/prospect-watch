@@ -308,7 +308,7 @@
  },
  "nhl.standings": {
   "wildCardIndicator": "True",
-  "standingsDateTimeUtc": "2026-11-22T08:53:15Z",
+  "standingsDateTimeUtc": "2026-11-22T14:53:00Z",
   "standings": [
    {
     "conferenceAbbrev": "W",
@@ -841,8 +841,7 @@
     "type": "standings",
     "stat": "conference",
     "lang_id": "1",
-    "league_id": "4",
-    "team_id": "0"
+    "league_id": "4"
    },
    "Statviewtype": [
     {
@@ -1823,10 +1822,44 @@
  },
  "chn.box": {
   "url": "https://www.collegehockeynews.com/box/final/20261121/mer/bu_/",
-  "skater_rows": 0,
-  "rows": []
+  "skater_rows": 37,
+  "rows": [
+   [
+    "Jack Harvey",
+    "1",
+    "2",
+    "3",
+    "3",
+    "2",
+    "16:00",
+    "0",
+    "0-1"
+   ],
+   [
+    "Viktor Nörringer",
+    "1",
+    "1",
+    "2",
+    "2",
+    "2",
+    "10:21",
+    "0",
+    ""
+   ],
+   [
+    "Jack Murtagh",
+    "1",
+    "0",
+    "1",
+    "0",
+    "4",
+    "18:25",
+    "0",
+    "0-1"
+   ]
+  ]
  },
- "chn.box.raw": "sity</td>\n\t\t\t\t\t<td>SV</td>\n\t\t\t\t\t<td>GA</td>\n\t\t\t\t\t<td class=\"right\">Minutes</td>\n\t\t\t\t\t<td></td>\n\t\t\t\t</tr>\n\t\t\t\t</thead>\n\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Max Lacroix</td>\n\t\t\t\t\t\t<td>28</td>\n\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t<td class=\"right\">43:25</td>\n\t\t\t\t\t\t<td></td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Mikhail Yegorov</td>\n\t\t\t\t\t\t<td>10</td>\n\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t<td class=\"right\">16:35</td>\n\t\t\t\t\t\t<td></td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t</tbody>\n\t\t\t</table>\n\t\t</div>\n\n\t\t<p><a href=\"/box/metrics.php?gd=117374\" class=\"button2\">Advanced Metrics</a></p>\n\t\t<div id=\"playersums\">\n\t\t\t\t\t\t\t<div class=\"playersum\">\n\t\t\t\t\t<table class=\"data\">\n\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t<tr class=\"stats-section\">\n\t\t\t\t\t\t\t<td>Boston University</td>\n\t\t\t\t\t\t\t<td>G</td>\n\t\t\t\t\t\t\t<td>A</td>\n\t\t\t\t\t\t\t<td>Pt.</td>\n\t\t\t\t\t\t\t<td>+/-</td>\n\t\t\t\t\t\t\t<td>Sh</td>\n\t\t\t\t\t\t\t<td>TOI</td>\t\t\t\t\t\t\t<td>PIM</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"center\">FOW&#8209;L</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td nowrap>Jack Harvey</td>\n\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t<td>2</td>\n\t\t\t\t\t\t\t\t\t\t<td>3</td>\n\t\t\t\t\t\t\t\t\t\t<td>3</td>\n\t\t\t\t\t\t\t\t\t\t<td>2</td>\n\t\t\t\t\t\t\t\t\t\t<td></td>\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"center\">0&#8209;1</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td nowrap>Viktor Nörringer</td>\n\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t<td>2</td>\n\t\t\t\t\t\t\t\t\t\t<td>2</td>\n\t\t\t\t\t\t\t\t\t\t<td>2</td>\n\t\t\t\t\t\t\t\t\t\t<td></td>\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"center\"></td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td nowrap>Jack Murtagh</td>\n\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>4</td>\n\t\t\t\t\t\t\t\t\t\t<td></td>\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"center\">0&#8209;1</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td nowrap>Caleb Malhotra</td>\n\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t<td>5</td>\n\t\t\t\t\t\t\t\t\t\t<td></td>\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"center\">11&#8209;10</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td nowrap>Kamil Bednarik</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t<td>3</td>\n\t\t\t\t\t\t\t\t\t\t<td>3</td>\n\t\t\t\t\t\t\t\t\t\t<td></td>\t\t\t\t\t\t\t\t\t\t<td>2</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"center\">13&#8209;9</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td nowrap>Nick Roukounakis</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td></td>\t\t\t\t\t\t\t\t\t\t<td>4</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"center\">0&#8209;1</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td nowrap>Ben Merrill</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>2</td>\n\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t<td></td>\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"center\"></td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n",
+ "chn.box.raw": "\">\n\t\t\t\t\t<td>Denver</td>\n\t\t\t\t\t<td>SV</td>\n\t\t\t\t\t<td>GA</td>\n\t\t\t\t\t<td class=\"right\">Minutes</td>\n\t\t\t\t\t<td></td>\n\t\t\t\t</tr>\n\t\t\t\t</thead>\n\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>EMPTY NET</td>\n\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t<td class=\"right\">0:05</td>\n\t\t\t\t\t\t<td></td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Johnny Hicks</td>\n\t\t\t\t\t\t<td>28</td>\n\t\t\t\t\t\t<td>5</td>\n\t\t\t\t\t\t<td class=\"right\">62:54</td>\n\t\t\t\t\t\t<td></td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t</tbody>\n\t\t\t</table>\n\t\t</div>\n\n\t\t<p><a href=\"/box/metrics.php?gd=114419\" class=\"button2\">Advanced Metrics</a></p>\n\t\t<div id=\"playersums\">\n\t\t\t\t\t\t\t<div class=\"playersum\">\n\t\t\t\t\t<table class=\"data\">\n\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t<tr class=\"stats-section\">\n\t\t\t\t\t\t\t<td>St. Thomas</td>\n\t\t\t\t\t\t\t<td>G</td>\n\t\t\t\t\t\t\t<td>A</td>\n\t\t\t\t\t\t\t<td>Pt.</td>\n\t\t\t\t\t\t\t<td>+/-</td>\n\t\t\t\t\t\t\t<td>Sh</td>\n\t\t\t\t\t\t\t<td>TOI</td>\t\t\t\t\t\t\t<td>PIM</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"center\">FOW&#8209;L</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t<tbody>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td nowrap>Lucas Van Vliet</td>\n\t\t\t\t\t\t\t\t\t\t<td>3</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>3</td>\n\t\t\t\t\t\t\t\t\t\t<td>4</td>\n\t\t\t\t\t\t\t\t\t\t<td>4</td>\n\t\t\t\t\t\t\t\t\t\t<td></td>\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"center\">3&#8209;0</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td nowrap>Jakub Altrichter</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>2</td>\n\t\t\t\t\t\t\t\t\t\t<td>2</td>\n\t\t\t\t\t\t\t\t\t\t<td>4</td>\n\t\t\t\t\t\t\t\t\t\t<td>2</td>\n\t\t\t\t\t\t\t\t\t\t<td></td>\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"center\">14&#8209;13</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td nowrap>Nathan Pilling</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>2</td>\n\t\t\t\t\t\t\t\t\t\t<td>2</td>\n\t\t\t\t\t\t\t\t\t\t<td>3</td>\n\t\t\t\t\t\t\t\t\t\t<td>3</td>\n\t\t\t\t\t\t\t\t\t\t<td></td>\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"center\">12&#8209;10</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td nowrap>Quinn Rudrud</td>\n\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t<td>2</td>\n\t\t\t\t\t\t\t\t\t\t<td>3</td>\n\t\t\t\t\t\t\t\t\t\t<td>2</td>\n\t\t\t\t\t\t\t\t\t\t<td></td>\t\t\t\t\t\t\t\t\t\t<td>4</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"center\"></td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td nowrap>Attila Lippai</td>\n\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t<td></td>\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"center\">2&#8209;1</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td nowrap>David Rozsival</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t<td>1</td>\n\t\t\t\t\t\t\t\t\t\t<td>3</td>\n\t\t\t\t\t\t\t\t\t\t<td>5</td>\n\t\t\t\t\t\t\t\t\t\t<td></td>\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"center\"></td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t\t\t<td nowrap>Aiden Grossklaus</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td>-1</td>\n\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t<td></td>\t\t\t\t\t\t\t\t\t\t<td>0</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<td class=\"center\">4&#8209;1</td>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
  "ahl.gamelog": {
   "SiteKit": {
    "Parameters": {
