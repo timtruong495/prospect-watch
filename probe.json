@@ -308,7 +308,7 @@
  },
  "nhl.standings": {
   "wildCardIndicator": "True",
-  "standingsDateTimeUtc": "2026-11-22T02:54:45Z",
+  "standingsDateTimeUtc": "2026-11-22T03:57:30Z",
   "standings": [
    {
     "conferenceAbbrev": "W",
@@ -496,14 +496,14 @@
    {
     "conferenceAbbrev": "W",
     "conferenceHomeSequence": "4",
-    "conferenceL10Sequence": "6",
+    "conferenceL10Sequence": "7",
     "conferenceName": "Western",
     "conferenceRoadSequence": "2",
     "conferenceSequence": "2",
     "date": "2026-11-21",
     "divisionAbbrev": "P",
     "divisionHomeSequence": "2",
-    "divisionL10Sequence": "1",
+    "divisionL10Sequence": "2",
     "divisionName": "Pacific",
     "divisionRoadSequence": "1",
     "divisionSequence": "1",
@@ -537,7 +537,7 @@
     "l10Ties": "0",
     "l10Wins": "6",
     "leagueHomeSequence": "10",
-    "leagueL10Sequence": "10",
+    "leagueL10Sequence": "11",
     "leagueRoadSequence": "2",
     "leagueSequence": "3",
     "losses": "5",
