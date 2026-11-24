@@ -308,7 +308,7 @@
  },
  "nhl.standings": {
   "wildCardIndicator": "True",
-  "standingsDateTimeUtc": "2026-11-24T15:05:30Z",
+  "standingsDateTimeUtc": "2026-11-24T20:58:15Z",
   "standings": [
    {
     "conferenceAbbrev": "W",
@@ -317,7 +317,7 @@
     "conferenceName": "Western",
     "conferenceRoadSequence": "1",
     "conferenceSequence": "1",
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "divisionAbbrev": "C",
     "divisionHomeSequence": "6",
     "divisionL10Sequence": "1",
@@ -408,7 +408,7 @@
     "conferenceName": "Eastern",
     "conferenceRoadSequence": "1",
     "conferenceSequence": "1",
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "divisionAbbrev": "M",
     "divisionHomeSequence": "2",
     "divisionL10Sequence": "1",
@@ -500,7 +500,7 @@
     "conferenceName": "Western",
     "conferenceRoadSequence": "2",
     "conferenceSequence": "2",
-    "date": "2026-11-23",
+    "date": "2026-11-24",
     "divisionAbbrev": "P",
     "divisionHomeSequence": "2",
     "divisionL10Sequence": "2",
@@ -841,8 +841,7 @@
     "type": "standings",
     "stat": "conference",
     "lang_id": "1",
-    "league_id": "4",
-    "team_id": "0"
+    "league_id": "4"
    },
    "Statviewtype": [
     {
@@ -895,7 +894,7 @@
      "percentage_full": "0.70000",
      "clinched_playoff_spot": "0",
      "clinched_group_title": "0",
-     "overall_rank": "2",
+     "overall_rank": "3",
      "shootout_games_played": "0",
      "games_played": "20",
      "shootout_pct": "0.000",
