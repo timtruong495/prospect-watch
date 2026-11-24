@@ -11,7 +11,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20261024-bu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261024T230000Z
 DTEND:20261025T013000Z
 SUMMARY:W 6–3 · Boston University vs Connecticut · Malhotra\, Celebrini
@@ -26,7 +26,7 @@ URL:https://www.collegehockeynews.com/box/final/20261024/con/bu_/
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20261024-msu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261024T230000Z
 DTEND:20261025T013000Z
 SUMMARY:W 2–1 · Michigan State @ New Hampshire · Romani
@@ -39,7 +39,7 @@ URL:https://www.collegehockeynews.com/box/final/20261024/msu/unh/
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029187@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261025T000000Z
 DTEND:20261025T023000Z
 SUMMARY:W 3–1 · Abbotsford vs Calgary · Cootes
@@ -51,7 +51,7 @@ URL:https://theahl.com/stats/game-center/1029187
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029202@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261025T220000Z
 DTEND:20261026T003000Z
 SUMMARY:W 4–2 · Abbotsford vs Calgary · Cootes
@@ -63,7 +63,7 @@ URL:https://theahl.com/stats/game-center/1029202
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29124@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261025T220500Z
 DTEND:20261026T003500Z
 SUMMARY:L 2–3 SO · Generals vs Sudbury · Rogowski
@@ -76,7 +76,7 @@ URL:https://chl.ca/ohl/gamecentre/29124/
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029212@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261029T020000Z
 DTEND:20261029T043000Z
 SUMMARY:W 5–2 · Abbotsford @ San Jose · Cootes
@@ -88,7 +88,7 @@ URL:https://theahl.com/stats/game-center/1029212
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29131@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261029T230500Z
 DTEND:20261030T013500Z
 SUMMARY:W 4–3 · Petes vs Brantford · Novotný\, Medvedev
@@ -101,7 +101,7 @@ URL:https://chl.ca/ohl/gamecentre/29131/
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29133@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261030T230000Z
 DTEND:20261031T013000Z
 SUMMARY:W 5–2 · Generals @ Brampton · Rogowski
@@ -113,7 +113,7 @@ URL:https://chl.ca/ohl/gamecentre/29133/
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20261030-bu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261030T230000Z
 DTEND:20261031T013000Z
 SUMMARY:W 7–2 · Boston University vs Maine · Malhotra\, Celebrini\, Aar
@@ -128,7 +128,7 @@ URL:https://www.collegehockeynews.com/box/final/20261030/mne/bu_/
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29134@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261030T230500Z
 DTEND:20261031T013500Z
 SUMMARY:L 1–4 · Petes @ Kingston · Novotný\, Medvedev
@@ -141,7 +141,7 @@ URL:https://chl.ca/ohl/gamecentre/29134/
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029215@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261031T021000Z
 DTEND:20261031T044000Z
 SUMMARY:W 5–1 · Abbotsford @ Bakersfield · Cootes
@@ -153,7 +153,7 @@ URL:https://theahl.com/stats/game-center/1029215
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20261031-mich@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261031T210000Z
 DTEND:20261031T233000Z
 SUMMARY:L 2–5 · Michigan @ Ohio State · Dervin
@@ -166,7 +166,7 @@ URL:https://www.collegehockeynews.com/box/final/20261031/mic/osu/
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20261031-bu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261031T220000Z
 DTEND:20261101T003000Z
 SUMMARY:W 3–2 OT · Boston University vs Maine · Malhotra\, Celebrini\, 
@@ -182,7 +182,7 @@ URL:https://www.collegehockeynews.com/box/final/20261031/mne/bu_/
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20261031-msu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261101T000700Z
 DTEND:20261101T023700Z
 SUMMARY:W 5–3 · Michigan State vs North Dakota · Romani
@@ -196,7 +196,7 @@ URL:https://www.collegehockeynews.com/box/final/20261031/msu/ndk/
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29147@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261101T190000Z
 DTEND:20261101T213000Z
 SUMMARY:W 4–3 OT · Petes @ Niagara · Novotný\, Medvedev
@@ -209,7 +209,7 @@ URL:https://chl.ca/ohl/gamecentre/29147/
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29149@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261101T230500Z
 DTEND:20261102T013500Z
 SUMMARY:L 6–7 OT · Generals vs Ottawa · Rogowski
@@ -221,7 +221,7 @@ URL:https://chl.ca/ohl/gamecentre/29149/
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20261101-mich@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261102T003000Z
 DTEND:20261102T030000Z
 SUMMARY:W 5–4 OT · Michigan @ Ohio State · Dervin
@@ -234,7 +234,7 @@ URL:https://www.collegehockeynews.com/box/final/20261101/mic/osu/
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29159@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261106T000500Z
 DTEND:20261106T023500Z
 SUMMARY:L 3–4 · Petes vs Windsor · Novotný\, Medvedev
@@ -247,7 +247,7 @@ URL:https://chl.ca/ohl/gamecentre/29159/
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20261106-bu-msu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261107T000000Z
 DTEND:20261107T023000Z
 SUMMARY:W 6–2 · Boston University @ Michigan State · Malhotra\, Celebri
@@ -263,7 +263,7 @@ URL:https://www.collegehockeynews.com/box/final/20261106/bu_/msu/
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29162@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261107T000500Z
 DTEND:20261107T023500Z
 SUMMARY:L 2–5 · Generals @ Kingston · Rogowski
@@ -275,7 +275,7 @@ URL:https://chl.ca/ohl/gamecentre/29162/
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029250@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261107T020000Z
 DTEND:20261107T043000Z
 SUMMARY:W 2–1 · Abbotsford vs Ontario · Cootes
@@ -287,7 +287,7 @@ URL:https://theahl.com/stats/game-center/1029250
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20261107-bu-msu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261107T213000Z
 DTEND:20261108T000000Z
 SUMMARY:L 0–5 · Boston University @ Michigan State · Malhotra\, Celebri
@@ -303,7 +303,7 @@ URL:https://www.collegehockeynews.com/box/final/20261107/bu_/msu/
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029265@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261108T000000Z
 DTEND:20261108T023000Z
 SUMMARY:L 0–3 · Abbotsford vs Ontario · Cootes
@@ -315,7 +315,7 @@ URL:https://theahl.com/stats/game-center/1029265
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29175@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261108T190500Z
 DTEND:20261108T213500Z
 SUMMARY:W 3–2 OT · Petes vs Niagara · Novotný\, Medvedev
@@ -328,7 +328,7 @@ URL:https://chl.ca/ohl/gamecentre/29175/
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29174@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261108T230500Z
 DTEND:20261109T013500Z
 SUMMARY:L 2–5 · Generals vs Brantford · Rogowski
@@ -340,7 +340,7 @@ URL:https://chl.ca/ohl/gamecentre/29174/
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20261110-bu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261111T000000Z
 DTEND:20261111T023000Z
 SUMMARY:L 5–6 · Boston University vs Harvard · Malhotra\, Celebrini\, A
@@ -355,7 +355,7 @@ URL:https://www.collegehockeynews.com/box/final/20261110/har/bu_/
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029282@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261111T020000Z
 DTEND:20261111T043000Z
 SUMMARY:L 3–4 SO · Abbotsford vs Colorado · Cootes
@@ -368,7 +368,7 @@ URL:https://theahl.com/stats/game-center/1029282
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029289@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261112T000000Z
 DTEND:20261112T023000Z
 SUMMARY:W 4–3 · Abbotsford vs Colorado · Cootes
@@ -380,7 +380,7 @@ URL:https://theahl.com/stats/game-center/1029289
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20261112-msu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261113T000000Z
 DTEND:20261113T023000Z
 SUMMARY:L 2–3 OT · Michigan State @ Notre Dame · Romani
@@ -393,7 +393,7 @@ URL:https://www.collegehockeynews.com/box/final/20261112/msu/ndm/
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29184@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261113T000500Z
 DTEND:20261113T023500Z
 SUMMARY:W 7–2 · Petes vs Kingston · Novotný\, Medvedev
@@ -406,7 +406,7 @@ URL:https://chl.ca/ohl/gamecentre/29184/
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20261113-mich@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261114T000000Z
 DTEND:20261114T023000Z
 SUMMARY:W 6–3 · Michigan vs Penn State · Dervin
@@ -419,7 +419,7 @@ URL:https://www.collegehockeynews.com/box/final/20261113/psu/mic/
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20261113-msu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261114T000000Z
 DTEND:20261114T023000Z
 SUMMARY:Michigan State vs T-SOL 1 - 1 ot at Notre Dame · Romani
@@ -430,7 +430,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29191@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261114T000500Z
 DTEND:20261114T023500Z
 SUMMARY:W 6–4 · Petes @ Oshawa · Novotný\, Medvedev\, Rogowski
@@ -443,7 +443,7 @@ URL:https://chl.ca/ohl/gamecentre/29191/
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29195@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261115T000000Z
 DTEND:20261115T023000Z
 SUMMARY:L 3–9 · Generals @ Brantford · Rogowski
@@ -455,7 +455,7 @@ URL:https://chl.ca/ohl/gamecentre/29195/
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20261114-mich@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261115T000000Z
 DTEND:20261115T023000Z
 SUMMARY:W 8–3 · Michigan vs Penn State · Dervin
@@ -468,7 +468,7 @@ URL:https://www.collegehockeynews.com/box/final/20261114/psu/mic/
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029314@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261115T020000Z
 DTEND:20261115T043000Z
 SUMMARY:L 2–5 · Abbotsford @ Ontario · Cootes
@@ -480,7 +480,7 @@ URL:https://theahl.com/stats/game-center/1029314
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29200@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261115T190000Z
 DTEND:20261115T213000Z
 SUMMARY:W 8–1 · Petes @ Brampton · Novotný\, Medvedev
@@ -493,7 +493,7 @@ URL:https://chl.ca/ohl/gamecentre/29200/
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29204@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261115T190500Z
 DTEND:20261115T213500Z
 SUMMARY:W 4–3 SO · Generals vs Kingston · Rogowski
@@ -505,7 +505,7 @@ URL:https://chl.ca/ohl/gamecentre/29204/
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029323@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261115T230000Z
 DTEND:20261116T013000Z
 SUMMARY:L 1–2 SO · Abbotsford @ Coachella Valley · Cootes
@@ -518,7 +518,7 @@ URL:https://theahl.com/stats/game-center/1029323
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20261118-bu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261119T000000Z
 DTEND:20261119T023000Z
 SUMMARY:T 2–2 OT · Boston University vs Quinnipiac · Malhotra\, Celebri
@@ -533,7 +533,7 @@ URL:https://www.collegehockeynews.com/box/final/20261118/qui/bu_/
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29209@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261119T000500Z
 DTEND:20261119T023500Z
 SUMMARY:W 4–0 · Petes vs Brantford · Novotný\, Medvedev
@@ -546,7 +546,7 @@ URL:https://chl.ca/ohl/gamecentre/29209/
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029338@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261119T030000Z
 DTEND:20261119T053000Z
 SUMMARY:L 1–4 · Abbotsford @ Ontario · Cootes
@@ -558,7 +558,7 @@ URL:https://theahl.com/stats/game-center/1029338
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20261120-bu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261121T000000Z
 DTEND:20261121T023000Z
 SUMMARY:L 3–6 · Boston University @ Merrimack · Malhotra\, Celebrini\, 
@@ -573,7 +573,7 @@ URL:https://www.collegehockeynews.com/box/final/20261120/bu_/mer/
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20261120-mich-msu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261121T000000Z
 DTEND:20261121T023000Z
 SUMMARY:L 1–5 · Michigan State @ Michigan · Romani\, Dervin
@@ -586,7 +586,7 @@ URL:https://www.collegehockeynews.com/box/final/20261120/msu/mic/
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29218@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261121T000500Z
 DTEND:20261121T023500Z
 SUMMARY:L 3–5 · Generals @ Kingston · Rogowski
@@ -598,7 +598,7 @@ URL:https://chl.ca/ohl/gamecentre/29218/
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029342@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261121T020000Z
 DTEND:20261121T043000Z
 SUMMARY:L 3–5 · Abbotsford vs Tucson · Cootes
@@ -610,7 +610,7 @@ URL:https://theahl.com/stats/game-center/1029342
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20261121-bu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261121T230000Z
 DTEND:20261122T013000Z
 SUMMARY:W 5–1 · Boston University vs Merrimack · Malhotra\, Celebrini\,
@@ -625,7 +625,7 @@ URL:https://www.collegehockeynews.com/box/final/20261121/mer/bu_/
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20261121-mich-msu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261121T230000Z
 DTEND:20261122T013000Z
 SUMMARY:L 0–2 · Michigan @ Michigan State · Dervin\, Romani
@@ -639,7 +639,7 @@ URL:https://www.collegehockeynews.com/box/final/20261121/mic/msu/
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029351@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261122T000000Z
 DTEND:20261122T023000Z
 SUMMARY:L 1–5 · Abbotsford vs Tucson · Cootes
@@ -651,7 +651,7 @@ URL:https://theahl.com/stats/game-center/1029351
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29227@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261122T000500Z
 DTEND:20261122T023500Z
 SUMMARY:L 4–6 · Petes @ Windsor · Novotný\, Medvedev
@@ -664,7 +664,7 @@ URL:https://chl.ca/ohl/gamecentre/29227/
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29230@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261122T230000Z
 DTEND:20261123T013000Z
 SUMMARY:W 5–0 · Petes @ London · Novotný\, Medvedev
@@ -677,7 +677,7 @@ URL:https://chl.ca/ohl/gamecentre/29230/
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29232@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261122T230500Z
 DTEND:20261123T013500Z
 SUMMARY:W 4–3 · Generals vs Flint · Rogowski
@@ -689,7 +689,7 @@ URL:https://chl.ca/ohl/gamecentre/29232/
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029378@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261126T030000Z
 DTEND:20261126T053000Z
 SUMMARY:Abbotsford @ Henderson · Cootes
@@ -700,7 +700,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29240@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261127T000500Z
 DTEND:20261127T023500Z
 SUMMARY:Petes vs Guelph · Novotný\, Medvedev
@@ -711,7 +711,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029393@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261127T210000Z
 DTEND:20261127T233000Z
 SUMMARY:Abbotsford @ Henderson · Cootes
@@ -722,7 +722,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20261127-bu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261127T230000Z
 DTEND:20261128T013000Z
 SUMMARY:Boston University vs Denver · Malhotra\, Celebrini\, Aaram-Olsen
@@ -734,7 +734,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20261127-mich@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261128T000000Z
 DTEND:20261128T023000Z
 SUMMARY:Michigan vs Ferris State · Dervin
@@ -745,7 +745,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29244@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261128T000500Z
 DTEND:20261128T023500Z
 SUMMARY:Petes @ Kingston · Novotný\, Medvedev
@@ -756,7 +756,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29248@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261128T000700Z
 DTEND:20261128T023700Z
 SUMMARY:Generals @ Sault Ste. Marie · Rogowski
@@ -767,7 +767,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20261128-bu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261128T230000Z
 DTEND:20261129T013000Z
 SUMMARY:Boston University vs Denver · Malhotra\, Celebrini\, Aaram-Olsen
@@ -779,7 +779,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20261128-mich@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261129T000000Z
 DTEND:20261129T023000Z
 SUMMARY:Michigan vs Ferris State · Dervin
@@ -790,7 +790,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29257@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261129T000500Z
 DTEND:20261129T023500Z
 SUMMARY:Generals @ Sudbury · Rogowski
@@ -801,7 +801,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029398@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261129T031000Z
 DTEND:20261129T054000Z
 SUMMARY:Abbotsford @ Bakersfield · Cootes
@@ -812,7 +812,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29265@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261204T000500Z
 DTEND:20261204T023500Z
 SUMMARY:Petes vs Flint · Novotný\, Medvedev
@@ -823,7 +823,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20261203-msu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261204T010000Z
 DTEND:20261204T033000Z
 SUMMARY:Michigan State @ Ohio State · Romani
@@ -834,7 +834,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20261204-msu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261204T230000Z
 DTEND:20261205T013000Z
 SUMMARY:Michigan State @ Ohio State · Romani
@@ -845,7 +845,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29266@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261205T000000Z
 DTEND:20261205T023000Z
 SUMMARY:Petes @ Brampton · Novotný\, Medvedev
@@ -856,7 +856,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20261204-bu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261205T000000Z
 DTEND:20261205T023000Z
 SUMMARY:Boston University @ Cornell · Malhotra\, Celebrini\, Aaram-Olsen
@@ -868,7 +868,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29271@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261205T000500Z
 DTEND:20261205T023500Z
 SUMMARY:Generals vs Sault Ste. Marie · Rogowski
@@ -879,7 +879,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20261204-mich@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261205T013000Z
 DTEND:20261205T040000Z
 SUMMARY:Michigan vs Wisconsin · Dervin
@@ -890,7 +890,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29274@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261205T210000Z
 DTEND:20261205T233000Z
 SUMMARY:Generals @ Brantford · Rogowski
@@ -901,7 +901,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20261205-bu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261205T220000Z
 DTEND:20261206T003000Z
 SUMMARY:Boston University @ Colgate · Malhotra\, Celebrini\, Aaram-Olsen
@@ -913,7 +913,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029440@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261206T000000Z
 DTEND:20261206T023000Z
 SUMMARY:Abbotsford vs Henderson · Cootes
@@ -924,7 +924,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20261205-mich@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261206T000000Z
 DTEND:20261206T023000Z
 SUMMARY:Michigan vs Wisconsin · Dervin
@@ -935,7 +935,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029453@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261206T230000Z
 DTEND:20261207T013000Z
 SUMMARY:Abbotsford vs Henderson · Cootes
@@ -946,7 +946,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29282@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261206T230500Z
 DTEND:20261207T013500Z
 SUMMARY:Generals vs Erie · Rogowski
@@ -957,7 +957,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29293@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261211T000500Z
 DTEND:20261211T023500Z
 SUMMARY:Generals @ Peterborough · Rogowski\, Novotný\, Medvedev
@@ -969,7 +969,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29296@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261212T000000Z
 DTEND:20261212T023000Z
 SUMMARY:Petes @ Brantford · Novotný\, Medvedev
@@ -980,7 +980,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29298@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261212T000000Z
 DTEND:20261212T023000Z
 SUMMARY:Generals @ Kitchener · Rogowski
@@ -991,7 +991,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20261211-bu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261212T000000Z
 DTEND:20261212T023000Z
 SUMMARY:Boston University vs Northeastern · Malhotra\, Celebrini\, Aaram-O
@@ -1004,7 +1004,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20261211-msu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261212T000000Z
 DTEND:20261212T023000Z
 SUMMARY:Michigan State vs Minnesota · Romani
@@ -1015,7 +1015,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029473@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261212T020000Z
 DTEND:20261212T043000Z
 SUMMARY:Abbotsford vs Bakersfield · Cootes
@@ -1026,7 +1026,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20261212-bu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261212T230000Z
 DTEND:20261213T013000Z
 SUMMARY:Boston University vs Northeastern · Malhotra\, Celebrini\, Aaram-O
@@ -1039,7 +1039,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029484@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261213T000000Z
 DTEND:20261213T023000Z
 SUMMARY:Abbotsford vs Bakersfield · Cootes
@@ -1050,7 +1050,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20261212-msu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261213T000000Z
 DTEND:20261213T023000Z
 SUMMARY:Michigan State vs Minnesota · Romani
@@ -1061,7 +1061,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29310@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261213T190500Z
 DTEND:20261213T213500Z
 SUMMARY:Petes vs Brampton · Novotný\, Medvedev
@@ -1072,7 +1072,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29309@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261213T230500Z
 DTEND:20261214T013500Z
 SUMMARY:Generals vs Windsor · Rogowski
@@ -1083,7 +1083,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029506@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261216T020000Z
 DTEND:20261216T043000Z
 SUMMARY:Abbotsford vs Hamilton · Cootes
@@ -1094,7 +1094,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029511@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261217T020000Z
 DTEND:20261217T043000Z
 SUMMARY:Abbotsford vs Hamilton · Cootes
@@ -1105,7 +1105,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29319@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261218T000500Z
 DTEND:20261218T023500Z
 SUMMARY:Petes vs Niagara · Novotný\, Medvedev
@@ -1116,7 +1116,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29327@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261219T000000Z
 DTEND:20261219T023000Z
 SUMMARY:Generals @ Ottawa · Rogowski
@@ -1127,7 +1127,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029523@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261219T010000Z
 DTEND:20261219T033000Z
 SUMMARY:Abbotsford @ Calgary · Cootes
@@ -1138,7 +1138,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29332@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261219T200000Z
 DTEND:20261219T223000Z
 SUMMARY:Petes @ Ottawa · Novotný\, Medvedev
@@ -1149,7 +1149,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029545@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261220T190000Z
 DTEND:20261220T213000Z
 SUMMARY:Abbotsford @ Calgary · Cootes
@@ -1160,7 +1160,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29336@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261220T230500Z
 DTEND:20261221T013500Z
 SUMMARY:Petes @ Oshawa · Novotný\, Medvedev\, Rogowski
@@ -1172,7 +1172,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29339@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261228T190500Z
 DTEND:20261228T213500Z
 SUMMARY:Generals vs Kingston · Rogowski
@@ -1183,7 +1183,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029572@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261230T000000Z
 DTEND:20261230T023000Z
 SUMMARY:Abbotsford @ Manitoba · Cootes
@@ -1194,7 +1194,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20261229-msu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261230T000000Z
 DTEND:20261230T023000Z
 SUMMARY:Michigan State vs Lindenwood · Romani
@@ -1206,7 +1206,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20261230-msu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART;VALUE=DATE:20261230
 DTEND;VALUE=DATE:20261231
 SUMMARY:Michigan State vs TBD · Romani
@@ -1218,7 +1218,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29354@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261231T190500Z
 DTEND:20261231T213500Z
 SUMMARY:Generals @ Peterborough · Rogowski\, Novotný\, Medvedev
@@ -1230,7 +1230,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029586@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20261231T210000Z
 DTEND:20261231T233000Z
 SUMMARY:Abbotsford @ Manitoba · Cootes
@@ -1241,7 +1241,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29357@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270101T190500Z
 DTEND:20270101T213500Z
 SUMMARY:Generals vs North Bay · Rogowski
@@ -1252,7 +1252,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29356@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270102T000700Z
 DTEND:20270102T023700Z
 SUMMARY:Petes @ Guelph · Novotný\, Medvedev
@@ -1263,7 +1263,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270102-mich@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270102T230000Z
 DTEND:20270103T013000Z
 SUMMARY:Michigan @ US Under-18 (exhibition) · Dervin
@@ -1274,7 +1274,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029593@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270103T020000Z
 DTEND:20270103T043000Z
 SUMMARY:Abbotsford vs Henderson · Cootes
@@ -1285,7 +1285,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29368@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270103T190000Z
 DTEND:20270103T213000Z
 SUMMARY:Petes @ North Bay · Novotný\, Medvedev
@@ -1296,7 +1296,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29369@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270103T190500Z
 DTEND:20270103T213500Z
 SUMMARY:Generals vs Barrie · Rogowski
@@ -1307,7 +1307,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270103-bu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270103T210000Z
 DTEND:20270103T233000Z
 SUMMARY:Boston University vs McGill (exhibition) · Malhotra\, Celebrini\, 
@@ -1320,7 +1320,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029607@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270103T230000Z
 DTEND:20270104T013000Z
 SUMMARY:Abbotsford vs Henderson · Cootes
@@ -1331,7 +1331,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29372@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270107T000000Z
 DTEND:20270107T023000Z
 SUMMARY:Generals @ Brantford · Rogowski
@@ -1342,7 +1342,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29383@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270109T000000Z
 DTEND:20270109T023000Z
 SUMMARY:Generals @ London · Rogowski
@@ -1353,7 +1353,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270108-bu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270109T000000Z
 DTEND:20270109T023000Z
 SUMMARY:Boston University vs Massachusetts · Malhotra\, Celebrini\, Aaram-
@@ -1366,7 +1366,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29384@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270109T000500Z
 DTEND:20270109T023500Z
 SUMMARY:Petes @ Sarnia · Novotný\, Medvedev
@@ -1377,7 +1377,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270108-mich@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270109T010000Z
 DTEND:20270109T033000Z
 SUMMARY:Michigan @ Minnesota · Dervin
@@ -1388,7 +1388,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270108-msu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270109T010000Z
 DTEND:20270109T033000Z
 SUMMARY:Michigan State @ Wisconsin · Romani
@@ -1399,7 +1399,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029626@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270109T020000Z
 DTEND:20270109T043000Z
 SUMMARY:Abbotsford vs San Jose · Cootes
@@ -1410,7 +1410,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029638@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270110T000000Z
 DTEND:20270110T023000Z
 SUMMARY:Abbotsford vs San Jose · Cootes
@@ -1421,7 +1421,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29389@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270110T000000Z
 DTEND:20270110T023000Z
 SUMMARY:Petes @ Flint · Novotný\, Medvedev
@@ -1432,7 +1432,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270109-bu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270110T000000Z
 DTEND:20270110T023000Z
 SUMMARY:Boston University @ Massachusetts · Malhotra\, Celebrini\, Aaram-O
@@ -1445,7 +1445,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270109-mich@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270110T000000Z
 DTEND:20270110T023000Z
 SUMMARY:Michigan @ Minnesota · Dervin
@@ -1456,7 +1456,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270109-msu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270110T013000Z
 DTEND:20270110T040000Z
 SUMMARY:Michigan State @ Wisconsin · Romani
@@ -1467,7 +1467,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29397@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270110T223000Z
 DTEND:20270111T010000Z
 SUMMARY:Petes @ Saginaw · Novotný\, Medvedev
@@ -1478,7 +1478,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29396@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270110T230500Z
 DTEND:20270111T013500Z
 SUMMARY:Generals vs Owen Sound · Rogowski
@@ -1489,7 +1489,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029657@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270113T020000Z
 DTEND:20270113T043000Z
 SUMMARY:Abbotsford vs San Diego · Cootes
@@ -1500,7 +1500,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029660@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270114T020000Z
 DTEND:20270114T043000Z
 SUMMARY:Abbotsford vs San Diego · Cootes
@@ -1511,7 +1511,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29404@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270115T000500Z
 DTEND:20270115T023500Z
 SUMMARY:Petes vs Sudbury · Novotný\, Medvedev
@@ -1522,7 +1522,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29412@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270116T000000Z
 DTEND:20270116T023000Z
 SUMMARY:Generals @ Niagara · Rogowski
@@ -1533,7 +1533,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270115-mich@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270116T000000Z
 DTEND:20270116T023000Z
 SUMMARY:Michigan @ Notre Dame · Dervin
@@ -1544,7 +1544,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270115-msu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270116T000000Z
 DTEND:20270116T023000Z
 SUMMARY:Michigan State vs Penn State · Romani
@@ -1555,7 +1555,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270115-bu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270116T001500Z
 DTEND:20270116T024500Z
 SUMMARY:Boston University @ Mass.-Lowell · Malhotra\, Celebrini\, Aaram-Ol
@@ -1568,7 +1568,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270116-mich@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270117
 SUMMARY:Michigan @ Notre Dame · Dervin
@@ -1579,7 +1579,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29417@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270116T230000Z
 DTEND:20270117T013000Z
 SUMMARY:Generals @ Erie · Rogowski
@@ -1590,7 +1590,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270116-bu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270116T230000Z
 DTEND:20270117T013000Z
 SUMMARY:Boston University vs Mass.-Lowell · Malhotra\, Celebrini\, Aaram-O
@@ -1603,7 +1603,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29418@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270117T000500Z
 DTEND:20270117T023500Z
 SUMMARY:Petes vs Saginaw · Novotný\, Medvedev
@@ -1614,7 +1614,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270116-msu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270117T010000Z
 DTEND:20270117T033000Z
 SUMMARY:Michigan State vs Penn State · Romani
@@ -1625,7 +1625,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029682@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270117T010500Z
 DTEND:20270117T033500Z
 SUMMARY:Abbotsford @ Colorado · Cootes
@@ -1636,7 +1636,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029697@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270117T220500Z
 DTEND:20270118T003500Z
 SUMMARY:Abbotsford @ Colorado · Cootes
@@ -1647,7 +1647,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29428@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270122T000500Z
 DTEND:20270122T023500Z
 SUMMARY:Petes vs Ottawa · Novotný\, Medvedev
@@ -1658,7 +1658,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29432@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270123T000000Z
 DTEND:20270123T023000Z
 SUMMARY:Petes @ Kitchener · Novotný\, Medvedev
@@ -1669,7 +1669,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270122-bu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270123T000000Z
 DTEND:20270123T023000Z
 SUMMARY:Boston University vs Providence · Malhotra\, Celebrini\, Aaram-Ols
@@ -1682,7 +1682,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270122-mich@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270123T000000Z
 DTEND:20270123T023000Z
 SUMMARY:Michigan vs Ohio State · Dervin
@@ -1693,7 +1693,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029716@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270123T020000Z
 DTEND:20270123T043000Z
 SUMMARY:Abbotsford vs Manitoba · Cootes
@@ -1704,7 +1704,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29441@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270123T200000Z
 DTEND:20270123T223000Z
 SUMMARY:Generals @ Ottawa · Rogowski
@@ -1715,7 +1715,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270123-bu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270123T230000Z
 DTEND:20270124T013000Z
 SUMMARY:Boston University @ Providence · Malhotra\, Celebrini\, Aaram-Olse
@@ -1728,7 +1728,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029727@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270124T000000Z
 DTEND:20270124T023000Z
 SUMMARY:Abbotsford vs Manitoba · Cootes
@@ -1739,7 +1739,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29438@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270124T000000Z
 DTEND:20270124T023000Z
 SUMMARY:Petes @ Brantford · Novotný\, Medvedev
@@ -1750,7 +1750,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270123-mich@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270124T010000Z
 DTEND:20270124T033000Z
 SUMMARY:Michigan vs Ohio State · Dervin
@@ -1761,7 +1761,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29447@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270124T230500Z
 DTEND:20270125T013500Z
 SUMMARY:Generals vs Saginaw · Rogowski
@@ -1772,7 +1772,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29454@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270129T000500Z
 DTEND:20270129T023500Z
 SUMMARY:Petes vs North Bay · Novotný\, Medvedev
@@ -1783,7 +1783,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270129-bu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270130T000000Z
 DTEND:20270130T023000Z
 SUMMARY:Boston University @ Boston College · Malhotra\, Celebrini\, Aaram-
@@ -1796,7 +1796,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29462@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270130T000500Z
 DTEND:20270130T023500Z
 SUMMARY:Petes @ Oshawa · Novotný\, Medvedev\, Rogowski
@@ -1808,7 +1808,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270129-msu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270130T010000Z
 DTEND:20270130T033000Z
 SUMMARY:Michigan State @ Minnesota · Romani
@@ -1819,7 +1819,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029767@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270130T020000Z
 DTEND:20270130T043000Z
 SUMMARY:Abbotsford @ Tucson · Cootes
@@ -1830,7 +1830,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270130-mich@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
 SUMMARY:Michigan @ Western Michigan · Dervin
@@ -1841,7 +1841,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29469@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270131T000500Z
 DTEND:20270131T023500Z
 SUMMARY:Petes vs Ottawa · Novotný\, Medvedev
@@ -1852,7 +1852,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270130-msu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270131T010000Z
 DTEND:20270131T033000Z
 SUMMARY:Michigan State @ Minnesota · Romani
@@ -1863,7 +1863,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029780@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270131T020000Z
 DTEND:20270131T043000Z
 SUMMARY:Abbotsford @ Tucson · Cootes
@@ -1874,7 +1874,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29472@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270131T230500Z
 DTEND:20270201T013500Z
 SUMMARY:Generals vs Brantford · Rogowski
@@ -1885,7 +1885,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270201-bu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART;VALUE=DATE:20270201
 DTEND;VALUE=DATE:20270202
 SUMMARY:Boston University vs Boston College · Malhotra\, Celebrini\, Aaram
@@ -1898,7 +1898,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029800@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270205T000000Z
 DTEND:20270205T023000Z
 SUMMARY:Abbotsford @ Hamilton · Cootes
@@ -1909,7 +1909,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29480@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270205T000000Z
 DTEND:20270205T023000Z
 SUMMARY:Generals @ Barrie · Rogowski
@@ -1920,7 +1920,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29483@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270205T000500Z
 DTEND:20270205T023500Z
 SUMMARY:Petes vs Brampton · Novotný\, Medvedev
@@ -1931,7 +1931,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270205-mich-msu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270205T230000Z
 DTEND:20270206T013000Z
 SUMMARY:Michigan @ Michigan State · Dervin\, Romani
@@ -1943,7 +1943,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270205-bu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270206T000000Z
 DTEND:20270206T023000Z
 SUMMARY:Boston University @ Maine · Malhotra\, Celebrini\, Aaram-Olsen
@@ -1955,7 +1955,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29485@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270206T000500Z
 DTEND:20270206T023500Z
 SUMMARY:Generals @ Kingston · Rogowski
@@ -1966,7 +1966,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270206-mich-msu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270207
 SUMMARY:Michigan vs Michigan State · Dervin\, Romani
@@ -1979,7 +1979,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029819@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270206T210000Z
 DTEND:20270206T233000Z
 SUMMARY:Abbotsford @ Hamilton · Cootes
@@ -1990,7 +1990,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29495@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270207T000500Z
 DTEND:20270207T023500Z
 SUMMARY:Petes vs London · Novotný\, Medvedev
@@ -2001,7 +2001,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29500@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270207T230500Z
 DTEND:20270208T013500Z
 SUMMARY:Generals vs Brampton · Rogowski
@@ -2012,7 +2012,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270208-bu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART;VALUE=DATE:20270208
 DTEND;VALUE=DATE:20270209
 SUMMARY:Boston University vs TBD · Malhotra\, Celebrini\, Aaram-Olsen
@@ -2024,7 +2024,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29506@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270211T000500Z
 DTEND:20270211T023500Z
 SUMMARY:Generals @ Sudbury · Rogowski
@@ -2035,7 +2035,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29507@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270212T000000Z
 DTEND:20270212T023000Z
 SUMMARY:Generals @ North Bay · Rogowski
@@ -2046,7 +2046,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29508@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270212T000500Z
 DTEND:20270212T023500Z
 SUMMARY:Petes vs Kingston · Novotný\, Medvedev
@@ -2057,7 +2057,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270212-mich@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:Michigan vs Notre Dame · Dervin
@@ -2068,7 +2068,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29515@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270213T000000Z
 DTEND:20270213T023000Z
 SUMMARY:Petes @ Ottawa · Novotný\, Medvedev
@@ -2079,7 +2079,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270212-msu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270213T000000Z
 DTEND:20270213T023000Z
 SUMMARY:Michigan State vs Wisconsin · Romani
@@ -2090,7 +2090,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270213-msu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270213T230000Z
 DTEND:20270214T013000Z
 SUMMARY:Michigan State vs Wisconsin · Romani
@@ -2101,7 +2101,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270213-mich@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270213T233000Z
 DTEND:20270214T020000Z
 SUMMARY:Michigan vs Notre Dame · Dervin
@@ -2112,7 +2112,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29521@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270214T000500Z
 DTEND:20270214T023500Z
 SUMMARY:Generals vs Brampton · Rogowski
@@ -2123,7 +2123,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029841@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270214T020000Z
 DTEND:20270214T043000Z
 SUMMARY:Abbotsford vs Colorado · Cootes
@@ -2134,7 +2134,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29533@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270215T190500Z
 DTEND:20270215T213500Z
 SUMMARY:Petes vs Kitchener · Novotný\, Medvedev
@@ -2145,7 +2145,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29531@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270215T190500Z
 DTEND:20270215T213500Z
 SUMMARY:Generals vs Niagara · Rogowski
@@ -2156,7 +2156,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029855@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270215T200000Z
 DTEND:20270215T223000Z
 SUMMARY:Abbotsford vs Colorado · Cootes
@@ -2167,7 +2167,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29538@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270219T000500Z
 DTEND:20270219T023500Z
 SUMMARY:Petes vs Owen Sound · Novotný\, Medvedev
@@ -2178,7 +2178,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270218-mich@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270219T010000Z
 DTEND:20270219T033000Z
 SUMMARY:Michigan @ Wisconsin · Dervin
@@ -2189,7 +2189,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270219-msu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270219T230000Z
 DTEND:20270220T013000Z
 SUMMARY:Michigan State @ Penn State · Romani
@@ -2200,7 +2200,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270219-bu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270220T000000Z
 DTEND:20270220T023000Z
 SUMMARY:Boston University vs New Hampshire · Malhotra\, Celebrini\, Aaram-
@@ -2213,7 +2213,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29546@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270220T000500Z
 DTEND:20270220T023500Z
 SUMMARY:Generals vs Ottawa · Rogowski
@@ -2224,7 +2224,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029874@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270220T020000Z
 DTEND:20270220T043000Z
 SUMMARY:Abbotsford vs Calgary · Cootes
@@ -2235,7 +2235,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270220-msu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270220T220000Z
 DTEND:20270221T003000Z
 SUMMARY:Michigan State @ Penn State · Romani
@@ -2246,7 +2246,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29550@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270220T230000Z
 DTEND:20270221T013000Z
 SUMMARY:Petes @ Erie · Novotný\, Medvedev
@@ -2257,7 +2257,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029883@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270221T000000Z
 DTEND:20270221T023000Z
 SUMMARY:Abbotsford vs Calgary · Cootes
@@ -2268,7 +2268,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270220-bu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270221T000000Z
 DTEND:20270221T023000Z
 SUMMARY:Boston University @ New Hampshire · Malhotra\, Celebrini\, Aaram-O
@@ -2281,7 +2281,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270220-mich@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270221T000000Z
 DTEND:20270221T023000Z
 SUMMARY:Michigan @ Wisconsin · Dervin
@@ -2292,7 +2292,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29557@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270221T190000Z
 DTEND:20270221T213000Z
 SUMMARY:Petes @ Niagara · Novotný\, Medvedev
@@ -2303,7 +2303,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29558@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270221T230500Z
 DTEND:20270222T013500Z
 SUMMARY:Generals vs Kingston · Rogowski
@@ -2314,7 +2314,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029905@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270224T020000Z
 DTEND:20270224T043000Z
 SUMMARY:Abbotsford vs Bakersfield · Cootes
@@ -2325,7 +2325,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029910@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270225T020000Z
 DTEND:20270225T043000Z
 SUMMARY:Abbotsford vs Bakersfield · Cootes
@@ -2336,7 +2336,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270225-msu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270225T230000Z
 DTEND:20270226T013000Z
 SUMMARY:Michigan State vs Notre Dame · Romani
@@ -2347,7 +2347,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29568@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270226T000500Z
 DTEND:20270226T023500Z
 SUMMARY:Petes vs Ottawa · Novotný\, Medvedev
@@ -2358,7 +2358,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29570@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270227T000000Z
 DTEND:20270227T023000Z
 SUMMARY:Generals @ Flint · Rogowski
@@ -2369,7 +2369,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270226-bu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270227T000000Z
 DTEND:20270227T023000Z
 SUMMARY:Boston University @ Boston College · Malhotra\, Celebrini\, Aaram-
@@ -2382,7 +2382,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270226-mich@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270227T010000Z
 DTEND:20270227T033000Z
 SUMMARY:Michigan vs Minnesota · Dervin
@@ -2393,7 +2393,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270227-mich@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270227T230000Z
 DTEND:20270228T013000Z
 SUMMARY:Michigan vs Minnesota · Dervin
@@ -2404,7 +2404,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270227-msu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270227T230000Z
 DTEND:20270228T013000Z
 SUMMARY:Michigan State vs Notre Dame · Romani
@@ -2415,7 +2415,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270227-bu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270228T000000Z
 DTEND:20270228T023000Z
 SUMMARY:Boston University vs Boston College · Malhotra\, Celebrini\, Aaram
@@ -2428,7 +2428,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29582@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270228T000500Z
 DTEND:20270228T023500Z
 SUMMARY:Generals @ Saginaw · Rogowski
@@ -2439,7 +2439,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29576@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270228T003000Z
 DTEND:20270228T030000Z
 SUMMARY:Petes @ Barrie · Novotný\, Medvedev
@@ -2450,7 +2450,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029945@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270228T020000Z
 DTEND:20270228T043000Z
 SUMMARY:Abbotsford @ Tucson · Cootes
@@ -2461,7 +2461,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029953@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270228T230000Z
 DTEND:20270301T013000Z
 SUMMARY:Abbotsford @ Tucson · Cootes
@@ -2472,7 +2472,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29592@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270304T000000Z
 DTEND:20270304T023000Z
 SUMMARY:Petes @ Ottawa · Novotný\, Medvedev
@@ -2483,7 +2483,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29596@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270305T000000Z
 DTEND:20270305T023000Z
 SUMMARY:Generals @ North Bay · Rogowski
@@ -2494,7 +2494,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270304-mich@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270305T000000Z
 DTEND:20270305T023000Z
 SUMMARY:Michigan @ Penn State · Dervin
@@ -2505,7 +2505,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270304-msu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270305T000000Z
 DTEND:20270305T023000Z
 SUMMARY:Michigan State vs Ohio State · Romani
@@ -2516,7 +2516,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29597@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270305T000500Z
 DTEND:20270305T023500Z
 SUMMARY:Petes vs Sault Ste. Marie · Novotný\, Medvedev
@@ -2527,7 +2527,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270305-bu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270306T000000Z
 DTEND:20270306T023000Z
 SUMMARY:Boston University vs Northeastern · Malhotra\, Celebrini\, Aaram-O
@@ -2540,7 +2540,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270305-mich@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270306T000000Z
 DTEND:20270306T023000Z
 SUMMARY:Michigan @ Penn State · Dervin
@@ -2551,7 +2551,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270305-msu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270306T000000Z
 DTEND:20270306T023000Z
 SUMMARY:Michigan State vs Ohio State · Romani
@@ -2562,7 +2562,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029964@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270306T020000Z
 DTEND:20270306T043000Z
 SUMMARY:Abbotsford vs Calgary · Cootes
@@ -2573,7 +2573,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ncaa-20270306-bu@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270306T230000Z
 DTEND:20270307T013000Z
 SUMMARY:Boston University vs Mass.-Lowell · Malhotra\, Celebrini\, Aaram-O
@@ -2586,7 +2586,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29609@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270307T000000Z
 DTEND:20270307T023000Z
 SUMMARY:Generals @ Owen Sound · Rogowski
@@ -2597,7 +2597,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29610@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270307T000500Z
 DTEND:20270307T023500Z
 SUMMARY:Petes vs Kingston · Novotný\, Medvedev
@@ -2608,7 +2608,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029976@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270307T020000Z
 DTEND:20270307T043000Z
 SUMMARY:Abbotsford vs Calgary · Cootes
@@ -2619,7 +2619,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29614@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270307T230500Z
 DTEND:20270308T013500Z
 SUMMARY:Generals vs Barrie · Rogowski
@@ -2630,7 +2630,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29619@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270310T000500Z
 DTEND:20270310T023500Z
 SUMMARY:Generals vs Guelph · Rogowski
@@ -2641,7 +2641,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029996@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270310T020000Z
 DTEND:20270310T043000Z
 SUMMARY:Abbotsford vs Tucson · Cootes
@@ -2652,7 +2652,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1029999@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270311T020000Z
 DTEND:20270311T043000Z
 SUMMARY:Abbotsford vs Tucson · Cootes
@@ -2663,7 +2663,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29625@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270312T000500Z
 DTEND:20270312T023500Z
 SUMMARY:Generals @ Peterborough · Rogowski\, Novotný\, Medvedev
@@ -2675,7 +2675,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29631@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270313T000500Z
 DTEND:20270313T023500Z
 SUMMARY:Generals vs Ottawa · Rogowski
@@ -2686,7 +2686,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29639@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270314T000000Z
 DTEND:20270314T023000Z
 SUMMARY:Petes @ Owen Sound · Novotný\, Medvedev
@@ -2697,7 +2697,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1030029@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270314T020000Z
 DTEND:20270314T043000Z
 SUMMARY:Abbotsford @ San Jose · Cootes
@@ -2708,7 +2708,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29643@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270314T180500Z
 DTEND:20270314T203500Z
 SUMMARY:Generals vs London · Rogowski
@@ -2719,7 +2719,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1030033@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270315T001000Z
 DTEND:20270315T024000Z
 SUMMARY:Abbotsford @ Bakersfield · Cootes
@@ -2730,7 +2730,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29646@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270316T230500Z
 DTEND:20270317T013500Z
 SUMMARY:Petes vs Sudbury · Novotný\, Medvedev
@@ -2741,7 +2741,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1030042@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270317T010000Z
 DTEND:20270317T033000Z
 SUMMARY:Abbotsford @ Calgary · Cootes
@@ -2752,7 +2752,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29651@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270317T230500Z
 DTEND:20270318T013500Z
 SUMMARY:Generals vs Sudbury · Rogowski
@@ -2763,7 +2763,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29656@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270318T230500Z
 DTEND:20270319T013500Z
 SUMMARY:Petes vs Brantford · Novotný\, Medvedev
@@ -2774,7 +2774,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1030055@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270319T010000Z
 DTEND:20270319T033000Z
 SUMMARY:Abbotsford @ Calgary · Cootes
@@ -2785,7 +2785,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29663@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270319T230000Z
 DTEND:20270320T013000Z
 SUMMARY:Generals @ Ottawa · Rogowski
@@ -2796,7 +2796,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29659@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270319T230500Z
 DTEND:20270320T013500Z
 SUMMARY:Petes @ Kingston · Novotný\, Medvedev
@@ -2807,7 +2807,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1030077@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270321T010000Z
 DTEND:20270321T033000Z
 SUMMARY:Abbotsford @ San Diego · Cootes
@@ -2818,7 +2818,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29673@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270321T190000Z
 DTEND:20270321T213000Z
 SUMMARY:Petes @ Ottawa · Novotný\, Medvedev
@@ -2829,7 +2829,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ohl-29672@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270321T220500Z
 DTEND:20270322T003500Z
 SUMMARY:Generals vs Kingston · Rogowski
@@ -2840,7 +2840,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1030089@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270324T020000Z
 DTEND:20270324T043000Z
 SUMMARY:Abbotsford @ San Diego · Cootes
@@ -2851,7 +2851,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1030101@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270327T020000Z
 DTEND:20270327T043000Z
 SUMMARY:Abbotsford vs San Jose · Cootes
@@ -2862,7 +2862,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1030115@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270328T000000Z
 DTEND:20270328T023000Z
 SUMMARY:Abbotsford vs San Jose · Cootes
@@ -2873,7 +2873,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1030134@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270401T020000Z
 DTEND:20270401T043000Z
 SUMMARY:Abbotsford @ Coachella Valley · Cootes
@@ -2884,7 +2884,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1030159@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270404T010000Z
 DTEND:20270404T033000Z
 SUMMARY:Abbotsford @ Henderson · Cootes
@@ -2895,7 +2895,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1030170@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270405T000000Z
 DTEND:20270405T023000Z
 SUMMARY:Abbotsford @ Henderson · Cootes
@@ -2906,7 +2906,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1030178@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270408T014000Z
 DTEND:20270408T041000Z
 SUMMARY:Abbotsford @ Bakersfield · Cootes
@@ -2917,7 +2917,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1030199@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270410T020000Z
 DTEND:20270410T043000Z
 SUMMARY:Abbotsford @ San Jose · Cootes
@@ -2928,7 +2928,7 @@ URL:https://timtruong495.github.io/prospect-watch/#prospects
 END:VEVENT
 BEGIN:VEVENT
 UID:canucks-prospects-ahl-1030213@prospect-watch
-DTSTAMP:20261124T040240Z
+DTSTAMP:20261124T051224Z
 DTSTART:20270411T010000Z
 DTEND:20270411T033000Z
 SUMMARY:Abbotsford @ San Jose · Cootes
