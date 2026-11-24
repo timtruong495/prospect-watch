@@ -308,11 +308,11 @@
  },
  "nhl.standings": {
   "wildCardIndicator": "True",
-  "standingsDateTimeUtc": "2026-11-24T02:57:00Z",
+  "standingsDateTimeUtc": "2026-11-24T04:02:30Z",
   "standings": [
    {
     "conferenceAbbrev": "E",
-    "conferenceHomeSequence": "3",
+    "conferenceHomeSequence": "4",
     "conferenceL10Sequence": "1",
     "conferenceName": "Eastern",
     "conferenceRoadSequence": "1",
@@ -353,7 +353,7 @@
     "l10RegulationWins": "8",
     "l10Ties": "0",
     "l10Wins": "8",
-    "leagueHomeSequence": "3",
+    "leagueHomeSequence": "4",
     "leagueL10Sequence": "2",
     "leagueRoadSequence": "3",
     "leagueSequence": "1",
@@ -404,14 +404,14 @@
    },
    {
     "conferenceAbbrev": "W",
-    "conferenceHomeSequence": "7",
+    "conferenceHomeSequence": "8",
     "conferenceL10Sequence": "1",
     "conferenceName": "Western",
     "conferenceRoadSequence": "1",
     "conferenceSequence": "1",
     "date": "2026-11-23",
     "divisionAbbrev": "C",
-    "divisionHomeSequence": "5",
+    "divisionHomeSequence": "6",
     "divisionL10Sequence": "1",
     "divisionName": "Central",
     "divisionRoadSequence": "1",
@@ -445,7 +445,7 @@
     "l10RegulationWins": "7",
     "l10Ties": "0",
     "l10Wins": "8",
-    "leagueHomeSequence": "13",
+    "leagueHomeSequence": "14",
     "leagueL10Sequence": "1",
     "leagueRoadSequence": "1",
     "leagueSequence": "2",
@@ -841,7 +841,8 @@
     "type": "standings",
     "stat": "conference",
     "lang_id": "1",
-    "league_id": "4"
+    "league_id": "4",
+    "team_id": "0"
    },
    "Statviewtype": [
     {
