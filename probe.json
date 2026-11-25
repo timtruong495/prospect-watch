@@ -308,7 +308,7 @@
  },
  "nhl.standings": {
   "wildCardIndicator": "True",
-  "standingsDateTimeUtc": "2026-11-25T01:17:30Z",
+  "standingsDateTimeUtc": "2026-11-25T02:59:29Z",
   "standings": [
    {
     "conferenceAbbrev": "W",
@@ -841,7 +841,8 @@
     "type": "standings",
     "stat": "conference",
     "lang_id": "1",
-    "league_id": "4"
+    "league_id": "4",
+    "team_id": "0"
    },
    "Statviewtype": [
     {
@@ -1419,7 +1420,7 @@
      "row": "12",
      "points": "30",
      "bench_minutes": "8",
-     "penalty_minutes": "319",
+     "penalty_minutes": "330",
      "past_10_wins": "5",
      "past_10_losses": "3",
      "past_10_ties": "0",
@@ -1427,9 +1428,9 @@
      "past_10_shootout_losses": "2",
      "past_10_ot_wins": "2",
      "past_10_shootout_wins": "0",
-     "goals_for": "76",
-     "goals_against": "73",
-     "goals_diff": "3",
+     "goals_for": "77",
+     "goals_against": "75",
+     "goals_diff": "2",
      "power_play_goals": "16",
      "power_play_goals_against": "19",
      "shootout_goals": "6",
@@ -1447,14 +1448,14 @@
      "shootout_games_played": "4",
      "games_played": "23",
      "shootout_pct": "0.500",
-     "power_play_pct": "20.3",
+     "power_play_pct": "19.8",
      "shootout_pct_goals_for": "0.353",
      "shootout_pct_goals_against": "0.412",
-     "penalty_kill_pct": "79.6",
-     "pim_pg": "13.9",
-     "power_plays": "79",
+     "penalty_kill_pct": "80.2",
+     "pim_pg": "14.3",
+     "power_plays": "81",
      "win_percentage": "0.609",
-     "times_short_handed": "93",
+     "times_short_handed": "96",
      "divisname": "East Division",
      "games_remaining": "45",
      "conference_name": "Eastern Conference",
