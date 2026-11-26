@@ -308,7 +308,7 @@
  },
  "nhl.standings": {
   "wildCardIndicator": "True",
-  "standingsDateTimeUtc": "2026-11-25T20:59:30Z",
+  "standingsDateTimeUtc": "2026-11-26T01:17:45Z",
   "standings": [
    {
     "conferenceAbbrev": "W",
@@ -1354,8 +1354,8 @@
      "past_10_shootout_losses": "1",
      "past_10_ot_wins": "2",
      "past_10_shootout_wins": "0",
-     "goals_for": "93",
-     "goals_against": "72",
+     "goals_for": "94",
+     "goals_against": "73",
      "goals_diff": "21",
      "power_play_goals": "20",
      "power_play_goals_against": "18",
